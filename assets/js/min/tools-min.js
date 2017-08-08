@@ -35000,53 +35000,56 @@ Vue.use(VTooltip)
 
 Vue.directive('scrolltable', {
 	inserted: function(el) {
-		  var scrollElement = document.getElementById("scroll-element");
-		  var fixedHeaders = document.querySelectorAll("th");
-		  var fixedCols = document.querySelectorAll(".fixed-col");
-		  var fixedColHeight = fixedCols[1].offsetHeight;
-		  var mainHeader = document.getElementById("main-header");
-		  var latestKnownScrollX = 0;
-		  var latestKnownScrollY = 0;
-		  var ticking = false;
-		  var headerHeight = mainHeader.clientHeight;
-		  var fixedHeader = document.getElementById("fixed-header");
-		  var fixedHeaderHeight = fixedHeader.clientHeight;
-		  var columns = document.querySelectorAll("tr:first-of-type td");
-		  var table = document.getElementById("scroll-table");
+			var scrollElement = document.getElementById("scroll-element");
+			var fixedHeaders = document.querySelectorAll("th");
+			var fixedCols = document.querySelectorAll(".fixed-col");
+			var fixedColHeight = fixedCols[1].offsetHeight;
+			var mainHeader = document.getElementById("main-header");
+			var latestKnownScrollX = 0;
+			var latestKnownScrollY = 0;
+			var ticking = false;
+			var headerHeight = mainHeader.clientHeight;
+			var fixedHeader = document.getElementById("fixed-header");
+			var fixedHeaderHeight = fixedHeader.clientHeight;
+			var columns = document.querySelectorAll("tr:first-of-type td");
+			var table = document.getElementById("scroll-table");
 
-		  fixedHeader.style.position = "fixed"; // to keep it hidden while loading
-		  // set initial position of fixed header
-		  fixedHeader.style.top = headerHeight + "px";
+			fixedHeader.style.position = "fixed"; // to keep it hidden while loading
+			// set initial position of fixed header
+			fixedHeader.style.top = headerHeight + "px";
 
-		  // align column headesrs with content
-		  for (var i=0; i < columns.length; i++) {
-				var newWidth = columns[i].offsetWidth;
-				fixedHeaders[i].style.minWidth = newWidth;
+			// align column headers with content
+			var alignHeaders = function() {
+				for (var i=0; i < columns.length; i++) {
+					var newWidth = columns[i].offsetWidth;
+					fixedHeaders[i].style.minWidth = newWidth;
 
-				//Firefox fix for minwidth problems
-				if(fixedHeaders[i].offsetWidth > newWidth) {
-					// Figure out the difference between what is should be
-					var difference = fixedHeaders[i].offsetWidth - newWidth;
-					var firefoxWidth = fixedHeaders[i].offsetWidth - (difference*2);
-					fixedHeaders[i].style.minWidth = firefoxWidth;
+					//Firefox fix for minwidth problems
+					if(fixedHeaders[i].offsetWidth > newWidth) {
+						// Figure out the difference between what is should be
+						var difference = fixedHeaders[i].offsetWidth - newWidth;
+						var firefoxWidth = fixedHeaders[i].offsetWidth - (difference*2);
+						fixedHeaders[i].style.minWidth = firefoxWidth;
+					}
 				}
-		  }
-		  
-		  var onScroll = function() {
+			}
+			alignHeaders();
+			
+			var onScroll = function() {
 				latestKnownScrollX = scrollElement.scrollLeft;
 				latestKnownScrollY = scrollElement.scrollTop;
 				requestTick();
-		  };
+			};
 
-		  function requestTick() {
+			function requestTick() {
 			if (!ticking) {
-			  requestAnimationFrame(update);
+				requestAnimationFrame(update);
 			}
 			ticking = true;
-		  }
+			}
 
-		  // on each scroll
-		  var update = function() {
+			// on each scroll
+			var update = function() {
 
 
 				ticking = false;
@@ -35062,8 +35065,8 @@ Vue.directive('scrolltable', {
 					// mainHeader.style.marginTop = -currentScrollY;
 					// 	fixedHeader.style.top = headerHeight - currentScrollY;
 					// 	fixedHeader.style.boxShadow = "";
-				  
-				  // if the table can't scroll completely
+					
+					// if the table can't scroll completely
 					if ((scrollElement.scrollHeight-50) < window.innerHeight) {
 						// and isn't scrolled all the way
 						if (!(scrollElement.scrollHeight - currentScrollY <= (scrollElement.clientHeight+5))) {
@@ -35079,41 +35082,48 @@ Vue.directive('scrolltable', {
 						fixedHeader.style.boxShadow = "";
 					}
 				} else {
-				  mainHeader.style.marginTop = -headerHeight;
-				  fixedHeader.style.top = 0;
-				  fixedHeader.style.boxShadow = "2px 2px 10px rgba(0,0,0,.15)";
+					mainHeader.style.marginTop = -headerHeight;
+					fixedHeader.style.top = 0;
+					fixedHeader.style.boxShadow = "2px 2px 10px rgba(0,0,0,.15)";
 				}
 
 				// if scrolling vertically
 				if (currentScrollX > 0) {
 					// for each column
-				  for ( var i=0; i < fixedCols.length; i++ ) {
+					for ( var i=0; i < fixedCols.length; i++ ) {
 					fixedCols[i].style.position = "fixed";
 					fixedCols[i].style.top = parseInt(fixedHeader.style.top) + fixedHeaderHeight - currentScrollY + (fixedColHeight*i);
 					fixedCols[i].style.boxShadow = "2px 0 5px rgba(0,0,0,.1)";
 					fixedCols[i].style.backgroundColor = "white";
-				  }
-				  // put the column back
+					}
+					// put the column back
 				} else {
-				  for ( var i=0; i < fixedCols.length; i++ ) {
+					for ( var i=0; i < fixedCols.length; i++ ) {
 					fixedCols[i].style.position = "absolute";
 					fixedCols[i].style.top = "";
 					fixedCols[i].style.boxShadow = "";
-				  }
+					}
 				}
 
 
 
-		  };
+			};
 
-		  // loadingScreen = document.getElementById("loading-screen");
-    //   loadingScreen.style.display = "none";
+			
 
-		  scrollElement.onscroll = function() {onScroll()};
-		  window.onresize = function() {
-			headerHeight = mainHeader.clientHeight;
-			fixedHeader.style.top = headerHeight + "px";
-		  };
+			scrollElement.onscroll = function() {onScroll()};
+			mainHeader.onresize = resizeThings;
+
+			function resizeThings() {
+				headerHeight = mainHeader.clientHeight;
+				fixedHeader.style.top = headerHeight + "px";
+				alignHeaders();
+				console.log('resize');
+			};
+
+
+
+
 	}
 })
 

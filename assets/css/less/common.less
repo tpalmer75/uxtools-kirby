@@ -109,7 +109,7 @@ input {
 	height: 48px;
 }
 
-.blog {
+.blog-post {
 	display: flex;
 	flex-direction: column;
 	align-content: center;
@@ -158,6 +158,10 @@ input {
 	}
 }
 
+header.blog {
+	margin-top: 100px;
+}
+
 button, input[type="submit"] {
 	appearance: none;
 	background: white;
@@ -181,6 +185,9 @@ button, input[type="submit"] {
 		path {
 			fill: @blue-primary;
 		}
+	}
+	a {
+		text-decoration: none;
 	}
 	&.icon-left {
 		svg {

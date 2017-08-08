@@ -10027,12 +10027,6 @@
 		"oAP": "\/site\/templates\/blog.php",
 		"oF": 0
 		},
-	"\/site\/templates\/contact.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/site\/templates\/contact.php",
-		"oF": 0
-		},
 	"\/site\/templates\/default.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -10121,18 +10115,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/site\/templates\/library-app.php",
-		"oF": 0
-		},
-	"\/site\/templates\/project.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/site\/templates\/project.php",
-		"oF": 0
-		},
-	"\/site\/templates\/projects.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/site\/templates\/projects.php",
 		"oF": 0
 		},
 	"\/site\/templates\/tool-single.php": {

@@ -1,6 +1,6 @@
 <?php snippet('header') ?>
 
-	<section class="blog">
+	<section class="blog-post">
 		<?php snippet('coverimage', $page) ?>
 
 		<article class="blog-content">

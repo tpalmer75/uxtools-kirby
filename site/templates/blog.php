@@ -2,7 +2,7 @@
 
 <section class="wrapper medium">
 
-  <header>
+  <header class="blog">
     <h1><?= $page->title()->html() ?></h1>
 
     <div class="intro text">
