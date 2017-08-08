@@ -1,0 +1,13 @@
+Title: The UX Tools Blog
+
+----
+
+MenuTitle: Blog
+
+----
+
+Text: Here's the latest and great from the UX Tools blog. Like what you see? Stay up to date with the [newsletter](http://newsletter.uxtools.co).
+
+----
+
+Perpage: 2

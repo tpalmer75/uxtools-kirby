@@ -1,0 +1,290 @@
+Title: All The UX Prototyping Tools Ever
+
+----
+
+Author: Taylor Palmer
+
+----
+
+Coverimage: cover.jpg
+
+----
+
+Date: 05/15/2017
+
+----
+
+Text:
+
+### [Adobe XD](http://www.adobe.com/products/experience-design.html)
+
+Adobe’s answer to Sketch: a combo of design and prototyping power-packed into the same interface. Currently in beta, but rapidly evolving and preparing for a bigger release.
+
+### [AnimaApp](https://www.animaapp.com/u/yHhxqGR)
+
+Anima has been creating a suite of great Sketch plugins, the most recent of which is [Launchpad](https://www.animaapp.com/u/yHhxqGR). It’s actually meant for quickly scaling up marketing sites, but can be used for prototyping and proofs of concept.
+
+> If you’re interested in Launchpad, you can get a [20% discount the coupon code UXTOOLS50](https://www.animaapp.com/signup?promo_code=UXTOOLS50).
+
+### [Antetype](http://antetype.com/)
+
+A lesser known prototyping tool that boasts responsive resizing, export and handoff, and more.
+
+### [AppCooker](http://www.appcooker.com/)
+
+A native iPad app for creating mockups and prototyping on device.
+
+### [Atomic](https://atomic.io/features/)
+
+It’s essentially Principle in the browser, with better sharing and more robust features. Import data from Google Sheets, share prototypes with a simple URL.
+
+### [Avocado by Ideo](https://github.com/ideo/avocado)
+
+Avocado is a suite of tools, built by Ideo, to be used with Quartz Composer.
+
+### [Axure](https://www.axure.com)
+
+Axure is a more mature (2003) prototyping tool that include design, prototyping, diagramming, documentation, and more.
+
+### [Balsamiq](https://balsamiq.com/)
+
+A popular wireframing and prototyping tool that is known for looking like a napkin sketch.
+
+### [Briefs](http://giveabrief.com/)
+
+Briefs is a Mac + iOS combo for building prototypes.
+
+### [Bubble.is](https://bubble.is/)
+
+Bubble lets you build actual backend and logic using a visual interface.
+
+### [C4 Studio](http://c4studio.co/)
+
+This bad boy is currently still in alpha, but touts itself as being the After Effects of UI design.
+
+### [CanvasFlip](https://www.canvasflip.com/)
+
+This tool combines prototyping with usability testing, including features like task prompts and heatmaps.
+
+### [Codiqa](https://codiqa.com)
+
+Codiqa (also known as Creator Classic) is a jQuery Mobile based prototyping tool. It’s been succeeded by [Ionic Creator](http://ionic.io/products/creator).
+
+### [Concept.ly](http://concept.ly/)
+
+Import images, connect screens, present.
+
+### [Craft by InVision](https://www.invisionapp.com/craft)
+
+InVision acquired SilverFlows to create prototypes directly within Sketch. This is a huge win for InVision and Sketch users.
+
+### [Demonstrate App](https://itunes.apple.com/us/app/demonstrate-mobile-prototyping/id726285449)
+
+An iOS app for importing images and quickly creating prototypes.
+
+### [Evolus Pencil](http://pencil.evolus.vn/)
+
+A free and open source prototyping tool to be used across-platform.
+
+### [Evrybo](http://evrybo.com/)
+
+Prototyping with a twist that includes user testing, heatmaps, and analytics.
+
+### [Figma](https://www.figma.com/)
+
+Everyone’s favorite web-based Sketch competitor now has prototyping! No animation yet, but it’s coming along.
+
+### [Flinto](https://www.flinto.com/mac)
+
+“Next-generation” prototyping tool with custom animations, gestures, and Sketch Import.
+
+### [Flinto Lite](https://www.flinto.com/lite)
+
+A web-based prototyping app for creating iOS and Android prototypes from existing screen designs.
+
+### [Floid.io](https://floid.io/)
+
+_(The website is currently down. It may have fallen prey to the great prototyping arms race.)_
+
+### [Fluid UI](https://www.fluidui.com/)
+
+Design or upload screens, connect them, and perform user testing.
+
+### [Frontify Workspace](https://frontify.com/workspace)
+
+A web-based prototyping tool that has some light touches of handoff and collaboration.
+
+### [Form](http://relativewave.com/form/)
+
+Build and customize native prototypes directly on device. Acquired by Google.
+
+### [Framer](https://framer.com/)
+
+A powerhouse app that combines Javascript with the layers imported from your favorite apps (Sketch, Figma, Photoshop)
+
+### [Fuse](https://www.fusetools.com/)
+
+Build native iOS and Android apps using “UX code.”
+
+### [Hotgloo](https://www.hotgloo.com/)
+
+An in-browser wireframe and prototyping tool.
+
+### [Hunch App](https://hunchapp.io/)
+
+A simple hot-spot based prototyping app with collaborative features like sharing and commenting.
+
+### [IBAnimatable](https://github.com/IBAnimatable/IBAnimatable)
+
+A Mac app for creating app-store ready apps that compile straight to Swift.
+
+### [InVision](http://invisionapp.com)
+
+An industry titan that has expanded from simple screen transition prototyping to handoff, Sketch plugins, and more.
+
+### [Indigo Studio](https://www.infragistics.com/products/indigo-studio)
+
+Screen-to-screen prototyping with a twist: user testing analytics and tracking.
+
+### [Ionic Creator](http://ionic.io/products/creator)
+
+A drag-and-drop tool to create real code prototypes with the popular hybrid app development kit, Ionic.
+
+### [iRise](https://www.irise.com/)
+
+A drag-and-drop tool that boasts its ability to use real data.
+
+### [JustInMind](https://www.justinmind.com/)
+
+Another of the more mature prototyping apps, with a full suite of collaborative tools.
+
+### [Keynote](https://www.apple.com/keynote/)
+
+Yep, the presentation software for Mac. It can create animations and prototypes with surprising accuracy.
+
+### [Kite Compositor](https://kiteapp.co/)
+
+It’s been described as After Effects meets Principle meets Javascript.
+
+### [Koncept App](https://konceptapp.com/)
+
+Prototyping with user testing prompts and heat maps.
+
+### [Lucidchart](https://lucidchart.com)
+
+A diagramming tools for creating user flows with a dash of prototyping.
+
+### [Macaw](http://macaw.co/)
+
+R.I.P. Acquired by InVision and shut down 😵
+
+### [Marvel](https://marvelapp.com/)
+
+An in-browser tools for micro-animations and interactivity that plays well with Sketch.
+
+### [Mitya](http://mitya.com/)
+
+A surprisingly lesser known tool that imports from Sketch, works with Framer, and … it’s free.
+
+### [Mirr.io](https://mirr.io/)
+
+A nifty Sketch plugin to create prototypes from right within Sketch.
+
+### [Mocking Bot](https://mockingbot.com/)
+
+A browser-based prototyping tool with some interesting functionality, like exporting as a mobile app.
+
+### [Mockplus](https://www.mockplus.com/?r=grace)
+
+Native Windows and Mac apps for prototypes that can be viewed on iOS and Android.
+
+### [Moqups](https://moqups.com/)
+
+A browser-based tool with some cool functionality, like diagramming user flows.
+
+### [Neonto](https://neonto.com/reactstudio) [React Studio](https://neonto.com/reactstudio)
+
+A tool for building React apps using a visual interface.
+
+### [Neonto Native Studio](https://neonto.com/nativestudio)
+
+A tool for building native apps using a visual interface.
+
+### [Noodl](http://www.noodl.io)
+
+Create logic and functionality using a node diagram approach.
+
+### [Notable by Zurb](http://zurb.com/notable/features/prototypes)
+
+One piece of Zurb’s suite for designing with feedback, user testing, and more (formerly called Solidify).
+
+### [Omnigraffle](https://www.omnigroup.com/omnigraffle)
+
+A graphic design and diagramming tool that leverages prototyping powers too.
+
+### [Origami Studio](http://origami.design/)
+
+Facebook’s answer to Quartz Composer is a prototyping tool built using node diagrams.
+
+### [POP Prototyping on paper](https://marvelapp.com/pop/)
+
+Acquired by Marvel, this app got popular by allowing the creation of prototyping with just a camera and a phone.
+
+### [Pidoco](https://pidoco.com/en)
+
+A prototype builder centered around simple components for user testing.
+
+### [Pixate](http://www.pixate.com/)
+
+R.I.P. Acquired by Google and shut down 😵
+
+### [Presentator.io](https://presentator.io/en)
+
+A free and open-source alternative to the prototyping craze. Free forever!
+
+### [Principle](http://principleformac.com/)
+
+A popular tool that leverages state transitions to create micro-animations, a la Keynote.
+
+### [Proto.io](https://proto.io/)
+
+A well-known browser-based tool for prototyping and micro-animations that plays well with Sketch.
+
+### [ProtoPie](https://www.protopie.io/)
+
+A Mac app with some impressive functionality under the hood, like using device sensors and accelerometer.
+
+### [Protoshare](http://www.protoshare.com/)
+
+A browser-based tool for creating and sharing prototypes.
+
+### [Prott App](https://prottapp.com/)
+
+A browser-based tool with a suite of apps for creating and testing prototypes across multiple devices.
+
+### [Subform](https://subformapp.com/)
+
+The Kickstarter-funded app that promised to bring CAD-like powers to interface design.
+
+### [Tumult Hype](http://tumult.com/hype/)
+
+A drag-and-drop tool that boasts its ability to export HTML5.
+
+### [UXPin](https://www.uxpin.com/)
+
+A popular browser-based tool that has expanded its skillset to include things like developer handoff.
+
+### [Webflow](https://webflow.com/)
+
+Actually intended for creating production websites, this drag-and-drop tool can make for a quick prototyping tool.
+
+### [Weld](https://www.weld.io/)
+
+Seeks to “create digital content without code.” It’s like graphic design meets Webflow.
+
+***
+
+### That's great and all...
+Want to actually see these tools compared? Head over to the [tools comparison page](https://uxtools.co/tools/prototyping) to see a head-to-head feature comparison. If you're looking to stay in the loop, [sign up for the newsletter](http://newsletter.uxtools.co) and get a monthly dose of UX tools.
+
+(image: comparison.png alt: The UX Tools Comparison Table class: large)

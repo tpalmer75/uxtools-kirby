@@ -1,0 +1,99 @@
+Title: 3 ways to get your Sketch designs into Framer
+
+----
+
+Author: Taylor Palmer
+
+----
+
+Coverimage: cover.jpg
+
+----
+
+Date: 06/02/2017
+
+----
+
+Text:
+
+Most prototyping apps import from Sketch, as Framer has done for a long time. As this integration grows deeper, more options have become available. Framer now has several ways to import design. There’s no right way!
+
+### 1. Copy/Paste into Framer Design
+
+(image: gif-1.gif)
+
+This week Framer released “Framer Design”, which is UI editor inside of Framer. It’s similar to Sketch with the the ability to artboards, shapes, and more. Don’t expect to pull your Sketch layers right inside, though. It’s not quite there yet.
+
+### Output format
+
+Images. Using this method, you can copy the necessary layers from your Sketch file and place them into a Framer artboard.
+
+### Pros
+
+Speed and simplicity.
+
+### Cons
+
+Pasted as images. Copying from Sketch essentially flattens your selection into a rasterized PNG, meaning those layers don’t scale well and can become pixelated. This method will prevent you from manipulating text, shape color, and other properties — so you might have to mix and match as you pull from Sketch and create new layers in Framer.
+
+Also, the pasted images don’t maintain any sort of naming convention. Only the layer name “image.”
+
+### Notes
+
+Designing at 1x, but prototyping in 2x? No worries! Just use the Sketch scale function (cmd+K).
+
+### 2. Use the [Copy-Framer-Code](https://github.com/perrysmotors/copy-framer-code) Plugin
+
+(image: gif-2.gif)
+
+Thanks to [Giles Perry](https://twitter.com/Giles_Perry) for his awesome plugin to copy Framer Code straight from Sketch. The principle is simple: select shapes in Sketch, use the plugin, and paste it as code right into Framer!
+
+### Output format
+
+Framer Layers. Doesn’t get much better than that.
+
+### Pros
+
+Native layers are instantly available to use and manipulate, including editable text.
+
+### Cons
+
+Pasted layers don’t use proper Framer alignment functions (Align.center, etc) and use strict X, Y, and width. It’s not a big deal, but you might find yourself wanting those features.
+
+### Notes
+
+I highly recommend this method, as you can continue to manipulate the shapes and text in Framer (but not yet in Framer Design 😞). Be sure to check out his tutorial for [copying and pasting images and icons](https://github.com/perrysmotors/copy-framer-code) (bottom of the page) from Sketch into Framer as well.
+
+### 3. Framer Import
+
+(image: gif-3.gif)
+
+</div>
+
+</div>
+
+</figure>
+
+This is the standard Framer import that has existed for a while now. It’s extremely easy to use, and very simple.
+
+### Output format
+
+Images.
+
+### Pros
+
+Framer’s Sketch imported can be repeated as many times as necessary, always writing over the original import. This makes it easy to tweak the design and reimport without having to fundamentally alter your project or start over.
+
+### Cons
+
+This method suffers from any other image issues: No resizing, no scaling, no editable text.
+
+### Notes
+
+This is still the bread-and-butter of rapid prototyping, but not a great long-term solution. I expect Framer Design to catapult the product into a whole new level of Sketch integration.
+
+***
+
+So there you have it. No more excuses preventing you from using Framer and Sketch together! You have plenty of options. (Though if you’re on the Framer team and reading this, please create an integration to copy into real Framer Design shapes 🙏).
+
+*Fin*

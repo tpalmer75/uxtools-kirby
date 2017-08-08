@@ -1,0 +1,11 @@
+Title: About UX Tools
+
+----
+
+MenuTitle: About
+
+----
+
+Text: ## Hi, I'm Taylor.
+
+I’m a UX designer based out of Utah. I maintain uxtools.co in my free time; trying to provide value where I can. Looking to get in touch?

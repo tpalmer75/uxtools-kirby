@@ -1,0 +1,87 @@
+Title: Sketch vs. Adobe XD vs. Figma
+
+----
+
+Date: 09/16/2016
+
+----
+
+Author: Taylor Palmer
+
+----
+
+Coverimage: cover.jpg
+
+----
+
+Text:
+
+Last updated August 2017.
+
+[(image: sponsor.png alt: True North Podcast)](http://www.truenorthpodcast.com/?utm_source=uxtools)
+
+<aside>Thanks to <a href="http://www.truenorthpodcast.com/?utm_source=uxtools">True North Podcast</a> for being a sponsor of the monthly [UX Tools newsletter](http://newsletter.uxtools.co).</aside>
+
+
+
+When Sketch first came out it completely disrupted the interface design space, but Adobe XD and Figma have recently come forward as new challengers. They offer unique functionality like prototyping and live collaboration. I’ve recently been researching these tools for my side project, [uxtools.co](http://uxtools.co), and wanted to share what I believe the be the most noteworthy decision points.
+
+### Budget
+
+I know several of you reading this might be students or freelancers, and budget can be a big deal when you’re working on your own. Keep a look out for educational and promotional pricing (often 50% off), and think about your long term needs: Figma will get you there for free as long as you're not working on a team.
+
+*   **Sketch**: $99 license that gets you access to the next 10 production versions of the app. That means you’ll be upgrading 10 versions later (about a year), so it could be seen as an $8/mo subscription (that you get to keep as long as you want).
+*   **Adobe XD**: Free right now while in Beta, but will likely fall into the same CC pricing as the other apps. That means $20/mo for Adobe XD alone, or $50 for the whole CC suite.
+*   **Figma**: Free for individuals! You can have 3 projects for free, or you can upgrade to unlimited projects and team functionality for $12/mo (billed annually).
+
+### Live Collaboration
+
+You know what this is. I’ve heard designers worry about clients wanting to work alongside the designer or have a boss make arbitrary changes. I imagine these were the same concerns that surrounded the release of the highly innovative Google Docs suite. Google Docs, however, turned the Microsoft Suite on its head with live collaboration, and now Figma is seeking to do the same thing with UI design. Here’s the breakdown:
+
+*   **Sketch**: Not natively (but a plugin, [Picnic](http://picnic.design/), is looking to change that!)
+*   **Adobe XD**: Live collaborating will soon be available through your Adobe ID. Nice!
+*   **Figma**: Yes! Not to mention being browser based allows Windows and even Linux users to have a very polished design tool.
+
+### Platform
+
+Though Sketch has been immensely popular, it has forced designers to only use Mac, and has alienated developers from accessing design files.
+
+*   **Sketch**: Mac only.
+*   **Adobe XD**: Mac and Windows. Subject to same limitations as the CC suite.
+*   **Figma**: Browser! Update: Figma recently released a [Mac app](http://figma.com/downloads) and [Windows app](https://www.figma.com/downloads) (not offline-capable, though).
+
+### Handoff
+
+Recently a few apps have been developed specifically to deliver specs (sizing, spacing, color) to developers, but design tools have begun to integrate this functionality natively.
+
+*   **Sketch**: Not natively, but apps like Zeplin and Avocode were made specifically to deliver Sketch specs to developers. There’s even an entirely free alternative called [Sketch measure](https://github.com/utom/sketch-measure) that works just as well.
+*   **Adobe XD**: Coming soon.
+*   **Figma**: Because of live collaboration, developers can easily jump in (regardless of OS) and access the designs. (Update) Figma now neatly prints the handoff code for CSS, iOS, or Android in the right panel. This is awesome!
+
+### Offline
+
+This is a big deal. I’m excited about Figma and the ability the break open the accessibility of high-quality design, but I take public transit to work every day and need to be able to work offline. Some online apps tout being able to protect your information when Wifi goes down, but I need full access to open, use, and save from the app offline.
+
+*   **Sketch**: Sure.
+*   **Adobe XD**: Yep.
+*   **Figma**: No, in an AMA they stated they don't have any current plans to add it.
+
+### Prototyping
+
+There are literally dozens of these apps now days, but they might become extinct as Adobe XD brings prototyping directly to the design tool. Keep your eye on these.
+
+*   **Sketch**: Not natively, but because of Sketch’s rich community of plugins, big hitters like InVision have created plugins like [Craft](https://www.invisionapp.com/craft) that allow for mobile prototyping from within Sketch. Also, most third party prototyping tools play well with Sketch files, [shown here](http://uxtools.co/?utm_source=medium-sketch-adobe-figma).
+*   **Adobe XD**: Yes, native prototyping within the app.
+*   **Figma**: (Update) Yes! It's very basic, but feels like Adobe XD without the transitions. Also, there's a nice [Framer](https://medium.com/figma-design/introducing-figmas-integration-with-framer-c69a747aeee2) integration).
+
+### Symbols
+
+These have completely changed the way I design. Forget building and duplicating list items over and over, let symbols do the work for you.
+
+*   **Sketch**: The symbol functionality in Sketch is very impressive, and continues to improve. Symbols can be updated across entire documents, and can resize responsively (that means less work for you when changing screen sizes).
+*   **Adobe XD**: (Update) Basic symbols exist but without responsive resizing. They’re still fairly simple, but expect them to grow in the future.
+*   **Figma**: Good to go. Symbols now have states, constraints, and overrides. They can even be stored in [Team Libraries](https://medium.com/figma-design/team-libraries-in-figma-409fa5e20f7).
+
+***
+
+I’ll keep an eye out as these programs continue to evolve and become more production ready. In the spirit of full disclosure, I’m an avid Sketch user and lover, but I’m secretly very excited for Figma. In the meantime, [uxtools.co](http://uxtools.co/?utm_source=medium-sketch-adobe-figma) should seep you up to date on the latest apps, and you can always [reach out on Twitter](https://twitter.com/uxtoolsco).
