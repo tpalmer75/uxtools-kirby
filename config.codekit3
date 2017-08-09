@@ -2564,6 +2564,16 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/assets\/images\/icons\/facebook-box.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/images\/icons\/facebook-box.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/assets\/images\/icons\/figma.png": {
 		"ft": 32768,
 		"iS": 1763,
@@ -3947,6 +3957,15 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/assets\/js\/_bundle\/min\/vue-production-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/_bundle\/min\/min\/vue-production-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/assets\/js\/_bundle\/min\/vue-router-min.js": {
 		"ft": 64,
 		"mi": 1,
@@ -4001,6 +4020,15 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/assets\/js\/_bundle\/vue-production.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/assets\/js\/_bundle\/min\/vue-production-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/assets\/js\/_bundle\/vue-router.js": {
 		"ft": 64,
 		"mi": 1,
@@ -4013,7 +4041,7 @@
 	"\/assets\/js\/_bundle\/vue.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/assets\/js\/_bundle\/min\/vue-min.js",
 		"oF": 0,
 		"sC": 1,
@@ -9923,6 +9951,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/site\/snippets\/footer.php",
+		"oF": 0
+		},
+	"\/site\/snippets\/head\/social.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/site\/snippets\/head\/social.php",
 		"oF": 0
 		},
 	"\/site\/snippets\/header-library.php": {

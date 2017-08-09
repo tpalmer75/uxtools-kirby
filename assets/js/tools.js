@@ -3,7 +3,7 @@
 // @codekit-prepend "_bundle/tether-tooltip-1.1.0.js"
 // @not "_bundle/vue-tooltip@0.1.0.js"
 
-// @codekit-prepend "_bundle/vue.js"
+// @codekit-prepend "_bundle/vue-production.js"
 // @codekit-prepend "_bundle/vue-router.js"
 
 // @codekit-prepend "_bundle/v-tooltip@1.1.2.js"
@@ -132,13 +132,12 @@ Vue.directive('scrolltable', {
 			
 
 			scrollElement.onscroll = function() {onScroll()};
-			mainHeader.onresize = resizeThings;
+			window.onresize = function() {resizeThings};
 
 			function resizeThings() {
 				headerHeight = mainHeader.clientHeight;
 				fixedHeader.style.top = headerHeight + "px";
 				alignHeaders();
-				console.log('resize');
 			};
 
 

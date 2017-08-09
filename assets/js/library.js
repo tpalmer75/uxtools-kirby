@@ -1,6 +1,5 @@
 // @codekit-prepend "_bundle/header.js"
-// @codekit-prepend "_bundle/vue.js"
-// @codekit-prepend "_bundle/vue.min.js"
+// @codekit-prepend "_bundle/vue-production.js"
 // @codekit-prepend "_bundle/vue-router.js"
 // @codekit-prepend "_bundle/vue-lazyload-1.0.0.js"
 // @codekit-prepend "_bundle/lodash-4.17.4.js"
@@ -18,13 +17,13 @@ const bookListComp = {
 	},
 	computed: {
 		books: function() {
-			let arr = this.$parent.filteredBooks
-			let listId = this.listId
+			var arr = this.$parent.filteredBooks
+			var listId = this.listId
 			if (listId) {
 				return arr.filter(function(book) {
 					// loop through all recommendations
 					for (i=0;i<book.recommendations.length;i++) {
-						let list = book.recommendations[i]
+						var list = book.recommendations[i]
 						// if this ID is found in the recommendations array
 						if (list == listId) {
 							// add it to the filtered array
@@ -81,9 +80,9 @@ const router = new VueRouter({
 		}
 	],
 	//only works in HTML5 history mode
-	scrollBehavior (to, from, savedPosition) {
-		return { x: 0, y: 0 }
-	}
+	// scrollBehavior (to, from, savedPosition) {
+	// 	return { x: 0, y: 0 }
+	// }
 })
 
 new Vue({

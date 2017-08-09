@@ -10,6 +10,8 @@
 
   <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700|PT+Serif:400,400i,700" rel="stylesheet">
 
+  <?= snippet('head/social') ?>
+
   <?= snippet('favicon') ?>
 
   <?= css('assets/css/style.css') ?>
