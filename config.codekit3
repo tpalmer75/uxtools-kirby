@@ -4250,6 +4250,268 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/content\/3-blog\/20161021-the-future-of-the-ux-design-workflow-the-handoff\/blog-post.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/3-blog\/20161021-the-future-of-the-ux-design-workflow-the-handoff\/blog-post.txt",
+		"oF": 0
+		},
+	"\/content\/3-blog\/20161021-the-future-of-the-ux-design-workflow-the-handoff\/cover.jpg": {
+		"ft": 16384,
+		"iS": 80269,
+		"oA": 0,
+		"oAP": "\/content\/3-blog\/20161021-the-future-of-the-ux-design-workflow-the-handoff\/cover.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/content\/3-blog\/20161021-the-future-of-the-ux-design-workflow-the-handoff\/image-1.png": {
+		"ft": 32768,
+		"iS": 73180,
+		"oA": 0,
+		"oAP": "\/content\/3-blog\/20161021-the-future-of-the-ux-design-workflow-the-handoff\/image-1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/content\/3-blog\/20161021-the-future-of-the-ux-design-workflow-the-handoff\/image-2.png": {
+		"ft": 32768,
+		"iS": 107610,
+		"oA": 0,
+		"oAP": "\/content\/3-blog\/20161021-the-future-of-the-ux-design-workflow-the-handoff\/image-2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/content\/3-blog\/20161021-the-future-of-the-ux-design-workflow-the-handoff\/image-3.png": {
+		"ft": 32768,
+		"iS": 13633,
+		"oA": 0,
+		"oAP": "\/content\/3-blog\/20161021-the-future-of-the-ux-design-workflow-the-handoff\/image-3.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/content\/3-blog\/20161021-the-future-of-the-ux-design-workflow-the-handoff\/image-4.png": {
+		"ft": 32768,
+		"iS": 7361,
+		"oA": 0,
+		"oAP": "\/content\/3-blog\/20161021-the-future-of-the-ux-design-workflow-the-handoff\/image-4.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/content\/3-blog\/20161021-the-future-of-the-ux-design-workflow-the-handoff\/image-5.png": {
+		"ft": 32768,
+		"iS": 3247,
+		"oA": 0,
+		"oAP": "\/content\/3-blog\/20161021-the-future-of-the-ux-design-workflow-the-handoff\/image-5.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/content\/3-blog\/20161021-the-future-of-the-ux-design-workflow-the-handoff\/image-6.png": {
+		"ft": 32768,
+		"iS": 4978,
+		"oA": 0,
+		"oAP": "\/content\/3-blog\/20161021-the-future-of-the-ux-design-workflow-the-handoff\/image-6.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/content\/3-blog\/20161021-the-future-of-the-ux-design-workflow-the-handoff\/social.jpg": {
+		"ft": 16384,
+		"iS": 63094,
+		"oA": 0,
+		"oAP": "\/content\/3-blog\/20161021-the-future-of-the-ux-design-workflow-the-handoff\/social.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/content\/3-blog\/20161102-new-adobe-xd-features-from-adobe-max\/blog-post.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/3-blog\/20161102-new-adobe-xd-features-from-adobe-max\/blog-post.txt",
+		"oF": 0
+		},
+	"\/content\/3-blog\/20161102-new-adobe-xd-features-from-adobe-max\/cover.jpg": {
+		"ft": 16384,
+		"iS": 70172,
+		"oA": 0,
+		"oAP": "\/content\/3-blog\/20161102-new-adobe-xd-features-from-adobe-max\/cover.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/content\/3-blog\/20161102-new-adobe-xd-features-from-adobe-max\/image-1.gif": {
+		"ft": 4194304,
+		"iS": 3509633,
+		"oA": 0,
+		"oAP": "\/content\/3-blog\/20161102-new-adobe-xd-features-from-adobe-max\/image-1.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/3-blog\/20161102-new-adobe-xd-features-from-adobe-max\/image-2.png": {
+		"ft": 32768,
+		"iS": 752699,
+		"oA": 0,
+		"oAP": "\/content\/3-blog\/20161102-new-adobe-xd-features-from-adobe-max\/image-2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/content\/3-blog\/20161102-new-adobe-xd-features-from-adobe-max\/image-3.png": {
+		"ft": 32768,
+		"iS": 932839,
+		"oA": 0,
+		"oAP": "\/content\/3-blog\/20161102-new-adobe-xd-features-from-adobe-max\/image-3.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/content\/3-blog\/20161102-new-adobe-xd-features-from-adobe-max\/image-4.png": {
+		"ft": 32768,
+		"iS": 419579,
+		"oA": 0,
+		"oAP": "\/content\/3-blog\/20161102-new-adobe-xd-features-from-adobe-max\/image-4.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/content\/3-blog\/20161102-new-adobe-xd-features-from-adobe-max\/image-5.png": {
+		"ft": 32768,
+		"iS": 1258578,
+		"oA": 0,
+		"oAP": "\/content\/3-blog\/20161102-new-adobe-xd-features-from-adobe-max\/image-5.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/content\/3-blog\/20161102-new-adobe-xd-features-from-adobe-max\/image-6.png": {
+		"ft": 32768,
+		"iS": 753710,
+		"oA": 0,
+		"oAP": "\/content\/3-blog\/20161102-new-adobe-xd-features-from-adobe-max\/image-6.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/content\/3-blog\/20161102-new-adobe-xd-features-from-adobe-max\/image-7.png": {
+		"ft": 32768,
+		"iS": 839457,
+		"oA": 0,
+		"oAP": "\/content\/3-blog\/20161102-new-adobe-xd-features-from-adobe-max\/image-7.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/content\/3-blog\/20161102-new-adobe-xd-features-from-adobe-max\/social.jpg": {
+		"ft": 16384,
+		"iS": 45834,
+		"oA": 0,
+		"oAP": "\/content\/3-blog\/20161102-new-adobe-xd-features-from-adobe-max\/social.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/content\/3-blog\/20161121-ux-books-survey-results-a-reading-list\/blog-post.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/3-blog\/20161121-ux-books-survey-results-a-reading-list\/blog-post.txt",
+		"oF": 0
+		},
+	"\/content\/3-blog\/20161121-ux-books-survey-results-a-reading-list\/cover.jpg": {
+		"ft": 16384,
+		"iS": 149751,
+		"oA": 0,
+		"oAP": "\/content\/3-blog\/20161121-ux-books-survey-results-a-reading-list\/cover.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/content\/3-blog\/20161121-ux-books-survey-results-a-reading-list\/image-1.png": {
+		"ft": 32768,
+		"iS": 60130,
+		"oA": 0,
+		"oAP": "\/content\/3-blog\/20161121-ux-books-survey-results-a-reading-list\/image-1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/content\/3-blog\/20161121-ux-books-survey-results-a-reading-list\/image-2.png": {
+		"ft": 32768,
+		"iS": 59888,
+		"oA": 0,
+		"oAP": "\/content\/3-blog\/20161121-ux-books-survey-results-a-reading-list\/image-2.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/content\/3-blog\/20161121-ux-books-survey-results-a-reading-list\/image-3.png": {
+		"ft": 32768,
+		"iS": 254943,
+		"oA": 0,
+		"oAP": "\/content\/3-blog\/20161121-ux-books-survey-results-a-reading-list\/image-3.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/content\/3-blog\/20161121-ux-books-survey-results-a-reading-list\/image-4.png": {
+		"ft": 32768,
+		"iS": 435087,
+		"oA": 0,
+		"oAP": "\/content\/3-blog\/20161121-ux-books-survey-results-a-reading-list\/image-4.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/content\/3-blog\/20161121-ux-books-survey-results-a-reading-list\/social.jpg": {
+		"ft": 16384,
+		"iS": 97859,
+		"oA": 0,
+		"oAP": "\/content\/3-blog\/20161121-ux-books-survey-results-a-reading-list\/social.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/content\/3-blog\/20170413-designers-learning-javascript-angular-react-or-vue\/blog-post.txt": {
 		"ft": 8192,
 		"oA": 2,

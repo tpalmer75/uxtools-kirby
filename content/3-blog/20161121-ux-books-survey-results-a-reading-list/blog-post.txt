@@ -1,0 +1,82 @@
+Title: UX Books Survey Results — A Reading List
+
+----
+
+Date: 11/21/2016
+
+----
+
+Author: Taylor Palmer
+
+----
+
+Coverimage: cover.jpg
+
+----
+
+Type: article
+
+----
+
+Socialimage: social.jpg
+
+----
+
+Description: UX designers weigh in about their favorite and most influential reads.
+
+----
+
+Text:
+
+> New! [The UX Library](http://uxtools.co/library). See the ultimate collection of UX books, as recommended by the industry.
+
+A few months ago I sent a survey about design books around DesignerNews, Reddit, and the [PDA](http://www.productdesignutah.org/) Slack channel. I was seeking to understand what designers were interested in reading and what their top UX books were. It drew 87 survey responses and revealed some interesting insights into the world of UX reading. I used it as a springboard to create what is now [The UX Library](http://uxtools.co/library).
+
+Interested in participating in the next survey? [Sign up here](http://newsletter.uxtools.co).
+
+Granted, this data is _super_ biased (Designers who browse the same sites I do and are willing to fill out a survey) but it’s something. One possible takeaway is that designers earlier in their career are more interesting in learning from UX books, and thus were more likely to take the survey. You decide!
+
+### Insight #1: Mostly Beginners
+
+Of the 87 respondents, most were in the first five years of their career. I fall into this same category, so I was intrigued to learn what my peers were reading.
+
+(image: image-1.png)
+
+### Insight #2: Beginners Want Advanced Reading
+
+Though over 50% of respondents were early in their career, very few were interested in beginner-related material. My assumption is that these younger designers are interested in sharpening their skills and moving up the food chain. I know I am.
+
+(image: image-2.png)
+
+### Insight #3: UX Designers ❤️ Usability
+
+Obviously, respondents were most interested in classical UX fields: usability, research, and psychology. However (to my surprise), the lowest areas of interest were data and development. Inexperience, or disinterest?
+
+(image: image-3.png)
+
+### The UX Books Survey Results
+
+Here are the top 10 books, as decided by the survey. Interested in taking your UX reading to the next level? Try the [UX Library](http://uxtools.co/library).
+
+1.  [_Don’t Make Me Think_](http://amzn.to/2eOJgqS) by Steve Krug
+2.  [_The Design of Everyday Things_](http://amzn.to/2fLQlJx) by Donald Norman
+3.  [_About Face_](http://amzn.to/2g6kFCT) by Alan Cooper
+4.  [_Lean UX_](http://amzn.to/2g1i4LD) by Jeff Gothelf & Josh Seiden
+5.  [_Rocket Surgery Made Easy_](http://amzn.to/2esCMms) by Steve Krug
+6.  [_Just Enough Research_](http://amzn.to/2fI5sVK) by Erika Hall
+7.  [_Sprint_](http://amzn.to/2g6jPX7) by Jake Knapp
+8.  [_100 Things Every Designer Needs to Know About People_](http://amzn.to/2eTc58Z) by Susan Weinschenk
+9.  [_Thinking With Type_](http://amzn.to/2fM0Exi)by Ellen Lupton
+10.  [_The Inmates are Running the Asylum_](http://amzn.to/2eTbmVq) by Alan Cooper
+
+There are some good books on this list, but not all of them would make my personal top 10\. So how do you trust a reading list? How do you know what you should _really_ read next?
+
+(image: image-4.png)
+
+### [The UX Library](http://uxtools.co/library)
+
+Rather than read every available UX reading list, I’m bringing them all to you with [The UX Library](http://uxtools.co/library). See who’s recommended what books, and check-in for the latest offerings from the industry.
+
+I’m looking to grow the list with relevant reading lists from industry teams and companies. Want to add your list to the mix? [Get in touch](http://uxtools.co/about.html).
+
+</div>

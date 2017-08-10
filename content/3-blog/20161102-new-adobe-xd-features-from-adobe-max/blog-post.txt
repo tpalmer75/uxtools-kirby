@@ -1,0 +1,113 @@
+Title: New Adobe XD Features from Adobe MAX
+
+----
+
+Date: 11/02/2016
+
+----
+
+Author: Taylor Palmer
+
+----
+
+Coverimage: cover.jpg
+
+----
+
+Type: article
+
+----
+
+Socialimage: social.jpg
+
+----
+
+Description: Some big updates and forward-thinking from an industry titan: Adobe XD.
+
+----
+
+Text:
+
+## **The Latest News from the Sleeping Giant**
+
+> Find more UX insights at [uxtools.co](http://uxtools.co/?utm_source=medium-adobe-xd).
+
+Every day I’m more and more convinced that Adobe isn’t just out to make a quick buck with XD (and I’m currently not an Adobe user).
+
+While visiting Adobe last month I learned XD developed organically within the company from a recognized lack of interface design tools. Stakeholders acknowledged the power of Fireworks, Photoshop, and Illustrator to accomplish different tasks of the design process, but saw the potential to satisfy the UX designer’s workflow from end-to-end. The project was even originally titled “Project Sparkler” as a nod to Fireworks.
+
+The latest announcements show a new direction for Adobe tools, however. In their own words, they are “reinventing their own tools for productivity.”
+
+### Layers
+
+How many layer panels do you think Adobe has created through the years? Dozens? Nearly every Adobe product I have ever used contained a layers mechanism of some sort. Yet the XD team illustrated how they stepped back to create a layers panels that _made sense_ _for interface design_.
+
+(image: image-1.gif)
+
+Given that context, consider the other features Adobe just announced on stage at the Adobe MAX conference:
+
+### Live Device Preview
+
+(image: image-2.png)
+
+Adobe XD apps for Android and iOS automatically update and preview your designs, with no need to refresh. You can update designs even while they’re being used, which is pretty cool.
+
+### **Live Collaboration**
+
+(image: image-3.png)
+
+The design world exploded when [Figma](https://www.figma.com/?ref=uxtools.co) released their “multiplayer mode” for their in-browser design tool. I watched for multiples hours as 60+ designers created terrible memes and design jokes on the same document. Despite the excitement, no one realized that [UX Pin](https://www.uxpin.com/?ref=uxtools.co) had already been doing this for a long time.
+
+Some designers fear the arrival of live collaboration, thinking that their clients and stakeholders will be free to ransack their pixel-perfect designs. I’m sure everyone had similar concerns with Google Docs, but it looks like we got through it.
+
+Adobe XD wasted no time picking up on the need for live collaboration in the UX workflow. Designers are often at the intersection between clients, product management, and engineering (yet we frequently work in isolation).
+
+Adobe made the decision to lock the artboard when one designer begins to edit, so designers can’t step on each others toes.
+
+With the announcement of live collaboration for Adobe XD, you can expect that many other tools will follow suit.
+
+### **Developer Handoff**
+
+(image: image-4.png)
+
+The arrival of handoff tools like Zeplin and Avocode marked the beginning of the UX workflow. These apps do their best to pair with popular design tools and export necessary metadata for engineers to consume and utilize. Exported designs from Sketch and Photoshop are housed in an “inspector” view that allows developers to extract assets and measure spacing, padding, and sizes. Often, these tools allow for direct CSS export.
+
+Rather than export designs to third-party tools, your XD designs and engineering specs live side by side. XD now has complete control of the process from start to finish. Design, prototyping, communication, and handoff can now live in the same space instead of fragmented across different apps, plugins, and services.
+
+### **Symbol Libraries**
+
+(image: image-5.png)
+
+I currently use Craft and Sketch to organize symbols libraries on my professional projects. These help promote brand and design consistency across my team, and allow us to design with the same components. Yet, using a third-party plugin combined with Dropbox sharing has always felt a little hacky.
+
+(image: image-6.png)
+
+The design library syncs across files and artboards, and even brand colors live update as they change. As you create your design library inside of XD, it can be shared publicly with your team.
+
+### Revision History
+
+(image: image-6.png)
+
+I also rely on Dropbox for file versioning with my Sketch files (though I’ve seen some cool time machine hacks). Adobe XD will handle this inside of the interface.
+
+***
+
+### **The Emerging “UX Workflow”**
+
+Before you get out your pitch forks, I never said any of these features were new. Adobe XD is not the first app to include these features, nor will it be the last. Other apps are lining up to conquer the UX workflow (design, collaborating, prototyping, handoff) as they already bundle several of these features.
+
+Take a hard look at [uxtools.co](http://uxtools.co/?utm_source=medium-adobe-xd) and you’ll realize that very few apps offer the entirety of the UX workflow.
+
+As I’ve said before, we’re in the middle of an arms race. Design companies and tools across the world have awoken to the existence of the UX Workflow, and several competitors are pining to be on top. Adobe XD has proven itself as a real competitor in the space, and will quickly become the UX designer’s tool of choice.
+
+Adobe MAX showed us that Adobe XD is here to solve the UX design workflow.
+
+### **Looking Ahead**
+
+No tool exists without its flaws, and Adobe XD is still growing and evolving along with the industry. As a member of a young breed of UX designers that doesn’t need high-powered photography and illustration tools, I would love to see XD released as a stand alone app. I have no need to pay for other Creative Cloud Apps, and I even get frustrated having the clunky CC installer on my desktop.
+
+I’d also like to see some movement towards user input and data-driven design like what [Atomic](https://atomic.io/?ref=uxtools.co) is working on. XD is slowly consuming the existing design tools paradigms, but the industry is ready to push past what already exists and see what Adobe XD can do next.
+
+Those who know me have seen the “Sketch for President” sticker that adorns my MacBook. I have an affinity for tools that makes me try (and sometimes buy) each tool that hits the market. When Project Comet (now Adobe XD) was first announced I saw a scrambling Adobe trying to pick of the pieces of bloated legacy software (artboards in Photoshop, anyone?).
+
+Now, however, I’ve started to see one tool that could quickly replace four or more tools in my tool belt.

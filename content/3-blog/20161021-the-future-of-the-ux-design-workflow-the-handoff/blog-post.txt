@@ -1,0 +1,71 @@
+Title: The Future of the UX Design Workflow: The Handoff
+
+----
+
+Date: 10/21/2016
+
+----
+
+Author: Taylor Palmer
+
+----
+
+Coverimage: cover.jpg
+
+----
+
+Type: article
+
+----
+
+Socialimage: social.jpg
+
+----
+
+Description: A look into the future of tools for the UX design industry: development handoff.
+
+----
+
+Text:
+
+We’re in the middle of a development arms race. Have you looked at [uxtools.co](http://uxtools.co/?ref=medium.com) lately? There are about 30 prototyping apps included there. I know of 30 more that I’m missing, which makes a total of 60 prototyping tools available.
+
+The prototyping race will soon come to an end, though, as users settle into predefined workflows with combination apps like [Adobe XD](http://www.adobe.com/products/experience-design?ref=uxtools.co), [Atomic](https://atomic.io/?ref=uxtools.co), or [UX Pin](https://uxpin.com/?ref=uxtools.co). Designers will simply expect to be able to design and prototype in the same space.
+
+Now design tools are now looking beyond prototyping to the handoff.
+
+(image: image-1.png)
+
+### **The Old Way**
+
+Depending on when you entered the design industry, you may have spent some late nights redlining your designs with exact specs, measurements, and color codes. All that changed when clever apps like [Zeplin](https://zeplin.io/?ref=uxtools.co) and [Avocode](https://avocode.com/?ref=uxtools.co) broke the industry open to allow for automatic spec and CSS documentation.
+
+With these tools, developers can extract all of the information they need from a design to create a pixel perfect implementation. These tools even allow for exporting assets and copying text. It is truly a one step handoff.
+
+(image: image-2.png)
+
+### **The New Kids on the Block**
+
+So, what happens when you create an app that can design, prototype, and handoff all in the same space? This is the future of the UX designer’s workflow.
+
+(image: image-3.png)
+
+[Zeplin](https://zeplin.io/?ref=uxtools.co), [Avocode](https://avocode.com/?ref=uxtools.co), and [Sympli](https://sympli.io/?ref=uxtools.co) have made designer’s lives much easier, but they’re dependent on importing from another app. If Sketch ever creates their own handoff workflow, these apps will have a difficult time staying relevant.
+
+(image: image-4.png)
+
+Besides, what do you think [Sketch Cloud](https://www.sketchapp.com/learn/documentation/13-sketch-cloud/?ref=uxtools.co) is going to become? 😏
+
+(image: image-5.png)
+
+[UX Pin](https://uxpin.com/?ref=uxtools.co) just announced its “Spec Mode” which allows for designers to design (with either Sketch or inside of [UX Pin](https://uxpin.com/?ref=uxtools.co)), prototype, and handoff all within one workspace.
+
+(image: image-6.png)
+
+InVision is also giving enterprise access to its handoff product, [Insight](http://blog.invisionapp.com/insight-ui-designers-developers-collaboration/?ref=uxtools.co), which facilitates the designer/developer collaboration as well.
+
+***
+
+As I’ve worked on [uxtools.co](http://uxtools.co) I’ve been able to meet with some leading software providers to chat and hear about their roadmaps. The features and differences between these apps are quickly collapsing, and I expect within the next few years the market will consolidate into a few fully-featured apps.
+
+Adding handoff capabilities into an app isn’t a risk, its necessity. Once we move past this phase of design innovation, I’m excited to see what comes next.

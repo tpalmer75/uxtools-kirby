@@ -30,7 +30,7 @@ Text:
 
 _Disclaimer: I’m not a developer. I’m a designer who codes and has too many side projects (like_ [_uxtools.co_](http://uxtools.co/)_). I’m writing according to my own experiences._
 
-<span class="graf-dropCap">J</span>avaScript can be intimidating for designers. HTML and CSS have a strict set of rules that govern their use, but JavaScript introduces logic and programming. Once you harness it, however, you gain the ability to be much more expressive in your designs and much more fluent in your technical communication with others. This article intends to educate designers looking to take their next step in JavaScript proficiency.
+JavaScript can be intimidating for designers. HTML and CSS have a strict set of rules that govern their use, but JavaScript introduces logic and programming. Once you harness it, however, you gain the ability to be much more expressive in your designs and much more fluent in your technical communication with others. This article intends to educate designers looking to take their next step in JavaScript proficiency.
 
 #### **Before We Begin**
 
@@ -122,23 +122,17 @@ Here are some interesting data points that might influence your decision:
 
 ### **Further Reading**
 
-[**AngularToVue**  
-_Easy ways to translate your Angular 1 apps to VueJS. (Or, things I wish I had known when switching to VueJS.)_tpalmer75.github.io](https://tpalmer75.github.io/AngularToVue/ "https://tpalmer75.github.io/AngularToVue/")[](https://tpalmer75.github.io/AngularToVue/)
+[**AngularToVue** —_Easy ways to translate your Angular 1 apps to VueJS.](https://tpalmer75.github.io/AngularToVue/)
 
-[**The State Of JavaScript Developer Survey**  
-_A short survey about current popular JavaScript technologies._stateofjs.com](http://stateofjs.com/ "http://stateofjs.com/")[](http://stateofjs.com/)
+[**The State Of JavaScript Developer Survey** —_A short survey about current popular JavaScript technologies.](http://stateofjs.com/)
 
 [**Stack Overflow Developer Survey 2016 Results**  
-_Every 8 seconds or so, a developer asks a question on Stack Overflow. This year, 56,033 coders in 173 countries…_stackoverflow.com](http://stackoverflow.com/insights/survey/2016 "http://stackoverflow.com/insights/survey/2016")[](http://stackoverflow.com/insights/survey/2016)
+](http://stackoverflow.com/insights/survey/2016)
 
-[**Comparison with Other Frameworks - Vue.js**  
-_Vue.js - Intuitive, Fast and Composable MVVM for building interactive interfaces._vuejs.org](https://vuejs.org/v2/guide/comparison.html "https://vuejs.org/v2/guide/comparison.html")[](https://vuejs.org/v2/guide/comparison.html)
+[**Comparison with Other Frameworks - Vue.js**](https://vuejs.org/v2/guide/comparison.html)
 
-[**Should I learn React.js or Vue.js?**  
-_Answer (1 of 7): As a longtime Angular 1.x user, I was intrigued by React's popularity in the JS community. But I ran…_www.quora.com](https://www.quora.com/Should-I-learn-React-js-or-Vue-js "https://www.quora.com/Should-I-learn-React-js-or-Vue-js")[](https://www.quora.com/Should-I-learn-React-js-or-Vue-js)
+[**Should I learn React.js or Vue.js?**](https://www.quora.com/Should-I-learn-React-js-or-Vue-js)
 
-[**Angular is Easy. React is Hard.**  
-_I know exactly what you’re thinking…_medium.com](https://medium.com/@ericclemmons/angular-is-easy-react-is-hard-6f55e360482c "https://medium.com/@ericclemmons/angular-is-easy-react-is-hard-6f55e360482c")[](https://medium.com/@ericclemmons/angular-is-easy-react-is-hard-6f55e360482c)
+[**Angular is Easy. React is Hard.**](https://medium.com/@ericclemmons/angular-is-easy-react-is-hard-6f55e360482c)
 
-[**Angular 2 versus React: There Will Be Blood**  
-_Angular 2 has reached Beta and appears poised to become the hot new framework of 2016\. It’s time for a showdown. Let’s…_medium.freecodecamp.com](https://medium.freecodecamp.com/angular-2-versus-react-there-will-be-blood-66595faafd51 "https://medium.freecodecamp.com/angular-2-versus-react-there-will-be-blood-66595faafd51")[](https://medium.freecodecamp.com/angular-2-versus-react-there-will-be-blood-66595faafd51)
+[**Angular 2 versus React: There Will Be Blood**](https://medium.freecodecamp.com/angular-2-versus-react-there-will-be-blood-66595faafd51)
