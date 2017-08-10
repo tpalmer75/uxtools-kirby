@@ -5,11 +5,13 @@
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
 
 	<title><?= $site->title()->html() ?> | <?= $page->title()->html() ?></title>
-	<meta name="description" content="<?= $site->description()->html() ?>">
+	<meta name="description" content="<?= $page->description()->html() ?>">
 
 	<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700|PT+Serif:400,400i,700" rel="stylesheet">
 
-	<?= snippet('favicon') ?>
+	<?= snippet('head/favicon') ?>
+
+	<?= snippet('head/social') ?>
 
 	<?= css('/assets/css/tools.css') ?>
 

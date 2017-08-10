@@ -14,6 +14,18 @@ Coverimage: cover.jpg
 
 ----
 
+Type: article
+
+----
+
+Socialimage: social.jpg
+
+----
+
+Description: A shot-for-shot comparison of some of the latest and greatest UX design tools: Sketch, Adobe XD, and Figma.
+
+----
+
 Text:
 
 Last updated August 2017.
@@ -49,6 +61,14 @@ Though Sketch has been immensely popular, it has forced designers to only use Ma
 *   **Sketch**: Mac only.
 *   **Adobe XD**: Mac and Windows. Subject to same limitations as the CC suite.
 *   **Figma**: Browser! Update: Figma recently released a [Mac app](http://figma.com/downloads) and [Windows app](https://www.figma.com/downloads) (not offline-capable, though).
+
+<div class="promotion-missing">
+<div class="content">
+<h4>Normally there's an ad here. 🤔</h4>
+<p>I run this site by myself, so it would be awesome if you turned off your ad blocker.</p>
+</div>
+</div>
+<ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-format="fluid" data-ad-layout="in-article" data-ad-client="ca-pub-2169456968850651" data-ad-slot="1581403896"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
 
 ### Handoff
 

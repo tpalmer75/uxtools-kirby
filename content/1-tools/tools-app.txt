@@ -3,3 +3,17 @@ Title: Compare UX Tools
 ----
 
 MenuTitle: Tools
+
+----
+
+Type: website
+
+----
+
+Socialimage: social.jpg
+
+----
+
+Description: Compare popular industry UX tools for design, prototyping, handoff, versioning, monitoring, and more.
+
+----

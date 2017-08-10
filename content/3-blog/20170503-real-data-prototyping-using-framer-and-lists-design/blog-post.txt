@@ -1,0 +1,125 @@
+Title: Real Data Prototyping using Framer and Lists.design
+
+----
+
+Date: 05/03/2017
+
+----
+
+Author: Taylor Palmer
+
+----
+
+Coverimage: cover.jpg
+
+----
+
+Type: article
+
+----
+
+Socialimage: social.jpg
+
+----
+
+Description: Take your Framer UX prototypes to the next level and design with huge lists of information.
+
+----
+
+Text:
+
+Framer is known for its ability to create realistic prototypes, and the recent release of [http://Lists.design](http://lists.design/) by [Julien Perrière](https://twitter.com/julienperriere) pushes them even further. Julien has curated over 100 samples of data lists that can used in your design tools of choice. In this article I’ll be showing you how to make the most of this data in Framer. Here’s the prototype we’ll be creating: [https://framer.cloud/WOHkL](https://framer.cloud/WOHkL)
+
+(image: image-1.gif)
+
+### **Import a Sketch File**
+
+I’ve designed a simple app that you can use as a base for the prototype in this exercise. [Download it here](https://www.dropbox.com/s/pa4v7u5gr6hrb61/airport-app.sketch?dl=0). You can import it into Framer using the “Import” button on the bottom left. Be sure to select “2x” for the sizing to get crisp, retina-friendly screens.
+
+(image: image-2.png)
+
+You should be looking at something like this:
+
+(image: image-3.png)
+
+### Choose Your Data
+
+After browsing through [lists.design](https://lists.design) I decided to use the Airports list. Click “Open JSON” to see the raw contents of the list. This is code we can copy and paste right into Framer! Well, once we convert it.
+
+(image: image-4.png)
+
+Framer prototypes are actually written in Coffeescript, which is a preprocessor for Javascript: that means you can write simpler code with less concern for brackets and punctuation. As you work, Framer automatically compiles it into normal Javascript that runs in the browser.
+
+You can use sites like j[s2.coffee](http://js2.coffee) to convert normal Javascript into Coffeescript for your Framer prototypes. When you paste it into the box on the left, make sure you cut out everything before and after the [ ] array brackets.
+
+(image: image-5.png)
+
+Now, paste that into [js2.coffee](http://js2.coffee) to get your Coffescript. The new code can be pasted into Framer and given a variable name. I’m simply calling it “airports.”
+
+```
+airports = [
+   { ‘data’: ‘Hartsfield-Jackson Atlanta International Airport’ }
+   { ‘data’: ‘Phoenix Sky Harbor International Airport’ }
+   { ‘data’: ‘Los Angeles International Airport’ }
+   ...
+```
+
+### Start Coding!
+
+<p name="afa0" id="afa0" class="graf graf--p graf-after--h3">Don’t code? That’s okay! I’ll be giving you everything you need to complete this tutorial. Follow along and <a href="https://twitter.com/uxtoolsco" data-href="https://twitter.com/uxtoolsco" class="markup--anchor markup--p-anchor" rel="noopener" target="_blank">reach out</a> with questions.</p>
+
+#### Create a Scrolling Area
+
+If you imported my Sketch file, you have a topBar and a bottomBar. But what about the area in-between? When we start populating our data we’ll want the UI to be able to scroll.
+You can create a scroll area using the code below.
+
+```
+scroll = new ScrollComponent
+   y: 130                  # How far down we place the scroll area
+   width: Screen.width     # Make it the width of the screen
+   height: 1105            # Extend to the bottomBar
+   parent: sketch.artboard # Nest it inside of our Sketch UI
+   index: 0                # Move it to the bottom of the layer list
+```
+
+#### The For Loop
+
+When using data, the for loop is your best friend. The for loop takes three inputs or arguments: what should we call each item in the loop, and should we call each number of the loop, and what data source are we looping through?
+
+This code, for example, will walk through each individual airport in “airports” and will also tell us what number we are on with the variable “i.”
+
+```
+for airport, i in airports
+```
+
+Using this loop, let’s create a new Layer and TextLayer to display each of our airports. I won’t go into detail about every single attribute we’re using here, but the idea is simple: Create a new Layer that acts as a list item. Then, create a new TextLayer inside of that Layer that displays the airport name. Now it should be looking like this!
+
+```
+# A shortcut to set the height of each item
+cardHeight = 100
+# Loop over each airport
+for airport, i in airports
+   listItem = new Layer        # Create a new Layer for each airport
+      parent: scroll.content   # Place layer inside scroll area
+      height: cardHeight       # Set height of each item
+      y: i * cardHeight        # Offset each item with y position
+      width: Screen.width      # Make items full width
+      backgroundColor: "white" # Set backgroundColor
+      style:                   # A little extra CSS for border-bottom
+         "border-bottom": "1px solid #ddd"
+         
+   listText = new TextLayer    # New TextLayer for each airport
+      parent: listItem         # Inside the layer we just made
+      text: airport.data       # Use our data to populate the text
+      textOverflow: "ellipsis" # Truncate longer names
+      lineHeight: 3            # Set text line height
+      textIndent: 30           # Set text indent
+      color: "#555"            # Set text color
+      fontSize: 32             # Set font size
+```
+
+(image: image-6.png)
+
+Voila! You’ve just prototyped with real data! Show off your creation to all of your friends who are still stuck making fake lists. 👍
+
+You can download the final prototype here: [https://framer.cloud/WOHkL](https://framer.cloud/WOHkL)

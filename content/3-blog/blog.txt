@@ -6,8 +6,22 @@ MenuTitle: Blog
 
 ----
 
-Text: Here's the latest and great from the UX Tools blog. Like what you see? Stay up to date with the [newsletter](http://newsletter.uxtools.co).
+Text: Here's the latest and greatest from the UX Tools blog. Like what you see? Stay up to date with the [newsletter](http://newsletter.uxtools.co).
 
 ----
 
-Perpage: 2
+Perpage: 8
+
+----
+
+Type: website
+
+----
+
+Socialimage: social.jpg
+
+----
+
+Description: The latest and greatest from the UX Tools blog, with tips and updates about popular UX design industry tools.
+
+----

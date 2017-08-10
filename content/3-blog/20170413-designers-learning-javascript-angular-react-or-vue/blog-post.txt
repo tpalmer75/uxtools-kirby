@@ -1,0 +1,144 @@
+Title: Designers Learning JavaScript: Angular, React, or Vue?
+
+----
+
+Date: 04/13/2017
+
+----
+
+Author: Taylor Palmer
+
+----
+
+Coverimage: cover.jpg
+
+----
+
+Type: article
+
+----
+
+Socialimage: social.jpg
+
+----
+
+Description: A helpful guide for UX designers looking to navigate the modern world of JavaScript.
+
+----
+
+Text:
+
+_Disclaimer: I’m not a developer. I’m a designer who codes and has too many side projects (like_ [_uxtools.co_](http://uxtools.co/)_). I’m writing according to my own experiences._
+
+<span class="graf-dropCap">J</span>avaScript can be intimidating for designers. HTML and CSS have a strict set of rules that govern their use, but JavaScript introduces logic and programming. Once you harness it, however, you gain the ability to be much more expressive in your designs and much more fluent in your technical communication with others. This article intends to educate designers looking to take their next step in JavaScript proficiency.
+
+#### **Before We Begin**
+
+I encourage you to learn basic, simple, plain, vanilla Javascript before you get too far. When I began coding a few years back I jumped straight into jQuery and skipped the fundamentals. jQuery’s shortcuts were enticing and caused me to build many hacky, poorly structured websites that are still in the wild today. As I’ve moved on and improved my practices, I’ve had to learn backwards and reteach myself the basics. In fact, unless you want to build your own app or website, vanilla Javascript will probably be enough to help you prototype and create animations.
+
+Now, this doesn’t mean that jQuery doesn’t have its place. Often, it’s still a nice solution to more advanced programming issues like AJAX requests or animation, and couples well with many modern Javascript frameworks and libraries. Those frameworks and libraries are usually meant to assist in the creation of single-page apps. But what does that even mean?
+
+#### **Frameworks vs Libraries**
+
+You might hear these words thrown around on Twitter or wherever you’re reading about the latest Javascript flavor of the day. While these terms are often confused or interchanged, understanding the difference will help you choose the best resource for your project. In a nutshell:
+
+A _framework_ usually enforces a strict way to do things. These are sometimes described as _opinionated_ because they tell you how to structure your app. They come pre-loaded with most of the functionality you would need to build your app. Examples of frameworks include Vue, Angular, Ember, and Meteor.
+
+A _library_ can be a set of helpful functions and features that exist to make your life easier, but can be used and extended anyway you want. Examples of libraries include React, jQuery, Velocity, etc.
+
+A _single-page app_ is just that: an app that functions entirely out of one single HTML file, with working navigation and all.
+
+Because there are so many Javascript frameworks and libraries, studies and surveys are frequently performed in an attempt to understand who’s winning.
+
+### **The Players**
+
+Take a look at the graph below and you’ll notice what the most satisfactory frameworks are (According to [Sacha Greif’s 2016 Survey](https://medium.com/@sachagreif/the-state-of-javascript-front-end-frameworks-1a2d8a61510)). I’ll be covering the 3 top frameworks: React, Angular and Vue.
+
+(image: image-1.png)
+
+**React:** The incredibly popular industry titan that continues to grow in popularity year over year, built and maintained by Facebook.
+
+**Angular:** Backed by Google, Angular quickly became an industry standard. Angular 2 became official last year, and its quite a departure from Angular 1\. More on this later!
+
+**Vue:** Developed by an original member of the Angular 1 team, Vue shares its roots with Angular (to see just how similar, check out [AngularToVue](https://tpalmer75.github.io/AngularToVue/)). It has also experienced explosive growth in recent months, as we’ll soon see.
+
+***
+
+There are a few things I look at when learning a new technology, and I’ll base my suggestions around three simple questions. How easy is it to setup? How easy is it to learn? How popular is it? Let’s get started!
+
+### **How easy is it to setup?**
+
+**React**: Most React projects rely on JSX (writing HTML within Javascript). Browsers don’t recognize or understand this by default, which requires compiling those files to something useable by the browser. This introduced another step in the coding process, and a new environment (Node). Because React is a library, it also requires that you set up and configure each module you want to use.
+
+**Angular:** Angular 1 was a simple script tag. Angular 2, however, requires a newer version of Javascript that isn’t supported in all browsers, is usually demonstrated using a language called Typescript, and also requires compilation like React.
+
+**Vue:** One simple script tag. It can easily be upgraded to use special modern technologies similar to React and Angular, but it’s not required.
+
+#### 🏆 My recommendation:
+
+**Vue!** It’s similar to Angular, but has retained a very simple setup process. Give the [guide](https://vuejs.org/v2/guide/) a try and you’ll see how easy it is.
+
+### **How easy is it to learn?**
+
+**React**: Learning the basics doesn’t take long, but remember: React is a _library_ not a _framework_. That means that React provides a nice skeleton for your app, but needs to be built out with other modules and extensions to provide more value. React is generally described as having a [steeper learning curve](https://www.quora.com/Should-I-learn-React-js-or-Vue-js), and some people don’t like writing JSX. All HTML is written within the JavaScript which can cause the DOM to feel a bit abstract.
+
+**Angular**: When using Angular I frequently found myself tripping over problems with scopes and digest—which are special ways of tying variables to the app. Beyond this, you’ll need an understanding of NPM, ES2015, and Typescript to make progress with most documented examples. Angular 2’s dependence on these technologies creates a barrier to learning the framework itself.
+
+**Vue**: After learning the basics of [reactivity](https://vuejs.org/2016/02/06/common-gotchas/), you’ll be up and running. The [Getting Started Guide](https://vuejs.org/v2/guide/) is very well-written, and your entire app eventually ends up being written as one, big Javascript object. This matched my mental model well, and I was able to cruise through the documentation while make significant progress during my first few days of learning it.
+
+#### 🏆 **My recommendation:**
+
+**Vue**, again! 😏 By now you can tell I’m a bit biased! Check out Vue’s [comparison with other frameworks](https://vuejs.org/v2/guide/comparison.html) for a breakdown of the differences between the frameworks. It’s much better written than anything I’ll tell you.
+
+### **Which is most popular or relevant?**
+
+Honestly, this is one of the most important questions for me. I’m not a progressional developer. Will people rush to answer my Stack Overflow questions? Are there tutorials available to teach me? What will I do when I inevitably get stuck?
+
+**React**: React has become enormously popular in recent years (see the graphs below), and innumerable resources are available for learning. Learn React if you want to be _relevant_ and keep up with the industry.
+
+**Angular**: Angular has been around the longest of these three frameworks and has a loyal following. Angular 2 was a significant departure from Angular 1, however, and is still ramping up from its release last year.
+
+⭐️ Bonus: I also want to give a shout out to [Ionic](https://ionicframework.com/)—the very impressive framework for building hybrid mobile apps—which is built on (you guessed it) Angular. I’ve used Ionic myself, and have friends building production apps with it. If you’re looking to build a mobile app without learning new programming languages, Ionic tips the scales towards Angular.
+
+**Vue**: I once leaned over to a colleague and said, “I wish there was a simple framework that had the basics of Angular without the unnecessary extras.” Then I found Vue. It grown significantly in recent years, has a very active community, and very well-written documentation. I was able to completely rebuild [uxtools.co](http://uxtools.co) using Vue in a matter of weeks. This met my personal criteria: simple, yet popular enough that I can rely on the community.
+
+#### 🏆 **My recommendation**:
+
+**React!** If sheer popularity is your main motivation, React is the way to go. You’ll be in good company as React is the #1 trending technology on Stack Overflow.
+
+### Which one should you pick?
+
+Use the resource that benefits you most. Are you co-workers well versed in a certain library? Do you have a friend that can help you iron out the kinks of her favorite framework? Will learning a specific technology get you that job you’ve always wanted? There’s no right answer, and there’s nothing wrong with eventually learning _two_ frameworks. 😉
+
+Here are some interesting data points that might influence your decision:
+
+(image: image-2.png)
+
+(image: image-3.png)
+
+(image: image-4.png)
+
+***
+
+### **Further Reading**
+
+[**AngularToVue**  
+_Easy ways to translate your Angular 1 apps to VueJS. (Or, things I wish I had known when switching to VueJS.)_tpalmer75.github.io](https://tpalmer75.github.io/AngularToVue/ "https://tpalmer75.github.io/AngularToVue/")[](https://tpalmer75.github.io/AngularToVue/)
+
+[**The State Of JavaScript Developer Survey**  
+_A short survey about current popular JavaScript technologies._stateofjs.com](http://stateofjs.com/ "http://stateofjs.com/")[](http://stateofjs.com/)
+
+[**Stack Overflow Developer Survey 2016 Results**  
+_Every 8 seconds or so, a developer asks a question on Stack Overflow. This year, 56,033 coders in 173 countries…_stackoverflow.com](http://stackoverflow.com/insights/survey/2016 "http://stackoverflow.com/insights/survey/2016")[](http://stackoverflow.com/insights/survey/2016)
+
+[**Comparison with Other Frameworks - Vue.js**  
+_Vue.js - Intuitive, Fast and Composable MVVM for building interactive interfaces._vuejs.org](https://vuejs.org/v2/guide/comparison.html "https://vuejs.org/v2/guide/comparison.html")[](https://vuejs.org/v2/guide/comparison.html)
+
+[**Should I learn React.js or Vue.js?**  
+_Answer (1 of 7): As a longtime Angular 1.x user, I was intrigued by React's popularity in the JS community. But I ran…_www.quora.com](https://www.quora.com/Should-I-learn-React-js-or-Vue-js "https://www.quora.com/Should-I-learn-React-js-or-Vue-js")[](https://www.quora.com/Should-I-learn-React-js-or-Vue-js)
+
+[**Angular is Easy. React is Hard.**  
+_I know exactly what you’re thinking…_medium.com](https://medium.com/@ericclemmons/angular-is-easy-react-is-hard-6f55e360482c "https://medium.com/@ericclemmons/angular-is-easy-react-is-hard-6f55e360482c")[](https://medium.com/@ericclemmons/angular-is-easy-react-is-hard-6f55e360482c)
+
+[**Angular 2 versus React: There Will Be Blood**  
+_Angular 2 has reached Beta and appears poised to become the hot new framework of 2016\. It’s time for a showdown. Let’s…_medium.freecodecamp.com](https://medium.freecodecamp.com/angular-2-versus-react-there-will-be-blood-66595faafd51 "https://medium.freecodecamp.com/angular-2-versus-react-there-will-be-blood-66595faafd51")[](https://medium.freecodecamp.com/angular-2-versus-react-there-will-be-blood-66595faafd51)

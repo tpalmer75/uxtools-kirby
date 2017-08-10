@@ -14,7 +14,26 @@ Date: 05/15/2017
 
 ----
 
+Type: article
+
+----
+
+Socialimage: social.jpg
+
+----
+
+Description: The most comprehensive list of prototyping tools on the internet. Not kidding.
+
+----
+
 Text:
+There are too many prototyping tools. There, I said it.
+
+You may have seen articles comparing multiple tools at the same time, or fancy comparison charts (like uxtools.co 😏), but never before have all of the prototyping tools been listed in one place. Now they have.
+
+#### Current Count: 68
+
+***
 
 ### [Adobe XD](http://www.adobe.com/products/experience-design.html)
 
@@ -125,6 +144,14 @@ A powerhouse app that combines Javascript with the layers imported from your fav
 ### [Fuse](https://www.fusetools.com/)
 
 Build native iOS and Android apps using “UX code.”
+
+<div class="promotion-missing">
+<div class="content">
+<h4>Normally there's an ad here. 🤔</h4>
+<p>I run this site by myself, so it would be awesome if you turned off your ad blocker.</p>
+</div>
+</div>
+<ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-format="fluid" data-ad-layout="in-article" data-ad-client="ca-pub-2169456968850651" data-ad-slot="1581403896"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
 
 ### [Hotgloo](https://www.hotgloo.com/)
 

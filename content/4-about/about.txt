@@ -9,3 +9,17 @@ MenuTitle: About
 Text: ## Hi, I'm Taylor.
 
 I’m a UX designer based out of Utah. I maintain uxtools.co in my free time; trying to provide value where I can. Looking to get in touch?
+
+----
+
+Type: website
+
+----
+
+Socialimage: social.jpg
+
+----
+
+Description: The best ways to get in touch with Taylor from uxtools.co. Let's chat UX, design, or whatever's on your mind.
+
+----

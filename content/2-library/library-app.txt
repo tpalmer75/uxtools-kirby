@@ -3,3 +3,17 @@ Title: The UX Library
 ----
 
 MenuTitle: Library
+
+----
+
+Type: website
+
+----
+
+Socialimage: social.jpg
+
+----
+
+Description: The most popular books in UX, as determined by the internet. 
+
+----
