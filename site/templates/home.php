@@ -14,17 +14,9 @@
       </div>
     </section>
     <section style="padding: 20px 0; text-align: center; position: relative;">
-      <div class="promotion-missing">
-        <div class="content">
-          <h4>Normally there's an ad here. 🤔</h4>
-          <p>I run this site by myself, so it would be awesome if you turned off your ad blocker.</p>
-        </div>
-      </div><ins style="display:block" data-ad-client="ca-pub-2169456968850651" data-ad-slot="4605423926" data-ad-format="auto" class="adsbygoogle"></ins>
-      <script>
-        (adsbygoogle = window.adsbygoogle || []).push({});
+
+      <?php snippet('google-ad') ?>
         
-        
-      </script>
     </section>
     <section>
       <div class="wrapper">
@@ -63,18 +55,7 @@
 
     <footer>
       <p>Made by <a href="https://twitter.com/@_taylorpalmer">Taylor Palmer</a> in his spare time.</p>
-      <div class="promotion-missing">
-        <div class="content">
-          <h4>Normally there's an ad here. 🤔</h4>
-          <p>I run this site by myself, so it would be awesome if you turned off your ad blocker.</p>
-        </div>
-      </div><ins style="display:block; margin-bottom: 20px; text-align: center;" data-ad-client="ca-pub-2169456968850651" data-ad-slot="4605423926" data-ad-format="auto" class="adsbygoogle"></ins>
-      <script>
-        (adsbygoogle = window.adsbygoogle || []).push({});
-        
-        
-        
-      </script>
+      
     </footer>
 
 <?php snippet('footer') ?>

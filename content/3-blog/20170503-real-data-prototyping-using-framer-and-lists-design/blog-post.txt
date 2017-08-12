@@ -32,6 +32,14 @@ Framer is known for its ability to create realistic prototypes, and the recent r
 
 (image: image-1.gif)
 
+<div class="promotion-missing">
+<div class="content">
+<h4>Normally there's an ad here. 🤔</h4>
+<p>I run this site by myself, so it would be awesome if you turned off your ad blocker.</p>
+</div>
+</div>
+<ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-format="fluid" data-ad-layout="in-article" data-ad-client="ca-pub-2169456968850651" data-ad-slot="1581403896"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+
 ### **Import a Sketch File**
 
 I’ve designed a simple app that you can use as a base for the prototype in this exercise. [Download it here](https://www.dropbox.com/s/pa4v7u5gr6hrb61/airport-app.sketch?dl=0). You can import it into Framer using the “Import” button on the bottom left. Be sure to select “2x” for the sizing to get crisp, retina-friendly screens.

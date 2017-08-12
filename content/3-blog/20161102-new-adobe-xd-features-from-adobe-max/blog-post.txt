@@ -38,6 +38,14 @@ While visiting Adobe last month I learned XD developed organically within the co
 
 The latest announcements show a new direction for Adobe tools, however. In their own words, they are “reinventing their own tools for productivity.”
 
+<div class="promotion-missing">
+<div class="content">
+<h4>Normally there's an ad here. 🤔</h4>
+<p>I run this site by myself, so it would be awesome if you turned off your ad blocker.</p>
+</div>
+</div>
+<ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-format="fluid" data-ad-layout="in-article" data-ad-client="ca-pub-2169456968850651" data-ad-slot="1581403896"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+
 ### Layers
 
 How many layer panels do you think Adobe has created through the years? Dozens? Nearly every Adobe product I have ever used contained a layers mechanism of some sort. Yet the XD team illustrated how they stepped back to create a layers panels that _made sense_ _for interface design_.

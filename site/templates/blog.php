@@ -50,6 +50,7 @@
 <?php endif ?>
 </div>
 
+<?php snippet('google-ad') ?>
 
 </section>
 

@@ -30,6 +30,14 @@ Text:
 
 We’re in the middle of a development arms race. Have you looked at [uxtools.co](http://uxtools.co/?ref=medium.com) lately? There are about 30 prototyping apps included there. I know of 30 more that I’m missing, which makes a total of 60 prototyping tools available.
 
+<div class="promotion-missing">
+<div class="content">
+<h4>Normally there's an ad here. 🤔</h4>
+<p>I run this site by myself, so it would be awesome if you turned off your ad blocker.</p>
+</div>
+</div>
+<ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-format="fluid" data-ad-layout="in-article" data-ad-client="ca-pub-2169456968850651" data-ad-slot="1581403896"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+
 The prototyping race will soon come to an end, though, as users settle into predefined workflows with combination apps like [Adobe XD](http://www.adobe.com/products/experience-design?ref=uxtools.co), [Atomic](https://atomic.io/?ref=uxtools.co), or [UX Pin](https://uxpin.com/?ref=uxtools.co). Designers will simply expect to be able to design and prototype in the same space.
 
 Now design tools are now looking beyond prototyping to the handoff.

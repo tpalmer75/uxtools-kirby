@@ -34,6 +34,14 @@ A few months ago I sent a survey about design books around DesignerNews, Reddit,
 
 Interested in participating in the next survey? [Sign up here](http://newsletter.uxtools.co).
 
+<div class="promotion-missing">
+<div class="content">
+<h4>Normally there's an ad here. 🤔</h4>
+<p>I run this site by myself, so it would be awesome if you turned off your ad blocker.</p>
+</div>
+</div>
+<ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-format="fluid" data-ad-layout="in-article" data-ad-client="ca-pub-2169456968850651" data-ad-slot="1581403896"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+
 Granted, this data is _super_ biased (Designers who browse the same sites I do and are willing to fill out a survey) but it’s something. One possible takeaway is that designers earlier in their career are more interesting in learning from UX books, and thus were more likely to take the survey. You decide!
 
 ### Insight #1: Mostly Beginners

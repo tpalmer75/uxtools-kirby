@@ -1,0 +1,85 @@
+Title: You Can Use Framer Whether You Code or Not
+
+----
+
+Author: Taylor Palmer
+
+----
+
+Coverimage: cover.jpg
+
+----
+
+Date: 09/28/2016
+
+----
+
+Type: article
+
+----
+
+Socialimage: social.jpg
+
+----
+
+Description: Framer isn't just for coders, it's for any UX designer who wants to communicate well.
+
+----
+
+Text:
+
+I admit, I was one of the skeptics. I pestered everyone I knew using [Framer](http://framerjs.com), asking, “But why? Why learn this strange Coffeescript framework when you can use _real code_?”  
+
+Earlier this year I went to a meet up and saw a Framer demonstration by [@TheDaveCrow](https://twitter.com/TheDaveCrow). Ever skeptical, I recognized that forward-thinking design teams were gearing up and using Framer. I quickly saw the utility of trying it for myself. To understand its full potential I bought a license and started making my own little prototypes. Besides, who am I to get behind on design tools? 😉
+
+<div class="promotion-missing">
+<div class="content">
+<h4>Normally there's an ad here. 🤔</h4>
+<p>I run this site by myself, so it would be awesome if you turned off your ad blocker.</p>
+</div>
+</div>
+<ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-format="fluid" data-ad-layout="in-article" data-ad-client="ca-pub-2169456968850651" data-ad-slot="1581403896"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+
+For the uninitiated, FramerJS is a Javascript framework for prototyping motion and interactions. That means it’s a set of Javascript functions that will make your life easier when you’re prototyping. You will need to know the basics of programming to capture its full potential, but the Framer team has created Framer Studio to assist in the creation of these prototypes.
+
+(image: image-1.gif)
+
+### But I already know how to code. Why do I need Framer?
+
+This was the question I asked myself everyday as I tried to wrap my head around what Framer offered. I already enjoy coding my own sites, like [uxtools.co](http://uxtools.co), so I didn’t comprehend the need for another layer of abstraction between me and my project. I’ll attempt to answer this question by explaining what Framer _is_ and what it _isn’t._
+
+#### **Framer is for communication.**
+
+This isn’t only true of Framer, it’s true of all prototyping tools. Prototyping inherently lends itself to answering questions, validating ideas, and proving concepts. Instead of describing animations to a developer (or watching over their shoulder), Framer empowers the designer to add interactions and motion to their prototypes, and more accurately communicate the vision of their design.
+
+Every time an idea changes hands, some amount of information is lost. The stakeholders can never get their exact idea into the head of the designer, nor the designer into the head of the developer. Framer allows the designer to take an idea one step further than state-based prototyping tools (like [InVision](http://invisionapp.com) and [Marvel](http://marvelapp.com)) before handing-off to a developer.
+
+#### **Framer is not for production.**
+
+And that’s a good thing! Framer isn’t an attempt to accelerate or bypass the development process. Where some designers may write HTML or CSS to facilitate accurate front-end development, Framer can be seen as more of a communication and validation tool. Set yourself free from the concerns of cross-browser, production-ready, accessible, scalable code. Embrace the excitement of a quick and dirty prototype.
+
+Considering that Framer produces very messy code (a slew of divs with inline styles), very little of what is written in FramerJS will actually be used to create the real product. Some motion parameters may still be relevant (delay, easing, and timing) but very few lines of code will still translate to the development process.
+
+Before I tried Framer I would ask, “But if you’re going to code your prototype, why not code it in the language of the end-product?” This was ignorant of me, however, because I can’t code in Swift nor Java. My skills are limited to basic front-end Javascript frameworks, yet I still want to be able to create realistic, platform-agnostic prototypes. Framer allows me to leverage my knowledge of Javascript to create these types of prototypes.
+
+#### **Framer is not your only prototyping solution.**
+
+I originally began learning Framer thinking Sketch and Framer would be the final form of my workflow. I quickly realized I didn’t need a heavy-weight like Framer for _all_ of my projects.
+
+Don’t get me wrong — it’s a great tool. But choose the right tool for the right job. Just need simple slide-right animations from screen to screen? Use [Adobe XD](http://www.adobe.com/products/experience-design.html). Making micro-animations? [Atomic.io](http://Atomic.io) will do the job. Framer becomes relevant with interaction-heavy, logic-based prototypes (For example: easing an animation as a drag event occurs). Choosing the right tool is a game of [timing and investment](https://medium.com/lucid-software-design/traversing-the-ux-prototyping-landscape-33edc700c1bd#.fkwpkb7zp).
+
+#### **Framer is like skipping HTML & CSS.**
+
+Think of Framer’s Sketch and Figma integrations like bypassing the need to write HTML and CSS.Even though I enjoy [prototyping in Codepen](https://medium.com/lucid-software-design/why-we-user-test-with-codepen-1e241dadd05c), I spend a significant amount of time structuring the HTML and writing CSS. I’m normally a few hours in before I start writing Javascript and creating interactions within the prototype.
+
+Framer prevents the need to recreate designs before prototyping. Framer Import skips the redundancy, and maintains the integrity of the design layers to facilitate quick prototyping. All of the artwork is preserved as it is brought into Framer, ready to be animated and manipulated.
+
+### **Framing the Future**
+
+I’ll be the first to say that Framer Studio isn’t perfect. I get sad every time I use the “undo” function, only to watch my work skip back. One. Letter. At. A. Time. There are certain luxuries I’ve simply come to expect from a code editor that Framer doesn’t have, like Sublime’s ability to edit multiple lines simultaneously.
+
+There are some nice features, however, like code folds and auto-code. These speed up the design workflow and help keep the workspace organized.
+
+Many tools are leveraging drag-and-drop interfaces to mimic what would normally take complex code to produce. Framer is simplifying the code to lower the learning curve for creating complex prototypes. Neither approach is wrong, and both have their advantages.
+
+TL;DR: Use Framer when it makes sense.
