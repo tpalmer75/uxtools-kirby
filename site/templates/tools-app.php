@@ -7,11 +7,11 @@
 
 </div>
 
-<?php snippet('design') ?>
-<!-- @import /site/templates/kit/prototyping.html -->
-<!-- @import /site/templates/kit/handoff.html -->
-<!-- @import /site/templates/kit/versioning.html -->
-<!-- @import /site/templates/kit/monitoring.html -->
+<?php snippet('tools/design') ?>
+<?php snippet('tools/prototyping') ?>
+<?php snippet('tools/handoff') ?>
+<?php snippet('tools/versioning') ?>
+<?php snippet('tools/monitoring') ?>
 
 <script src="/assets/js/min/tools-min.js"></script>
 <?php snippet('footer') ?>

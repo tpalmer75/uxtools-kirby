@@ -10616,24 +10616,6 @@
 		"oAP": "\/site\/snippets\/in-article-ad.php",
 		"oF": 0
 		},
-	"\/site\/snippets\/kit\/header-tools.kit": {
-		"ft": 2048,
-		"oA": 0,
-		"oAP": "\/site\/snippets\/header-tools.php",
-		"oF": 2
-		},
-	"\/site\/snippets\/kit\/header.kit": {
-		"ft": 2048,
-		"oA": 0,
-		"oAP": "\/site\/snippets\/header.php",
-		"oF": 3
-		},
-	"\/site\/snippets\/kit\/top-bar.kit": {
-		"ft": 2048,
-		"oA": 1,
-		"oAP": "\/site\/snippets\/kit\/top-bar.html",
-		"oF": 0
-		},
 	"\/site\/snippets\/library-script.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -10668,6 +10650,36 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/site\/snippets\/signup-form.php",
+		"oF": 0
+		},
+	"\/site\/snippets\/tools\/design.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/site\/snippets\/tools\/design.php",
+		"oF": 0
+		},
+	"\/site\/snippets\/tools\/handoff.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/site\/snippets\/tools\/handoff.php",
+		"oF": 0
+		},
+	"\/site\/snippets\/tools\/monitoring.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/site\/snippets\/tools\/monitoring.php",
+		"oF": 0
+		},
+	"\/site\/snippets\/tools\/prototyping.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/site\/snippets\/tools\/prototyping.php",
+		"oF": 0
+		},
+	"\/site\/snippets\/tools\/versioning.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/site\/snippets\/tools\/versioning.php",
 		"oF": 0
 		},
 	"\/site\/snippets\/top-bar.php": {
@@ -10710,72 +10722,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/site\/templates\/home.php",
-		"oF": 0
-		},
-	"\/site\/templates\/kit\/design.kit": {
-		"ft": 2048,
-		"oA": 0,
-		"oAP": "\/site\/templates\/kit\/design.html",
-		"oF": 0
-		},
-	"\/site\/templates\/kit\/design.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/site\/templates\/kit\/design.php",
-		"oF": 0
-		},
-	"\/site\/templates\/kit\/handoff.html": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/site\/templates\/kit\/handoff.html",
-		"oF": 0
-		},
-	"\/site\/templates\/kit\/handoff.kit": {
-		"ft": 2048,
-		"oA": 0,
-		"oAP": "\/site\/templates\/kit\/handoff.html",
-		"oF": 0
-		},
-	"\/site\/templates\/kit\/monitoring.html": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/site\/templates\/kit\/monitoring.html",
-		"oF": 0
-		},
-	"\/site\/templates\/kit\/monitoring.kit": {
-		"ft": 2048,
-		"oA": 0,
-		"oAP": "\/site\/templates\/kit\/monitoring.html",
-		"oF": 0
-		},
-	"\/site\/templates\/kit\/prototyping.html": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/site\/templates\/kit\/prototyping.html",
-		"oF": 0
-		},
-	"\/site\/templates\/kit\/prototyping.kit": {
-		"ft": 2048,
-		"oA": 0,
-		"oAP": "\/site\/templates\/kit\/prototyping.html",
-		"oF": 0
-		},
-	"\/site\/templates\/kit\/tools-app.kit": {
-		"ft": 2048,
-		"oA": 0,
-		"oAP": "\/site\/templates\/tools-app.php",
-		"oF": 2
-		},
-	"\/site\/templates\/kit\/versioning.html": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/site\/templates\/kit\/versioning.html",
-		"oF": 0
-		},
-	"\/site\/templates\/kit\/versioning.kit": {
-		"ft": 2048,
-		"oA": 0,
-		"oAP": "\/site\/templates\/kit\/versioning.html",
 		"oF": 0
 		},
 	"\/site\/templates\/library-app.php": {
