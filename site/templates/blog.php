@@ -10,6 +10,7 @@
     </div>
 
 </header>
+<hr/>
 
 <div>
   <ul class="blog-preview large">

@@ -4250,6 +4250,40 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/content\/3-blog\/20160928-you-can-use-framer-whether-you-code-or-not\/blog-post.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/3-blog\/20160928-you-can-use-framer-whether-you-code-or-not\/blog-post.txt",
+		"oF": 0
+		},
+	"\/content\/3-blog\/20160928-you-can-use-framer-whether-you-code-or-not\/cover.jpg": {
+		"ft": 16384,
+		"iS": 68352,
+		"oA": 0,
+		"oAP": "\/content\/3-blog\/20160928-you-can-use-framer-whether-you-code-or-not\/cover.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/content\/3-blog\/20160928-you-can-use-framer-whether-you-code-or-not\/image-1.gif": {
+		"ft": 4194304,
+		"iS": 2150796,
+		"oA": 0,
+		"oAP": "\/content\/3-blog\/20160928-you-can-use-framer-whether-you-code-or-not\/image-1.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/content\/3-blog\/20160928-you-can-use-framer-whether-you-code-or-not\/social.jpg": {
+		"ft": 16384,
+		"iS": 37379,
+		"oA": 0,
+		"oAP": "\/content\/3-blog\/20160928-you-can-use-framer-whether-you-code-or-not\/social.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/content\/3-blog\/20161021-the-future-of-the-ux-design-workflow-the-handoff\/blog-post.txt": {
 		"ft": 8192,
 		"oA": 2,
@@ -4507,6 +4541,110 @@
 		"iS": 97859,
 		"oA": 0,
 		"oAP": "\/content\/3-blog\/20161121-ux-books-survey-results-a-reading-list\/social.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/content\/3-blog\/20161219-what-your-relatives-actually-think-when-you-say-ux-designer\/blog-post.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/3-blog\/20161219-what-your-relatives-actually-think-when-you-say-ux-designer\/blog-post.txt",
+		"oF": 0
+		},
+	"\/content\/3-blog\/20161219-what-your-relatives-actually-think-when-you-say-ux-designer\/cover.png": {
+		"ft": 32768,
+		"iS": 560936,
+		"oA": 0,
+		"oAP": "\/content\/3-blog\/20161219-what-your-relatives-actually-think-when-you-say-ux-designer\/cover.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/content\/3-blog\/20161219-what-your-relatives-actually-think-when-you-say-ux-designer\/image-1.png": {
+		"ft": 32768,
+		"iS": 508834,
+		"oA": 0,
+		"oAP": "\/content\/3-blog\/20161219-what-your-relatives-actually-think-when-you-say-ux-designer\/image-1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/content\/3-blog\/20161219-what-your-relatives-actually-think-when-you-say-ux-designer\/image-2.png": {
+		"ft": 32768,
+		"iS": 492200,
+		"oA": 0,
+		"oAP": "\/content\/3-blog\/20161219-what-your-relatives-actually-think-when-you-say-ux-designer\/image-2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/content\/3-blog\/20161219-what-your-relatives-actually-think-when-you-say-ux-designer\/image-3.png": {
+		"ft": 32768,
+		"iS": 512448,
+		"oA": 0,
+		"oAP": "\/content\/3-blog\/20161219-what-your-relatives-actually-think-when-you-say-ux-designer\/image-3.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/content\/3-blog\/20161219-what-your-relatives-actually-think-when-you-say-ux-designer\/image-4.png": {
+		"ft": 32768,
+		"iS": 549368,
+		"oA": 0,
+		"oAP": "\/content\/3-blog\/20161219-what-your-relatives-actually-think-when-you-say-ux-designer\/image-4.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/content\/3-blog\/20161219-what-your-relatives-actually-think-when-you-say-ux-designer\/image-5.png": {
+		"ft": 32768,
+		"iS": 412091,
+		"oA": 0,
+		"oAP": "\/content\/3-blog\/20161219-what-your-relatives-actually-think-when-you-say-ux-designer\/image-5.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/content\/3-blog\/20161219-what-your-relatives-actually-think-when-you-say-ux-designer\/image-6.png": {
+		"ft": 32768,
+		"iS": 472385,
+		"oA": 0,
+		"oAP": "\/content\/3-blog\/20161219-what-your-relatives-actually-think-when-you-say-ux-designer\/image-6.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/content\/3-blog\/20161219-what-your-relatives-actually-think-when-you-say-ux-designer\/image-7.png": {
+		"ft": 32768,
+		"iS": 472761,
+		"oA": 0,
+		"oAP": "\/content\/3-blog\/20161219-what-your-relatives-actually-think-when-you-say-ux-designer\/image-7.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/content\/3-blog\/20161219-what-your-relatives-actually-think-when-you-say-ux-designer\/social.jpg": {
+		"ft": 16384,
+		"iS": 81180,
+		"oA": 0,
+		"oAP": "\/content\/3-blog\/20161219-what-your-relatives-actually-think-when-you-say-ux-designer\/social.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -4843,6 +4981,16 @@
 		"oA": 2,
 		"oAP": "\/content\/4-about\/about.txt",
 		"oF": 0
+		},
+	"\/content\/4-about\/social.jpg": {
+		"ft": 16384,
+		"iS": 70166,
+		"oA": 0,
+		"oAP": "\/content\/4-about\/social.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/content\/error\/error.txt": {
 		"ft": 8192,
@@ -10414,10 +10562,22 @@
 		"oAP": "\/site\/snippets\/coverimage.php",
 		"oF": 0
 		},
+	"\/site\/snippets\/design.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/site\/snippets\/design.php",
+		"oF": 0
+		},
 	"\/site\/snippets\/footer.php": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/site\/snippets\/footer.php",
+		"oF": 0
+		},
+	"\/site\/snippets\/google-ad.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/site\/snippets\/google-ad.php",
 		"oF": 0
 		},
 	"\/site\/snippets\/head\/favicon.php": {
@@ -10552,22 +10712,16 @@
 		"oAP": "\/site\/templates\/home.php",
 		"oF": 0
 		},
-	"\/site\/templates\/kit\/about.kit": {
-		"ft": 2048,
-		"oA": 0,
-		"oAP": "\/site\/templates\/about.php",
-		"oF": 2
-		},
-	"\/site\/templates\/kit\/design.html": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/site\/templates\/kit\/design.html",
-		"oF": 0
-		},
 	"\/site\/templates\/kit\/design.kit": {
 		"ft": 2048,
 		"oA": 0,
 		"oAP": "\/site\/templates\/kit\/design.html",
+		"oF": 0
+		},
+	"\/site\/templates\/kit\/design.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/site\/templates\/kit\/design.php",
 		"oF": 0
 		},
 	"\/site\/templates\/kit\/handoff.html": {
