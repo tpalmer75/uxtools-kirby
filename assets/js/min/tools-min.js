@@ -22461,10 +22461,10 @@ const designData = {
         "penTool": false,
         "collaboration": true,
         "comments": true,
-        "handoff": false,
+        "handoff": true,
         "artboards": false,
-        "symbols": false,
-        "responsive": false,
+        "symbols": true,
+        "responsive": true,
         "prototyping": true,
         "vector": true,
         "pricing": {
@@ -24040,9 +24040,13 @@ const handoffData = {
             "sketch": true,
         },
         "specs": true,
+        "automatic": true,
+        "assets": true,
+        "layers": true,
         "measure": true,
         "comments": true,
-        "revisions": false,
+        "revisions": true,
+        "styleguide": true,
         "sharing": {
             "web": true,
         },
@@ -24050,7 +24054,9 @@ const handoffData = {
             "free": false,
             "subscription": "$20+"
         },
-        "integrations": {},
+        "integrations": {
+            "slack": true
+        },
     }, {
         "name": "InVision",
         "url": "https://www.invisionapp.com/",
@@ -24273,6 +24279,11 @@ const handoffData = {
             "show": true,
             "canChange": true,
             "tipText": "Allows custom <br>CSS variables"
+    }, {
+            "title": "Style Guide",
+            "show": true,
+            "canChange": true,
+            "tipText": "Auto-generates <br>style guide"
     }, {
             "title": "Guides",
             "show": true,

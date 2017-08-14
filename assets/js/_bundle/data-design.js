@@ -341,10 +341,10 @@ const designData = {
         "penTool": false,
         "collaboration": true,
         "comments": true,
-        "handoff": false,
+        "handoff": true,
         "artboards": false,
-        "symbols": false,
-        "responsive": false,
+        "symbols": true,
+        "responsive": true,
         "prototyping": true,
         "vector": true,
         "pricing": {
