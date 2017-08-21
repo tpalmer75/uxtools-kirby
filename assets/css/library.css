@@ -456,9 +456,12 @@ input {
   margin: auto;
   padding: 0;
 }
+.blog-post .blog-content figure {
+  text-align: center;
+}
 .blog-post .blog-content img {
-  width: 100%;
-  margin-top: 20px;
+  max-width: 100%;
+  margin: 20px auto 0 auto;
 }
 .blog-post .cover-image {
   width: 100%;

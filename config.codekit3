@@ -3859,6 +3859,37 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/assets\/images\/vectors\/backpack.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/images\/vectors\/backpack.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/images\/vectors\/graphs.png": {
+		"ft": 32768,
+		"iS": 99024,
+		"oA": 0,
+		"oAP": "\/assets\/images\/vectors\/graphs.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/vectors\/mountains.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/images\/vectors\/mountains.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/assets\/js\/_bundle\/bookData.json": {
 		"ft": 524288,
 		"oA": 1,
@@ -4997,6 +5028,53 @@
 		"oA": 2,
 		"oAP": "\/content\/error\/error.txt",
 		"oF": 0
+		},
+	"\/content\/guides\/1-making-a-great-portfolio\/graphs.png": {
+		"ft": 32768,
+		"iS": 99024,
+		"oA": 0,
+		"oAP": "\/content\/guides\/1-making-a-great-portfolio\/graphs.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/content\/guides\/1-making-a-great-portfolio\/graphs.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/content\/guides\/1-making-a-great-portfolio\/graphs.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/content\/guides\/1-making-a-great-portfolio\/guide.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/guides\/1-making-a-great-portfolio\/guide.txt",
+		"oF": 0
+		},
+	"\/content\/guides\/1-making-a-great-portfolio\/pencil-ruler.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/content\/guides\/1-making-a-great-portfolio\/pencil-ruler.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/content\/guides\/1-making-a-great-portfolio\/quality-quantity.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/content\/guides\/1-making-a-great-portfolio\/quality-quantity.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/content\/home\/home.txt": {
 		"ft": 8192,
@@ -10716,6 +10794,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/site\/templates\/default.php",
+		"oF": 0
+		},
+	"\/site\/templates\/guide.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/site\/templates\/guide.php",
 		"oF": 0
 		},
 	"\/site\/templates\/home.php": {

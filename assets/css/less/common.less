@@ -141,9 +141,12 @@ input {
 		width: 100%;
 		margin: auto;
 		padding: 0;
+		figure {
+			text-align: center;
+		}
 		img {
-			width: 100%;
-			margin-top: 20px;
+			max-width: 100%;
+			margin: 20px auto 0 auto;
 		}
 	}
 	.cover-image {
@@ -264,11 +267,13 @@ button, input[type="submit"] {
 	top: -9999px;
 	left: -9999px;
 }
+
 .promotions-are-blocked {
 	.promotion-missing {
 		display: block;
 	}
 }
+
 .promotion-missing {
 	display: none;
 	padding: 0 20px;

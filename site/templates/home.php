@@ -24,6 +24,25 @@
       <?php snippet('google-ad') ?>
         
     </section>
+
+    <section class="gray field-guide">
+    <img src="assets/images/vectors/mountains.svg">
+    <h2>The UX Tools Field Guide</h2>
+      <ul>
+        <?php foreach(page('guides')->children()->flip()->limit(3) as $article): ?>
+        <li>
+          <a href="<?php echo $article->url() ?>">
+            <?= (new Asset("assets/images/vectors/".$article->icon()))->content() ?>
+            <h3>
+              <span>The UX Tools Guide to</span>
+              <?php echo html($article->shorttitle()) ?>
+            </h3>
+          </a>
+        </li>
+        <?php endforeach ?>
+      </ul>
+      <h4>More coming soon!</h4>
+    </section>
     <section>
       <div class="wrapper">
         <div class="columns">
@@ -58,10 +77,5 @@
     </section>
 
     <?php snippet('signup-form') ?>
-
-    <footer>
-      <p>Made by <a href="https://twitter.com/@_taylorpalmer">Taylor Palmer</a> in his spare time.</p>
-      
-    </footer>
 
 <?php snippet('footer') ?>
