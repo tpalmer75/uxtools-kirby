@@ -383,6 +383,9 @@ em {
   h1 {
     font-size: 32px;
   }
+  h2 {
+    font-size: 32px;
+  }
   h3 {
     font-size: 28px;
   }
@@ -714,6 +717,11 @@ section.gray {
   max-width: 450px;
   margin: 20px;
 }
+@media all and (max-width: 500px) {
+  .columns .content {
+    margin: 20px 0;
+  }
+}
 .columns .content img {
   width: 100%;
 }
@@ -735,8 +743,24 @@ section.gray {
 .landing-image .shadow-image {
   position: absolute;
   width: 100%;
-  bottom: 0;
+  bottom: 3px;
   left: 0;
+}
+.hero {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+}
+.hero h1 {
+  margin: 0 auto 20px auto;
+  max-width: 500px;
+  font-size: 36px;
+}
+@media all and (max-width: 500px) {
+  .hero h1 {
+    font-size: 32px;
+  }
 }
 .blog-preview {
   max-width: 1075px;
