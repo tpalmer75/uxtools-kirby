@@ -1,0 +1,106 @@
+Title: The UX Tools Guide to Making a Great Portfolio
+
+----
+
+Shorttitle: Making a Great Portfolio
+
+----
+
+Coverimage: cover.jpg
+
+----
+
+Icon: backpack.svg
+
+----
+
+Text: 
+
+Anyone looking for a job in the UX field is usually most concerned with one thing: their portfolio. Is it strong enough? How does it compare with so-and-so? What will recruiters think? Instead of redesigning your layout every month, here are some helpful tips for building a successful portfolio.
+
+As I've critiqued others portfolios and my own, I've documented the things I've learned and wished I had avoided. Everyone seems to have the same questions, so I'm finally capturing all of my thoughts in one place.
+
+I admit that some of this advice might be different if you’re applying to be a visual designer, or a user researcher, or a mystical unicorn. But for more general cases of user experience design, take a look.
+
+### It's all about "why"
+
+If you're coming from another field, your portfolio might be technically proficient, visually pleasing, or anything in between. In UX, however, it's all about "why."
+
+Why was this the right project? Why was it the right solution for the business? Why was this the best user experience? Why were you valuable to the project? Many portfolios feature elaborate and decorative mock ups framed in a range of modern devices and stock photography. Your portfolio should be different, however. Your portfolio should house the meat of the project.
+
+Here are some things that can help you tell the story of “why”:
+* Insights from a particularly potent user interview that changed the direction of a project
+* Qualitative observations from usability testing
+* Data and analysis of flows, funnels, and success rates
+* Business goals and strategies that affected your priorities
+
+The more equipped you are to answer the “why” questions, the more likely your portfolio will be considered for roles in user experience design.
+
+(image: quality-quantity.svg)
+
+### Picking the right projects
+Your portfolio is all about quality over quantity. I once heard these wise words which I still ring true in today’s portfolios:
+> You’re only as good as your worst portfolio piece.
+
+I remember putting literally everything under the sun in my first portfolio: illustrations, art projects, websites, side projects, logo design, etc. Some of these can be useful if you’re applying to be a generalist (usually at a smaller company that needs a broad skillset), but—more often than not—they’re only going to drag you down.
+
+My advice: focus on 2–3 really, really strong portfolio pieces. I usually look for projects that can sustain a conversation for an hour or so, which is why it’s so important to understand and include the “why” of these projects. A junior designer with two strong projects is a much more likely candidate than a mid-level designer with ten weak projects.
+
+### Who you worked with
+Some portfolios take all the credit: “I designed this app” or “I had this idea.” Others anchor themselves closely to the ambiguous *we*: “We decided to head another direction” or “We interviewed the users.” Rather than embellish your own involvement or chalk it up to teamwork, describe your role and how you worked with others.
+
+In my opinion, the best designers are *facilitators*, not geniuses.  When a designer can take feedback from product management, engineering, and leadership and produce a design that meets the requirements of each group, she makes herself an indispensable member of that team. Describe the deadlines, the budget constraints, and the limited resources you had to make the project happen. This is the real world, and no one is expecting every project to run smoothly. Don’t be afraid to showcase how you had to get your hands dirty to get a design across the finish line.
+
+### Put the most important information up front
+The most important information is your design work—nothing else. Put the work up front, and let everything else take a back seat.  Headshots are for models; funny stories are for writers. Any recruiter or hiring manager is looking to see that you can produce high-quality design, and that’s most efficiently done by looking at imagery of your design work.
+
+Your experience and skillset are next on the list. This can be in nicely formatted resume or just included outright on your portfolio website. The most basic information should include how many years of experience you have and where you have previously worked. Make this easy to read and understand.
+
+Oh yeah, speaking of resumes...
+
+(image: graphs.svg)
+
+### Your resume
+Don’t put graphs of your skills. Just... seriously, don’t do it.
+
+(If you're not sure why, [read this](https://deardesignstudent.com/100-clever-0-hired-77b8ad81ff7))
+
+### Project outline
+In many cases, a UX portfolio project may have more text than imagery (and that’s okay!). Here's a checklist of content you might want to include in your projects:
+- **Purpose:** what is this project really all about?
+- **Hypothesis:** what did you expect to happen as a result of this project?
+- **Collaborators:** who else was on this project with you?
+- **Role:** what did you do specifically?
+- **Timeline:** when did this project happen? How long did it take?
+- **Research:** what data or research drove this project? How was it gathered? How did it affect scope or strategy?
+- **Deliverables:** what was the output of this project? (Usually UI design, but could be research, personas, etc.)
+- **Outcome:** what actually happened as a result of this project? (Any statistical data to prove your outcome goes a long way here.)
+- **What you learned:** what would you have done differently? How were your skills challenged?
+
+Here are some things to avoid:
+- **Isometric images:** while super popular and trendy, these do little to showcase your work. (Also my portfolio was once ripped to pieces in an interview because I used these.)
+- **Irrelevant personas:** it’s easy to find some stock photos and describe what kind of car you think your persona might drive—because it’s user-focused, right? Only consider including these if they actually affected your project and your team regularly referred back to them.
+- **Blaming others:** no one wants to hear a designer criticize their co-workers. I’ve seen candidates explain away their own shortcomings by saying they were bottle-necked or constrained by someone else. These problems do exist, but focus on what you do well (not what someone else did poorly).
+
+(image: pencil-ruler.svg)
+
+### A word to students
+Students seem to have the hardest time putting a portfolio together due to a lack of experience. Like I said before, don’t cram every piece of graphic design into your portfolio. Instead, focus on two or three projects than can accurately depict your enthusiasm for user-centered design. The easiest way to dress up a school project is to do research (interviews, usability testing, etc) and then improve your project with what you learned from that research. 
+
+Not all of your classes will offer picture-perfect portfolio pieces, but consider tailoring your projects to meet you needs. Can you create a website instead of a magazine? What about an app instead of a brochure? Use these opportunities to show that you’re willing to go the extra mile.
+
+This industry cares less about traditional measurements like grades and GPA, and more about problem solving skills and creativity. Don't be afraid to show mistakes, opportunities to learn, and ways you would like to improve. Self-awareness is a very desireable skill, and your raw and honest portfolio is sure to get you a great job in UX 👍.
+
+***
+
+Your portfolio is the face of your career. As you progress, networking and reputation can replace the need for a public-facing portfolio. In my opinion, it's still a good practice to document and reflect on your projects to understand what you did well and what you can do better next time.
+
+Hope these tips were useful—keep a lookout for more tips from the UX Tools Field Guide.
+
+### Examples portfolios
+
+[http://simonpan.com/](http://simonpan.com/)
+
+[http://www.francestung.com/](http://www.francestung.com/)
+
+[http://taylorpalmer.co/ (That's me!)](http://taylorpalmer.co/)

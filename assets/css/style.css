@@ -456,9 +456,12 @@ input {
   margin: auto;
   padding: 0;
 }
+.blog-post .blog-content figure {
+  text-align: center;
+}
 .blog-post .blog-content img {
-  width: 100%;
-  margin-top: 20px;
+  max-width: 100%;
+  margin: 20px auto 0 auto;
 }
 .blog-post .cover-image {
   width: 100%;
@@ -761,6 +764,52 @@ section.gray {
   .hero h1 {
     font-size: 32px;
   }
+}
+.field-guide {
+  text-align: center;
+  padding: 100px 0;
+}
+.field-guide svg {
+  position: relative;
+  top: 0;
+  transition: all 0.2s ease-in-out;
+}
+.field-guide ul {
+  margin-top: 50px;
+  padding: 0 20px;
+}
+.field-guide li {
+  max-width: 500px;
+  background: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.2s;
+  border-radius: 3px;
+  margin: auto;
+}
+.field-guide li a {
+  display: block;
+  width: 100%;
+  padding: 30px 20px;
+  text-decoration: none;
+}
+.field-guide li:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
+}
+.field-guide li:hover svg {
+  top: -5px;
+}
+.field-guide h3 span {
+  display: block;
+  color: #999;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-size: 66%;
+  margin-bottom: 5px;
+}
+.guide-icon {
+  margin: auto;
+  width: 100%;
+  max-width: 150px;
 }
 .blog-preview {
   max-width: 1075px;
