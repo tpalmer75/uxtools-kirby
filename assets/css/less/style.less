@@ -42,28 +42,6 @@ footer {
 	}
 }
 
-#hero {
-	&.error-404 {
-		text-align: center;
-		max-width: 500px;
-		margin: auto;
-		.circle {
-			width: 250px;
-			height: 250px;
-			border-radius: 50%;
-			background-image: url('../img/tools-unsplash.jpg');
-			background-size: cover;
-			background-position: center;
-			margin: 30px auto;
-		}
-		h1 {
-			color: lighten(@blue-primary, 10%);
-			font-size: 48px;
-		}
-		background-image: none;
-	}
-}
-
 section {
 	padding: 0 40px;
 	@media all and (max-width: @small-size) {
@@ -205,6 +183,9 @@ section {
 	margin: auto;
 	width: 100%;
 	max-width: 150px;
+	@media all and (max-width: @small-size) {
+		max-width: 80px;
+	}
 }
 
 .blog-preview {

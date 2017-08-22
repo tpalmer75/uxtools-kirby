@@ -14,6 +14,10 @@ Icon: backpack.svg
 
 ----
 
+Socialimage: social.jpg
+
+----
+
 Text: 
 
 Anyone looking for a job in the UX field is usually most concerned with one thing: their portfolio. Is it strong enough? How does it compare with so-and-so? What will recruiters think? Instead of redesigning your layout every month, here are some helpful tips for building a successful portfolio.

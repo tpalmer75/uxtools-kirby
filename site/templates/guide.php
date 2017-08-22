@@ -27,7 +27,6 @@
 	</section>
 
 
-
 <?php snippet('signup-form') ?>
 
 <?php snippet('footer') ?>

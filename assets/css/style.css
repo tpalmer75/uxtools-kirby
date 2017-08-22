@@ -649,25 +649,6 @@ footer p {
 footer p:hover {
   opacity: 1;
 }
-#hero.error-404 {
-  text-align: center;
-  max-width: 500px;
-  margin: auto;
-  background-image: none;
-}
-#hero.error-404 .circle {
-  width: 250px;
-  height: 250px;
-  border-radius: 50%;
-  background-image: url('../img/tools-unsplash.jpg');
-  background-size: cover;
-  background-position: center;
-  margin: 30px auto;
-}
-#hero.error-404 h1 {
-  color: #72a4f7;
-  font-size: 48px;
-}
 section {
   padding: 0 40px;
 }
@@ -810,6 +791,11 @@ section.gray {
   margin: auto;
   width: 100%;
   max-width: 150px;
+}
+@media all and (max-width: 500px) {
+  .guide-icon {
+    max-width: 80px;
+  }
 }
 .blog-preview {
   max-width: 1075px;
