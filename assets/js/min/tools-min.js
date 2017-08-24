@@ -24684,7 +24684,7 @@ const monitoringData = {
 		"jumpBack": true, // Skip backwards a few seconds
 		"taylorChoice": true,
 		"pricing": {
-			"free": false,
+			"free": true,
 			"subscription": "$199+"
 		},
 		"export": {},
@@ -24707,7 +24707,7 @@ const monitoringData = {
 		"playbackSpeed": true,
 		"skipInactivity": true,
 		"pricing": {
-			"free": false,
+			"free": true,
 			"subscription": "$29+"
 		},
 		"export": {},
@@ -24783,7 +24783,7 @@ const monitoringData = {
 		"skipInactivity": true,
 		"playbackSpeed": true,
 		"pricing": {
-			"free": false,
+			"free": true,
 			"subscription": "$39+"
 		},
 		"export": {},

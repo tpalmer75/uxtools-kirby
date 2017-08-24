@@ -18,6 +18,10 @@ Socialimage: social.jpg
 
 ----
 
+Description: Some handy tips (and pitfalls to avoid) for making your UX portfolio great again.
+
+----
+
 Text: 
 
 Anyone looking for a job in the UX field is usually most concerned with one thing: their portfolio. Is it strong enough? How does it compare with so-and-so? What will recruiters think? Instead of redesigning your layout every month, here are some helpful tips for building a successful portfolio.
@@ -49,6 +53,14 @@ Your portfolio is all about quality over quantity. I once heard these wise words
 I remember putting literally everything under the sun in my first portfolio: illustrations, art projects, websites, side projects, logo design, etc. Some of these can be useful if you’re applying to be a generalist (usually at a smaller company that needs a broad skillset), but—more often than not—they’re only going to drag you down.
 
 My advice: focus on 2–3 really, really strong portfolio pieces. I usually look for projects that can sustain a conversation for an hour or so, which is why it’s so important to understand and include the “why” of these projects. A junior designer with two strong projects is a much more likely candidate than a mid-level designer with ten weak projects.
+
+<div class="promotion-missing">
+<div class="content">
+<h4>Normally there's an ad here. 🤔</h4>
+<p>I run this site by myself, so it would be awesome if you turned off your ad blocker.</p>
+</div>
+</div>
+<ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-format="fluid" data-ad-layout="in-article" data-ad-client="ca-pub-2169456968850651" data-ad-slot="1581403896"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
 
 ### Who you worked with
 Some portfolios take all the credit: “I designed this app” or “I had this idea.” Others anchor themselves closely to the ambiguous *we*: “We decided to head another direction” or “We interviewed the users.” Rather than embellish your own involvement or chalk it up to teamwork, describe your role and how you worked with others.

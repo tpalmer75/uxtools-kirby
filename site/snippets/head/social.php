@@ -3,7 +3,7 @@
 	<meta name="google-site-verification" content="_cIoag6QS8rrWSHpRrQFZ5vqDU2v0w1xKkxRmorbxmg"/>
 
 	<!-- Twitter Card data -->
-  <meta name="twitter:card" value="summary">
+  <meta name="twitter:card" content="summary_large_image">
 
   <!-- Open Graph data -->
   <meta property="og:title" content="<?= $page->title()->html() ?>" />
