@@ -24321,90 +24321,51 @@ const versioningData = {
 	columns: [
     {
             "title": "",
-            "show": true,
-            "canChange": false,
             "tipText": ""
     }, {
             "title": "Name",
-            "show": true,
-            "canChange": true,
             "tipText": "Name of app"
     }, {
             "title": "Platform",
-            "show": true,
-            "canChange": true,
             "tipText": "Platform for<br>uploading designs"
     }, {
             "title": "Free",
-            "show": true,
-            "canChange": true,
             "tipText": "Has a free version"
     }, {
             "title": "Subscription",
-            "show": true,
-            "canChange": true,
             "tipText": "Cheapest monthly<br>cost"
     }, {
             "title": "Purchase",
-            "show": true,
-            "canChange": true,
             "tipText": "One time cost"
     }, {
             "title": "Team",
-            "show": true,
-            "canChange": true,
             "tipText": "Cheapest monthly<br>cost for teams"
     }, {
             "title": "Import",
-            "show": true,
-            "canChange": true,
             "tipText": "Supported<br>file types"
-    }, 
-    // {
-    //         "title": "Git",
-    //         "show": true,
-    //         "canChange": true,
-    //         "tipText": "Requires understanding<br>of Git"
-    // }, 
-    {
+    }, {
             "title": "Symbols",
-            "show": true,
-            "canChange": true,
             "tipText": "Works<br>with symbols"
     }, {
             "title": "Documents",
-            "show": true,
-            "canChange": true,
             "tipText": "Works<br>with documents"
     }, {
             "title": "Branching",
-            "show": true,
-            "canChange": true,
             "tipText": "Can create<br>branches"
     }, {
             "title": "Preview",
-            "show": true,
-            "canChange": true,
             "tipText": "Shows preview<br>of designs"
     }, {
             "title": "Compare",
-            "show": true,
-            "canChange": true,
             "tipText": "Shows versions<br>side by side"
     }, {
             "title": "Comments",
-            "show": true,
-            "canChange": true,
             "tipText": "Users can comment<br>on designs"
     }, {
             "title": "Sharing",
-            "show": true,
-            "canChange": true,
             "tipText": "How others<br>can view designs"
     }, {
             "title": "Integrations",
-            "show": true,
-            "canChange": true,
             "tipText": "Other external apps"
     }
     ],
@@ -24917,6 +24878,227 @@ const monitoringData = {
 	}]
 };
 
+const librariesData = {
+	tools: [{
+		"name": "Lingo",
+		"url": "https://www.lingoapp.com/",
+		"image": {
+			"background-position": "-100 -1100",
+		},
+		"platforms": {
+			"mac": true
+		},
+		"programs": {
+			"sketch": true,
+		},
+		"assets": true,
+		"symbols": true,
+		"layers": true,
+		"sharing": true,
+		"permissions": true,
+		"interface": "Window",
+		"update": true, // push and pull changes
+		"annotate": true,
+		"styleguide": false,
+		"pricing": {
+			"free": true,
+			"individual": "$0+",
+			"team": "$29–$149"
+		}
+	}, {
+		"name": "Craft",
+		"url": "https://www.invisionapp.com/craft",
+		"image": {
+			"background-position": "-500 -300",
+		},
+		"platforms": {
+			"mac": true
+		},
+		"programs": {
+			"sketch": true,
+		},
+		"assets": false,
+		"symbols": true,
+		"layers": false,
+		"sharing": true,
+		"permissions": false,
+		"interface": "Panel",
+		"update": true, // push and pull changes
+		"annotate": false,
+		"styleguide": false,
+		"pricing": {
+			"free": true,
+			"individual": "—",
+			"team": "—"
+		}
+	}, {
+		"name": "Zeroheight",
+		"url": "https://www.zeroheight.com/",
+		"image": {
+			"background-position": "-200 -1100",
+		},
+		"platforms": {
+			"mac": true
+		},
+		"programs": {
+			"sketch": true,
+		},
+		"assets": false,
+		"symbols": true,
+		"layers": true,
+		"sharing": true,
+		"permissions": false,
+		"interface": "Panel",
+		"update": true, // push and pull changes
+		"annotate": false,
+		"styleguide": true,
+		"pricing": {
+			"free": false,
+			"individual": "—",
+			"team": "$19–$99"
+		}
+	}, {
+		"name": "Brand.ai",
+		"url": "https://brand.ai/",
+		"image": {
+			"backgroundPosition": "-200 -1000",
+		},
+		"platforms": {
+			"web": true
+		},
+		"programs": {
+			"sketch": true,
+			"illustrator": true,
+			"office": true,
+			"powerpoint": true,
+			"word": true
+		},
+		"assets": true,
+		"symbols": true,
+		"layers": true,
+		"sharing": true,
+		"permissions": true,
+		"interface": "Window",
+		"update": true, // push and pull changes
+		"annotate": false,
+		"styleguide": true,
+		"pricing": {
+			"free": false,
+			"individual": "—",
+			"team": "$19–$99"
+		}
+	}, {
+		"name": "Figma",
+		"url": "https://www.figma.com",
+		"image": {
+			"background-position": "-200 -100",
+		},
+		"platforms": {
+			"web": true,
+			"mac": true,
+			"windows": true
+		},
+		"programs": {
+			"figma": true,
+		},
+		"assets": false,
+		"symbols": true,
+		"layers": true,
+		"sharing": true,
+		"permissions": false,
+		"interface": "Window",
+		"update": true, // push and pull changes
+		"annotate": false,
+		"styleguide": false,
+		"pricing": {
+			"free": true,
+			"individual": "$12",
+			"team": "$12+"
+		}
+	}, {
+		"name": "UX Pin",
+		"url": "https://www.figma.com",
+		"image": {
+			"background-position": "0 -100"
+		},
+		"platforms": {
+			"web": true,
+			"mac": true,
+		},
+		"programs": {
+			"uxPin": true,
+			"sketch": true
+		},
+		"assets": true,
+		"symbols": true,
+		"layers": true,
+		"sharing": true,
+		"permissions": false,
+		"interface": "Window",
+		"update": true, // push and pull changes
+		"annotate": true,
+		"styleguide": true,
+		"pricing": {
+			"free": false,
+			"individual": "$29",
+			"team": "$49+"
+		}
+	}
+	// UX Pin
+	],
+
+	columns: [
+	{
+			"title": "",
+			"tipText": ""
+	}, {
+			"title": "Name",
+			"tipText": "Name of app"
+	}, {
+			"title": "Platform",
+			"tipText": "Platforms used to <br>upload components"
+	}, {
+			"title": "Programs",
+			"tipText": "Supported<br>file types"
+	}, {
+			"title": "Free",
+			"tipText": "Has a free version"
+	}, {
+			"title": "Individual",
+			"tipText": "Monthly cost for<br> single user"
+	}, {
+			"title": "Team",
+			"tipText": "Monthly cost for 2+<br> team members"
+	}, {
+			"title": "Symbols",
+			"tipText": "Can import<br>symbols"
+	}, {
+			"title": "Layers",
+			"tipText": "Can import<br>normal layers"
+	}, {
+			"title": "Assets",
+			"tipText": "Can import generic<br> assets (like images)"
+	}, {
+			"title": "Sharing",
+			"tipText": "Can share<br>the library"
+	}, {
+			"title": "Permissions",
+			"tipText": "Can restrict access<br>to others"
+	}, {
+			"title": "Interface",
+			"tipText": "How the tool<br>appears in-app"
+	}, {
+			"title": "Update",
+			"tipText": "Can sync changes<br>across documents"
+	}, {
+			"title": "Annotate",
+			"tipText": "Can create<br>notes about components"
+	}, {
+			"title": "Style Guide",
+			"tipText": "Automatically generates<br> a style guide<br> of components"
+	}]
+};
+
 // @codekit-prepend "_bundle/tether-1.4.0.js"
 // @codekit-prepend "_bundle/tether-drop-.1.4.1.js"
 // @codekit-prepend "_bundle/tether-tooltip-1.1.0.js"
@@ -24934,6 +25116,7 @@ const monitoringData = {
 // @codekit-prepend "_bundle/data-handoff.js"
 // @codekit-prepend "_bundle/data-versioning.js"
 // @codekit-prepend "_bundle/data-monitoring.js"
+// @codekit-prepend "_bundle/data-design-libraries.js"
 
 Vue.use(VTooltip)
 
@@ -25043,12 +25226,7 @@ Vue.directive('scrolltable', {
 					fixedCols[i].style.boxShadow = "";
 					}
 				}
-
-
-
-			};
-
-			
+			};	
 
 			scrollElement.onscroll = function() {onScroll()};
 			window.onresize = function() {resizeThings};
@@ -25058,9 +25236,6 @@ Vue.directive('scrolltable', {
 				fixedHeader.style.top = headerHeight + "px";
 				alignHeaders();
 			};
-
-
-
 
 	}
 })
@@ -25155,6 +25330,24 @@ const monitoringComp = {
 	}
 }
 
+const librariesComp = {
+	template: '#design-library-tools',
+	data: function () {
+		return {
+			toolsData: librariesData,
+			scroll: 0
+		}
+	},
+	computed: {
+		computedTools: function() {
+			return _.orderBy(this.toolsData.tools, 'name')
+		}
+	},
+	mounted: function() {
+		(adsbygoogle = window.adsbygoogle || []).push({});
+	}
+}
+
 const router = new VueRouter({
 	mode:"history",
 	base:"/tools",
@@ -25168,6 +25361,9 @@ const router = new VueRouter({
 		}, {
 			path: '/handoff', 
 			component: handoffComp,
+		}, {
+			path: '/design-libraries', 
+			component: librariesComp,
 		}, {
 			path: '/versioning', 
 			component: versioningComp,

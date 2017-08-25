@@ -15,6 +15,7 @@
 // @codekit-prepend "_bundle/data-handoff.js"
 // @codekit-prepend "_bundle/data-versioning.js"
 // @codekit-prepend "_bundle/data-monitoring.js"
+// @codekit-prepend "_bundle/data-design-libraries.js"
 
 Vue.use(VTooltip)
 
@@ -124,12 +125,7 @@ Vue.directive('scrolltable', {
 					fixedCols[i].style.boxShadow = "";
 					}
 				}
-
-
-
-			};
-
-			
+			};	
 
 			scrollElement.onscroll = function() {onScroll()};
 			window.onresize = function() {resizeThings};
@@ -139,9 +135,6 @@ Vue.directive('scrolltable', {
 				fixedHeader.style.top = headerHeight + "px";
 				alignHeaders();
 			};
-
-
-
 
 	}
 })
@@ -236,6 +229,24 @@ const monitoringComp = {
 	}
 }
 
+const librariesComp = {
+	template: '#design-library-tools',
+	data: function () {
+		return {
+			toolsData: librariesData,
+			scroll: 0
+		}
+	},
+	computed: {
+		computedTools: function() {
+			return _.orderBy(this.toolsData.tools, 'name')
+		}
+	},
+	mounted: function() {
+		(adsbygoogle = window.adsbygoogle || []).push({});
+	}
+}
+
 const router = new VueRouter({
 	mode:"history",
 	base:"/tools",
@@ -249,6 +260,9 @@ const router = new VueRouter({
 		}, {
 			path: '/handoff', 
 			component: handoffComp,
+		}, {
+			path: '/design-libraries', 
+			component: librariesComp,
 		}, {
 			path: '/versioning', 
 			component: versioningComp,
