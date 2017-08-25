@@ -237,7 +237,7 @@ table {
 }
 #main-header .scroll-tabs li span {
   font-size: 16px;
-  height: 48px;
+  height: 44px;
   padding-top: 10px;
 }
 @media all and (max-width: 500px) {

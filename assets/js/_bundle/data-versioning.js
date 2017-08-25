@@ -2,90 +2,51 @@ const versioningData = {
 	columns: [
     {
             "title": "",
-            "show": true,
-            "canChange": false,
             "tipText": ""
     }, {
             "title": "Name",
-            "show": true,
-            "canChange": true,
             "tipText": "Name of app"
     }, {
             "title": "Platform",
-            "show": true,
-            "canChange": true,
             "tipText": "Platform for<br>uploading designs"
     }, {
             "title": "Free",
-            "show": true,
-            "canChange": true,
             "tipText": "Has a free version"
     }, {
             "title": "Subscription",
-            "show": true,
-            "canChange": true,
             "tipText": "Cheapest monthly<br>cost"
     }, {
             "title": "Purchase",
-            "show": true,
-            "canChange": true,
             "tipText": "One time cost"
     }, {
             "title": "Team",
-            "show": true,
-            "canChange": true,
             "tipText": "Cheapest monthly<br>cost for teams"
     }, {
             "title": "Import",
-            "show": true,
-            "canChange": true,
             "tipText": "Supported<br>file types"
-    }, 
-    // {
-    //         "title": "Git",
-    //         "show": true,
-    //         "canChange": true,
-    //         "tipText": "Requires understanding<br>of Git"
-    // }, 
-    {
+    }, {
             "title": "Symbols",
-            "show": true,
-            "canChange": true,
             "tipText": "Works<br>with symbols"
     }, {
             "title": "Documents",
-            "show": true,
-            "canChange": true,
             "tipText": "Works<br>with documents"
     }, {
             "title": "Branching",
-            "show": true,
-            "canChange": true,
             "tipText": "Can create<br>branches"
     }, {
             "title": "Preview",
-            "show": true,
-            "canChange": true,
             "tipText": "Shows preview<br>of designs"
     }, {
             "title": "Compare",
-            "show": true,
-            "canChange": true,
             "tipText": "Shows versions<br>side by side"
     }, {
             "title": "Comments",
-            "show": true,
-            "canChange": true,
             "tipText": "Users can comment<br>on designs"
     }, {
             "title": "Sharing",
-            "show": true,
-            "canChange": true,
             "tipText": "How others<br>can view designs"
     }, {
             "title": "Integrations",
-            "show": true,
-            "canChange": true,
             "tipText": "Other external apps"
     }
     ],
