@@ -600,6 +600,34 @@ const designData = {
             "subscription": "$19",
             "purchase": "$495"
         }
+    }, {
+        "name": "Studio",
+        "url": "https://studio.design",
+        "image": {
+            "background-position": "-500 -1100",
+        },
+        "platforms": {
+            "web": true
+        },
+        "import": {
+        },
+        "export": {
+        },
+        "offline": false,
+        "penTool": false,
+        "collaboration": true, // don't actually know
+        "comments": true, // don't actually know
+        "handoff": false,
+        "plugins": false,
+        "artboards": true,
+        "symbols": true,
+        "responsive": true,
+        "prototyping": true,
+        "pricing": {
+            "free": true,
+            "subscription": "",
+            "purchase": ""
+        }
     }]
 
 }

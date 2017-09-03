@@ -232,7 +232,7 @@ table {
 }
 @media all and (max-width: 500px) {
   #main-header .scroll-tabs ul {
-    min-width: 500px;
+    min-width: 630px;
   }
 }
 #main-header .scroll-tabs li span {

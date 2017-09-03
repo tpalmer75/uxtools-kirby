@@ -39,6 +39,7 @@ const monitoringData = {
 		"console": true,
 		"skipInactivity": true,
 		"playbackSpeed": true,
+		"live": true,
 		"pricing": {
 			"free": false,
 			"subscription": "$10+"
@@ -65,6 +66,7 @@ const monitoringData = {
 		"playbackSpeed": true,
 		"jumpBack": true, // Skip backwards a few seconds
 		"taylorChoice": true,
+		"live": true,
 		"pricing": {
 			"free": true,
 			"subscription": "$199+"
@@ -187,6 +189,7 @@ const monitoringData = {
 		"skipInactivity": true,
 		"playbackSpeed": true,
 		"jumpBack": true,
+		"live": true,
 		"pricing": {
 			"free": true,
 			"subscription": "$16+"
@@ -218,83 +221,85 @@ const monitoringData = {
 			"subscription": "$44+"
 		},
 		"export": {},
+	}, {
+		"name": "Wisdom",
+		"url": "https://getwisdom.io/",
+		"image": {
+			"background-position": "-400 -1100",
+		},
+		"platforms": {
+			"web": true
+		},
+		"playback": true,
+		"tags": false,
+		"location": true,
+		"heatmaps": false,
+		"console": true,
+		"skipInactivity": true,
+		"playbackSpeed": true,
+		"formAnalytics": false,
+		"jumpBack": false,
+		"polls": false,
+		"live": true,
+		"control": true,
+		"pricing": {
+			"free": true,
+			"subscription": "$89+"
+		},
+		"export": {},
 	}],
 
 	columns: [
 	{
 			"title": "",
-			"show": true,
-			"canChange": false,
 			"tipText": ""
 	}, {
 			"title": "Name",
-			"show": true,
-			"canChange": true,
 			"tipText": "Name of app"
 	}, {
 			"title": "Free",
-			"show": true,
-			"canChange": true,
 			"tipText": "Has a free version"
 	}, {
 			"title": "Subscription",
-			"show": true,
-			"canChange": true,
 			"tipText": "Cheapest monthly<br>payment"
 	}, {
 			"title": "Purchase",
-			"show": true,
-			"canChange": true,
 			"tipText": "One time cost"
 	}, {
 			"title": "Playback",
-			"show": true,
-			"canChange": true,
 			"tipText": "Records user's<br> actions"
 	}, {
 			"title": "Skip",
-			"show": true,
-			"canChange": true,
 			"tipText": "Can skip inactivity<br> during playback"
 	}, {
 			"title": "Speed",
-			"show": true,
-			"canChange": true,
 			"tipText": "Fast-forward<br> & half-speed"
 	}, {
 			"title": "Jump Back",
-			"show": true,
-			"canChange": true,
 			"tipText": "Go back a few seconds<br> in playback (so useful)"
 	}, {
 			"title": "Console",
-			"show": true,
-			"canChange": true,
 			"tipText": "Records JS console<br> during playback"
 	}, {
 			"title": "Heatmaps",
-			"show": true,
-			"canChange": true,
 			"tipText": "Generates heatmap<br> of actions"
 	}, {
 			"title": "Location",
-			"show": true,
-			"canChange": true,
 			"tipText": "Shows visitor's<br> location"
 	}, {
 			"title": "Form Stats",
-			"show": true,
-			"canChange": true,
 			"tipText": "Analyzes form<br> drop off & stats"
 	}, {
 			"title": "Polls",
-			"show": true,
-			"canChange": true,
 			"tipText": "Can create<br> user surveys"
 	}, {
+			"title": "Live",
+			"tipText": "Can watch users<br> in real-time"
+	}, {
+			"title": "Control",
+			"tipText": "Can remotely control<br> user's browser"
+	}, {
 			"title": "Export",
-			"show": true,
-			"canChange": true,
 			"tipText": "Format for<br> downloaded"
 	}]
 };

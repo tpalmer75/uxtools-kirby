@@ -970,6 +970,38 @@ const prototypingData = {
         "heatmaps": false,
         "sensors": false
         // "mobileOnly": null,
+    }, {
+        "name": "Studio",
+        "url": "https://studio.design",
+        "image": {
+            "background-position": "-500 -1100",
+        },
+        "platforms": {
+            "web": true,
+        },
+        "pricing": {
+            "free": true,
+            "subscription": "",
+            "purchase": ""
+        },
+        "design": true,
+        "import": {
+        },
+        "micro": false,
+        "navigation": true,
+        "transition": true,
+        "data": false,
+        "code": false,
+        "sharing": {
+            "web": true
+        },
+        "handoff": false,
+        "tasks": false,
+        "analytics": false,
+        "heatmaps": false,
+        "sensors": false,
+        "description":"Althought it seems like just another browser-based design tool, there is a lot going on under the hood. The responsive mechanics will blow your mind."
+
     }],
 
     columns: [{

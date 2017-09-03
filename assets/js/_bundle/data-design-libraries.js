@@ -52,7 +52,7 @@ const librariesData = {
 			"team": "—"
 		}
 	}, {
-		"name": "Zeroheight",
+		"name": "zeroheight",
 		"url": "https://www.zeroheight.com/",
 		"image": {
 			"background-position": "-200 -1100",
@@ -153,19 +153,43 @@ const librariesData = {
 		"symbols": true,
 		"layers": true,
 		"sharing": true,
-		"permissions": false,
+		"permissions": true,
 		"interface": "Window",
 		"update": true, // push and pull changes
 		"annotate": true,
 		"styleguide": true,
 		"pricing": {
-			"free": false,
+			"free": true,
 			"individual": "$29",
 			"team": "$49+"
 		}
-	}
-	// UX Pin
-	],
+	}, {
+		"name": "Terasi",
+		"url": "https://terasi.cabai.co/",
+		"image": {
+			"background-position": "-300 -1100"
+		},
+		"platforms": {
+			"mac": true,
+		},
+		"programs": {
+			"sketch": true
+		},
+		"assets": false,
+		"symbols": true,
+		"layers": false,
+		"sharing": true,
+		"permissions": false,
+		"interface": "Window",
+		"update": true, // push and pull changes
+		"annotate": false,
+		"styleguide": false,
+		"pricing": {
+			"free": true,
+			"individual": "—",
+			"team": "—"
+		}
+	}],
 
 	columns: [
 	{

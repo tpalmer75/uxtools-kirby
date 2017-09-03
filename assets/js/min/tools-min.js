@@ -22720,6 +22720,34 @@ const designData = {
             "subscription": "$19",
             "purchase": "$495"
         }
+    }, {
+        "name": "Studio",
+        "url": "https://studio.design",
+        "image": {
+            "background-position": "-500 -1100",
+        },
+        "platforms": {
+            "web": true
+        },
+        "import": {
+        },
+        "export": {
+        },
+        "offline": false,
+        "penTool": false,
+        "collaboration": true, // don't actually know
+        "comments": true, // don't actually know
+        "handoff": false,
+        "plugins": false,
+        "artboards": true,
+        "symbols": true,
+        "responsive": true,
+        "prototyping": true,
+        "pricing": {
+            "free": true,
+            "subscription": "",
+            "purchase": ""
+        }
     }]
 
 }
@@ -23696,6 +23724,38 @@ const prototypingData = {
         "heatmaps": false,
         "sensors": false
         // "mobileOnly": null,
+    }, {
+        "name": "Studio",
+        "url": "https://studio.design",
+        "image": {
+            "background-position": "-500 -1100",
+        },
+        "platforms": {
+            "web": true,
+        },
+        "pricing": {
+            "free": true,
+            "subscription": "",
+            "purchase": ""
+        },
+        "design": true,
+        "import": {
+        },
+        "micro": false,
+        "navigation": true,
+        "transition": true,
+        "data": false,
+        "code": false,
+        "sharing": {
+            "web": true
+        },
+        "handoff": false,
+        "tasks": false,
+        "analytics": false,
+        "heatmaps": false,
+        "sensors": false,
+        "description":"Althought it seems like just another browser-based design tool, there is a lot going on under the hood. The responsive mechanics will blow your mind."
+
     }],
 
     columns: [{
@@ -24618,6 +24678,7 @@ const monitoringData = {
 		"console": true,
 		"skipInactivity": true,
 		"playbackSpeed": true,
+		"live": true,
 		"pricing": {
 			"free": false,
 			"subscription": "$10+"
@@ -24644,6 +24705,7 @@ const monitoringData = {
 		"playbackSpeed": true,
 		"jumpBack": true, // Skip backwards a few seconds
 		"taylorChoice": true,
+		"live": true,
 		"pricing": {
 			"free": true,
 			"subscription": "$199+"
@@ -24766,6 +24828,7 @@ const monitoringData = {
 		"skipInactivity": true,
 		"playbackSpeed": true,
 		"jumpBack": true,
+		"live": true,
 		"pricing": {
 			"free": true,
 			"subscription": "$16+"
@@ -24797,83 +24860,85 @@ const monitoringData = {
 			"subscription": "$44+"
 		},
 		"export": {},
+	}, {
+		"name": "Wisdom",
+		"url": "https://getwisdom.io/",
+		"image": {
+			"background-position": "-400 -1100",
+		},
+		"platforms": {
+			"web": true
+		},
+		"playback": true,
+		"tags": false,
+		"location": true,
+		"heatmaps": false,
+		"console": true,
+		"skipInactivity": true,
+		"playbackSpeed": true,
+		"formAnalytics": false,
+		"jumpBack": false,
+		"polls": false,
+		"live": true,
+		"control": true,
+		"pricing": {
+			"free": true,
+			"subscription": "$89+"
+		},
+		"export": {},
 	}],
 
 	columns: [
 	{
 			"title": "",
-			"show": true,
-			"canChange": false,
 			"tipText": ""
 	}, {
 			"title": "Name",
-			"show": true,
-			"canChange": true,
 			"tipText": "Name of app"
 	}, {
 			"title": "Free",
-			"show": true,
-			"canChange": true,
 			"tipText": "Has a free version"
 	}, {
 			"title": "Subscription",
-			"show": true,
-			"canChange": true,
 			"tipText": "Cheapest monthly<br>payment"
 	}, {
 			"title": "Purchase",
-			"show": true,
-			"canChange": true,
 			"tipText": "One time cost"
 	}, {
 			"title": "Playback",
-			"show": true,
-			"canChange": true,
 			"tipText": "Records user's<br> actions"
 	}, {
 			"title": "Skip",
-			"show": true,
-			"canChange": true,
 			"tipText": "Can skip inactivity<br> during playback"
 	}, {
 			"title": "Speed",
-			"show": true,
-			"canChange": true,
 			"tipText": "Fast-forward<br> & half-speed"
 	}, {
 			"title": "Jump Back",
-			"show": true,
-			"canChange": true,
 			"tipText": "Go back a few seconds<br> in playback (so useful)"
 	}, {
 			"title": "Console",
-			"show": true,
-			"canChange": true,
 			"tipText": "Records JS console<br> during playback"
 	}, {
 			"title": "Heatmaps",
-			"show": true,
-			"canChange": true,
 			"tipText": "Generates heatmap<br> of actions"
 	}, {
 			"title": "Location",
-			"show": true,
-			"canChange": true,
 			"tipText": "Shows visitor's<br> location"
 	}, {
 			"title": "Form Stats",
-			"show": true,
-			"canChange": true,
 			"tipText": "Analyzes form<br> drop off & stats"
 	}, {
 			"title": "Polls",
-			"show": true,
-			"canChange": true,
 			"tipText": "Can create<br> user surveys"
 	}, {
+			"title": "Live",
+			"tipText": "Can watch users<br> in real-time"
+	}, {
+			"title": "Control",
+			"tipText": "Can remotely control<br> user's browser"
+	}, {
 			"title": "Export",
-			"show": true,
-			"canChange": true,
 			"tipText": "Format for<br> downloaded"
 	}]
 };
@@ -24932,7 +24997,7 @@ const librariesData = {
 			"team": "—"
 		}
 	}, {
-		"name": "Zeroheight",
+		"name": "zeroheight",
 		"url": "https://www.zeroheight.com/",
 		"image": {
 			"background-position": "-200 -1100",
@@ -25033,19 +25098,43 @@ const librariesData = {
 		"symbols": true,
 		"layers": true,
 		"sharing": true,
-		"permissions": false,
+		"permissions": true,
 		"interface": "Window",
 		"update": true, // push and pull changes
 		"annotate": true,
 		"styleguide": true,
 		"pricing": {
-			"free": false,
+			"free": true,
 			"individual": "$29",
 			"team": "$49+"
 		}
-	}
-	// UX Pin
-	],
+	}, {
+		"name": "Terasi",
+		"url": "https://terasi.cabai.co/",
+		"image": {
+			"background-position": "-300 -1100"
+		},
+		"platforms": {
+			"mac": true,
+		},
+		"programs": {
+			"sketch": true
+		},
+		"assets": false,
+		"symbols": true,
+		"layers": false,
+		"sharing": true,
+		"permissions": false,
+		"interface": "Window",
+		"update": true, // push and pull changes
+		"annotate": false,
+		"styleguide": false,
+		"pricing": {
+			"free": true,
+			"individual": "—",
+			"team": "—"
+		}
+	}],
 
 	columns: [
 	{
