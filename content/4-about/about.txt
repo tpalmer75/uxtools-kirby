@@ -8,9 +8,11 @@ MenuTitle: About
 
 Text: 
 
-# Hi, I'm Taylor.
+# Hi, I'm [Taylor](https://twitter.com/_taylorpalmer).
 
-I’m a UX designer based out of Utah. I maintain uxtools.co in my free time; trying to provide value where I can. Looking to get in touch?
+I’m a senior UX designer based out of Utah, currently working at [Lucid](https://golucid.co). I maintain uxtools.co in my free time, and I support my costs on ads. I try to only put one or two ads on each page, so hopefully you'll find it within your heart to turn off your ad blocker ❤️. 
+
+Looking to get in touch? 
 
 ----
 

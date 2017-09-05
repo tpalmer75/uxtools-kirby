@@ -137,11 +137,11 @@ table {
   clear: both;
 }
 #logo {
-  width: 150px;
+  width: 165px;
 }
 @media all and (max-width: 500px) {
   #logo {
-    width: 120px;
+    width: 140px;
   }
 }
 #main-header {
@@ -191,6 +191,10 @@ table {
 #main-header li a.router-link-active span {
   border-bottom: 4px solid white;
   color: white;
+}
+#main-header .left a {
+  display: flex;
+  align-items: center;
 }
 #main-header .right {
   text-align: right;
@@ -324,7 +328,7 @@ table {
 }
 body {
   color: #555;
-  font-family: "PT Sans", Roboto, Helvetica, sans-serif;
+  font-family: "Karla", Roboto, Helvetica, sans-serif;
 }
 h1,
 h2,
@@ -332,10 +336,11 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "PT Sans", Roboto, Helvetica, sans-serif;
+  font-family: "Karla", Roboto, Helvetica, sans-serif;
   line-height: 1.2;
   margin-top: 30px;
   font-weight: bold;
+  letter-spacing: -0.05rem;
 }
 h1 {
   font-size: 40px;
@@ -348,6 +353,7 @@ h3 {
 }
 h4 {
   font-size: 24px;
+  letter-spacing: -0.025rem;
 }
 p {
   line-height: 1.6;
@@ -435,7 +441,7 @@ input {
   border-radius: 3px;
   text-indent: 10px;
   font-size: 16px;
-  font-family: "PT Sans", Roboto, Helvetica, sans-serif;
+  font-family: "Karla", Roboto, Helvetica, sans-serif;
   color: #555;
   height: 48px;
   box-shadow: none;
@@ -522,7 +528,7 @@ input[type="submit"] {
   border: none;
   outline: none;
   border-radius: 3px;
-  font-family: "PT Sans", Roboto, Helvetica, sans-serif;
+  font-family: "Karla", Roboto, Helvetica, sans-serif;
   font-size: 18px;
   min-height: 48px;
   padding: 10px 30px;
@@ -638,7 +644,7 @@ input[type="submit"].small {
   margin: 10px 0;
 }
 body {
-  font-family: "PT Sans", Roboto, Helvetica, sans-serif;
+  font-family: "Karla", Roboto, Helvetica, sans-serif;
   color: #333;
 }
 body,

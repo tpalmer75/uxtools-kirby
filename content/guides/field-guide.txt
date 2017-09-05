@@ -1,0 +1,17 @@
+Title: The UX Tools Field Guide
+
+----
+
+Socialimage: social.jpg
+
+----
+
+Description: Advice, tips, and tricks for the most common topics in the industry. Use this field guide to navigate the wild wilderness of UX design.
+
+----
+
+Text: We’re all just travelers on the road of user experience design. Have a seat and warm yourself by the fire. Take a rest from your journey.
+
+*But before you go…*
+
+Take this field guide. It will serve you well and help manuever the path ahead.

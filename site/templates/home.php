@@ -25,23 +25,20 @@
         
     </section>
 
-    <section class="gray field-guide">
-    <img src="assets/images/vectors/mountains.svg">
-    <h2>The UX Tools Field Guide</h2>
-      <ul>
-        <?php foreach(page('guides')->children()->flip()->limit(3) as $article): ?>
-        <li>
-          <a href="<?php echo $article->url() ?>">
-            <?= (new Asset("assets/images/vectors/".$article->icon()))->content() ?>
-            <h3>
-              <span>The UX Tools Guide to</span>
-              <?php echo html($article->shorttitle()) ?>
-            </h3>
-          </a>
-        </li>
-        <?php endforeach ?>
-      </ul>
-      <h4>More coming soon!</h4>
+    <section>
+      <div class="wrapper">
+        <div class="columns">
+          
+          <div class="content large"><a href="/guides">
+              <div class="landing-image"><img src="assets/images/field-guide.jpg" alt="The UX Tools Field Guide"/></div></a></div>
+              <div class="content">
+            <h2>The UX Tools Field Guide</h2>
+            <p>Advice, tips, and tricks for the most common topics in the industry. Use this field guide to navigate the wild wilderness of UX design.</p><a href="/guides">
+              <button class="blue">See the Guide <?= (new Asset("assets/images/icons/arrow-right.svg"))->content() ?>
+              </button></a>
+          </div>
+        </div>
+      </div>
     </section>
     <section>
       <div class="wrapper">
