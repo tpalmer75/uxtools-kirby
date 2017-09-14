@@ -53,6 +53,7 @@
     sidebar.classList.remove("show-menu");
   }, false);
 </script>
+<script id="dsq-count-scr" src="//uxtoolsco.disqus.com/count.js" async></script>
 
 </body>
 </html>

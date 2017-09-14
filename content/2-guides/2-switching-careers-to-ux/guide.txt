@@ -1,0 +1,113 @@
+Title: The UX Tools Guide to Switching Careers to UX
+
+----
+
+Shorttitle: Switching Careers to UX
+
+----
+
+Coverimage: cover.jpg
+
+----
+
+Socialimage: social.jpg
+
+----
+
+Description: Advice about making a career change from UX designers who did it themselves.
+
+----
+
+Text: 
+> “The decision sure didn’t come easy. I put in a ton of hours to make sure it was going to be a worthwhile career change. I look forward to where this career will take me!”
+
+That was said by [Mike](https://twitter.com/mikewcurtisut), one of the 20 designers I interviewed about switching  careers to User Experience Design. Each of the designers came from a unique background: teaching, architecture, marketing, event planning, and more. The paths they travelled were equally as diverse—some spanning many years, and others only a few months.
+
+As of 2017, there are few “User Experience” opportunities within higher education. Almost everyone in the industry is an immigrant from another field, meaning almost everyone has switched into UX from another area of study, education, or employment. If you’re looking to switch careers to UX, I’m sharing what I learned from these designers—some seasoned with experience, others only beginning their careers—and their secrets to success. I’ve synthesized my findings into five themes and ranked them according to the options that require the least amount of risk and life-changing decisions.
+
+*Disclaimer*: This article does not attempt to teach what User Experience Design is nor the skills an aspiring designer needs to learn. Rather, it outlines *how* other designers were successful in learning UX design and ways the reader might also find success.
+
+### Things to keep in mind
+Many of the UX designers I interviewed learned valuable lessons along the way, and would have done things differently. I tried to summarize those insights into brief, simple principles. As you begin weighing your options, keep these principles in mind. 
+
+**Networking:** Remember that your best resources are *people*. Make an effort to stay close to colleagues and acquaintances already in the field. Don’t forget to focus on *who* you are interacting with as well as what you’re learning. Go to community and industry events and get to know other professionals. The best companies hire *people*, not resumes, so help them get to know you as a person and a professional.
+
+**Ask for help:** This transition doesn’t have to be your silent cross to bear. As I interviewed designers, it was obvious that those who reached out for help moved faster, learned more, and eventually achieved their goal. Consider searching for a mentor or community that can offer this help.
+
+**Finances:** If possible, consider saving up enough money to float for 6–8 months when you’re in a transition period, having trouble finding a job, or spending significant money on a certification or degree.
+
+**Self-teach:** Because most educational institutions haven’t caught up with recent trends in the technology industry, many designers find their way into UX through their own hard work. There are endless [books](https://uxtools.co/library), podcasts, tutorials, and other materials to help you sharpen your skills. Show your future employer your thirst for knowledge by learning everything you can.
+
+Keeping these ideas in mind will help you make the most of your transition. Not all designers made the switch as easily as others. Varying amounts of time or money were required to develop the skills (and [portfolio](https://uxtools.co/guides/making-a-great-portfolio)) necessary to gain the attention of recruiters and hiring managers. Every designer I interviewed eventually found their way into their new role as a UX designer through one of the following methods, and I’m sure you can too.
+
+### 1. Switch within your current company
+Do you like where you work? You might not have to leave to become a UX designer. Depending on the size and resources of the organization, they might be open to helping you transition into a role you will be more passionate about. I’ve seen “in-house” interns make these changes. If you’re on good terms with your company, there are many benefits to moving internally:
+
+- No job searching! 🎉
+- You’re probably already familiar with the products, culture, and processes within the organization.
+- The company doesn’t have to spend time and money recruiting for new designers. 
+
+According to one designer, Josh, this seems to work best when the company is just beginning to build a UX team (expectations are low, and you might be the quickest way to get some design work done). If you’re company doesn’t have a UX team, you could be the first one! Talk to others in similar areas (Product Management, Engineering, Marketing) about your passion for design and research and see what happens. What do you stand to lose?
+
+You might also be able to leverage your current role to take on UX-like responsibilities. Are there any opportunities to identify product improvements? Use data and analysis to drive decisions? What about customer interviews and surveys? Try to stay close to these opportunities to sharpen your UX-related skills.
+
+### 2. Learn how to pitch your past experience
+One designer who made the switch, [Di](https://twitter.com/dqpdang), recommends that you “learn how to share your past work experiences with a User-Centered Design mindset. . . . Your soft skills are more important than you might expect.” She’s one of many designers who have unlocked the problem-solving and user-centric skills that are already present in their current roles. Other designers successfully switched from fields such as market research and architecture using this approach.
+
+Depending on your current job responsibilities, you may already be prepared for UX design. UX encompasses many different skills and areas of expertise including research, interaction design, usability and accessibility, web development, prototyping, and much more.
+
+Remember that [you won’t get far without a portfolio](https://uxtools.co/guides/making-a-great-portfolio). Find creative ways to showcase your work that involve problem solving and facilitating communication between many interested stakeholders. Here’s a pro tip from former architecture student, [Colby](http://www.thecolbybell.com/): 
+
+“As long as I could talk to someone on the phone or in person I was able to demo the crossover and the way I think and design. Getting passed the resume submission was the tricky part.”
+
+Transitioning designers did everything possible to utilize their hard work from the past. After exhausting these resources, it was time to create new opportunities.
+
+### 3. Start a side project
+Whether or not you believe that [side projects are the new resume](https://medium.com/@xsvengoechea/side-projects-are-the-new-resume-a07e211240b2), they *can* be a great way to showcase your skills outside of your current professional environment. What would you make when left entirely to your own devices?
+
+If you’re having trouble imagining what a side project might look like, let me help you out. You’re looking at one. I maintain uxtools.co entirely on nights and weekends. What started as a simple idea to compare tools in a table has turned into a creative outlet for me. You would be surprised [what you learn about yourself and about making products](https://blog.producthive.org/what-side-projects-taught-me-about-product-management-86fc0be6a5c7) by starting a seemingly meaningless side project.
+
+Truthfully, few designers I interviewed spoke about side projects—but that doesn’t mean you shouldn’t try. Don’t think that you need to learn Swift and iOS development skills to create your next best idea.
+
+Take Benjamin Grant. He created a simple daily feed of images called [Daily Overview](http://www.dailyoverview.com)that exhibited a new photograph of earth of space every single day. He wanted to offer his viewers a new perspective of the planet on which they lived. Not only is Benjamin’s project viewed by thousands of people every single day, it also bought him a spot on the TEDx stage where he spoke about what it’s like to [view earth from space](https://www.ted.com/talks/benjamin_grant_what_it_feels_like_to_see_earth_from_space). 
+
+Don’t you think that would help you get your foot in the door? When you create something, you know more about your users, followers, and potential customers than anyone else does. Interview them, analyze them, design for them, and then create a portfolio around what you accomplish.
+
+### 3. Go back to school
+Though it’s not the easiest decision, going back to school to receive more education has long been the traditional method for switching careers. By completing a bachelor’s or master’s degree, you are receiving national (or international) recognition for an accomplishment in education that sets you apart from others.
+
+Several designers I talked to have come from master’s programs in Human Computer Interaction (HCI) and have emerged from school with a strong understanding of user-centered research. Demand for these classically trained designers varies depending on the organization and its resources.
+
+Going back to school is comparable to doing one of the famed “UX bootcamps” with a few nuanced differences:
+- University professor’s (especially for master’s programs) are subject to rigor and certification to become a professor, where boot camp instructors may have varying levels of subject matter expertise.
+- Universities have decades of strong alumni relationships and network, and might have more resources to help students land relevant jobs.
+- Very few universities actually have a dedicated "User Experience Design" degree, which leaves students to leverage related areas of study like HCI or "Interactive Digital Design."
+- Where universities are subject to regulations and red tape that can result in several years before changes are made, bootcamps can move quickly to adapt and meet the needs of a volatile tech industry.
+
+Speaking of bootcamps...
+
+### 5. Do a bootcamp
+Bootcamps are a reaction to a slow-moving educational system failing to keep up with fast-paced industry, and they're rapidly becoming the preferred method of switching careers.
+
+Looking to try a bootcamp? Here’s some friendly advice by [Katie](https://twitter.com/hughezilla), a UX designer that sharpened her skills at a boot camp:
+> “Save up enough money to live on for 6–8 months after graduation from a bootcamp. Being financially prepared would have saved me a lot of stress and anxiety.”
+
+She readily recognizes that might not be a reality for every designer, but it's certainly worth the effort if you can swing it.
+
+After speaking to many designers who have recently graduated from bootcamps, I've collected some of their opinions and suggestions here:
+
+- Gravitate towards places with strong mentorship opportunities (this isn't just for bootcamps—this is good career advice).
+- Look for a bootcamp that works with local businesses to host _real_ projects. Anyone can dream up a student project, but they perform poorly when critiqued in an interview. Real life projects are subject to budget constraints, timelines, and (most importantly) real human motivation.
+- Consider aiming for an internship rather than a full-time position after graduating from a bootcamp. Your bootcamp can get your foot in the door, your internship can get you real experience, and your experience can land you a new role.
+
+Remember that a bootcamp won't get you a job, but a portfolio will. The focus of your bootcamp should be [making a great portfolio](https://uxtools.co/guides/making-a-great-portfolio).
+
+### Bonus: Design for a local startup
+I don’t necessarily suggest this as an option on its own, but as an opportunity for “extra credit” as you pursue one of the options listed here. Many startups are strapped for resources and will welcome any help a designer can offer. Some UX design bootcamps actually work with local startups, which is an awesome way to gain experience.
+
+Be careful that in all the excitement you aren't swept away into accepting a role you don't fully understand. Without a mentor or a way to learn proper design methods, you might have difficulty making yourself marketable and appealing to other companies you approach in the future.
+
+### Make the switch!
+Everyday designers create and architect new products and features to meet the goals of customers and, hopefully, improve their lives. I don't blame you for wanting to leave your past behind and start a new illustrious career as a UX designer! There's nothing better than seeing your idea become a reality.
+
+Just make sure you don't _actually_ leave your past behind. Chances are your job today is full of skills and experiences that will make you a better UX designer. Evaluate your options, keep what's good, and make the switch.

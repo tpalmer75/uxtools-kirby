@@ -153,42 +153,44 @@ const versioningData = {
             slack: false,
             gitlab: true
         }
-    }, {
-        // Sketch plugin for keeping Atomic systems up to date
-        // Can make cool pattern library websites
-        name: "Brand.ai",
-        url: "https://brand.ai/?utm_source=uxtools.co&utm_medium=website&utm_campaign=UX%20Tools",
-        image: {
-            backgroundPosition: "-200 -1000",
-        },
-        platforms: {
-            mac: true
-        },
-        pricing: {
-            free: false,
-            purchase: "",
-            subscription: "",
-            team: ""
-        },
-        import: {
-            sketch: true,
-            photoshop: true,
-            illustrator: true
-        },
-        git: false,
-        symbols: true,
-        documents: false,
-        branching: false,
-        preview: true,
-        compare: false,
-        comments: false,
-        sharing: {
-            web: true, 
-            mac: true, 
-        },
-        integrations: {
-        }
-    }, {
+    }, 
+    // {
+    //     // Sketch plugin for keeping Atomic systems up to date
+    //     // Can make cool pattern library websites
+    //     name: "Brand.ai",
+    //     url: "https://brand.ai/?utm_source=uxtools.co&utm_medium=website&utm_campaign=UX%20Tools",
+    //     image: {
+    //         backgroundPosition: "-200 -1000",
+    //     },
+    //     platforms: {
+    //         mac: true
+    //     },
+    //     pricing: {
+    //         free: false,
+    //         purchase: "",
+    //         subscription: "",
+    //         team: ""
+    //     },
+    //     import: {
+    //         sketch: true,
+    //         photoshop: true,
+    //         illustrator: true
+    //     },
+    //     git: false,
+    //     symbols: true,
+    //     documents: false,
+    //     branching: false,
+    //     preview: true,
+    //     compare: false,
+    //     comments: false,
+    //     sharing: {
+    //         web: true, 
+    //         mac: true, 
+    //     },
+    //     integrations: {
+    //     }
+    // }, 
+    {
         // Sketch plugin for keeping Atomic systems up to date
         // Can make cool pattern library websites
         name: "Plant",

@@ -2,6 +2,10 @@ Title: The UX Tools Field Guide
 
 ----
 
+MenuTitle: Guides
+
+----
+
 Socialimage: social.jpg
 
 ----

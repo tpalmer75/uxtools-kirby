@@ -10,7 +10,7 @@
 <div class="table-of-contents">
 <h4>Table of Contents</h4>
 <ul>
-	<?php foreach(page('guides')->children()->flip() as $article): ?>
+	<?php foreach(page('guides')->children() as $article): ?>
 	<li>
 	  <a href="<?php echo $article->url() ?>">
 	  	<h5>Chapter <?php echo $article->num() ?><span class="long-bar"></span></h5>

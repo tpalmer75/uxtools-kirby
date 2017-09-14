@@ -236,7 +236,7 @@ table {
 }
 @media all and (max-width: 500px) {
   #main-header .scroll-tabs ul {
-    min-width: 630px;
+    min-width: 660px;
   }
 }
 #main-header .scroll-tabs li span {
@@ -357,7 +357,7 @@ h4 {
 }
 p {
   line-height: 1.6;
-  margin: 20px 0;
+  margin: 30px 0;
 }
 a {
   color: inherit;
@@ -383,6 +383,11 @@ strong {
   font-weight: bold;
 }
 em {
+  font-style: italic;
+}
+blockquote {
+  padding-left: 30px;
+  border-left: 4px solid #555;
   font-style: italic;
 }
 @media all and (max-width: 767px) {
@@ -411,7 +416,7 @@ em {
     font-size: 18px;
   }
   p {
-    margin: 10px 0;
+    margin: 20px 0;
   }
 }
 ol {
@@ -468,6 +473,9 @@ input {
 .blog-post .blog-content img {
   max-width: 100%;
   margin: 20px auto 0 auto;
+}
+.blog-post.guide .cover-image {
+  max-width: 700px;
 }
 .blog-post .cover-image {
   width: 100%;
