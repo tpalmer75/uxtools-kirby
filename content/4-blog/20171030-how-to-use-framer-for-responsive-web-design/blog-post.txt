@@ -1,0 +1,160 @@
+Title: How to Use Framer for Responsive Web Design
+
+----
+
+Author: Taylor Palmer
+
+----
+
+Coverimage: cover.jpg
+
+----
+
+Date: 10/30/2017
+
+----
+
+Type: article
+
+----
+
+Socialimage: social.jpg
+
+----
+
+Description: Framer is great for mobile prototypes. Now see how great it can be for responsive web design, too.
+
+----
+
+Text:
+
+I was always disappointed after importing my designs from Sketch into Framer, only to see them sitting as a static rectangle in the middle of a yet larger rectangle. This isn’t how the web modern looks and feels (and it shouldn’t be how your Framer web prototypes look and feel, either). Over time, I’ve picked up a few tricks that have helped me create immersive web experiences in Framer that might help you too.
+
+By following these tips you will be able to:
+- Design a full screen experience that works on any device
+- Create fluid resizing patterns
+- Show and hide content dynamically based on screen size
+
+You can follow along using my sample file here: [https://framer.cloud/ZekbJ](https://framer.cloud/ZekbJ)
+
+### 1. Rebuild in Framer Design
+
+(image: image-1.png)
+
+When Framer imports from Photoshop, Sketch, and Figma, it flattens and rasterizes your work into images. These images can’t resize and scale like the vector layers you’re used to, so they won’t work for full-width web pages. Until the importing capabilities improve, it’s worth it to take your time to rebuild designs in Framer Design.
+
+Note: Use SVGs and @2x images to accommodate retina and HiDPI devices. You can still export most of your assets as SVGs and images to be used in Framer, just take the time to rebuild the layers that you want to resize with the screen.
+
+Make sure you pay attention to the resizing constraints as you design so that your assets follow the  edges of your artboard. These will do a lot of the leg work when we start resizing our content based on the screen size.
+
+### 2. Resize Your Artboard
+
+Assuming your artboard is called “Artboard” use the following snippet to adjust your work to use the full screen space.
+
+```
+Artboard.props =
+	width: Screen.width
+	height: Screen.height
+```
+
+“Artboard” refers to the artboard you created in Framer Design, and “props” is a quick reference to the properties associated with that layer. The “Screen” is utility provided by Framer to give details about the window and workspace. Using “Screen.width” and “Screen.height” we’ll apply the current window size to our artboard.
+
+<div class="promotion-missing">
+<div class="content">
+<h4>Normally there's an ad here. 🤔</h4>
+<p>I run this site by myself, so it would be awesome if you turned off your ad blocker.</p>
+</div>
+</div>
+<ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-format="fluid" data-ad-layout="in-article" data-ad-client="ca-pub-2169456968850651" data-ad-slot="1581403896"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+
+### 3. Responsive Resizing
+Looking good! Unfortunately, if you resize the browser window (which people do a lot more than you would think) your design is, once again, the wrong size. You can plan for this by using the “onResize event”. It should look something like this:
+
+```
+Canvas.onResize ->
+	Artboard.props =
+		width: Screen.width
+		height: Screen.height
+```
+
+Now, whenever the window resizes, so does your design! This opens the door to cool opportunities for showing and hiding content based on screen size.
+
+### 4. Set the Cursor Back to Normal
+By default, Framer uses a touch cursor to abstract the idea of a cursor on mobile prototypes. This feels weird (and way to big) on web prototypes, so we can easily swap it out by using this Coffeescript snippet (which is changing the “cursor” CSS declaration for the <body>):
+```
+document.body.style.cursor = style
+```
+I’ve also written this into a handy script that you can use to change the cursor into any of the [normal CSS cursors](https://developer.mozilla.org/en-US/docs/Web/CSS/cursor).
+
+```
+# Function change cursor
+Cursor = (style) -> 
+	document.body.style.cursor = style
+
+# Set the cursor to normal
+Cursor("auto")
+
+```
+Then, when you need to change cursor when hovering on a link or button, for example:
+```
+# Set the cursor to “pointer”
+MyButton.onMouseOver ->
+	Cursor(“pointer”)
+# Set cursor back to normal
+MyButton.onMouseOut ->
+	Cursor("auto")
+```
+
+### 4. Disable UI Hints
+Many prototyping tools come with blue or purple hints that flash on interactive elements whenever the user takes a misstep. These are huge buzz kill when usability testing, so I always turn them off. You can easily do that with this one-liner:
+```
+Framer.Extras.Hints.disable()
+```
+
+### 4. Hide the Framer details panel
+When you share your prototype on the web, it comes with a panel that contains the name of your prototype with a few extra details. It can be distracting, especially if you’re using this prototype for usability testing or customer feedback. Luckily, there’s an easy way around this.
+
+When you share a prototype, it’s hosted through Framer Cloud. You can log into your Framer account and manage your prototypes at [dashboard.framer.cloud](https://dashboard.framer.cloud). Click on the “Edit” button beneath and prototype, then click “Share Settings.”
+
+(image: image-2.png)
+
+Then, uncheck the option “Show sidebar with info on project page.”
+
+(image: image-3.png)
+
+Now you’ve got yourself a real life, fullscreen prototype.
+
+(Note: in my example I've left this bar visible so you can download the file)
+
+### Bonus: Create a hamburger menu
+As screens get smaller, content has to hide and reshuffle to work with the device. That’s the entire purpose of responsive design, and what good for a responsive site be without a hamburger menu? 😏
+
+In my example, I’ve created a larger nav called “FullMenu” and a hamburger icon called “MobileMenu”. When the screen gets to a certain size, I show one and I hide the other. Easy.
+
+```
+Canvas.onResize ->
+	if Screen.width > 500
+		MobileMenu.visible = false
+		FullMenu.visible = true
+	else
+		MobileMenu.visible = true
+		FullMenu.visible = false
+```
+See it in action here:
+
+(image: hamburger-menu.gif)
+
+<div class="promotion-missing">
+<div class="content">
+<h4>Normally there's an ad here. 🤔</h4>
+<p>I run this site by myself, so it would be awesome if you turned off your ad blocker.</p>
+</div>
+</div>
+<ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-format="fluid" data-ad-layout="in-article" data-ad-client="ca-pub-2169456968850651" data-ad-slot="1581403896"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+
+***
+That’s it! Now you don’t have to worry about device-pixel ratios, device aspect ratios, or even horizontal or vertical orientation. Send your prototype to phones, tablets, laptops, or desktops without concern. It’s the way the web was meant to be viewed!
+
+Download the sample file here: [https://framer.cloud/ZekbJ](https://framer.cloud/ZekbJ)
+
+If you're interested in my next post on Framer, "How to Use Responsive Media Queries in Framer", be sure to subscribe to the newsletter!

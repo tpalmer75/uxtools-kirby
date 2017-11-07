@@ -311,7 +311,7 @@ const designData = {
         "vector": true,
         "pricing": {
             "free": true,
-            "subscription": "?"
+            "subscription": "$10"
         }
 
     }, {
@@ -626,6 +626,65 @@ const designData = {
         "pricing": {
             "free": true,
             "subscription": "",
+            "purchase": ""
+        }
+    }, {
+        "name": "Mockplus",
+        "url": "https://goo.gl/uBdBne",
+        "image": {
+            "background-position": "-100 -800",
+        },
+        "platforms": {
+            "web": true
+        },
+        "import": {
+            "sketch": true
+        },
+        "export": {
+        },
+        "offline": false,
+        "penTool": false,
+        "collaboration": true,
+        "comments": true,
+        "handoff": false,
+        "plugins": false,
+        "artboards": false,
+        "symbols": true,
+        "responsive": false,
+        "prototyping": true,
+        "pricing": {
+            "free": true,
+            "subscription": "$29+",
+            "purchase": ""
+        }, 
+    }, {
+        "name": "InVision Studio",
+        "url": "https://www.invisionapp.com/studio",
+        "image": {
+            "background-position": "-300 -400",
+        },
+        "platforms": {
+            "mac": true,
+            "windows": true
+        },
+        "import": {
+            "sketch": true
+        },
+        "export": {
+        },
+        "offline": true,
+        "penTool": true,
+        "collaboration": false,
+        "comments": true,
+        "handoff": true,
+        "plugins": false,
+        "artboards": true,
+        "symbols": true,
+        "responsive": true,
+        "prototyping": true,
+        "pricing": {
+            "free": false,
+            "subscription": "??",
             "purchase": ""
         }
     }]

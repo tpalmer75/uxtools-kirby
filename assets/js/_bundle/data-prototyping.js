@@ -1,8 +1,35 @@
 const prototypingData = {
 
     tools: [{
-        "name": "Framer",
-        "url": "http://framerjs.com/",
+        "name": "InVision Studio",
+        "url": "https://www.invisionapp.com/studio",
+        "image": {
+            "background-position": "-300 -400",
+        },
+        "platforms": {
+            "mac": true,
+            "windows": true
+        },
+        "import": {
+            "sketch": true
+        },
+        "design": true,
+        "micro": true,
+        "navigation": true,
+        "transition": true,
+        "data": false,
+        "code": false,
+        "sharing": {
+            "web": true
+        },
+        "pricing": {
+            "free": false,
+            "subscription": "??",
+            "purchase": ""
+        }
+    }, {
+        "name": "Framer Studio",
+        "url": "http://framer.com/",
         "image": {
             "background-position": "-200 -400",
         },
@@ -79,7 +106,7 @@ const prototypingData = {
             "purchase": ""
         }
     }, {
-        "name": "InVision",
+        "name": "InVision (Classic)",
         "url": "https://www.invisionapp.com/",
         "image": {
             "background-position": "-300 -400",
@@ -283,7 +310,7 @@ const prototypingData = {
         },
         "pricing": {
             "free": false,
-            "subscription": "?",
+            "subscription": "$10",
             "purchase": ""
         }
     }, {
@@ -722,7 +749,9 @@ const prototypingData = {
             "purchase": ""
         },
         "design": true,
-        "import": {},
+        "import": {
+            "sketch": true,
+        },
         "micro": true,
         "navigation": true,
         "transition": true,
@@ -818,11 +847,12 @@ const prototypingData = {
         },
         "pricing": {
             "free": true,
-            "subscription": "$42+",
+            "subscription": "",
             "purchase": ""
         },
         "design": false,
         "import": {
+            "sketch": true
         },
         "micro": false,
         "navigation": true,
@@ -831,7 +861,8 @@ const prototypingData = {
         "code": false,
         "sharing": {
             "iOS": true,
-            "Android": true
+            "Android": true,
+            "web": true
         },
         "handoff": false,
         "tasks": true,

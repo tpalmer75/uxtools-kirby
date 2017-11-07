@@ -22431,7 +22431,7 @@ const designData = {
         "vector": true,
         "pricing": {
             "free": true,
-            "subscription": "?"
+            "subscription": "$10"
         }
 
     }, {
@@ -22748,6 +22748,65 @@ const designData = {
             "subscription": "",
             "purchase": ""
         }
+    }, {
+        "name": "Mockplus",
+        "url": "https://goo.gl/uBdBne",
+        "image": {
+            "background-position": "-100 -800",
+        },
+        "platforms": {
+            "web": true
+        },
+        "import": {
+            "sketch": true
+        },
+        "export": {
+        },
+        "offline": false,
+        "penTool": false,
+        "collaboration": true,
+        "comments": true,
+        "handoff": false,
+        "plugins": false,
+        "artboards": false,
+        "symbols": true,
+        "responsive": false,
+        "prototyping": true,
+        "pricing": {
+            "free": true,
+            "subscription": "$29+",
+            "purchase": ""
+        }, 
+    }, {
+        "name": "InVision Studio",
+        "url": "https://www.invisionapp.com/studio",
+        "image": {
+            "background-position": "-300 -400",
+        },
+        "platforms": {
+            "mac": true,
+            "windows": true
+        },
+        "import": {
+            "sketch": true
+        },
+        "export": {
+        },
+        "offline": true,
+        "penTool": true,
+        "collaboration": false,
+        "comments": true,
+        "handoff": true,
+        "plugins": false,
+        "artboards": true,
+        "symbols": true,
+        "responsive": true,
+        "prototyping": true,
+        "pricing": {
+            "free": false,
+            "subscription": "??",
+            "purchase": ""
+        }
     }]
 
 }
@@ -22755,8 +22814,35 @@ const designData = {
 const prototypingData = {
 
     tools: [{
-        "name": "Framer",
-        "url": "http://framerjs.com/",
+        "name": "InVision Studio",
+        "url": "https://www.invisionapp.com/studio",
+        "image": {
+            "background-position": "-300 -400",
+        },
+        "platforms": {
+            "mac": true,
+            "windows": true
+        },
+        "import": {
+            "sketch": true
+        },
+        "design": true,
+        "micro": true,
+        "navigation": true,
+        "transition": true,
+        "data": false,
+        "code": false,
+        "sharing": {
+            "web": true
+        },
+        "pricing": {
+            "free": false,
+            "subscription": "??",
+            "purchase": ""
+        }
+    }, {
+        "name": "Framer Studio",
+        "url": "http://framer.com/",
         "image": {
             "background-position": "-200 -400",
         },
@@ -22833,7 +22919,7 @@ const prototypingData = {
             "purchase": ""
         }
     }, {
-        "name": "InVision",
+        "name": "InVision (Classic)",
         "url": "https://www.invisionapp.com/",
         "image": {
             "background-position": "-300 -400",
@@ -23037,7 +23123,7 @@ const prototypingData = {
         },
         "pricing": {
             "free": false,
-            "subscription": "?",
+            "subscription": "$10",
             "purchase": ""
         }
     }, {
@@ -23476,7 +23562,9 @@ const prototypingData = {
             "purchase": ""
         },
         "design": true,
-        "import": {},
+        "import": {
+            "sketch": true,
+        },
         "micro": true,
         "navigation": true,
         "transition": true,
@@ -23572,11 +23660,12 @@ const prototypingData = {
         },
         "pricing": {
             "free": true,
-            "subscription": "$42+",
+            "subscription": "",
             "purchase": ""
         },
         "design": false,
         "import": {
+            "sketch": true
         },
         "micro": false,
         "navigation": true,
@@ -23585,7 +23674,8 @@ const prototypingData = {
         "code": false,
         "sharing": {
             "iOS": true,
-            "Android": true
+            "Android": true,
+            "web": true
         },
         "handoff": false,
         "tasks": true,
@@ -23865,7 +23955,8 @@ const handoffData = {
         },
         "programs": {
             "sketch": true,
-            "photoshop": true
+            "photoshop": true,
+            "figma": true
         },
         "specs": true,
         "automatic": true,
@@ -24274,6 +24365,37 @@ const handoffData = {
         },
         "integrations": {
         },
+    }, {
+        "name": "Marvel",
+        "url": "https://marvelapp.com/",
+        "image": {
+            "background-position": "-200 -300",
+        },
+        "platforms": {
+            "web": true,
+        },
+        "programs": {
+            "sketch": true,
+        },
+        "specs": true,
+        "automatic": true,
+        "assets": true,
+        "measure": true,
+        "variables": false,
+        "guides": false,
+        "layers": false,
+        "comments": false,
+        "revisions": false,
+        "sharing": {
+            "web": true,
+        },
+        "pricing": {
+            "free": true,
+            "subscription": "$12+",
+            "purchase": ""
+        },
+        "integrations": {
+        },
     }],
 
 
@@ -24532,42 +24654,44 @@ const versioningData = {
             slack: false,
             gitlab: true
         }
-    }, {
-        // Sketch plugin for keeping Atomic systems up to date
-        // Can make cool pattern library websites
-        name: "Brand.ai",
-        url: "https://brand.ai/?utm_source=uxtools.co&utm_medium=website&utm_campaign=UX%20Tools",
-        image: {
-            backgroundPosition: "-200 -1000",
-        },
-        platforms: {
-            mac: true
-        },
-        pricing: {
-            free: false,
-            purchase: "",
-            subscription: "",
-            team: ""
-        },
-        import: {
-            sketch: true,
-            photoshop: true,
-            illustrator: true
-        },
-        git: false,
-        symbols: true,
-        documents: false,
-        branching: false,
-        preview: true,
-        compare: false,
-        comments: false,
-        sharing: {
-            web: true, 
-            mac: true, 
-        },
-        integrations: {
-        }
-    }, {
+    }, 
+    // {
+    //     // Sketch plugin for keeping Atomic systems up to date
+    //     // Can make cool pattern library websites
+    //     name: "Brand.ai",
+    //     url: "https://brand.ai/?utm_source=uxtools.co&utm_medium=website&utm_campaign=UX%20Tools",
+    //     image: {
+    //         backgroundPosition: "-200 -1000",
+    //     },
+    //     platforms: {
+    //         mac: true
+    //     },
+    //     pricing: {
+    //         free: false,
+    //         purchase: "",
+    //         subscription: "",
+    //         team: ""
+    //     },
+    //     import: {
+    //         sketch: true,
+    //         photoshop: true,
+    //         illustrator: true
+    //     },
+    //     git: false,
+    //     symbols: true,
+    //     documents: false,
+    //     branching: false,
+    //     preview: true,
+    //     compare: false,
+    //     comments: false,
+    //     sharing: {
+    //         web: true, 
+    //         mac: true, 
+    //     },
+    //     integrations: {
+    //     }
+    // }, 
+    {
         // Sketch plugin for keeping Atomic systems up to date
         // Can make cool pattern library websites
         name: "Plant",

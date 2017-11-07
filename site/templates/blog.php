@@ -1,4 +1,10 @@
 <?php snippet('header') ?>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-2169456968850651",
+    enable_page_level_ads: true
+  });
+</script>
 
 <section class="wrapper medium">
 
@@ -50,8 +56,6 @@
   <p>This blog does not contain any articles yet.</p>
 <?php endif ?>
 </div>
-
-<?php snippet('google-ad') ?>
 
 </section>
 

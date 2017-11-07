@@ -11,7 +11,8 @@ const handoffData = {
         },
         "programs": {
             "sketch": true,
-            "photoshop": true
+            "photoshop": true,
+            "figma": true
         },
         "specs": true,
         "automatic": true,
@@ -412,6 +413,37 @@ const handoffData = {
             "web": true,
             "windows": true,
             "mac": true
+        },
+        "pricing": {
+            "free": true,
+            "subscription": "$12+",
+            "purchase": ""
+        },
+        "integrations": {
+        },
+    }, {
+        "name": "Marvel",
+        "url": "https://marvelapp.com/",
+        "image": {
+            "background-position": "-200 -300",
+        },
+        "platforms": {
+            "web": true,
+        },
+        "programs": {
+            "sketch": true,
+        },
+        "specs": true,
+        "automatic": true,
+        "assets": true,
+        "measure": true,
+        "variables": false,
+        "guides": false,
+        "layers": false,
+        "comments": false,
+        "revisions": false,
+        "sharing": {
+            "web": true,
         },
         "pricing": {
             "free": true,

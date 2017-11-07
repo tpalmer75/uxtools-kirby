@@ -762,13 +762,14 @@ section.gray {
     font-size: 32px;
   }
 }
-.guide-icon {
-  margin: auto;
+#guide-icon {
+  display: block;
+  margin: 30px auto 0;
   width: 100%;
   max-width: 150px;
 }
 @media all and (max-width: 500px) {
-  .guide-icon {
+  #guide-icon {
     max-width: 80px;
   }
 }

@@ -40,6 +40,14 @@ Many of the UX designers I interviewed learned valuable lessons along the way, a
 
 Keeping these ideas in mind will help you make the most of your transition. Not all designers made the switch as easily as others. Varying amounts of time or money were required to develop the skills (and [portfolio](https://uxtools.co/guides/making-a-great-portfolio)) necessary to gain the attention of recruiters and hiring managers. Every designer I interviewed eventually found their way into their new role as a UX designer through one of the following methods, and I’m sure you can too.
 
+<div class="promotion-missing">
+<div class="content">
+<h4>Normally there's an ad here. 🤔</h4>
+<p>I run this site by myself, so it would be awesome if you turned off your ad blocker.</p>
+</div>
+</div>
+<ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-format="fluid" data-ad-layout="in-article" data-ad-client="ca-pub-2169456968850651" data-ad-slot="1581403896"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+
 ### 1. Switch within your current company
 Do you like where you work? You might not have to leave to become a UX designer. Depending on the size and resources of the organization, they might be open to helping you transition into a role you will be more passionate about. I’ve seen “in-house” interns make these changes. If you’re on good terms with your company, there are many benefits to moving internally:
 
@@ -69,11 +77,11 @@ If you’re having trouble imagining what a side project might look like, let me
 
 Truthfully, few designers I interviewed spoke about side projects—but that doesn’t mean you shouldn’t try. Don’t think that you need to learn Swift and iOS development skills to create your next best idea.
 
-Take Benjamin Grant. He created a simple daily feed of images called [Daily Overview](http://www.dailyoverview.com)that exhibited a new photograph of earth of space every single day. He wanted to offer his viewers a new perspective of the planet on which they lived. Not only is Benjamin’s project viewed by thousands of people every single day, it also bought him a spot on the TEDx stage where he spoke about what it’s like to [view earth from space](https://www.ted.com/talks/benjamin_grant_what_it_feels_like_to_see_earth_from_space). 
+Take Benjamin Grant. He created a simple daily feed of images called [Daily Overview](http://www.dailyoverview.com) that exhibits a new photograph of earth from space every single day. He wanted to offer his viewers a new perspective of the planet on which they lived. Not only is Benjamin’s project viewed by thousands of people every single day, it also bought him a spot on the TEDx stage where he spoke about what it’s like to [view earth from space](https://www.ted.com/talks/benjamin_grant_what_it_feels_like_to_see_earth_from_space). 
 
 Don’t you think that would help you get your foot in the door? When you create something, you know more about your users, followers, and potential customers than anyone else does. Interview them, analyze them, design for them, and then create a portfolio around what you accomplish.
 
-### 3. Go back to school
+### 4. Go back to school
 Though it’s not the easiest decision, going back to school to receive more education has long been the traditional method for switching careers. By completing a bachelor’s or master’s degree, you are receiving national (or international) recognition for an accomplishment in education that sets you apart from others.
 
 Several designers I talked to have come from master’s programs in Human Computer Interaction (HCI) and have emerged from school with a strong understanding of user-centered research. Demand for these classically trained designers varies depending on the organization and its resources.
@@ -111,3 +119,11 @@ Be careful that in all the excitement you aren't swept away into accepting a rol
 Everyday designers create and architect new products and features to meet the goals of customers and, hopefully, improve their lives. I don't blame you for wanting to leave your past behind and start a new illustrious career as a UX designer! There's nothing better than seeing your idea become a reality.
 
 Just make sure you don't _actually_ leave your past behind. Chances are your job today is full of skills and experiences that will make you a better UX designer. Evaluate your options, keep what's good, and make the switch.
+
+<div class="promotion-missing">
+<div class="content">
+<h4>Normally there's an ad here. 🤔</h4>
+<p>I run this site by myself, so it would be awesome if you turned off your ad blocker.</p>
+</div>
+</div>
+<ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-format="fluid" data-ad-layout="in-article" data-ad-client="ca-pub-2169456968850651" data-ad-slot="1581403896"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script>

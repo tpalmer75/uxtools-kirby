@@ -6,10 +6,6 @@ Shorttitle: Making a Great Portfolio
 
 ----
 
-Coverimage: cover.jpg
-
-----
-
 Icon: backpack.svg
 
 ----

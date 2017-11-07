@@ -1,11 +1,18 @@
 <?php snippet('header') ?>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-2169456968850651",
+    enable_page_level_ads: true
+  });
+</script>
 
 	<section class="blog-post guide">
 		
 		<article class="blog-content">
 			<h4 class="back-to-guide"><a href="/guides"><?= (new Asset("assets/images/icons/arrow-left.svg"))->content() ?><span> Back to the Field Guide</span></a></h4>
 			<?php if($page->content()->has('Icon')): ?>
-				<img class="guide-icon" src="/assets/images/vectors/<?= $page->icon() ?>">
+				<img id="guide-icon" src="/assets/images/vectors/<?= $page->icon() ?>">
 				<h1><?= $page->title()->html() ?></h1>
 			<?php endif ?>
 			<?php if($page->content()->has('Coverimage')): ?>
@@ -33,9 +40,6 @@
 
 
 	</div>
-	</section>
-	<section class="disqus-comments">
-		<?php snippet('disqus', array('disqus_shortname' => 'uxtoolsco')) ?>
 	</section>
 <?php snippet('signup-form') ?>
 

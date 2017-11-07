@@ -13,7 +13,7 @@
 
 	<?= snippet('head/social') ?>
 
-	<?= css('/assets/css/tools.css?ver=1.5') ?>
+	<?= css('/assets/css/tools.css?ver=1.6') ?>
 
 </head>
 <body>
