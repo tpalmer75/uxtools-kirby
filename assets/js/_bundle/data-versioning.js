@@ -205,23 +205,25 @@ const versioningData = {
         pricing: {
             free: true,
             purchase: "",
-            subscription: "",
-            team: ""
+            subscription: "$12",
+            team: "$12+"
         },
         import: {
             sketch: true,
         },
         git: false,
-        symbols: false,
+        symbols: true,
         documents: true,
         branching: false,
         preview: true,
-        compare: false,
-        comments: false,
+        compare: true,
+        comments: true,
         sharing: {
-            mac: true, 
+            mac: true,
+            web: true
         },
         integrations: {
+            "slack": true
         }
     }, {
         // Very similar to Kactus, visual viewer for github

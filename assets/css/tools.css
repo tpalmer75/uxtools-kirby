@@ -326,6 +326,17 @@ table {
   right: 10px;
   font-size: 16px;
 }
+#survey-banner {
+  background-color: #FFC107;
+  color: #5a5a5a;
+  padding: 10px;
+  text-align: center;
+  font-size: 16px;
+}
+#survey-banner a {
+  color: inherit;
+  text-decoration: underline;
+}
 body {
   color: #555;
   font-family: "Karla", Roboto, Helvetica, sans-serif;

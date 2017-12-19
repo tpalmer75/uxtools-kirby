@@ -14,11 +14,12 @@
 
   <?= snippet('head/social') ?>
 
-  <?= css('assets/css/style.css?ver=1.6') ?>
+  <?= css('assets/css/style.css?ver=1.7') ?>
 
 </head>
 <body>
 
   <header id="main-header">
+    <div id="survey-banner">Take the <a href="https://uxtools.co/survey-2017">2017 Design Tools Survey!</a>  🛠</div>
     <?= snippet('top-bar')?>
   </header>

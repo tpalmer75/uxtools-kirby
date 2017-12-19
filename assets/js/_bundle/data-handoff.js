@@ -452,6 +452,38 @@ const handoffData = {
         },
         "integrations": {
         },
+    }, {
+        "name": "Adobe XD",
+        "url": "http://www.adobe.com/products/experience-design.html",
+        "image": {
+            "background-position": "0 0",
+        },
+        "platforms": {
+            "mac": true,
+            "windows": true,
+        },
+        "programs": {
+            "adobeXd": true,
+        },
+        "specs": true,
+        "automatic": true,
+        "assets": false,
+        "measure": true,
+        "variables": false,
+        "guides": false,
+        "layers": false,
+        "comments": false,
+        "revisions": false,
+        "sharing": {
+            "web": true,
+        },
+        "pricing": {
+            "free": false,
+            "subscription": "$10+",
+            "purchase": ""
+        },
+        "integrations": {
+        },
     }],
 
 

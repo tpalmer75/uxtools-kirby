@@ -22430,7 +22430,6 @@ const designData = {
         "prototyping": true,
         "vector": true,
         "pricing": {
-            "free": true,
             "subscription": "$10"
         }
 
@@ -22688,8 +22687,8 @@ const designData = {
         "prototyping": true,
         "pricing": {
             "free": false,
-            "subscription": "",
-            "purchase": "$129"
+            "subscription": "$15",
+            "purchase": "$144"
         }
     }, {
         "name": "Justinmind",
@@ -22866,8 +22865,8 @@ const prototypingData = {
         },
         "pricing": {
             "free": false,
-            "subscription": "",
-            "purchase": "$129"
+            "subscription": "$15",
+            "purchase": "$144"
         }
     }, {
         "name": "Principle",
@@ -23144,7 +23143,7 @@ const prototypingData = {
             "iOS": true
         },
         "pricing": {
-            "free": true,
+            "free": false,
             "subscription": "",
             "purchase": ""
         }
@@ -23239,6 +23238,7 @@ const prototypingData = {
         "micro": true,
         "navigation": true,
         "transitions": false,
+        "data": true,
         "sharing": {
             "web": true,
         },
@@ -24396,6 +24396,38 @@ const handoffData = {
         },
         "integrations": {
         },
+    }, {
+        "name": "Adobe XD",
+        "url": "http://www.adobe.com/products/experience-design.html",
+        "image": {
+            "background-position": "0 0",
+        },
+        "platforms": {
+            "mac": true,
+            "windows": true,
+        },
+        "programs": {
+            "adobeXd": true,
+        },
+        "specs": true,
+        "automatic": true,
+        "assets": false,
+        "measure": true,
+        "variables": false,
+        "guides": false,
+        "layers": false,
+        "comments": false,
+        "revisions": false,
+        "sharing": {
+            "web": true,
+        },
+        "pricing": {
+            "free": false,
+            "subscription": "$10+",
+            "purchase": ""
+        },
+        "integrations": {
+        },
     }],
 
 
@@ -24706,23 +24738,25 @@ const versioningData = {
         pricing: {
             free: true,
             purchase: "",
-            subscription: "",
-            team: ""
+            subscription: "$12",
+            team: "$12+"
         },
         import: {
             sketch: true,
         },
         git: false,
-        symbols: false,
+        symbols: true,
         documents: true,
         branching: false,
         preview: true,
-        compare: false,
-        comments: false,
+        compare: true,
+        comments: true,
         sharing: {
-            mac: true, 
+            mac: true,
+            web: true
         },
         integrations: {
+            "slack": true
         }
     }, {
         // Very similar to Kactus, visual viewer for github

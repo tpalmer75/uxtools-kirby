@@ -53,8 +53,8 @@ const prototypingData = {
         },
         "pricing": {
             "free": false,
-            "subscription": "",
-            "purchase": "$129"
+            "subscription": "$15",
+            "purchase": "$144"
         }
     }, {
         "name": "Principle",
@@ -331,7 +331,7 @@ const prototypingData = {
             "iOS": true
         },
         "pricing": {
-            "free": true,
+            "free": false,
             "subscription": "",
             "purchase": ""
         }
@@ -426,6 +426,7 @@ const prototypingData = {
         "micro": true,
         "navigation": true,
         "transitions": false,
+        "data": true,
         "sharing": {
             "web": true,
         },

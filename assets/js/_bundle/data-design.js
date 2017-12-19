@@ -310,7 +310,6 @@ const designData = {
         "prototyping": true,
         "vector": true,
         "pricing": {
-            "free": true,
             "subscription": "$10"
         }
 
@@ -568,8 +567,8 @@ const designData = {
         "prototyping": true,
         "pricing": {
             "free": false,
-            "subscription": "",
-            "purchase": "$129"
+            "subscription": "$15",
+            "purchase": "$144"
         }
     }, {
         "name": "Justinmind",
