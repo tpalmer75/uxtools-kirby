@@ -327,7 +327,7 @@ table {
   font-size: 16px;
 }
 #survey-banner {
-  background-color: #FFC107;
+  background-color: #FFC108;
   color: #5a5a5a;
   padding: 10px;
   text-align: center;
@@ -618,6 +618,10 @@ input[type="submit"].small {
   font-size: 16px;
   padding: 0 18px;
 }
+button.white,
+input[type="submit"].white {
+  border: 1px solid #eee;
+}
 .screen-reader {
   position: absolute;
   top: -9999px;
@@ -661,6 +665,151 @@ input[type="submit"].small {
 #signup-form button {
   width: 100%;
   margin: 10px 0;
+}
+body {
+  counter-reset: item;
+}
+.survey-2017 .survey-header {
+  background-color: #1F3E71;
+  color: white;
+  padding: 48px 20px 72px;
+  text-align: center;
+  background-image: url("/assets/images/tools-tile-dark.png");
+  background-size: cover;
+  background-position: center center;
+  box-shadow: inset 0 -10px 15px rgba(0, 0, 0, 0.35);
+}
+.survey-2017 .survey-header h1 {
+  font-family: "PT Serif", Garamond, sans-serif;
+  font-weight: bold;
+  font-size: 72px;
+  letter-spacing: 1px;
+  margin-bottom: 48px;
+  margin-top: 24px;
+}
+@media all and (max-width: 599px) {
+  .survey-2017 .survey-header h1 {
+    font-size: 48px;
+  }
+}
+.survey-2017 .survey-header h4 {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+.survey-2017 .survey-header .spacer {
+  width: 200px;
+  height: 4px;
+  background-color: #FFC108;
+  margin: 24px auto;
+}
+.survey-2017 h2 {
+  margin-top: 72px;
+}
+.survey-2017 .small-caps {
+  font-family: "Karla", Roboto, Helvetica, sans-serif;
+  font-size: .8em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+.survey-2017 .introduction {
+  background-color: #f0f0f0;
+  margin: -72px auto 0;
+  padding: 24px 48px;
+  border-radius: 10px;
+  max-width: 796px;
+}
+@media all and (max-width: 599px) {
+  .survey-2017 .introduction {
+    padding: 0 24px;
+  }
+}
+.survey-2017 .introduction:first-child:first-letter {
+  float: left;
+  font-size: 4em;
+  margin-right: 5px;
+  margin-bottom: -10px;
+  font-weight: normal;
+  line-height: 1;
+  text-transform: uppercase;
+  font-family: "PT Serif", Garamond, sans-serif;
+}
+.survey-2017 .blog-post {
+  margin-top: 0;
+}
+.survey-2017 ol {
+  list-style: none;
+  margin: 24px 0;
+}
+.survey-2017 ol li {
+  counter-increment: item;
+  margin-left: 40px;
+  position: relative;
+}
+.survey-2017 ol li:before {
+  margin-right: 10px;
+  position: absolute;
+  top: 0;
+  left: -40px;
+  content: counter(item, upper-roman);
+  color: #ccc;
+  font-family: "Karla", Roboto, Helvetica, sans-serif;
+  min-width: 40px;
+  display: inline-block;
+}
+.survey-2017 canvas {
+  margin: 48px 0;
+  height: 400px;
+}
+@media all and (max-width: 599px) {
+  .survey-2017 canvas {
+    margin: 24px 0;
+  }
+}
+.survey-2017 .columns-2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.survey-2017 .columns-2 > * {
+  flex: 0 1 48%;
+  min-width: 325px;
+}
+@media all and (max-width: 699px) {
+  .survey-2017 .columns-2 > * {
+    flex-grow: 1;
+  }
+}
+.survey-2017 .canvas-wrapper {
+  max-height: 300px;
+  width: 100%;
+}
+.survey-2017 .toolkit-cards {
+  margin-left: 0;
+  margin-bottom: 48px;
+}
+.survey-2017 .toolkit-cards li {
+  display: flex;
+  align-items: center;
+  margin-top: 24px;
+}
+.survey-2017 .toolkit-cards li img {
+  flex: 0 0 auto;
+  margin: 0 10px 0 0;
+  width: 30px;
+}
+.survey-2017 .toolkit-cards li > div {
+  flex: 1 0 auto;
+}
+.survey-2017 .toolkit-cards li h6 {
+  color: #999;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 1px;
+  margin: 0;
+}
+.survey-2017 .toolkit-cards li h5 {
+  margin-top: 2px;
 }
 body {
   font-size: 18px;

@@ -20,6 +20,5 @@
 <body>
 
   <header id="main-header">
-    <div id="survey-banner">Take the <a href="https://uxtools.co/survey-2017">2017 Design Tools Survey!</a>  🛠</div>
     <?= snippet('top-bar')?>
   </header>

@@ -1,0 +1,324 @@
+Title: Design Tools Survey
+
+----
+
+Subtitle: The 2017 Annual
+
+----
+
+MenuTitle: Design Tools Survey
+
+----
+
+Type: website
+
+----
+
+Socialimage: social.jpg
+
+----
+
+Description: We're experiencing an explosion of competing tools and innovation. See the tools everyone else is using.
+
+----
+
+Introduction: 
+
+<span class="small-caps">For the last two years</span> I have wanted to host a design tools survey but feared it wouldn't gain enough momentum to be worthwhile. Early in December 2017 I bit the bullet and constructed a survey in one weekend. The results blew me away—nearly two thousand people participated and shared the survey. The insights are equally as surprising.
+
+You can access the original raw data [here](https://docs.google.com/spreadsheets/d/1DSmF2gCWbtwzjTN4IJ4B5HHtlgp8la8ZKtkb8ohHBio/edit?usp=sharing). If you'd like to help, you can share this page on Twitter, Facebook, or whatever the kids use these days.
+
+Take a look.
+
+— [Taylor](https://twitter.com/@_taylorpalmer)
+
+----
+
+Text:
+
+## Table of Contents
+
+1. [The 2017 Designer's Toolkit](#toolkit)
+2. [Demographics](#demographics)
+3. [Brainstorming & Ideation Tools](#brainstorming)
+4. [Wireframing Tools](#wireframing)
+5. [Interface Design Tools](#interface)
+6. [Prototyping Tools](#prototyping)
+7. [Handoff Tools](#handoff)
+8. [Design System Tools](#design-system)
+9. [File Management & Version Control Tools](#file-management)
+10. [Monitoring Tools](#monitoring) 
+11. [Most Exciting Tools of 2018](#exciting)
+
+## <a id="toolkit">The 2017 Designer's Toolkit</a>
+
+According to the 1,979 participants in the 2017 survey, these are the most popular tools of the year. 
+
+<ul class="toolkit-cards">
+	<li>
+		<img src="/assets/images/logos/pencil-and-paper.png">
+		<div>
+			<h6>Brainstorming & Ideation</h6>
+			<h5>Pencil and Paper</h5>
+		</div>
+	</li>
+	<li>
+		<img src="/assets/images/logos/sketch.png">
+		<div>
+			<h6>Wireframing</h6>
+			<h5>Sketch</h5>
+		</div>
+	</li>
+	<li>
+		<img src="/assets/images/logos/sketch.png">
+		<div>
+			<h6>Interface Design</h6>
+			<h5>Sketch</h5>
+		</div>
+	</li>
+	<li>
+		<img src="/assets/images/logos/invision.png">
+		<div>
+			<h6>Prototyping</h6>
+			<h5>InVision</h5>
+		</div>
+	</li>
+	<li>
+		<img src="/assets/images/logos/invision.png">
+		<div>
+			<h6>Handoff</h6>
+			<h5>InVision</h5>
+		</div>
+	</li>
+	<li>
+		<img src="/assets/images/logos/sketch.png">
+		<div>
+			<h6>Design System</h6>
+			<h5>Sketch</h5>
+		</div>
+	</li>
+	<li>
+		<img src="/assets/images/logos/google-drive.png">
+		<div>
+			<h6>File Management</h6>
+			<h5>Google Drive</h5>
+		</div>
+	</li>
+	<li>
+		<img src="/assets/images/logos/hotjar.png">
+		<div>
+			<h6>Monitoring</h6>
+			<h5>Hotjar</h5>
+		</div>
+	</li>
+</ul>
+
+
+<div class="promotion-missing">
+<div class="content">
+<h4>Normally there's an ad here. 🤔</h4>
+<p>I run this site by myself, so it would be awesome if you turned off your ad blocker.</p>
+</div>
+</div>
+<ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-format="fluid" data-ad-layout="in-article" data-ad-client="ca-pub-2169456968850651" data-ad-slot="1581403896"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+
+
+## <a id="demographics">Demographics</a>
+
+A total of 1,979 respondents participated in the survey. Please note that all questions were optional, so not all statistics will add up perfectly. As expected, the highest amount of respondents were from the US, but over 100 countries participated overall.
+
+#### Responses By Country
+
+<div class="canvas-wrapper">
+	<canvas id="demographic-graph-1"></canvas>
+</div>
+
+<div class="columns-2">
+	<div>
+		<h4>Percentage of US Respondents</h4>
+		<div class="canvas-wrapper">
+			<canvas id="demographic-graph-2"></canvas>
+		</div>
+	</div>
+	<div>
+		<h4>Job Titles of Respondents</h4>
+		<div class="canvas-wrapper">
+			<canvas id="demographic-graph-3"></canvas>
+		</div>
+	</div>
+</div>
+
+<div class="columns-2">
+	<div>
+		<h4>Years of Experience</h4>
+		<div class="canvas-wrapper">
+			<canvas id="demographic-graph-4"></canvas>
+		</div>
+	</div>
+	<div>
+		<h4>Platforms Used</h4>
+		<div class="canvas-wrapper">
+			<canvas id="demographic-graph-5"></canvas>
+		</div>
+	</div>
+</div>
+
+<div class="columns-2">
+	<div>
+		<h4>Size of Design Team</h4>
+		<div class="canvas-wrapper">
+			<canvas id="demographic-graph-6"></canvas>
+		</div>
+	</div>
+</div>
+
+I'm really happy with the event spread of experience—it means the responses aren't colored by young or old designers, but instead should evenly represent designers of all shapes and sizes.
+
+The "Size of Design Team" questions was ambiguous and poorly structured, so I don't think the data is very accurate. For example: should a freelancer say mark themselves as "freelancer" or "Team of 1"? Next year, I'll ask about company size and team size in separate questions.
+
+## <a id="brainstorming">Brainstorming & Ideation Tools</a>
+
+This category is by far the most diverse. Look at how many "other" tools aren't even listed here! (Other responses included Lucidchart, InDesign, Affinity Designer, InVision Boards, etc.) The term "brainstorming" is too broad to have any real significance, though, so next year I hope to break this question into other areas like "Documenting Ideas" or "Gathering Requiments."
+
+<div class="canvas-wrapper">
+	<canvas id="brainstorming-graph-1"></canvas>
+</div>
+
+It's comforting to know that participants aren't afraid to get away from the computer. Most design thinking still happens at the whiteboard or on paper, but a significant amount of respondents are still exploring ideas in Sketch.
+
+## <a id="wireframing">Wireframing Tools</a>
+
+This data proves that you don't need another app to wireframe—you only need the discipline to stay away from colors, fonts, and other distractions. I did a brief exploration into smaller demographics (like Product Managers) and found that the Sketch usage, while still dominant, was much lower.
+
+> Most memorable response: "Wire framing? oh, you mean when I take LSD and I envision the layout?"
+
+<div class="canvas-wrapper">
+	<canvas id="wireframing-graph-1"></canvas>
+</div>
+
+## <a id="interface">Interface Design Tools</a>
+
+Don't let anyone fool you: Sketch is still king. These responses are the least varied of any other category, which tells me that the UI design world is less fragmented than we may think.
+
+<div class="canvas-wrapper">
+	<canvas id="interface-graph-1"></canvas>
+</div>
+
+<div class="columns-2">
+	<div>
+		<h4>Interface Design for Mac Users</h4>
+		<div class="canvas-wrapper">
+			<canvas id="interface-graph-2"></canvas>
+		</div>
+	</div>
+	<div>
+		<h4>Interface Design for Windows Users</h4>
+		<div class="canvas-wrapper">
+			<canvas id="interface-graph-3"></canvas>
+		</div>
+	</div>
+</div>
+
+The survey gathered a much smaller sample size of Windows users, and 26 of them confusingly reported using Sketch on Windows (Maybe through a virtual machine?). Interestingly, Photoshop continues to dominate on Windows machines. 
+
+## <a id="prototyping">Prototyping Tools</a>
+
+The average number of protoyping tools used by respondents was **2.98**. If it takes a designer at least three tools to accomplish their goal, we're likely to see a lot more movement in this category. Next year, I would like to split this question into more specific categories: clickable prototypes and motion design. 
+
+I knew InVision was popular, but I didn't realize it was _this_ popular. Good to see classic code still taking second place, though.
+
+<div class="canvas-wrapper">
+	<canvas id="prototyping-graph-1"></canvas>
+</div>
+
+## <a id="handoff">Handoff Tools</a>
+
+These helpful handoff tool spread like wildfire the past few years. I've been waiting for Sketch to release their own handoff tool (Sketch Cloud anyone?) but [utom](https://github.com/utom/sketch-measure) keeps blowing us away with the amazing [Sketch Measure](https://github.com/utom/sketch-measure). Nevertheless, InVision takes the cake on yet another category. 
+
+<div class="canvas-wrapper">
+	<canvas id="handoff-graph-1"></canvas>
+</div>
+
+> Most memorable response: "OS X Finder."
+
+<div class="promotion-missing">
+<div class="content">
+<h4>Normally there's an ad here. 🤔</h4>
+<p>I run this site by myself, so it would be awesome if you turned off your ad blocker.</p>
+</div>
+</div>
+<ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-format="fluid" data-ad-layout="in-article" data-ad-client="ca-pub-2169456968850651" data-ad-slot="1581403896"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+
+## <a id="design-system">Design System Tools</a>
+
+A significant chunk of respondents skipped this question entirely. 
+
+This graph is sure to change in 2018 when InVision Studio and InVision Design System Manager make their debut. For now, however, native Sketch Libraries seem to be sufficient for most participants.
+
+> Most memorable response: "None, need to work on that. :("
+
+<div class="canvas-wrapper">
+	<canvas id="design-system-graph-1"></canvas>
+</div>
+
+## <a id="file-management">File Management & Version Control Tools</a>
+
+Responses show that this question is easily segmented:
+- Standard management through Google Drive, Dropbox, etc.
+- Git versioning through Github, Bitbucket, Gitlab, Plant.io, etc.
+- A custom, internal management system
+- No management at all
+
+I expect these numbers to change as certain apps (InVision, Figma) continue to gain traction while offering native versioning systems.
+
+> Most memorable response: "OneDrive (it sucks)."
+
+<div class="canvas-wrapper">
+	<canvas id="file-management-graph-1"></canvas>
+</div>
+
+## <a id="monitoring">Monitoring Tools</a>
+
+I was surprised to see that most respondents didn't interact with these kinds of tools. If you don't, you should. The insights provided from capturing user interaction is extremely valuable. If you're looking to pick your own monitoring tool, you can [compare them here](uxtools.co/tools/monitoring).
+
+> Most memorable response: "Nothin', muffin."
+
+<div class="canvas-wrapper">
+	<canvas id="monitoring-graph-1"></canvas>
+</div>
+
+## <a id="exciting">Most Exciting Tools of 2018</a>
+
+Here's what to look out for in 2018. InVision has been marketing their new InVision Studio UI design tool, and everyone is anxious to try it. Framer and frontend code seem to always be on a desiger's "maybe some day" list. Maybe this year is the year!
+
+> Most memorable response: "None. Can we just stick to one that works? Designers are already pretty tired as it stands."
+
+<div class="canvas-wrapper">
+	<canvas id="exciting-graph-1"></canvas>
+</div>
+
+<div class="promotion-missing">
+<div class="content">
+<h4>Normally there's an ad here. 🤔</h4>
+<p>I run this site by myself, so it would be awesome if you turned off your ad blocker.</p>
+</div>
+</div>
+<ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-format="fluid" data-ad-layout="in-article" data-ad-client="ca-pub-2169456968850651" data-ad-slot="1581403896"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+
+## Ideas for Next Year
+
+Some respondents were kind enough to share their thoughts for how I could improve the survey. Here are just a few examples:
+
+> How about a question asking which plugins (e.g. Sketch) designers are using?
+
+> You're missing writing tools. Content IS design. Stop drawing boxes, everyone. Start making meaning.
+
+> You could create a group for designing UI Interaction/Animation too
+
+> Would love to know the best data / user research tool for native apps.
+
+These are all great ideas. I've already mentioned some new categories to add next year, and I'd also like to add a "None" option to each question to know how many participants don't have tools for that part of their workflow. This was a great learning experience and I can't wait until the 2018 survey.
+
+## Thanks for your participation!
+
+This survey was a ton of fun. I'm grateful to everyone who participated and promoted the survey. If you're still looking for ways to help out, please share these results with your friends and coworkers! If you'd like to be notified about the survey next year, sign up for the survey at the bottom of this page. Keep in touch!

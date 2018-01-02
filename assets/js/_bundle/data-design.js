@@ -555,11 +555,11 @@ const designData = {
         "export": {
         },
         "offline": true,
-        "penTool": false,
+        "penTool": true,
         "collaboration": false,
         "comments": false,
         "handoff": true,
-        "plugins": false,
+        "plugins": true,
         "artboards": true,
         "symbols": false,
         "responsive": true,

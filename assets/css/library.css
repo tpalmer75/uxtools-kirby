@@ -327,7 +327,7 @@ table {
   font-size: 16px;
 }
 #survey-banner {
-  background-color: #FFC107;
+  background-color: #FFC108;
   color: #5a5a5a;
   padding: 10px;
   text-align: center;
@@ -617,6 +617,10 @@ input[type="submit"].small {
   min-height: 32px;
   font-size: 16px;
   padding: 0 18px;
+}
+button.white,
+input[type="submit"].white {
+  border: 1px solid #eee;
 }
 .screen-reader {
   position: absolute;
