@@ -666,6 +666,36 @@ input[type="submit"].white {
   width: 100%;
   margin: 10px 0;
 }
+#signup-form .subscription-form {
+  background-color: transparent !important;
+  border-color: transparent !important;
+  font-family: "Karla", Roboto, Helvetica, sans-serif !important;
+  width: 100% !important;
+  max-width: 550px !important;
+  padding: 0 !important;
+}
+#signup-form * {
+  font-family: inherit !important;
+}
+#signup-form .subscription-form-content {
+  line-height: 1.4;
+}
+#signup-form .sender-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#signup-form input {
+  font-size: 16px;
+}
+@media all and (max-width: 499px) {
+  #signup-form h4 {
+    font-size: 21px;
+  }
+  #signup-form button {
+    font-size: 16px;
+  }
+}
 body {
   counter-reset: item;
 }

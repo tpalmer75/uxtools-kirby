@@ -1,0 +1,23 @@
+Title: Newsletter
+
+----
+
+MenuTitle: Subscribe
+
+----
+
+Type: website
+
+----
+
+Text: test
+
+----
+
+Socialimage: social.jpg
+
+----
+
+Description: A simple, monthly newsletter to keep up with industry tools.
+
+----

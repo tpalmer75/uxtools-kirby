@@ -1,31 +1,64 @@
-#newsletter {
-	max-width: 550px;
-	margin: auto;
-	text-align: center;
-	color: @banner;
-	h2 {
-		font-size: 32px;
-		font-weight: bold;
+#signup-form {
+	.subscription-form {
+		background-color: transparent !important;
+		border-color: transparent !important;
+		font-family: @body-font-stack !important;
+		width: 100% !important;
+		max-width: 550px !important;
+		padding: 0 !important;
 	}
-	h3 {
-		margin-top: 10px;
-		font-size: 21px;
+	* {
+		font-family: inherit !important;
 	}
-	p {
-		font-size: 16px;
-		margin: 20px 0;
+	.subscription-form-content {
 		line-height: 1.4;
 	}
+	.sender-link {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	input {
+		font-size: 16px;
+	}
+	@media all and (max-width: 499px) {
+		h4 {
+			font-size: 21px;
+		}
+		button {
+			font-size: 16px;
+		}
+	}
 }
 
-#mce-EMAIL {
-	border-radius: 4px;
-	border: 2px solid #ddd;
-	height: 36px;
-	width: 250px;
-}
+// #newsletter {
+// 	max-width: 550px;
+// 	margin: auto;
+// 	text-align: center;
+// 	color: @banner;
+// 	h2 {
+// 		font-size: 32px;
+// 		font-weight: bold;
+// 	}
+// 	h3 {
+// 		margin-top: 10px;
+// 		font-size: 21px;
+// 	}
+// 	p {
+// 		font-size: 16px;
+// 		margin: 20px 0;
+// 		line-height: 1.4;
+// 	}
+// }
 
-#mc-embedded-subscribe {
-	background: @banner;
-	color: white;
-}
+// #mce-EMAIL {
+// 	border-radius: 4px;
+// 	border: 2px solid #ddd;
+// 	height: 36px;
+// 	width: 250px;
+// }
+
+// #mc-embedded-subscribe {
+// 	background: @banner;
+// 	color: white;
+// }

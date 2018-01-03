@@ -6,7 +6,7 @@ Subtitle: The 2017 Annual
 
 ----
 
-MenuTitle: Design Tools Survey
+MenuTitle: Survey
 
 ----
 
@@ -114,15 +114,6 @@ According to the 1,979 participants in the 2017 survey, these are the most popul
 </ul>
 
 
-<div class="promotion-missing">
-<div class="content">
-<h4>Normally there's an ad here. 🤔</h4>
-<p>I run this site by myself, so it would be awesome if you turned off your ad blocker.</p>
-</div>
-</div>
-<ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-format="fluid" data-ad-layout="in-article" data-ad-client="ca-pub-2169456968850651" data-ad-slot="1581403896"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-
-
 ## <a id="demographics">Demographics</a>
 
 A total of 1,979 respondents participated in the survey. Please note that all questions were optional, so not all statistics will add up perfectly. As expected, the highest amount of respondents were from the US, but over 100 countries participated overall.
@@ -175,6 +166,14 @@ A total of 1,979 respondents participated in the survey. Please note that all qu
 I'm really happy with the event spread of experience—it means the responses aren't colored by young or old designers, but instead should evenly represent designers of all shapes and sizes.
 
 The "Size of Design Team" questions was ambiguous and poorly structured, so I don't think the data is very accurate. For example: should a freelancer say mark themselves as "freelancer" or "Team of 1"? Next year, I'll ask about company size and team size in separate questions.
+
+<div class="promotion-missing">
+<div class="content">
+<h4>Normally there's an ad here. 🤔</h4>
+<p>I run this site by myself, so it would be awesome if you turned off your ad blocker.</p>
+</div>
+</div>
+<ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-format="fluid" data-ad-layout="in-article" data-ad-client="ca-pub-2169456968850651" data-ad-slot="1581403896"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
 
 ## <a id="brainstorming">Brainstorming & Ideation Tools</a>
 
@@ -231,6 +230,14 @@ I knew InVision was popular, but I didn't realize it was _this_ popular. Good to
 	<canvas id="prototyping-graph-1"></canvas>
 </div>
 
+<div class="promotion-missing">
+<div class="content">
+<h4>Normally there's an ad here. 🤔</h4>
+<p>I run this site by myself, so it would be awesome if you turned off your ad blocker.</p>
+</div>
+</div>
+<ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-format="fluid" data-ad-layout="in-article" data-ad-client="ca-pub-2169456968850651" data-ad-slot="1581403896"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+
 ## <a id="handoff">Handoff Tools</a>
 
 These helpful handoff tool spread like wildfire the past few years. I've been waiting for Sketch to release their own handoff tool (Sketch Cloud anyone?) but [utom](https://github.com/utom/sketch-measure) keeps blowing us away with the amazing [Sketch Measure](https://github.com/utom/sketch-measure). Nevertheless, InVision takes the cake on yet another category. 
@@ -240,14 +247,6 @@ These helpful handoff tool spread like wildfire the past few years. I've been wa
 </div>
 
 > Most memorable response: "OS X Finder."
-
-<div class="promotion-missing">
-<div class="content">
-<h4>Normally there's an ad here. 🤔</h4>
-<p>I run this site by myself, so it would be awesome if you turned off your ad blocker.</p>
-</div>
-</div>
-<ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-format="fluid" data-ad-layout="in-article" data-ad-client="ca-pub-2169456968850651" data-ad-slot="1581403896"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
 
 ## <a id="design-system">Design System Tools</a>
 

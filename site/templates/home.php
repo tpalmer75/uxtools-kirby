@@ -7,6 +7,20 @@
 </section>
 <section>
       <div class="wrapper">
+        <div class="columns">
+          <div class="content"><a href="/survey-2017">
+              <div class="landing-image"><img src="assets/images/landing-image-survey.png" alt="App Logos"/><img src="assets/images/bottom-shadow.png" class="shadow-image"/></div></a></div>
+          <div class="content">
+            <h2>The 2017 Design Tools Survey</h2>
+            <p>Wonder which tools everyone else is using? In this survey, 2,000 designers gave their opinion on the most popular design tools of 2017.</p><a href="/survey-2017">
+              <button class="blue">See the Survey <?= (new Asset("assets/images/icons/arrow-right.svg"))->content() ?>
+              </button></a>
+          </div>
+        </div>
+      </div>
+    </section>
+<section>
+      <div class="wrapper">
         <div class="columns reverse">
           <div class="content">
             <h2>The ultimate comparison of UX industry tools.</h2>
@@ -42,14 +56,15 @@
     </section>
     <section>
       <div class="wrapper">
-        <div class="columns">
-          <div class="content"><a href="/library">
-              <div class="landing-image"><img src="assets/images/landing-image-books.png" alt="App Logos"/><img src="assets/images/bottom-shadow.png" class="shadow-image"/></div></a></div>
+        <div class="columns reverse">
           <div class="content">
             <h2>The ultimate list of UX industry books.</h2>
             <p>What's everyone reading these days? It’s hard to know where to start in a big industry like UX design. See the most popular and recommended books in the industry.</p><a href="/library">
               <button class="blue">Browse the Library <?= (new Asset("assets/images/icons/arrow-right.svg"))->content() ?></button></a>
           </div>
+          <div class="content"><a href="/library">
+              <div class="landing-image"><img src="assets/images/landing-image-books.png" alt="App Logos"/><img src="assets/images/bottom-shadow.png" class="shadow-image"/></div></a></div>
+          
         </div>
       </div>
     </section>
