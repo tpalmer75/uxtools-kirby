@@ -75,6 +75,9 @@ const designData = {
             "show": true,
             "canChange": true,
             "tipText": "Can prototype<br>within the app"
+    }, {
+        "title": "Last Updated",
+        "tipText": "The last time I<br>checked on this app"
     }
     // , {
     //         "title": "Import",
@@ -123,7 +126,8 @@ const designData = {
         "vector": true,
         "pricing": {
             "purchase": "$99"
-        }
+        },
+        lastUpdated: "Jan '17"
     }, {
         "name": "Figma",
         "url": "https://www.figma.com",
@@ -567,9 +571,10 @@ const designData = {
         "prototyping": true,
         "pricing": {
             "free": false,
-            "subscription": "$15",
-            "purchase": "$144"
-        }
+            "subscription": "$12",
+            "purchase": ""
+        },
+        lastUpdated: "Jan '17"
     }, {
         "name": "Justinmind",
         "url": "http://www.justinmind.com/",

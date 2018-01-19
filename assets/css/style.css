@@ -807,7 +807,7 @@ body {
 }
 @media all and (max-width: 699px) {
   .survey-2017 .columns-2 > * {
-    flex-grow: 1;
+    min-width: 100%;
   }
 }
 .survey-2017 .canvas-wrapper {

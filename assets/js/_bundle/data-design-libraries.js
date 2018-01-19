@@ -240,5 +240,8 @@ const librariesData = {
 	}, {
 			"title": "Style Guide",
 			"tipText": "Automatically generates<br> a style guide<br> of components"
-	}]
+	}, {
+      "title": "Last Updated",
+      "tipText": "The last time I<br>checked on this app"
+  }]
 };

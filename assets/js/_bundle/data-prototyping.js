@@ -47,6 +47,7 @@ const prototypingData = {
         "transition": true,
         "data": true,
         "code": true,
+        "sensors": true,
         "sharing": {
             "web": true,
             "iOS": true
@@ -54,8 +55,9 @@ const prototypingData = {
         "pricing": {
             "free": false,
             "subscription": "$15",
-            "purchase": "$144"
-        }
+            "purchase": ""
+        },
+        lastUpdated: "Jan '17"
     }, {
         "name": "Principle",
         "url": "http://principleformac.com/",
@@ -278,6 +280,7 @@ const prototypingData = {
             "web": true
         },
         "navigation": true,
+        "data": true,
         "sharing": {
             "web": true
         },
@@ -288,7 +291,8 @@ const prototypingData = {
             "free": true,
             "subscription": "$5+",
             "purchase": ""
-        }
+        },
+        lastUpdated: "Jan '17"
     }, {
         "name": "Adobe XD",
         "url": "http://www.adobe.com/products/experience-design",
@@ -308,11 +312,13 @@ const prototypingData = {
         "sharing": {
             "web": true
         },
+        "handoff": true,
         "pricing": {
             "free": false,
             "subscription": "$10",
             "purchase": ""
-        }
+        },
+        lastUpdated: "Jan '17"
     }, {
         "name": "Craft",
         "url": "https://www.invisionapp.com/craft",
@@ -431,10 +437,11 @@ const prototypingData = {
             "web": true,
         },
         "pricing": {
-            "free": false,
-            "subscription": "$15+",
+            "free": true,
+            "subscription": "$19+",
             "purchase": ""
-        }
+        },
+        lastUpdated: "Jan '17"
     }, {
         "name": "CanvasFlip",
         "url": "http://canvasflip.com/",
@@ -1126,6 +1133,11 @@ const prototypingData = {
             "show": true,
             "canChange": true,
             "tipText": "Utilizes device sensors"
+        }, {
+            "title": "Last Updated",
+            "show": true,
+            "canChange": true,
+            "tipText": "The last time I<br>checked on this app"
         }
     ]
 }

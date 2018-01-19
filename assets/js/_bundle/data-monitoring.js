@@ -301,5 +301,8 @@ const monitoringData = {
 	}, {
 			"title": "Export",
 			"tipText": "Format for<br> downloaded"
-	}]
+	}, {
+      "title": "Last Updated",
+      "tipText": "The last time I<br>checked on this app"
+  }]
 };

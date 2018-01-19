@@ -18,7 +18,7 @@ Socialimage: social.jpg
 
 ----
 
-Description: We're experiencing an explosion of competing tools and innovation. See the tools everyone else is using.
+Description: Wonder which tools everyone else is using? In this survey, 2,000 designers give their opinion on the most popular design tools of 2017.
 
 ----
 
@@ -163,21 +163,21 @@ A total of 1,979 respondents participated in the survey. Please note that all qu
 	</div>
 </div>
 
-I'm really happy with the event spread of experience—it means the responses aren't colored by young or old designers, but instead should evenly represent designers of all shapes and sizes.
+I'm really happy with the even spread of experience—it means the responses aren't colored by young or old designers, but instead should evenly represent designers of all shapes and sizes.
 
-The "Size of Design Team" questions was ambiguous and poorly structured, so I don't think the data is very accurate. For example: should a freelancer say mark themselves as "freelancer" or "Team of 1"? Next year, I'll ask about company size and team size in separate questions.
+The "Size of Design Team" question was ambiguous and poorly structured, so I don't think the data is very accurate. For example: should a freelancer mark themselves as "freelancer" or "Team of 1"? Next year, I'll ask about company size and team size in separate questions.
 
 <div class="promotion-missing">
 <div class="content">
-<h4>Normally there's an ad here. 🤔</h4>
-<p>I run this site by myself, so it would be awesome if you turned off your ad blocker.</p>
+<h4>So you don't like ads. 😒</h4>
+<p>Want to help me win a Nintendo Switch instead? Just like <a href="https://dribbble.com/shots/4113716-Win-A-Switch">this shot on Dribbble</a>. That's it.</p>
 </div>
 </div>
 <ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-format="fluid" data-ad-layout="in-article" data-ad-client="ca-pub-2169456968850651" data-ad-slot="1581403896"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
 
 ## <a id="brainstorming">Brainstorming & Ideation Tools</a>
 
-This category is by far the most diverse. Look at how many "other" tools aren't even listed here! (Other responses included Lucidchart, InDesign, Affinity Designer, InVision Boards, etc.) The term "brainstorming" is too broad to have any real significance, though, so next year I hope to break this question into other areas like "Documenting Ideas" or "Gathering Requiments."
+This category is by far the most diverse. Look at how many "other" tools aren't even listed here! (Other responses included Lucidchart, InDesign, Affinity Designer, InVision Boards, etc.) The term "brainstorming" is too broad to have any real significance, though, so next year I hope to break this question into other areas like "Documenting Ideas" or "Gathering Requirements."
 
 <div class="canvas-wrapper">
 	<canvas id="brainstorming-graph-1"></canvas>
@@ -232,15 +232,15 @@ I knew InVision was popular, but I didn't realize it was _this_ popular. Good to
 
 <div class="promotion-missing">
 <div class="content">
-<h4>Normally there's an ad here. 🤔</h4>
-<p>I run this site by myself, so it would be awesome if you turned off your ad blocker.</p>
+<h4>So you don't like ads. 😒</h4>
+<p>Want to help me win a Nintendo Switch instead? Just like <a href="https://dribbble.com/shots/4113716-Win-A-Switch">this shot on Dribbble</a>. That's it.</p>
 </div>
 </div>
 <ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-format="fluid" data-ad-layout="in-article" data-ad-client="ca-pub-2169456968850651" data-ad-slot="1581403896"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
 
 ## <a id="handoff">Handoff Tools</a>
 
-These helpful handoff tool spread like wildfire the past few years. I've been waiting for Sketch to release their own handoff tool (Sketch Cloud anyone?) but [utom](https://github.com/utom/sketch-measure) keeps blowing us away with the amazing [Sketch Measure](https://github.com/utom/sketch-measure). Nevertheless, InVision takes the cake on yet another category. 
+These helpful handoff tools have spread like wildfire during the past few years. I've been waiting for Sketch to release their own handoff tool (Sketch Cloud anyone?) but [utom](https://github.com/utom/sketch-measure) keeps blowing us away with the amazing [Sketch Measure](https://github.com/utom/sketch-measure). Nevertheless, InVision takes the cake on yet another category. 
 
 <div class="canvas-wrapper">
 	<canvas id="handoff-graph-1"></canvas>
@@ -278,7 +278,7 @@ I expect these numbers to change as certain apps (InVision, Figma) continue to g
 
 ## <a id="monitoring">Monitoring Tools</a>
 
-I was surprised to see that most respondents didn't interact with these kinds of tools. If you don't, you should. The insights provided from capturing user interaction is extremely valuable. If you're looking to pick your own monitoring tool, you can [compare them here](uxtools.co/tools/monitoring).
+I was surprised to see that most respondents didn't interact with these kinds of tools. If you don't, you should. The insights provided from capturing user interaction is extremely valuable. If you're looking to pick your own monitoring tool, you can [compare them here](https://uxtools.co/tools/monitoring).
 
 > Most memorable response: "Nothin', muffin."
 
@@ -298,8 +298,8 @@ Here's what to look out for in 2018. InVision has been marketing their new InVis
 
 <div class="promotion-missing">
 <div class="content">
-<h4>Normally there's an ad here. 🤔</h4>
-<p>I run this site by myself, so it would be awesome if you turned off your ad blocker.</p>
+<h4>So you don't like ads. 😒</h4>
+<p>Want to help me win a Nintendo Switch instead? Just like <a href="https://dribbble.com/shots/4113716-Win-A-Switch">this shot on Dribbble</a>. That's it.</p>
 </div>
 </div>
 <ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-format="fluid" data-ad-layout="in-article" data-ad-client="ca-pub-2169456968850651" data-ad-slot="1581403896"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script>

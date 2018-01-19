@@ -14,7 +14,7 @@
 
   <?= snippet('head/social') ?>
 
-  <?= css('assets/css/style.css?ver=1.7') ?>
+  <?= css('assets/css/style.css?ver=1.8') ?>
 
 </head>
 <body>

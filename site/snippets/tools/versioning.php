@@ -9,7 +9,7 @@
       </thead>
       <tbody>
         <tr v-for="app in computedTools">
-          <td class="fixed-col"><a v-bind:href="app.url" v-bind:title="app.url" target="_blank"><img v-bind:alt="app.name + 'Logo'" src="<?php echo kirby()->urls()->assets() . '/images/blank.png' ?>" v-bind:style="app.image"/></a></td>
+          <td class="fixed-col"><a v-bind:href="app.url" v-bind:title="app.url" target="_blank"><img v-tooltip.right-middle="app.name" v-bind:alt="app.name + 'Logo'" src="<?php echo kirby()->urls()->assets() . '/images/blank.png' ?>" v-bind:style="app.image"/></a></td>
           <td class="name-col"><a v-bind:href="app.url" v-bind:title="app.url" target="_blank">{{ app.name }}</a></td>
           <td class="colspan-3">
             <div class="flex-wrapper">
@@ -91,14 +91,19 @@
               <div v-if="app.integrations.gitlab" v-tooltip.bottom-center="'GitLab'"><img src="<?php echo kirby()->urls()->assets() . '/images/icons/gitlab.png' ?>" title="GitLab"/></div>
             </div>
           </td>
+          <td>
+            <div v-if="app.lastUpdated">
+              {{app.lastUpdated}}
+            </div>
+          </td>
         </tr>
       </tbody>
     </table>
     <a href="https://uxtools.typeform.com/to/EFoJO3" title="Submit a new tool" class="new-tool"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="24" height="24" viewBox="0 0 24 24"><path d="M19,19V5H5V19H19M19,3A2,2 0 0,1 21,5V19A2,2 0 0,1 19,21H5A2,2 0 0,1 3,19V5C3,3.89 3.9,3 5,3H19M11,7H13V11H17V13H13V17H11V13H7V11H11V7Z" /></svg><span>Submit a new tool</span></a>
     <div class="promotion-missing">
       <div class="content">
-        <h4>Normally there's an ad here. 🤔</h4>
-        <p>I run this site by myself, so it would be awesome if you turned off your ad blocker.</p>
+        <h4>So you don't like ads. 😒</h4>
+        <p>Want to help me win a Nintendo Switch instead? Just like <a href="https://dribbble.com/shots/4113716-Win-A-Switch">this shot on Dribbble</a>. That's it.</p>
       </div>
     </div><ins style="display:block" data-ad-client="ca-pub-2169456968850651" data-ad-slot="8125149927" data-ad-format="auto" class="adsbygoogle"></ins>
     </div>

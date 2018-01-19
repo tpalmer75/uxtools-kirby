@@ -22195,6 +22195,9 @@ const designData = {
             "show": true,
             "canChange": true,
             "tipText": "Can prototype<br>within the app"
+    }, {
+        "title": "Last Updated",
+        "tipText": "The last time I<br>checked on this app"
     }
     // , {
     //         "title": "Import",
@@ -22243,7 +22246,8 @@ const designData = {
         "vector": true,
         "pricing": {
             "purchase": "$99"
-        }
+        },
+        lastUpdated: "Jan '17"
     }, {
         "name": "Figma",
         "url": "https://www.figma.com",
@@ -22687,9 +22691,10 @@ const designData = {
         "prototyping": true,
         "pricing": {
             "free": false,
-            "subscription": "$15",
-            "purchase": "$144"
-        }
+            "subscription": "$12",
+            "purchase": ""
+        },
+        lastUpdated: "Jan '17"
     }, {
         "name": "Justinmind",
         "url": "http://www.justinmind.com/",
@@ -22859,6 +22864,7 @@ const prototypingData = {
         "transition": true,
         "data": true,
         "code": true,
+        "sensors": true,
         "sharing": {
             "web": true,
             "iOS": true
@@ -22866,8 +22872,9 @@ const prototypingData = {
         "pricing": {
             "free": false,
             "subscription": "$15",
-            "purchase": "$144"
-        }
+            "purchase": ""
+        },
+        lastUpdated: "Jan '17"
     }, {
         "name": "Principle",
         "url": "http://principleformac.com/",
@@ -23090,6 +23097,7 @@ const prototypingData = {
             "web": true
         },
         "navigation": true,
+        "data": true,
         "sharing": {
             "web": true
         },
@@ -23100,7 +23108,8 @@ const prototypingData = {
             "free": true,
             "subscription": "$5+",
             "purchase": ""
-        }
+        },
+        lastUpdated: "Jan '17"
     }, {
         "name": "Adobe XD",
         "url": "http://www.adobe.com/products/experience-design",
@@ -23120,11 +23129,13 @@ const prototypingData = {
         "sharing": {
             "web": true
         },
+        "handoff": true,
         "pricing": {
             "free": false,
             "subscription": "$10",
             "purchase": ""
-        }
+        },
+        lastUpdated: "Jan '17"
     }, {
         "name": "Craft",
         "url": "https://www.invisionapp.com/craft",
@@ -23243,10 +23254,11 @@ const prototypingData = {
             "web": true,
         },
         "pricing": {
-            "free": false,
-            "subscription": "$15+",
+            "free": true,
+            "subscription": "$19+",
             "purchase": ""
-        }
+        },
+        lastUpdated: "Jan '17"
     }, {
         "name": "CanvasFlip",
         "url": "http://canvasflip.com/",
@@ -23938,6 +23950,11 @@ const prototypingData = {
             "show": true,
             "canChange": true,
             "tipText": "Utilizes device sensors"
+        }, {
+            "title": "Last Updated",
+            "show": true,
+            "canChange": true,
+            "tipText": "The last time I<br>checked on this app"
         }
     ]
 }
@@ -24528,6 +24545,9 @@ const handoffData = {
             "show": true,
             "canChange": true,
             "tipText": "Other external apps"
+    }, {
+        "title": "Last Updated",
+        "tipText": "The last time I<br>checked on this app"
     }]
 };
 
@@ -24581,7 +24601,10 @@ const versioningData = {
     }, {
             "title": "Integrations",
             "tipText": "Other external apps"
-    }
+    }, {
+            "title": "Last Updated",
+            "tipText": "The last time I<br>checked on this app"
+        }
     ],
 
 
@@ -25098,7 +25121,10 @@ const monitoringData = {
 	}, {
 			"title": "Export",
 			"tipText": "Format for<br> downloaded"
-	}]
+	}, {
+      "title": "Last Updated",
+      "tipText": "The last time I<br>checked on this app"
+  }]
 };
 
 const librariesData = {
@@ -25343,7 +25369,10 @@ const librariesData = {
 	}, {
 			"title": "Style Guide",
 			"tipText": "Automatically generates<br> a style guide<br> of components"
-	}]
+	}, {
+      "title": "Last Updated",
+      "tipText": "The last time I<br>checked on this app"
+  }]
 };
 
 // @codekit-prepend "_bundle/tether-1.4.0.js"

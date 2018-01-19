@@ -48,7 +48,10 @@ const versioningData = {
     }, {
             "title": "Integrations",
             "tipText": "Other external apps"
-    }
+    }, {
+            "title": "Last Updated",
+            "tipText": "The last time I<br>checked on this app"
+        }
     ],
 
 
