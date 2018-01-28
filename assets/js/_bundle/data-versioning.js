@@ -4,9 +4,18 @@ const versioningData = {
             "title": "",
             "tipText": ""
     }, {
-            "title": "Name",
-            "tipText": "Name of app"
-    }, {
+      "title": "Name",
+      "tipText": "Name of app",
+      "sortable": true,
+      "sortVar": "name",
+      "sortDir": "asc"
+      }, {
+          "title": "Usage",
+          "tipText": "Based on the<br>2017 Design Tools Survey",
+          "sortable": true,
+          "sortVar": "surveyRaw",
+          "sortDir": "desc",
+      }, {
             "title": "Platform",
             "tipText": "Platform for<br>uploading designs"
     }, {
@@ -62,6 +71,8 @@ const versioningData = {
         image: {
             backgroundPosition: "-100 -1000",
         },
+        surveyRaw: 185,
+        surveyPercent: 100,
         platforms: {
             mac: true
         },
@@ -94,6 +105,8 @@ const versioningData = {
         image: {
             backgroundPosition: "-500 -1000",
         },
+        surveyRaw: 5,
+        surveyPercent: 3,
         platforms: {
             mac: true
         },
@@ -127,6 +140,8 @@ const versioningData = {
         image: {
             backgroundPosition: "-300 -1000",
         },
+        surveyRaw: 1,
+        surveyPercent: 1,
         platforms: {
             mac: true
         },
@@ -202,6 +217,8 @@ const versioningData = {
         image: {
             backgroundPosition: "0 -1100",
         },
+        surveyRaw: 33,
+        surveyPercent: 18,
         platforms: {
             mac: true
         },
@@ -236,6 +253,8 @@ const versioningData = {
         image: {
             backgroundPosition: "-400 -1000",
         },
+        surveyRaw: 0,
+        surveyPercent: 0,
         platforms: {
             mac: true
         },

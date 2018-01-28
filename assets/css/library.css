@@ -228,13 +228,13 @@ table {
     width: 100%;
   }
 }
-@media all and (max-width: 500px) {
+@media all and (max-width: 680px) {
   #main-header .scroll-tabs {
     overflow: scroll;
     font-size: 14px;
   }
 }
-@media all and (max-width: 500px) {
+@media all and (max-width: 680px) {
   #main-header .scroll-tabs ul {
     min-width: 660px;
   }

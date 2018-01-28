@@ -144,16 +144,22 @@ const designComp = {
 	data: function () {
 		return {
 			toolsData: designData,
-			scroll: 0
+			scroll: 0,
+			sortVar: "surveyRaw"
 		}
 	},
-	computed: {
-		computedTools: function() {
-			return _.orderBy(this.toolsData.tools, 'name')
+	methods: {
+		sortBy: function (sortable, dir) {
+			this.toolsData.tools = _.orderBy(this.toolsData.tools, sortable, dir);
+			this.sortVar = sortable;
 		}
 	},
 	mounted: function() {
+		// set Up Google Ads
 		(adsbygoogle = window.adsbygoogle || []).push({});
+		// Sort the tools by popularity
+		this.toolsData.tools = _.orderBy(this.toolsData.tools, this.sortVar, "desc");
+
 	}
 }
 
@@ -162,34 +168,47 @@ const prototypingComp = {
 	data: function () {
 		return {
 			toolsData: prototypingData,
-			scroll: 0
+			scroll: 0,
+			sortVar: "surveyRaw"
 		}
 	},
-	computed: {
-		computedTools: function() {
-			return _.orderBy(this.toolsData.tools, 'name')
+	methods: {
+		sortBy: function (sortable, dir) {
+			this.toolsData.tools = _.orderBy(this.toolsData.tools, sortable, dir);
+			this.sortVar = sortable;
 		}
 	},
 	mounted: function() {
+		// set Up Google Ads
 		(adsbygoogle = window.adsbygoogle || []).push({});
+		// Sort the tools by popularity
+		this.toolsData.tools = _.orderBy(this.toolsData.tools, this.sortVar, "desc");
+
 	}
 }
+
 
 const handoffComp = {
 	template: '#handoff-tools',
 	data: function () {
 		return {
 			toolsData: handoffData,
-			scroll: 0
+			scroll: 0,
+			sortVar: "surveyRaw"
 		}
 	},
-	computed: {
-		computedTools: function() {
-			return _.orderBy(this.toolsData.tools, 'name')
+	methods: {
+		sortBy: function (sortable, dir) {
+			this.toolsData.tools = _.orderBy(this.toolsData.tools, sortable, dir);
+			this.sortVar = sortable;
 		}
 	},
 	mounted: function() {
+		// set Up Google Ads
 		(adsbygoogle = window.adsbygoogle || []).push({});
+		// Sort the tools by popularity
+		this.toolsData.tools = _.orderBy(this.toolsData.tools, this.sortVar, "desc");
+
 	}
 }
 
@@ -198,16 +217,23 @@ const versioningComp = {
 	data: function () {
 		return {
 			toolsData: versioningData,
-			scroll: 0
+			scroll: 0,
+			sortVar: "surveyRaw"
 		}
 	},
-	computed: {
-		computedTools: function() {
-			return _.orderBy(this.toolsData.tools, 'name')
+	methods: {
+		sortBy: function (sortable, dir) {
+			this.toolsData.tools = _.orderBy(this.toolsData.tools, sortable, dir);
+			this.sortVar = sortable;
+			console.log('sorting: ' + sortable);
 		}
 	},
 	mounted: function() {
+		// set Up Google Ads
 		(adsbygoogle = window.adsbygoogle || []).push({});
+		// Sort the tools by popularity
+		this.toolsData.tools = _.orderBy(this.toolsData.tools, this.sortVar, "desc");
+
 	}
 }
 
@@ -216,16 +242,23 @@ const monitoringComp = {
 	data: function () {
 		return {
 			toolsData: monitoringData,
-			scroll: 0
+			scroll: 0,
+			sortVar: "surveyRaw"
 		}
 	},
-	computed: {
-		computedTools: function() {
-			return _.orderBy(this.toolsData.tools, 'name')
+	methods: {
+		sortBy: function (sortable, dir) {
+			this.toolsData.tools = _.orderBy(this.toolsData.tools, sortable, dir);
+			this.sortVar = sortable;
+			console.log('sorting: ' + sortable);
 		}
 	},
 	mounted: function() {
+		// set Up Google Ads
 		(adsbygoogle = window.adsbygoogle || []).push({});
+		// Sort the tools by popularity
+		this.toolsData.tools = _.orderBy(this.toolsData.tools, this.sortVar, "desc");
+
 	}
 }
 
@@ -234,18 +267,25 @@ const librariesComp = {
 	data: function () {
 		return {
 			toolsData: librariesData,
-			scroll: 0
+			scroll: 0,
+			sortVar: "surveyRaw"
 		}
 	},
-	computed: {
-		computedTools: function() {
-			return _.orderBy(this.toolsData.tools, 'name')
+	methods: {
+		sortBy: function (sortable, dir) {
+			this.toolsData.tools = _.orderBy(this.toolsData.tools, sortable, dir);
+			this.sortVar = sortable;
 		}
 	},
 	mounted: function() {
+		// set Up Google Ads
 		(adsbygoogle = window.adsbygoogle || []).push({});
+		// Sort the tools by popularity
+		this.toolsData.tools = _.orderBy(this.toolsData.tools, this.sortVar, "desc");
+
 	}
 }
+
 
 const router = new VueRouter({
 	mode:"history",

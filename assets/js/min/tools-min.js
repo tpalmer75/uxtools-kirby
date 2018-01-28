@@ -22122,78 +22122,57 @@ const designData = {
 	columns: [
     {
             "title": "",
-            "show": true,
-            "canChange": false,
             "tipText": ""
     }, {
             "title": "Name",
-            "show": true,
-            "canChange": true,
-            "tipText": "Name of app"
+            "tipText": "Name of app",
+            "sortable": true,
+            "sortVar": "name",
+            "sortDir": "asc"
+    }, {
+            "title": "Usage",
+            "tipText": "Based on the<br>2017 Design Tools Survey",
+            "sortable": true,
+            "sortVar": "surveyRaw",
+            "sortDir": "desc",
     }, {
             "title": "Platform",
-            "show": true,
-            "canChange": true,
             "tipText": "Platforms used for <br>building prototypes"
     }, {
             "title": "Free",
-            "show": true,
-            "canChange": true,
             "tipText": "Has a free version"
     }, {
             "title": "Subscription",
-            "show": true,
-            "canChange": true,
             "tipText": "Cheapest monthly<br>payment"
     }, {
             "title": "Purchase",
-            "show": true,
-            "canChange": true,
             "tipText": "One time cost"
     }, {
             "title": "Offline",
-            "show": true,
-            "canChange": true,
             "tipText": "Can open and<br>edit offline"
     }, {
             "title": "Pen Tool",
-            "show": true,
-            "canChange": true,
             "tipText": "Draw vectors<br>and paths"
     }, {
             "title": "Collaborate",
-            "show": true,
-            "canChange": true,
             "tipText": "Simultaneous editing"
     },  {
             "title": "Comments",
-            "show": true,
-            "canChange": true,
             "tipText": "Others can<br>leave comments"
     }, {
             "title": "Handoff",
-            "show": true,
-            "canChange": true,
             "tipText": "Automatic specs<br>for developers"
     }, {
             "title": "Artboards",
-            "show": true,
-            "canChange": true,
             "tipText": "Multiple visible<br>artboards"
     }, {
             "title": "Symbols",
-            "show": true,
-            "canChange": true,
             "tipText": "Document-wide<br>master symbols"
     }, {
             "title": "Responsive",
-            "show": true,
-            "canChange": true,
             "tipText": "Dynamically resizing<br>groups"
     }, {
             "title": "Prototyping",
-            "show": true,
-            "canChange": true,
             "tipText": "Can prototype<br>within the app"
     }, {
         "title": "Last Updated",
@@ -22217,6 +22196,8 @@ const designData = {
         "image": {
             "background-position": "-200 0",
         },
+        "surveyPercent": 100,
+        "surveyRaw": 1409,
         "platforms": {
             "mac": true
         },
@@ -22254,6 +22235,8 @@ const designData = {
         "image": {
             "background-position": "-200 -100",
         },
+        "surveyPercent": 15,
+        "surveyRaw": 214,
         "platforms": {
             "web": true,
             "mac": true,
@@ -22291,6 +22274,8 @@ const designData = {
         "image": {
             "background-position": "-100 -100",
         },
+        "surveyPercent": 28,
+        "surveyRaw": 388,
         "platforms": {
             "mac": true,
             "windows": true
@@ -22331,6 +22316,8 @@ const designData = {
         "image": {
             "background-position": "-100 0",
         },
+        "surveyPercent": 38,
+        "surveyRaw": 530,
         "platforms": {
             "mac": true,
             "windows": true
@@ -22368,6 +22355,8 @@ const designData = {
         "image": {
             "background-position": "-400 0",
         },
+        "surveyPercent": 1,
+        "surveyRaw": 23,
         "platforms": {
             "mac": true,
             "windows": true
@@ -22407,6 +22396,8 @@ const designData = {
         "image": {
             "background-position": "0 0",
         },
+        "surveyPercent": 20,
+        "surveyRaw": 277,
         "platforms": {
             "mac": true,
             "windows": true
@@ -22443,6 +22434,8 @@ const designData = {
         "image": {
             "background-position": "0 -100",
         },
+        "surveyPercent": 1,
+        "surveyRaw": 4,
         "platforms": {
             "web": true
         },
@@ -22481,6 +22474,8 @@ const designData = {
         "image": {
             "background-position": "-300 0",
         },
+        "surveyPercent": 1,
+        "surveyRaw": 96,
         "platforms": {
             "mac": true,
             "windows": true
@@ -22517,6 +22512,8 @@ const designData = {
         "image": {
             "background-position": "-500 -700",
         },
+        "surveyPercent": 1,
+        "surveyRaw": 2,
         "platforms": {
             "web": true
         },
@@ -22555,6 +22552,8 @@ const designData = {
         "image": {
             "background-position": "0 -900",
         },
+        "surveyPercent": 1,
+        "surveyRaw": 4,
         "platforms": {
             "web": true,
             "mac": true,
@@ -22585,6 +22584,8 @@ const designData = {
         "image": {
             "background-position": "-200 -900",
         },
+        "surveyPercent": 100,
+        "surveyRaw": 0,
         "platforms": {
             "web": true,
             "mac": true,
@@ -22615,6 +22616,8 @@ const designData = {
         "image": {
             "background-position": "-400 -900",
         },
+        "surveyPercent": 100,
+        "surveyRaw": 0,
         "platforms": {
             "mac": true,
         },
@@ -22643,6 +22646,8 @@ const designData = {
         "image": {
             "background-position": "-100 -500",
         },
+        "surveyPercent": 1,
+        "surveyRaw": 2,
         "platforms": {
             "web": true,
         },
@@ -22671,6 +22676,8 @@ const designData = {
         "image": {
             "background-position": "-200 -400",
         },
+        "surveyPercent": 1,
+        "surveyRaw": 103,
         "platforms": {
             "mac": true,
         },
@@ -22701,6 +22708,8 @@ const designData = {
         "image": {
             "background-position": "-400 -700",
         },
+        "surveyPercent": 1,
+        "surveyRaw": 3,
         "platforms": {
             "mac": true,
             "windows": true
@@ -22730,6 +22739,8 @@ const designData = {
         "image": {
             "background-position": "-500 -1100",
         },
+        "surveyPercent": 100,
+        "surveyRaw": 0,
         "platforms": {
             "web": true
         },
@@ -22758,6 +22769,8 @@ const designData = {
         "image": {
             "background-position": "-100 -800",
         },
+        "surveyPercent": 100,
+        "surveyRaw": 0,
         "platforms": {
             "web": true
         },
@@ -22787,6 +22800,8 @@ const designData = {
         "image": {
             "background-position": "-300 -400",
         },
+        "surveyPercent": 100,
+        "surveyRaw": 0,
         "platforms": {
             "mac": true,
             "windows": true
@@ -22823,6 +22838,8 @@ const prototypingData = {
         "image": {
             "background-position": "-300 -400",
         },
+        "surveyPercent": 0,
+        "surveyRaw": 0,
         "platforms": {
             "mac": true,
             "windows": true
@@ -22850,6 +22867,8 @@ const prototypingData = {
         "image": {
             "background-position": "-200 -400",
         },
+        "surveyPercent": 19,
+        "surveyRaw": 228,
         "platforms": {
             "mac": true
         },
@@ -22881,6 +22900,8 @@ const prototypingData = {
         "image": {
             "background-position": "0 -400",
         },
+        "surveyPercent": 35,
+        "surveyRaw": 412,
         "platforms": {
             "mac": true
         },
@@ -22905,6 +22926,8 @@ const prototypingData = {
         "image": {
             "background-position": "0 -100",
         },
+        "surveyPercent": 4,
+        "surveyRaw": 43,
         "platforms": {
             "web": true
         },
@@ -22930,6 +22953,8 @@ const prototypingData = {
         "image": {
             "background-position": "-300 -400",
         },
+        "surveyPercent": 100,
+        "surveyRaw": 1193,
         "platforms": {
             "web": true
         },
@@ -22958,6 +22983,8 @@ const prototypingData = {
         "image": {
             "background-position": "-200 -300",
         },
+        "surveyPercent": 21,
+        "surveyRaw": 250,
         "platforms": {
             "web": true,
             "iOS": true,
@@ -22993,6 +23020,8 @@ const prototypingData = {
         "image": {
             "background-position": "-100 -300",
         },
+        "surveyPercent": 7,
+        "surveyRaw": 85,
         "platforms": {
             "web": true,
             "mac": true
@@ -23020,6 +23049,8 @@ const prototypingData = {
         "image": {
             "background-position": "-400 -400",
         },
+        "surveyPercent": 7,
+        "surveyRaw": 85,
         "platforms": {
             "web": true,
         },
@@ -23044,6 +23075,8 @@ const prototypingData = {
         "image": {
             "background-position": "-300 0",
         },
+        "surveyPercent": 17,
+        "surveyRaw": 203,
         "platforms": {
             "mac": true,
             "windows": true
@@ -23069,6 +23102,8 @@ const prototypingData = {
         "image": {
             "background-position": "-500 -400",
         },
+        "surveyPercent": 0,
+        "surveyRaw": 0,
         "design": true,
         "platforms": {
             "web": true
@@ -23092,6 +23127,8 @@ const prototypingData = {
         "image": {
             "background-position": "0 -500",
         },
+        "surveyPercent": 0,
+        "surveyRaw": 0,
         "design": true,
         "platforms": {
             "web": true
@@ -23116,6 +23153,8 @@ const prototypingData = {
         "image": {
             "background-position": "0 0",
         },
+        "surveyPercent": 24,
+        "surveyRaw": 292,
         "design": true,
         "platforms": {
             "mac": true,
@@ -23142,6 +23181,8 @@ const prototypingData = {
         "image": {
             "background-position": "-500 -300",
         },
+        "surveyPercent": 0,
+        "surveyRaw": 0,
         "platforms": {
             "mac": true
         },
@@ -23164,6 +23205,8 @@ const prototypingData = {
         "image": {
             "background-position": "-300 -300",
         },
+        "surveyPercent": 3,
+        "surveyRaw": 41,
         "platforms": {
             "mac": true,
         },
@@ -23187,6 +23230,8 @@ const prototypingData = {
         "image": {
             "background-position": "-100 -500",
         },
+        "surveyPercent": 5,
+        "surveyRaw": 56,
         "platforms": {
             "web": true,
         },
@@ -23216,6 +23261,8 @@ const prototypingData = {
         "image": {
             "background-position": "-400 -300",
         },
+        "surveyPercent": 1,
+        "surveyRaw": 1,
         "platforms": {
             "web": true,
         },
@@ -23239,6 +23286,8 @@ const prototypingData = {
         "image": {
             "background-position": "-500 -700",
         },
+        "surveyPercent": 3,
+        "surveyRaw": 39,
         "platforms": {
             "web": true,
         },
@@ -23265,6 +23314,8 @@ const prototypingData = {
         "image": {
             "background-position": "-500 -200",
         },
+        "surveyPercent": 1,
+        "surveyRaw": 1,
         "platforms": {
             "web": true,
         },
@@ -23299,6 +23350,8 @@ const prototypingData = {
         "image": {
             "background-position": "-100 -700",
         },
+        "surveyPercent": 0,
+        "surveyRaw": 0,
         "design": true,
         "platforms": {
             "web": true,
@@ -23327,6 +23380,8 @@ const prototypingData = {
         "image": {
             "background-position": "-200 -500",
         },
+        "surveyPercent": 0,
+        "surveyRaw": 0,
         "platforms": {
             "web": true
         },
@@ -23350,6 +23405,8 @@ const prototypingData = {
         "image": {
             "background-position": "-500 -100",
         },
+        "surveyPercent": 1,
+        "surveyRaw": 1,
         "platforms": {
             "mac": true,
             "windows": true,
@@ -23377,6 +23434,8 @@ const prototypingData = {
         "image": {
             "background-position": "-200 -600",
         },
+        "surveyPercent": 1,
+        "surveyRaw": 1,
         "design": true,
         "platforms": {
             "web": true,
@@ -23400,6 +23459,8 @@ const prototypingData = {
         "image": {
             "background-position": "-200 -700",
         },
+        "surveyPercent": 5,
+        "surveyRaw": 65,
         "design": true,
         "platforms": {
             "web": true,
@@ -23424,6 +23485,8 @@ const prototypingData = {
         "image": {
             "background-position": "-300 -500",
         },
+        "surveyPercent": 0,
+        "surveyRaw": 0,
         "platforms": {
             "iOS": true,
         },
@@ -23447,6 +23510,8 @@ const prototypingData = {
         "image": {
             "background-position": "-500 0",
         },
+        "surveyPercent": 0,
+        "surveyRaw": 0,
         "platforms": {
             "web": true,
             "mac": true,
@@ -23478,6 +23543,8 @@ const prototypingData = {
         "image": {
             "background-position": "-400 -700",
         },
+        "surveyPercent": 1,
+        "surveyRaw": 8,
         "platforms": {
             "mac": true,
             "windows": true
@@ -23510,6 +23577,8 @@ const prototypingData = {
         "image": {
             "background-position": "-0 -700",
         },
+        "surveyPercent": 0,
+        "surveyRaw": 0,
         "platforms": {
             "web": true
         },
@@ -23530,6 +23599,8 @@ const prototypingData = {
         "image": {
             "background-position": "-0 -800",
         },
+        "surveyPercent": 1,
+        "surveyRaw": 14,
         "platforms": {
             "mac": true,
             "windows": true
@@ -23564,6 +23635,8 @@ const prototypingData = {
         "image": {
             "background-position": "-100 -800",
         },
+        "surveyPercent": 1,
+        "surveyRaw": 1,
         "platforms": {
             "mac": true,
             "windows": true,
@@ -23599,6 +23672,8 @@ const prototypingData = {
         "image": {
             "background-position": "-200 -800",
         },
+        "surveyPercent": 0,
+        "surveyRaw": 0,
         "platforms": {
             "web": true
         },
@@ -23632,6 +23707,8 @@ const prototypingData = {
         "image": {
             "background-position": "-300 -800",
         },
+        "surveyPercent": 0,
+        "surveyRaw": 0,
         "platforms": {
             "iOS": true
         },
@@ -23667,6 +23744,8 @@ const prototypingData = {
         "image": {
             "background-position": "-500 -800",
         },
+        "surveyPercent": 0,
+        "surveyRaw": 0,
         "platforms": {
             "web": true
         },
@@ -23701,6 +23780,8 @@ const prototypingData = {
         "image": {
             "background-position": "-100 -900",
         },
+        "surveyPercent": 1,
+        "surveyRaw": 3,
         "platforms": {
             "mac": true
         },
@@ -23733,6 +23814,8 @@ const prototypingData = {
         "image": {
             "background-position": "-300 -900",
         },
+        "surveyPercent": 0,
+        "surveyRaw": 0,
         "platforms": {
             "web": true
         },
@@ -23764,6 +23847,8 @@ const prototypingData = {
         "image": {
             "background-position": "-500 -900",
         },
+        "surveyPercent": 0,
+        "surveyRaw": 0,
         "platforms": {
             "mac": true
         },
@@ -23796,6 +23881,8 @@ const prototypingData = {
         "image": {
             "background-position": "-200 -100",
         },
+        "surveyPercent": 12,
+        "surveyRaw": 144,
         "platforms": {
             "web": true,
             "mac": true,
@@ -23832,6 +23919,8 @@ const prototypingData = {
         "image": {
             "background-position": "-500 -1100",
         },
+        "surveyPercent": 0,
+        "surveyRaw": 0,
         "platforms": {
             "web": true,
         },
@@ -23867,9 +23956,16 @@ const prototypingData = {
             "tipText": ""
         }, {
             "title": "Name",
-            "show": true,
-            "canChange": true,
-            "tipText": "Name of app"
+            "tipText": "Name of app",
+            "sortable": true,
+            "sortVar": "name",
+            "sortDir": "asc"
+        }, {
+            "title": "Usage",
+            "tipText": "Based on the<br>2017 Design Tools Survey",
+            "sortable": true,
+            "sortVar": "surveyRaw",
+            "sortDir": "desc",
         }, {
             "title": "Platform",
             "show": true,
@@ -23966,6 +24062,8 @@ const handoffData = {
         "image": {
             "background-position": "-500 -500",
         },
+        "surveyRaw": 602,
+        "surveyPercent": 83,
         "platforms": {
             "mac": true,
             "windows": true
@@ -23973,7 +24071,8 @@ const handoffData = {
         "programs": {
             "sketch": true,
             "photoshop": true,
-            "figma": true
+            "figma": true,
+            "adobeXd": true
         },
         "specs": true,
         "automatic": true,
@@ -24002,6 +24101,8 @@ const handoffData = {
         "image": {
             "background-position": "-400 -500",
         },
+        "surveyRaw": 30,
+        "surveyPercent": 4,
         "platforms": {
             "mac": true,
             "windows": true,
@@ -24009,7 +24110,8 @@ const handoffData = {
         },
         "programs": {
             "sketch": true,
-            "photoshop":true
+            "photoshop":true,
+            "adobeXd": true,
         },
         "specs": true,
         "automatic": true,
@@ -24039,6 +24141,8 @@ const handoffData = {
         "image": {
             "background-position": "-300 -600",
         },
+        "surveyRaw": 1,
+        "surveyPercent": 1,
         "platforms": {
             "mac": true,
         },
@@ -24062,6 +24166,8 @@ const handoffData = {
         "image": {
             "background-position": "-500 -600",
         },
+        "surveyRaw": 152,
+        "surveyPercent": 21,
         "platforms": {
             "mac": true
         },
@@ -24088,12 +24194,15 @@ const handoffData = {
         "image": {
             "background-position": "-100 -600",
         },
+        "surveyRaw": 5,
+        "surveyPercent": 1,
         "platforms": {
             "web": true
         },
         "programs": {
             "sketch": true,
-            "photoshop": true
+            "photoshop": true,
+            "adobeXd": true,
         },
         "specs": true,
         "automatic": true,
@@ -24124,6 +24233,8 @@ const handoffData = {
         "image": {
             "background-position": "0 -600",
         },
+        "surveyRaw": 0,
+        "surveyPercent": 0,
         "platforms": {
             "mac": true
         },
@@ -24150,6 +24261,8 @@ const handoffData = {
         "image": {
             "background-position": "-300 -700",
         },
+        "surveyRaw": 0,
+        "surveyPercent": 0,
         "programs": {
 
         },
@@ -24173,6 +24286,8 @@ const handoffData = {
         "image": {
             "background-position": "-400 -600",
         },
+        "surveyRaw": 0,
+        "surveyPercent": 0,
         "platforms": {
             "mac": true,
             "windows": true,
@@ -24201,6 +24316,8 @@ const handoffData = {
         "image": {
             "background-position": "0 -100",
         },
+        "surveyRaw": 14,
+        "surveyPercent": 2,
         "platforms": {
             "web": true
         },
@@ -24231,6 +24348,8 @@ const handoffData = {
         "image": {
             "background-position": "-300 -400",
         },
+        "surveyRaw": 721,
+        "surveyPercent": 100,
         "platforms": {
             "web": true
         },
@@ -24258,6 +24377,8 @@ const handoffData = {
         "image": {
             "background-position": "-300 -900",
         },
+        "surveyRaw": 0,
+        "surveyPercent": 0,
         "platforms": {
             "web": true
         },
@@ -24286,6 +24407,8 @@ const handoffData = {
         "image": {
             "background-position": "-500 -200",
         },
+        "surveyRaw": 2,
+        "surveyPercent": 1,
         "platforms": {
             "mac": true
         },
@@ -24315,6 +24438,8 @@ const handoffData = {
         "image": {
             "background-position": "-400 -700",
         },
+        "surveyRaw": 10,
+        "surveyPercent": 1,
         "platforms": {
             "mac": true,
             "windows": true
@@ -24352,6 +24477,8 @@ const handoffData = {
         "image": {
             "background-position": "-200 -100",
         },
+        "surveyRaw": 127,
+        "surveyPercent": 18,
         "platforms": {
             "web": true,
             "mac": true,
@@ -24388,6 +24515,8 @@ const handoffData = {
         "image": {
             "background-position": "-200 -300",
         },
+        "surveyRaw": 75,
+        "surveyPercent": 10,
         "platforms": {
             "web": true,
         },
@@ -24419,6 +24548,8 @@ const handoffData = {
         "image": {
             "background-position": "0 0",
         },
+        "surveyRaw": 157,
+        "surveyPercent": 22,
         "platforms": {
             "mac": true,
             "windows": true,
@@ -24457,10 +24588,17 @@ const handoffData = {
             "tipText": ""
     }, {
             "title": "Name",
-            "show": true,
-            "canChange": true,
-            "tipText": "Name of app"
-    }, {
+            "tipText": "Name of app",
+            "sortable": true,
+            "sortVar": "name",
+            "sortDir": "asc"
+        }, {
+            "title": "Usage",
+            "tipText": "Based on the<br>2017 Design Tools Survey",
+            "sortable": true,
+            "sortVar": "surveyRaw",
+            "sortDir": "desc",
+        }, {
             "title": "Platform",
             "show": true,
             "canChange": true,
@@ -24557,9 +24695,18 @@ const versioningData = {
             "title": "",
             "tipText": ""
     }, {
-            "title": "Name",
-            "tipText": "Name of app"
-    }, {
+      "title": "Name",
+      "tipText": "Name of app",
+      "sortable": true,
+      "sortVar": "name",
+      "sortDir": "asc"
+      }, {
+          "title": "Usage",
+          "tipText": "Based on the<br>2017 Design Tools Survey",
+          "sortable": true,
+          "sortVar": "surveyRaw",
+          "sortDir": "desc",
+      }, {
             "title": "Platform",
             "tipText": "Platform for<br>uploading designs"
     }, {
@@ -24615,6 +24762,8 @@ const versioningData = {
         image: {
             backgroundPosition: "-100 -1000",
         },
+        surveyRaw: 185,
+        surveyPercent: 100,
         platforms: {
             mac: true
         },
@@ -24647,6 +24796,8 @@ const versioningData = {
         image: {
             backgroundPosition: "-500 -1000",
         },
+        surveyRaw: 5,
+        surveyPercent: 3,
         platforms: {
             mac: true
         },
@@ -24680,6 +24831,8 @@ const versioningData = {
         image: {
             backgroundPosition: "-300 -1000",
         },
+        surveyRaw: 1,
+        surveyPercent: 1,
         platforms: {
             mac: true
         },
@@ -24755,6 +24908,8 @@ const versioningData = {
         image: {
             backgroundPosition: "0 -1100",
         },
+        surveyRaw: 33,
+        surveyPercent: 18,
         platforms: {
             mac: true
         },
@@ -24789,6 +24944,8 @@ const versioningData = {
         image: {
             backgroundPosition: "-400 -1000",
         },
+        surveyRaw: 0,
+        surveyPercent: 0,
         platforms: {
             mac: true
         },
@@ -24825,6 +24982,8 @@ const monitoringData = {
 		"image": {
 			"background-position": "-100 -200",
 		},
+		"surveyRaw": 3,
+    "surveyPercent": 1,
 		"platforms": {
 			"web": true
 		},
@@ -24847,6 +25006,8 @@ const monitoringData = {
 		"image": {
 			"background-position": "0 -300",
 		},
+		"surveyRaw": 2,
+    "surveyPercent": 1,
 		"platforms": {
 			"web": true
 		},
@@ -24875,6 +25036,8 @@ const monitoringData = {
 		"image": {
 			"background-position": "-300 -100",
 		},
+		"surveyRaw": 122,
+    "surveyPercent": 38,
 		"platforms": {
 			"web": true
 		},
@@ -24900,6 +25063,8 @@ const monitoringData = {
 		"image": {
 			"background-position": "0 -200",
 		},
+		"surveyRaw": 319,
+    "surveyPercent": 100,
 		"platforms": {
 			"web": true
 		},
@@ -24922,6 +25087,8 @@ const monitoringData = {
 		"image": {
 			"background-position": "-400 -100",
 		},
+		"surveyRaw": 0,
+    "surveyPercent": 0,
 		"platforms": {
 			"web": true
 		},
@@ -24941,6 +25108,8 @@ const monitoringData = {
 		"image": {
 			"background-position": "-200 -200",
 		},
+		"surveyRaw": 0,
+    "surveyPercent": 0,
 		"platforms": {
 			"web": true
 		},
@@ -24959,6 +25128,8 @@ const monitoringData = {
 		"image": {
 			"background-position": "-300 -200",
 		},
+		"surveyRaw": 0,
+    "surveyPercent": 0,
 		"platforms": {
 			"web": true
 		},
@@ -24977,6 +25148,8 @@ const monitoringData = {
 		"image": {
 			"background-position": "-400 -200",
 		},
+		"surveyRaw": 8,
+    "surveyPercent": 3,
 		"platforms": {
 			"web": true
 		},
@@ -24999,6 +25172,8 @@ const monitoringData = {
 		"image": {
 			"background-position": "-400 -800",
 		},
+		"surveyRaw": 1,
+    "surveyPercent": 1,
 		"platforms": {
 			"web": true
 		},
@@ -25023,6 +25198,8 @@ const monitoringData = {
 		"image": {
 			"background-position": "0 -1000",
 		},
+		"surveyRaw": 0,
+    "surveyPercent": 0,
 		"platforms": {
 			"web": true
 		},
@@ -25047,6 +25224,8 @@ const monitoringData = {
 		"image": {
 			"background-position": "-400 -1100",
 		},
+		"surveyRaw": 7,
+    "surveyPercent": 2,
 		"platforms": {
 			"web": true
 		},
@@ -25074,12 +25253,21 @@ const monitoringData = {
 			"title": "",
 			"tipText": ""
 	}, {
-			"title": "Name",
-			"tipText": "Name of app"
-	}, {
-			"title": "Free",
-			"tipText": "Has a free version"
-	}, {
+      "title": "Name",
+      "tipText": "Name of app",
+      "sortable": true,
+      "sortVar": "name",
+      "sortDir": "asc"
+  }, {
+      "title": "Usage",
+      "tipText": "Based on the<br>2017 Design Tools Survey",
+      "sortable": true,
+      "sortVar": "surveyRaw",
+      "sortDir": "desc",
+  }, {
+  	"title": "Free",
+  	"tipText": "Has a free version"
+  }, {
 			"title": "Subscription",
 			"tipText": "Cheapest monthly<br>payment"
 	}, {
@@ -25129,11 +25317,40 @@ const monitoringData = {
 
 const librariesData = {
 	tools: [{
+		"name": "Sketch",
+    "url": "https://www.sketchapp.com/",
+    "image": {
+        "background-position": "-200 0",
+    },
+		"surveyRaw": 861,
+    "surveyPercent": 100,
+		"platforms": {
+			"mac": true
+		},
+		"programs": {
+			"sketch": true,
+		},
+		"assets": false,
+		"symbols": true,
+		"layers": false,
+		"sharing": true,
+		"permissions": false,
+		"interface": "Drop Down",
+		"update": true, // push and pull changes
+		"annotate": false,
+		"styleguide": false,
+		"pricing": {
+        "individual": "$99"
+    },
+    "lastUpdated": "Jan 2018"
+	},{
 		"name": "Lingo",
 		"url": "https://www.lingoapp.com/",
 		"image": {
 			"background-position": "-100 -1100",
 		},
+		"surveyRaw": 45,
+    "surveyPercent": 5,
 		"platforms": {
 			"mac": true
 		},
@@ -25160,6 +25377,8 @@ const librariesData = {
 		"image": {
 			"background-position": "-500 -300",
 		},
+		"surveyRaw": 321,
+    "surveyPercent": 37,
 		"platforms": {
 			"mac": true
 		},
@@ -25186,6 +25405,8 @@ const librariesData = {
 		"image": {
 			"background-position": "-200 -1100",
 		},
+		"surveyRaw": 8,
+    "surveyPercent": 1,
 		"platforms": {
 			"mac": true
 		},
@@ -25212,6 +25433,8 @@ const librariesData = {
 		"image": {
 			"backgroundPosition": "-200 -1000",
 		},
+		"surveyRaw": 49,
+    "surveyPercent": 6,
 		"platforms": {
 			"web": true
 		},
@@ -25242,6 +25465,8 @@ const librariesData = {
 		"image": {
 			"background-position": "-200 -100",
 		},
+		"surveyRaw": 123,
+    "surveyPercent": 14,
 		"platforms": {
 			"web": true,
 			"mac": true,
@@ -25270,6 +25495,8 @@ const librariesData = {
 		"image": {
 			"background-position": "0 -100"
 		},
+		"surveyRaw": 23,
+    "surveyPercent": 3,
 		"platforms": {
 			"web": true,
 			"mac": true,
@@ -25298,6 +25525,8 @@ const librariesData = {
 		"image": {
 			"background-position": "-300 -1100"
 		},
+		"surveyRaw": 3,
+    "surveyPercent": 1,
 		"platforms": {
 			"mac": true,
 		},
@@ -25325,9 +25554,18 @@ const librariesData = {
 			"title": "",
 			"tipText": ""
 	}, {
-			"title": "Name",
-			"tipText": "Name of app"
-	}, {
+      "title": "Name",
+      "tipText": "Name of app",
+      "sortable": true,
+      "sortVar": "name",
+      "sortDir": "asc"
+  }, {
+      "title": "Usage",
+      "tipText": "Based on the<br>2017 Design Tools Survey",
+      "sortable": true,
+      "sortVar": "surveyRaw",
+      "sortDir": "desc",
+  }, {
 			"title": "Platform",
 			"tipText": "Platforms used to <br>upload components"
 	}, {
@@ -25521,16 +25759,22 @@ const designComp = {
 	data: function () {
 		return {
 			toolsData: designData,
-			scroll: 0
+			scroll: 0,
+			sortVar: "surveyRaw"
 		}
 	},
-	computed: {
-		computedTools: function() {
-			return _.orderBy(this.toolsData.tools, 'name')
+	methods: {
+		sortBy: function (sortable, dir) {
+			this.toolsData.tools = _.orderBy(this.toolsData.tools, sortable, dir);
+			this.sortVar = sortable;
 		}
 	},
 	mounted: function() {
+		// set Up Google Ads
 		(adsbygoogle = window.adsbygoogle || []).push({});
+		// Sort the tools by popularity
+		this.toolsData.tools = _.orderBy(this.toolsData.tools, this.sortVar, "desc");
+
 	}
 }
 
@@ -25539,34 +25783,47 @@ const prototypingComp = {
 	data: function () {
 		return {
 			toolsData: prototypingData,
-			scroll: 0
+			scroll: 0,
+			sortVar: "surveyRaw"
 		}
 	},
-	computed: {
-		computedTools: function() {
-			return _.orderBy(this.toolsData.tools, 'name')
+	methods: {
+		sortBy: function (sortable, dir) {
+			this.toolsData.tools = _.orderBy(this.toolsData.tools, sortable, dir);
+			this.sortVar = sortable;
 		}
 	},
 	mounted: function() {
+		// set Up Google Ads
 		(adsbygoogle = window.adsbygoogle || []).push({});
+		// Sort the tools by popularity
+		this.toolsData.tools = _.orderBy(this.toolsData.tools, this.sortVar, "desc");
+
 	}
 }
+
 
 const handoffComp = {
 	template: '#handoff-tools',
 	data: function () {
 		return {
 			toolsData: handoffData,
-			scroll: 0
+			scroll: 0,
+			sortVar: "surveyRaw"
 		}
 	},
-	computed: {
-		computedTools: function() {
-			return _.orderBy(this.toolsData.tools, 'name')
+	methods: {
+		sortBy: function (sortable, dir) {
+			this.toolsData.tools = _.orderBy(this.toolsData.tools, sortable, dir);
+			this.sortVar = sortable;
 		}
 	},
 	mounted: function() {
+		// set Up Google Ads
 		(adsbygoogle = window.adsbygoogle || []).push({});
+		// Sort the tools by popularity
+		this.toolsData.tools = _.orderBy(this.toolsData.tools, this.sortVar, "desc");
+
 	}
 }
 
@@ -25575,16 +25832,23 @@ const versioningComp = {
 	data: function () {
 		return {
 			toolsData: versioningData,
-			scroll: 0
+			scroll: 0,
+			sortVar: "surveyRaw"
 		}
 	},
-	computed: {
-		computedTools: function() {
-			return _.orderBy(this.toolsData.tools, 'name')
+	methods: {
+		sortBy: function (sortable, dir) {
+			this.toolsData.tools = _.orderBy(this.toolsData.tools, sortable, dir);
+			this.sortVar = sortable;
+			console.log('sorting: ' + sortable);
 		}
 	},
 	mounted: function() {
+		// set Up Google Ads
 		(adsbygoogle = window.adsbygoogle || []).push({});
+		// Sort the tools by popularity
+		this.toolsData.tools = _.orderBy(this.toolsData.tools, this.sortVar, "desc");
+
 	}
 }
 
@@ -25593,16 +25857,23 @@ const monitoringComp = {
 	data: function () {
 		return {
 			toolsData: monitoringData,
-			scroll: 0
+			scroll: 0,
+			sortVar: "surveyRaw"
 		}
 	},
-	computed: {
-		computedTools: function() {
-			return _.orderBy(this.toolsData.tools, 'name')
+	methods: {
+		sortBy: function (sortable, dir) {
+			this.toolsData.tools = _.orderBy(this.toolsData.tools, sortable, dir);
+			this.sortVar = sortable;
+			console.log('sorting: ' + sortable);
 		}
 	},
 	mounted: function() {
+		// set Up Google Ads
 		(adsbygoogle = window.adsbygoogle || []).push({});
+		// Sort the tools by popularity
+		this.toolsData.tools = _.orderBy(this.toolsData.tools, this.sortVar, "desc");
+
 	}
 }
 
@@ -25611,18 +25882,25 @@ const librariesComp = {
 	data: function () {
 		return {
 			toolsData: librariesData,
-			scroll: 0
+			scroll: 0,
+			sortVar: "surveyRaw"
 		}
 	},
-	computed: {
-		computedTools: function() {
-			return _.orderBy(this.toolsData.tools, 'name')
+	methods: {
+		sortBy: function (sortable, dir) {
+			this.toolsData.tools = _.orderBy(this.toolsData.tools, sortable, dir);
+			this.sortVar = sortable;
 		}
 	},
 	mounted: function() {
+		// set Up Google Ads
 		(adsbygoogle = window.adsbygoogle || []).push({});
+		// Sort the tools by popularity
+		this.toolsData.tools = _.orderBy(this.toolsData.tools, this.sortVar, "desc");
+
 	}
 }
+
 
 const router = new VueRouter({
 	mode:"history",

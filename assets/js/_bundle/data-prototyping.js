@@ -6,6 +6,8 @@ const prototypingData = {
         "image": {
             "background-position": "-300 -400",
         },
+        "surveyPercent": 0,
+        "surveyRaw": 0,
         "platforms": {
             "mac": true,
             "windows": true
@@ -33,6 +35,8 @@ const prototypingData = {
         "image": {
             "background-position": "-200 -400",
         },
+        "surveyPercent": 19,
+        "surveyRaw": 228,
         "platforms": {
             "mac": true
         },
@@ -64,6 +68,8 @@ const prototypingData = {
         "image": {
             "background-position": "0 -400",
         },
+        "surveyPercent": 35,
+        "surveyRaw": 412,
         "platforms": {
             "mac": true
         },
@@ -88,6 +94,8 @@ const prototypingData = {
         "image": {
             "background-position": "0 -100",
         },
+        "surveyPercent": 4,
+        "surveyRaw": 43,
         "platforms": {
             "web": true
         },
@@ -113,6 +121,8 @@ const prototypingData = {
         "image": {
             "background-position": "-300 -400",
         },
+        "surveyPercent": 100,
+        "surveyRaw": 1193,
         "platforms": {
             "web": true
         },
@@ -141,6 +151,8 @@ const prototypingData = {
         "image": {
             "background-position": "-200 -300",
         },
+        "surveyPercent": 21,
+        "surveyRaw": 250,
         "platforms": {
             "web": true,
             "iOS": true,
@@ -176,6 +188,8 @@ const prototypingData = {
         "image": {
             "background-position": "-100 -300",
         },
+        "surveyPercent": 7,
+        "surveyRaw": 85,
         "platforms": {
             "web": true,
             "mac": true
@@ -203,6 +217,8 @@ const prototypingData = {
         "image": {
             "background-position": "-400 -400",
         },
+        "surveyPercent": 7,
+        "surveyRaw": 85,
         "platforms": {
             "web": true,
         },
@@ -227,6 +243,8 @@ const prototypingData = {
         "image": {
             "background-position": "-300 0",
         },
+        "surveyPercent": 17,
+        "surveyRaw": 203,
         "platforms": {
             "mac": true,
             "windows": true
@@ -252,6 +270,8 @@ const prototypingData = {
         "image": {
             "background-position": "-500 -400",
         },
+        "surveyPercent": 0,
+        "surveyRaw": 0,
         "design": true,
         "platforms": {
             "web": true
@@ -275,6 +295,8 @@ const prototypingData = {
         "image": {
             "background-position": "0 -500",
         },
+        "surveyPercent": 0,
+        "surveyRaw": 0,
         "design": true,
         "platforms": {
             "web": true
@@ -299,6 +321,8 @@ const prototypingData = {
         "image": {
             "background-position": "0 0",
         },
+        "surveyPercent": 24,
+        "surveyRaw": 292,
         "design": true,
         "platforms": {
             "mac": true,
@@ -325,6 +349,8 @@ const prototypingData = {
         "image": {
             "background-position": "-500 -300",
         },
+        "surveyPercent": 0,
+        "surveyRaw": 0,
         "platforms": {
             "mac": true
         },
@@ -347,6 +373,8 @@ const prototypingData = {
         "image": {
             "background-position": "-300 -300",
         },
+        "surveyPercent": 3,
+        "surveyRaw": 41,
         "platforms": {
             "mac": true,
         },
@@ -370,6 +398,8 @@ const prototypingData = {
         "image": {
             "background-position": "-100 -500",
         },
+        "surveyPercent": 5,
+        "surveyRaw": 56,
         "platforms": {
             "web": true,
         },
@@ -399,6 +429,8 @@ const prototypingData = {
         "image": {
             "background-position": "-400 -300",
         },
+        "surveyPercent": 1,
+        "surveyRaw": 1,
         "platforms": {
             "web": true,
         },
@@ -422,6 +454,8 @@ const prototypingData = {
         "image": {
             "background-position": "-500 -700",
         },
+        "surveyPercent": 3,
+        "surveyRaw": 39,
         "platforms": {
             "web": true,
         },
@@ -448,6 +482,8 @@ const prototypingData = {
         "image": {
             "background-position": "-500 -200",
         },
+        "surveyPercent": 1,
+        "surveyRaw": 1,
         "platforms": {
             "web": true,
         },
@@ -482,6 +518,8 @@ const prototypingData = {
         "image": {
             "background-position": "-100 -700",
         },
+        "surveyPercent": 0,
+        "surveyRaw": 0,
         "design": true,
         "platforms": {
             "web": true,
@@ -510,6 +548,8 @@ const prototypingData = {
         "image": {
             "background-position": "-200 -500",
         },
+        "surveyPercent": 0,
+        "surveyRaw": 0,
         "platforms": {
             "web": true
         },
@@ -533,6 +573,8 @@ const prototypingData = {
         "image": {
             "background-position": "-500 -100",
         },
+        "surveyPercent": 1,
+        "surveyRaw": 1,
         "platforms": {
             "mac": true,
             "windows": true,
@@ -560,6 +602,8 @@ const prototypingData = {
         "image": {
             "background-position": "-200 -600",
         },
+        "surveyPercent": 1,
+        "surveyRaw": 1,
         "design": true,
         "platforms": {
             "web": true,
@@ -583,6 +627,8 @@ const prototypingData = {
         "image": {
             "background-position": "-200 -700",
         },
+        "surveyPercent": 5,
+        "surveyRaw": 65,
         "design": true,
         "platforms": {
             "web": true,
@@ -607,6 +653,8 @@ const prototypingData = {
         "image": {
             "background-position": "-300 -500",
         },
+        "surveyPercent": 0,
+        "surveyRaw": 0,
         "platforms": {
             "iOS": true,
         },
@@ -630,6 +678,8 @@ const prototypingData = {
         "image": {
             "background-position": "-500 0",
         },
+        "surveyPercent": 0,
+        "surveyRaw": 0,
         "platforms": {
             "web": true,
             "mac": true,
@@ -661,6 +711,8 @@ const prototypingData = {
         "image": {
             "background-position": "-400 -700",
         },
+        "surveyPercent": 1,
+        "surveyRaw": 8,
         "platforms": {
             "mac": true,
             "windows": true
@@ -693,6 +745,8 @@ const prototypingData = {
         "image": {
             "background-position": "-0 -700",
         },
+        "surveyPercent": 0,
+        "surveyRaw": 0,
         "platforms": {
             "web": true
         },
@@ -713,6 +767,8 @@ const prototypingData = {
         "image": {
             "background-position": "-0 -800",
         },
+        "surveyPercent": 1,
+        "surveyRaw": 14,
         "platforms": {
             "mac": true,
             "windows": true
@@ -747,6 +803,8 @@ const prototypingData = {
         "image": {
             "background-position": "-100 -800",
         },
+        "surveyPercent": 1,
+        "surveyRaw": 1,
         "platforms": {
             "mac": true,
             "windows": true,
@@ -782,6 +840,8 @@ const prototypingData = {
         "image": {
             "background-position": "-200 -800",
         },
+        "surveyPercent": 0,
+        "surveyRaw": 0,
         "platforms": {
             "web": true
         },
@@ -815,6 +875,8 @@ const prototypingData = {
         "image": {
             "background-position": "-300 -800",
         },
+        "surveyPercent": 0,
+        "surveyRaw": 0,
         "platforms": {
             "iOS": true
         },
@@ -850,6 +912,8 @@ const prototypingData = {
         "image": {
             "background-position": "-500 -800",
         },
+        "surveyPercent": 0,
+        "surveyRaw": 0,
         "platforms": {
             "web": true
         },
@@ -884,6 +948,8 @@ const prototypingData = {
         "image": {
             "background-position": "-100 -900",
         },
+        "surveyPercent": 1,
+        "surveyRaw": 3,
         "platforms": {
             "mac": true
         },
@@ -916,6 +982,8 @@ const prototypingData = {
         "image": {
             "background-position": "-300 -900",
         },
+        "surveyPercent": 0,
+        "surveyRaw": 0,
         "platforms": {
             "web": true
         },
@@ -947,6 +1015,8 @@ const prototypingData = {
         "image": {
             "background-position": "-500 -900",
         },
+        "surveyPercent": 0,
+        "surveyRaw": 0,
         "platforms": {
             "mac": true
         },
@@ -979,6 +1049,8 @@ const prototypingData = {
         "image": {
             "background-position": "-200 -100",
         },
+        "surveyPercent": 12,
+        "surveyRaw": 144,
         "platforms": {
             "web": true,
             "mac": true,
@@ -1015,6 +1087,8 @@ const prototypingData = {
         "image": {
             "background-position": "-500 -1100",
         },
+        "surveyPercent": 0,
+        "surveyRaw": 0,
         "platforms": {
             "web": true,
         },
@@ -1050,9 +1124,16 @@ const prototypingData = {
             "tipText": ""
         }, {
             "title": "Name",
-            "show": true,
-            "canChange": true,
-            "tipText": "Name of app"
+            "tipText": "Name of app",
+            "sortable": true,
+            "sortVar": "name",
+            "sortDir": "asc"
+        }, {
+            "title": "Usage",
+            "tipText": "Based on the<br>2017 Design Tools Survey",
+            "sortable": true,
+            "sortVar": "surveyRaw",
+            "sortDir": "desc",
         }, {
             "title": "Platform",
             "show": true,
