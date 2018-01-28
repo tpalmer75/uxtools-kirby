@@ -228,13 +228,13 @@ table {
     width: 100%;
   }
 }
-@media all and (max-width: 500px) {
+@media all and (max-width: 680px) {
   #main-header .scroll-tabs {
     overflow: scroll;
     font-size: 14px;
   }
 }
-@media all and (max-width: 500px) {
+@media all and (max-width: 680px) {
   #main-header .scroll-tabs ul {
     min-width: 660px;
   }
@@ -778,15 +778,16 @@ table th:nth-of-type(2) {
 table th span {
   display: inline;
 }
-table th svg {
-  display: inline;
-  vertical-align: middle;
-  margin-left: 5px;
-  position: relative;
-  top: -2px;
+table th span .sort-arrow {
+  position: absolute;
+  right: -25px;
+  top: -3px;
 }
-table th svg path {
+table th svg {
   fill: #ccc;
+}
+table th.sorted svg {
+  fill: #4285F4;
 }
 table thead {
   position: absolute;
@@ -848,6 +849,13 @@ table .flex-col {
   width: 30px;
   text-align: center;
   position: relative;
+}
+table .bar {
+  height: 24px;
+}
+table .blue-bar {
+  background: #4285F4;
+  min-width: 2px;
 }
 .zero-state {
   background: #f0f0f0;

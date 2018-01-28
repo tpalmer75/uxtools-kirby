@@ -5,6 +5,8 @@ const monitoringData = {
 		"image": {
 			"background-position": "-100 -200",
 		},
+		"surveyRaw": 3,
+    "surveyPercent": 1,
 		"platforms": {
 			"web": true
 		},
@@ -27,6 +29,8 @@ const monitoringData = {
 		"image": {
 			"background-position": "0 -300",
 		},
+		"surveyRaw": 2,
+    "surveyPercent": 1,
 		"platforms": {
 			"web": true
 		},
@@ -55,6 +59,8 @@ const monitoringData = {
 		"image": {
 			"background-position": "-300 -100",
 		},
+		"surveyRaw": 122,
+    "surveyPercent": 38,
 		"platforms": {
 			"web": true
 		},
@@ -80,6 +86,8 @@ const monitoringData = {
 		"image": {
 			"background-position": "0 -200",
 		},
+		"surveyRaw": 319,
+    "surveyPercent": 100,
 		"platforms": {
 			"web": true
 		},
@@ -102,6 +110,8 @@ const monitoringData = {
 		"image": {
 			"background-position": "-400 -100",
 		},
+		"surveyRaw": 0,
+    "surveyPercent": 0,
 		"platforms": {
 			"web": true
 		},
@@ -121,6 +131,8 @@ const monitoringData = {
 		"image": {
 			"background-position": "-200 -200",
 		},
+		"surveyRaw": 0,
+    "surveyPercent": 0,
 		"platforms": {
 			"web": true
 		},
@@ -139,6 +151,8 @@ const monitoringData = {
 		"image": {
 			"background-position": "-300 -200",
 		},
+		"surveyRaw": 0,
+    "surveyPercent": 0,
 		"platforms": {
 			"web": true
 		},
@@ -157,6 +171,8 @@ const monitoringData = {
 		"image": {
 			"background-position": "-400 -200",
 		},
+		"surveyRaw": 8,
+    "surveyPercent": 3,
 		"platforms": {
 			"web": true
 		},
@@ -179,6 +195,8 @@ const monitoringData = {
 		"image": {
 			"background-position": "-400 -800",
 		},
+		"surveyRaw": 1,
+    "surveyPercent": 1,
 		"platforms": {
 			"web": true
 		},
@@ -203,6 +221,8 @@ const monitoringData = {
 		"image": {
 			"background-position": "0 -1000",
 		},
+		"surveyRaw": 0,
+    "surveyPercent": 0,
 		"platforms": {
 			"web": true
 		},
@@ -227,6 +247,8 @@ const monitoringData = {
 		"image": {
 			"background-position": "-400 -1100",
 		},
+		"surveyRaw": 7,
+    "surveyPercent": 2,
 		"platforms": {
 			"web": true
 		},
@@ -254,12 +276,21 @@ const monitoringData = {
 			"title": "",
 			"tipText": ""
 	}, {
-			"title": "Name",
-			"tipText": "Name of app"
-	}, {
-			"title": "Free",
-			"tipText": "Has a free version"
-	}, {
+      "title": "Name",
+      "tipText": "Name of app",
+      "sortable": true,
+      "sortVar": "name",
+      "sortDir": "asc"
+  }, {
+      "title": "Usage",
+      "tipText": "Based on the<br>2017 Design Tools Survey",
+      "sortable": true,
+      "sortVar": "surveyRaw",
+      "sortDir": "desc",
+  }, {
+  	"title": "Free",
+  	"tipText": "Has a free version"
+  }, {
 			"title": "Subscription",
 			"tipText": "Cheapest monthly<br>payment"
 	}, {

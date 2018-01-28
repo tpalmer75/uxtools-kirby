@@ -1,10 +1,39 @@
 const librariesData = {
 	tools: [{
+		"name": "Sketch",
+    "url": "https://www.sketchapp.com/",
+    "image": {
+        "background-position": "-200 0",
+    },
+		"surveyRaw": 861,
+    "surveyPercent": 100,
+		"platforms": {
+			"mac": true
+		},
+		"programs": {
+			"sketch": true,
+		},
+		"assets": false,
+		"symbols": true,
+		"layers": false,
+		"sharing": true,
+		"permissions": false,
+		"interface": "Drop Down",
+		"update": true, // push and pull changes
+		"annotate": false,
+		"styleguide": false,
+		"pricing": {
+        "individual": "$99"
+    },
+    "lastUpdated": "Jan 2018"
+	},{
 		"name": "Lingo",
 		"url": "https://www.lingoapp.com/",
 		"image": {
 			"background-position": "-100 -1100",
 		},
+		"surveyRaw": 45,
+    "surveyPercent": 5,
 		"platforms": {
 			"mac": true
 		},
@@ -31,6 +60,8 @@ const librariesData = {
 		"image": {
 			"background-position": "-500 -300",
 		},
+		"surveyRaw": 321,
+    "surveyPercent": 37,
 		"platforms": {
 			"mac": true
 		},
@@ -57,6 +88,8 @@ const librariesData = {
 		"image": {
 			"background-position": "-200 -1100",
 		},
+		"surveyRaw": 8,
+    "surveyPercent": 1,
 		"platforms": {
 			"mac": true
 		},
@@ -83,6 +116,8 @@ const librariesData = {
 		"image": {
 			"backgroundPosition": "-200 -1000",
 		},
+		"surveyRaw": 49,
+    "surveyPercent": 6,
 		"platforms": {
 			"web": true
 		},
@@ -113,6 +148,8 @@ const librariesData = {
 		"image": {
 			"background-position": "-200 -100",
 		},
+		"surveyRaw": 123,
+    "surveyPercent": 14,
 		"platforms": {
 			"web": true,
 			"mac": true,
@@ -141,6 +178,8 @@ const librariesData = {
 		"image": {
 			"background-position": "0 -100"
 		},
+		"surveyRaw": 23,
+    "surveyPercent": 3,
 		"platforms": {
 			"web": true,
 			"mac": true,
@@ -169,6 +208,8 @@ const librariesData = {
 		"image": {
 			"background-position": "-300 -1100"
 		},
+		"surveyRaw": 3,
+    "surveyPercent": 1,
 		"platforms": {
 			"mac": true,
 		},
@@ -196,9 +237,18 @@ const librariesData = {
 			"title": "",
 			"tipText": ""
 	}, {
-			"title": "Name",
-			"tipText": "Name of app"
-	}, {
+      "title": "Name",
+      "tipText": "Name of app",
+      "sortable": true,
+      "sortVar": "name",
+      "sortDir": "asc"
+  }, {
+      "title": "Usage",
+      "tipText": "Based on the<br>2017 Design Tools Survey",
+      "sortable": true,
+      "sortVar": "surveyRaw",
+      "sortDir": "desc",
+  }, {
 			"title": "Platform",
 			"tipText": "Platforms used to <br>upload components"
 	}, {

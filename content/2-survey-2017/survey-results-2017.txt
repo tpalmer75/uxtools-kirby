@@ -169,8 +169,8 @@ The "Size of Design Team" question was ambiguous and poorly structured, so I don
 
 <div class="promotion-missing">
 <div class="content">
-<h4>So you don't like ads. 😒</h4>
-<p>Want to help me win a Nintendo Switch instead? Just like <a href="https://dribbble.com/shots/4113716-Win-A-Switch">this shot on Dribbble</a>. That's it.</p>
+<h4>Normally there's an ad here. 🤔</h4>
+<p>I run this site by myself, so it would be awesome if you turned off your ad blocker.</p>
 </div>
 </div>
 <ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-format="fluid" data-ad-layout="in-article" data-ad-client="ca-pub-2169456968850651" data-ad-slot="1581403896"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
@@ -232,8 +232,8 @@ I knew InVision was popular, but I didn't realize it was _this_ popular. Good to
 
 <div class="promotion-missing">
 <div class="content">
-<h4>So you don't like ads. 😒</h4>
-<p>Want to help me win a Nintendo Switch instead? Just like <a href="https://dribbble.com/shots/4113716-Win-A-Switch">this shot on Dribbble</a>. That's it.</p>
+<h4>Normally there's an ad here. 🤔</h4>
+<p>I run this site by myself, so it would be awesome if you turned off your ad blocker.</p>
 </div>
 </div>
 <ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-format="fluid" data-ad-layout="in-article" data-ad-client="ca-pub-2169456968850651" data-ad-slot="1581403896"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
@@ -298,8 +298,8 @@ Here's what to look out for in 2018. InVision has been marketing their new InVis
 
 <div class="promotion-missing">
 <div class="content">
-<h4>So you don't like ads. 😒</h4>
-<p>Want to help me win a Nintendo Switch instead? Just like <a href="https://dribbble.com/shots/4113716-Win-A-Switch">this shot on Dribbble</a>. That's it.</p>
+<h4>Normally there's an ad here. 🤔</h4>
+<p>I run this site by myself, so it would be awesome if you turned off your ad blocker.</p>
 </div>
 </div>
 <ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-format="fluid" data-ad-layout="in-article" data-ad-client="ca-pub-2169456968850651" data-ad-slot="1581403896"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script>

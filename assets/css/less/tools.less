@@ -114,16 +114,19 @@ table {
 		}
 		span {
 			display: inline;
+			.sort-arrow {
+				position: absolute;
+				right: -25px;
+				top: -3px;
+			}
 		}
 		svg {
-			display: inline;
-			vertical-align: middle;
-			margin-left: 5px;
-			// margin-right: 10px;
-			position: relative;
-			top: -2px;
-			path {
-				fill: #ccc;
+			fill: #ccc;
+		}
+		&.sorted {
+			// color: @blue-primary;
+			svg {
+				fill: @blue-primary;
 			}
 		}
 	}
@@ -201,6 +204,15 @@ table {
 		width: 30px;
 		text-align: center;
 		position: relative;
+	}
+	.bar {
+		height: 24px;
+		// background: #eee;
+		// width: 100%;
+	}
+	.blue-bar {
+		background: @blue-primary;
+		min-width: 2px;
 	}
 }
 
