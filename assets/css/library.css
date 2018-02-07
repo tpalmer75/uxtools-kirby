@@ -689,7 +689,6 @@ a {
 }
 .wrapper {
   width: 100%;
-  max-width: 1600px;
   margin: 0 auto;
 }
 .select-wrapper {
@@ -706,28 +705,11 @@ a {
     display: none;
   }
 }
-select {
-  -moz-appearance: none;
-  -webkit-appearance: none;
-  appearance: none;
-  background-color: transparent;
-  border: 0;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
-  border-radius: 1px;
-  cursor: default;
-  color: white;
-  display: inline-block;
-  font-family: "Karla", Roboto, Helvetica, sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  padding: 5px 16px 8px 0;
-  position: relative;
-  width: 200px;
-}
 #library-sidebar {
-  background: #f1f1f1;
+  background: #fff;
   min-height: 100%;
-  padding: 20px;
+  padding: 0 30px 30px;
+  border-right: 1px solid #eee;
   left: 0;
   transition: left 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
@@ -736,9 +718,9 @@ select {
     position: fixed;
     z-index: 5;
     top: 0;
-    left: -250px;
+    left: -300px;
     display: block;
-    width: 250px;
+    width: 300px;
     height: 100vh;
     overflow-y: scroll;
     -webkit-overflow-scrolling: touch;
@@ -749,6 +731,11 @@ select {
     box-shadow: 5px 0px 20px rgba(0, 0, 0, 0.25);
   }
 }
+#library-sidebar svg {
+  position: absolute;
+  top: 20px;
+  right: 25px;
+}
 .show-library-sidebar {
   cursor: pointer;
 }
@@ -758,7 +745,7 @@ select {
 }
 @media all and (max-width: 999px) {
   #library-sidebar-shade {
-    flex: 0 0 250px;
+    flex: 0 0 300px;
   }
 }
 @media all and (max-width: 699px) {
@@ -779,37 +766,33 @@ select {
   }
 }
 .sidebar-list {
-  border-top: 1px solid #ccc;
-  margin-top: 20px;
+  margin: 40px 0 20px;
+  display: inline-block;
+  width: 100%;
 }
 .sidebar-list header {
   font-weight: bold;
-  font-size: 14px;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  margin: 30px 0;
+  font-size: 24px;
+  margin-bottom: 20px;
 }
 .sidebar-list li {
-  margin: 10px 0;
+  margin: 5px 0;
+  padding: 5px 10px;
+  border-radius: 3px;
   cursor: pointer;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  transition: background 0.1s ease-in-out;
 }
 .sidebar-list li span {
   flex: 1 0 auto;
 }
-.sidebar-list li svg {
-  opacity: 0;
-  visibility: hidden;
-  fill: #4285F4;
-}
 .sidebar-list li.active {
-  color: #4285F4;
+  background-color: rgba(66, 133, 244, 0.1);
 }
-.sidebar-list li.active svg {
-  opacity: 1;
-  visibility: visible;
+.sidebar-list li:hover {
+  background: rgba(238, 238, 238, 0.5);
 }
 .sidebar-list li img {
   width: 32px;
@@ -824,10 +807,13 @@ select {
     height: 24px;
   }
 }
+.sidebar-list li.image-list {
+  padding: 0;
+}
 .sidebar-list li.image-list a {
   display: flex;
   justify-content: initial;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 .sidebar-list li.image-list .owner {
   color: #999;
@@ -868,59 +854,53 @@ section {
 }
 #books {
   display: flex;
-  justify-content: space-between;
   margin: auto;
   flex-wrap: wrap;
   margin-top: 50px;
 }
 #books > li {
-  width: 32%;
-  margin-bottom: 40px;
+  flex: 1 0 250px;
+  margin: 10px 10px 40px;
   background: white;
-  flex-direction: column;
-  justify-content: space-between;
-  display: flex;
 }
-#books > li .book-wrapper {
-  display: flex;
-}
-@media all and (max-width: 1199px) {
-  #books > li {
-    width: 49%;
-    margin-bottom: 20px;
+@media all and (max-width: 899px) {
+  #books > li .book-wrapper {
+    display: flex;
   }
-}
-@media all and (max-width: 800px) {
-  #books > li {
-    width: 100%;
-    margin: 0;
-    border-bottom: 1px solid #eee;
-    padding: 10px 0;
+  #books > li .book-wrapper .image-container {
+    width: 100px;
+    height: 100px;
+    text-align: center;
   }
 }
 #books > li .book-info {
-  padding: 0 10px 10px 10px;
+  padding: 10px 10px 10px 0;
 }
 #books > li .title {
+  font-family: "PT Serif", Garamond, sans-serif;
   font-weight: bold;
   margin-bottom: 5px;
-  line-height: 1.2;
-}
-#books > li .title:hover {
-  text-decoration: underline;
+  line-height: 1.4;
 }
 #books > li h5 {
   font-size: 14px;
-}
-#books > li h5 em {
+  font-weight: normal;
   color: #999;
-  font-style: italic;
+  letter-spacing: 0;
+}
+#books > li h4 {
+  letter-spacing: 0;
+}
+#books > li:hover svg {
+  fill: #4285F4;
+}
+#books > li:hover .title {
+  text-decoration: underline;
 }
 #books .image-container {
-  width: 80px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
   flex: 0 0 auto;
-  text-align: center;
 }
 #books .image-container img {
   max-width: 100%;
@@ -955,19 +935,20 @@ section {
   align-items: center;
   font-size: 14px;
   cursor: pointer;
+  font-weight: bold;
+  color: #999;
 }
 #books .book-lists svg {
-  fill: #4285F4;
+  fill: #999;
   transition: fill .2s;
-}
-#books .book-lists:hover svg {
-  fill: #3267D6;
+  margin-right: 5px;
 }
 .books-header {
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid #ccc;
   padding: 16px 0;
+  margin-top: 20px;
   min-height: 74px;
   align-items: center;
   flex-wrap: wrap-reverse;
@@ -1015,14 +996,16 @@ section {
   border: none;
 }
 .search {
+  margin-top: 40px;
   position: relative;
+  width: 300px;
 }
 .search input {
   font-family: "Karla", Roboto, Helvetica, sans-serif;
   background-color: white;
   appearance: none;
   border: 1px solid #ccc;
-  border-radius: 999px;
+  border-radius: 6px;
   height: 32px;
   width: 100%;
   font-size: 16px;
@@ -1035,13 +1018,14 @@ section {
   top: 4px;
   right: 7px;
 }
-@media all and (max-width: 500px) {
+@media all and (max-width: 699px) {
   .search {
     width: 100%;
+    margin-top: 0;
   }
 }
 .filter-wrapper {
-  margin: 10px;
+  margin: 20px 0 10px;
   max-height: 50px;
   opacity: 1;
   transition: all 0.1s ease-in-out;
@@ -1062,7 +1046,6 @@ section {
 .filter-growl {
   font-size: 14px;
   color: white;
-  text-align: center;
   color: #999;
   margin: auto;
   border-radius: 999px;
@@ -1137,6 +1120,8 @@ section {
   background: white;
   width: 500px;
   height: 75%;
+  border-radius: 6px;
+  overflow: hidden;
   max-height: 700px;
   display: flex;
   flex-direction: column;
@@ -1149,6 +1134,7 @@ section {
     height: 80%;
     max-height: none;
     transform: translateY(0);
+    border-radius: 0;
   }
 }
 #modal-wrapper .container h6 {
@@ -1157,6 +1143,7 @@ section {
   letter-spacing: 1px;
   font-weight: bold;
   font-size: 12px;
+  margin-top: 0;
 }
 #modal-wrapper .container header {
   display: flex;

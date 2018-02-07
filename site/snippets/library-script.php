@@ -13,20 +13,23 @@
         </header>
         <transition name="slide-down">
           <div v-show="$parent.computedTags || $parent.searchTerm" v-bind:class="{'showing': $parent.computedTags || $parent.searchTerm}" class="filter-wrapper">
-            <div class="filter-growl"> <span>Only showing "{{$parent.computedTags}}{{$parent.searchTerm}}"</span><span @click="clearAll()" class="close">Dismiss</span></div>
+            <div class="filter-growl"> <span>Only showing "{{$parent.computedTags}}{{$parent.searchTerm}}"</span><span @click="clearAll()" class="close">Clear</span></div>
           </div>
         </transition>
         <ul id="books">
           <li v-for="book in books">
             <div class="book-wrapper">
-              <div class="image-container"><a v-bind:href="book.url" target="_blank" v-bind:title="book.title"><img v-bind:alt="book.title" v-bind:src="'<?php echo kirby()->urls()->assets() . '/images/book-covers/' ?>' + book.image" class="cover"/></a></div>
-              <div class="book-info"><a v-bind:href="book.url" target="_blank" v-bind:title="book.title">
+              <div class="image-container">
+                <a v-bind:href="book.url" target="_blank" v-bind:title="book.title">
+                  <img v-bind:alt="book.title" v-bind:src="'<?php echo kirby()->urls()->assets() . '/images/book-covers/' ?>' + book.image" class="cover"/>
+                </a>
+              </div>
+              <div class="book-info">
+                <a v-bind:href="book.url" target="_blank" v-bind:title="book.title">
                   <h4 class="title">{{ shortenedTitle(book.title) }}</h4></a>
-                <h5><em>by </em>{{ book.author }}</h5>
-                <ul class="tags">
-                  <li v-for="tag in book.tags" @click="clearAll(); scrollToTop(); $parent.categoryData.categoryModel.tags = tag">{{ tag }}</li>
-                </ul>
-                <div @click="$parent.showModal=true; $parent.setModalData(book);" class="book-lists"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="24" height="24" viewBox="0 0 24 24"><path d="M17,3H7A2,2 0 0,0 5,5V21L12,18L19,21V5C19,3.89 18.1,3 17,3Z" /></svg><span>{{book.recommendations.length}}</span>
+                <h5>{{ book.author }}</h5>
+                <div @click="$parent.showModal=true; $parent.setModalData(book);" class="book-lists"><?= (new Asset("assets/images/icons/thumb-up-outline.svg"))->content() ?>
+                  <span>{{book.recommendations.length}}</span>
                 </div>
               </div>
             </div>
