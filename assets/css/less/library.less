@@ -35,7 +35,7 @@ a {
 
 .wrapper {
 	width: 100%;
-	max-width: 1600px;
+	// max-width: 1600px;
 	margin: 0 auto;
 }
 
@@ -52,38 +52,39 @@ a {
 	}
 }
 
-select {
-	-moz-appearance: none;
-    -webkit-appearance: none;
-    appearance: none;
-    background-color: transparent;
-    border: 0;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
-    border-radius: 1px;
-    cursor: default;
-    color: white;
-    display: inline-block;
-    font-family: @body-font-stack;
-    font-size: 16px;
-    font-weight: 400;
-    padding: 5px 16px 8px 0;
-    position: relative;
-    width: 200px;
-}
+// select {
+// 	-moz-appearance: none;
+//     -webkit-appearance: none;
+//     appearance: none;
+//     background-color: transparent;
+//     border: 0;
+//     border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+//     border-radius: 1px;
+//     cursor: default;
+//     color: white;
+//     display: inline-block;
+//     font-family: @body-font-stack;
+//     font-size: 16px;
+//     font-weight: 400;
+//     padding: 5px 16px 8px 0;
+//     position: relative;
+//     width: 200px;
+// }
 
 #library-sidebar {
-	background: #f1f1f1;
+	background: #fff;
 	min-height: 100%;
-	padding: 20px;
+	padding: 0 30px 30px;
+	border-right: 1px solid #eee;
 	left: 0;
 	transition: left .2s ease-in-out, box-shadow .2s ease-in-out;
 	@media all and (max-width: 699px) {
 		position: fixed;
 		z-index: 5;
 		top: 0;
-		left: -250px;
+		left: -300px;
 		display: block;
-		width: 250px;
+		width: 300px;
 		height: 100vh;
 		overflow-y: scroll;
 		-webkit-overflow-scrolling: touch;
@@ -92,6 +93,11 @@ select {
 			left: 0;
 			box-shadow: 5px 0px 20px rgba(0,0,0,.25);
 		}
+	}
+	svg {
+		position: absolute;
+		top: 20px;
+		right: 25px;
 	}
 }
 
@@ -103,7 +109,7 @@ select {
 	display: flex;
 	flex: 0 0 300px;
 	@media all and (max-width: 999px) {
-		flex: 0 0 250px;
+		flex: 0 0 300px;
 	}
 	@media all and (max-width: 699px) {
 		width: 100vw;
@@ -123,35 +129,31 @@ select {
 }
 
 .sidebar-list {
-	border-top: 1px solid #ccc;
-	margin-top: 20px;
+	margin: 40px 0 20px;
+	display: inline-block; // for collapsing margin
+	width: 100%; 
 	header {
 		font-weight: bold;
-		font-size: 14px;
-		letter-spacing: 1px;
-		text-transform: uppercase;
-		margin: 30px 0;
+		font-size: 24px;
+		margin-bottom: 20px;
 	}
 	li {
-		margin: 10px 0;
+		margin: 5px 0;
+		padding: 5px 10px;
+		border-radius: 3px;
 		cursor: pointer;
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
+		transition: background .1s ease-in-out;
 		span {
 			flex: 1 0 auto;
 		}
-		svg {
-			opacity: 0;
-			visibility: hidden;
-			fill: @blue-primary;
-		}
 		&.active {
-			color: @blue-primary;
-			svg {
-				opacity: 1;
-				visibility: visible;
-			}
+			background-color: fade(@blue-primary, 10%)
+		}
+		&:hover {
+			background: fade(#eee, 50%);
 		}
 		img {
 			width: 32px;
@@ -165,10 +167,11 @@ select {
 			}
 		}
 		&.image-list {
+			padding: 0;
 			a {
 				display: flex;
 				justify-content: initial;
-				margin-bottom: 15px;
+				margin-bottom: 20px;
 			}
 			.owner {
 				color: #999;
@@ -211,54 +214,58 @@ section {
 
 #books {
 	display: flex;
-	justify-content: space-between;
 	margin: auto;
 	flex-wrap: wrap;
 	margin-top: 50px;
 	> li {
-		width: 32%;
-		margin-bottom: 40px;
+		// width: 25%;
+		flex: 1 0 250px;
+		margin: 10px 10px 40px;
 		background: white;
-		flex-direction: column;
-		justify-content: space-between;
-		display: flex;
+		// flex-direction: column;
+		// justify-content: space-between;
+		// display: flex;
 		.book-wrapper {
-			display: flex;
-		}
-		@media all and (max-width: 1199px) {
-			width: 49%;
-			margin-bottom: 20px;
-		}
-		@media all and (max-width: @library-3) {
-			width: 100%;
-			margin: 0;
-			border-bottom: 1px solid #eee;
-			padding: 10px 0;
+			@media all and (max-width: 899px) {
+				display: flex;
+				.image-container {
+					width: 100px;
+					height: 100px;
+					text-align: center;
+				}
+			}
 		}
 		.book-info {
-			padding: 0 10px 10px 10px;
+			padding: 10px 10px 10px 0;
 		}
 		.title {
+			font-family: @serif-font-stack;
 			font-weight: bold;
 			margin-bottom: 5px;
-			line-height: 1.2;
-			&:hover {
-				text-decoration: underline;
-			}
+			line-height: 1.4;
 		}
 		h5 {
 			font-size: 14px;
-			em {
-				color: #999;
-				font-style: italic;
+			font-weight: normal;
+			color: #999;
+			letter-spacing: 0;
+		}
+		h4 {
+			letter-spacing: 0;
+		}
+		&:hover {
+			svg {
+				fill: @blue-primary;
+			}
+			.title {
+				text-decoration: underline;
 			}
 		}
 	}
 	.image-container {
-		width: 80px;
-		height: 100px;
+		width: 200px;
+		height: 200px;
 		flex: 0 0 auto;
-		text-align: center;
 		img {
 			max-width: 100%;
 			max-height: 100%;
@@ -293,14 +300,12 @@ section {
 		align-items: center;
 		font-size: 14px;
 		cursor: pointer;
+		font-weight: bold;
+		color: #999;
 		svg {
-			fill: @blue-primary;
+			fill: #999;
 			transition: fill .2s;
-		}
-		&:hover {
-			svg {
-				fill: @blue-alternate;
-			}
+			margin-right: 5px;
 		}
 	}
 }
@@ -310,6 +315,7 @@ section {
 	justify-content: space-between;
 	border-bottom: 1px solid #ccc;
 	padding: 16px 0;
+	margin-top: 20px;
 	min-height: 74px;
 	align-items: center;
 	flex-wrap: wrap-reverse;
@@ -363,13 +369,15 @@ section {
 }
 
 .search {
+	margin-top: 40px;
 	position: relative;
+	width: 300px;
 	input {
 		font-family: @body-font-stack;
 		background-color: white;
 		appearance: none;
 		border: 1px solid #ccc;
-		border-radius: 999px;
+		border-radius: 6px;
 		height: 32px;
 		width: 100%;
 		font-size: 16px;
@@ -382,13 +390,14 @@ section {
 		top: 4px;
 		right: 7px;
 	}
-	@media all and (max-width: @small-size) {
+	@media all and (max-width: 699px) {
 		width: 100%;
+		margin-top: 0;
 	}
 }
 
 .filter-wrapper {
-	margin: 10px;
+	margin: 20px 0 10px;
 	max-height: 50px;
 	opacity: 1;
 	transition: all .1s ease-in-out;
@@ -407,7 +416,6 @@ section {
 .filter-growl {
 	font-size: 14px;
 	color: white;
-	text-align: center;
 	color: #999;
 	margin: auto;
 	border-radius: 999px;
@@ -476,6 +484,8 @@ section {
 		background: white;
 		width: 500px;
 		height: 75%;
+		border-radius: 6px;
+		overflow: hidden;
 		max-height: 700px;
 		display: flex;
 		flex-direction: column;
@@ -486,6 +496,7 @@ section {
 			height: 80%;
 			max-height: none;
 			transform: translateY(0);
+			border-radius: 0;
 		}
 		h6 {
 			text-transform: uppercase;
@@ -493,6 +504,7 @@ section {
 			letter-spacing: 1px;
 			font-weight: bold;
 			font-size: 12px;
+			margin-top: 0;
 		}
 		header {
 			display: flex;

@@ -157,7 +157,7 @@ new Vue({
 				{name: "Process", value: "Process"}
 			]
 		  },
-		categoryCount: 5,
+		// categoryCount: 5,
 		bookListsCount: 10,
 		booksCount: 20,
 		books: books,
@@ -167,8 +167,8 @@ new Vue({
 	computed: {
 		orderedCategoryOptions: function() {
 			var arr =  _.orderBy(this.categoryData.categoryOptions, 'name');
-			var truncated = arr.slice(0, this.categoryCount);
-			return truncated
+			// var truncated = arr.slice(0, this.categoryCount);
+			return arr
 		},
 		// truncatedBooks: function() {
 		//     var arr = this.books
