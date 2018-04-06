@@ -20,7 +20,7 @@
     <div class="social-sharing">
       <button class="white">
         <?= (new Asset("assets/images/icons/twitter.svg"))->content() ?>
-        <a href="https://twitter.com/intent/tweet?source=webclient&text=<?php echo rawurlencode($page->title()); ?>%20<?php echo rawurlencode($page->url()); ?>%20<?php echo ('via @uxtoolsco')?>" target="blank" title="Tweet this">Share on Twitter</a>
+        <a href="https://twitter.com/intent/tweet?source=webclient&text=<?php echo rawurlencode($page->title()); ?>%20<?php echo rawurlencode($page->url()); ?>%20<?php echo ('via @_taylorpalmer')?>" target="blank" title="Tweet this">Share on Twitter</a>
       </button>
 
       <button class="white">

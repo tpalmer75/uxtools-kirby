@@ -1,0 +1,60 @@
+Title: Framer Form Elements UI Kit
+
+----
+
+Subtitle: Take your prototypes to the next level with this simple, interactive UI kit with working form fields and inputs.
+
+----
+
+Author: Taylor Palmer
+
+----
+
+Coverimage: cover.png
+
+----
+
+Mainimage: framer-screenshot.png
+
+----
+
+Date: 4/5/2018
+
+----
+
+Type: article
+
+----
+
+Socialimage: social.jpg
+
+----
+
+Description: Take your prototypes to the next level with this simple, interactive UI kit with working form fields and inputs.
+
+----
+
+Text: 
+## What you get
+
+All components are completely interactive and work with real data. Best of all—I’m available when you get stuck: [taylor@uxtools.co](mailto:taylor@uxtools.co)
+
+- Text Inputs
+- Password Inputs
+- Dropdowns
+- Spinners
+- Text Areas
+- Check Boxes
+- Radio Buttons
+- Credit Card Inputs
+- Password Fields
+- Email Inputs
+- Form Validation
+
+Every line of code is neatly annotated with helpful, educational comments to help you make these features work for you.
+
+<button class="framer-button blue inline"><img src="/assets/images/logos/framer-2.png">Download for Framer</button>
+
+## Here's an example:
+
+(image: gif-1.gif)

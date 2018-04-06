@@ -31,7 +31,7 @@ One of areas most lacking in modern-day prototyping tools is also one of the mos
 
 As I’ve been tinkering with prototypes lately, I’ve been cataloging the various ways that I’ve allowed for input. I’ve combined those components into one easy-to-use UI kit.
 
-<a href="https://framer.cloud/cEuQA" target="_blank"><button class="blue">View the Form Elements UI Kit</button></a>
+<a href="https://gum.co/CVpHb" target="_blank"><button class="blue">View the Form Elements UI Kit</button></a>
 
 Here’s what it contains:
 
@@ -96,6 +96,6 @@ As you try the prototype, you’ll notice everything you do causes the data obje
 
 ***
 
-<a href="https://framer.cloud/cEuQA" target="_blank"><button class="blue">View the Form Elements UI Kit</button></a>
+<a href="https://gum.co/CVpHb" target="_blank"><button class="blue">View the Form Elements UI Kit</button></a>
 
 Something missing? Let me know and I can add it to the kit. If you get stuck, feel free to reach out on [Twitter](https://twitter.com/@_taylorpalmer) and I’d be happy to help.

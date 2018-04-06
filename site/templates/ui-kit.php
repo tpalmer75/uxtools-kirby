@@ -1,11 +1,18 @@
 <?php snippet('header') ?>
 
-	<section class="blog-post">
-		<?php snippet('coverimage', $page) ?>
-
-		<article class="blog-content">
-			<time datetime="<?php echo $page->date('c') ?>" pubdate="pubdate"><?php echo $page->date('F j, Y') ?></time>
-			<h1><?= $page->title()->html() ?></h1>
+	<section class="ui-kit">
+		<header>
+			<div>
+				<h1><?= $page->title()->html() ?></h1>
+				<h2><?= $page->subtitle()->html() ?></h2>
+				<div class="buttons">
+					<button class="preview-button white">Preview</button>
+					<button class="framer-button blue"><img src="/assets/images/logos/framer-2.png">Download for Framer</button>
+				</div>
+			</div>
+		</header>
+		<img class="floating-hero" src="<?= $page->url() ?>/<?= $page->mainimage() ?>">
+		<article>
 			<?= $page->text()->kirbytext() ?>
 		</article>
 

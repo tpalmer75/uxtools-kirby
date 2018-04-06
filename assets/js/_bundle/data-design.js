@@ -105,10 +105,11 @@ const designData = {
         "symbols": true,
         "responsive": true,
         "vector": true,
+        "prototyping": true,
         "pricing": {
             "purchase": "$99"
         },
-        lastUpdated: "Jan '17"
+        lastUpdated: "Mar '18"
     }, {
         "name": "Figma",
         "url": "https://www.figma.com",
@@ -334,7 +335,7 @@ const designData = {
             "html": true
         },
         "offline": false,
-        "penTool": false,
+        "penTool": true,
         "collaboration": true,
         "comments": true,
         "handoff": true,
@@ -581,7 +582,7 @@ const designData = {
             "subscription": "$12",
             "purchase": ""
         },
-        lastUpdated: "Jan '17"
+        lastUpdated: "Jan '18"
     }, {
         "name": "Justinmind",
         "url": "http://www.justinmind.com/",

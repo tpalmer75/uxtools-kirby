@@ -841,6 +841,94 @@ body {
 .survey-2017 .toolkit-cards li h5 {
   margin-top: 2px;
 }
+.ui-kit {
+  padding: 0;
+}
+@media all and (max-width: 768px) {
+  .ui-kit {
+    font-size: 0.875em;
+  }
+}
+.ui-kit header {
+  background: #1F3E71;
+  color: white;
+  padding: 50px 20px;
+  padding-bottom: 15%;
+}
+.ui-kit header > div {
+  max-width: 550px;
+  margin: auto;
+}
+.ui-kit header h2 {
+  font-family: "PT Serif", Garamond, sans-serif;
+  font-size: 1.5em;
+  font-weight: normal;
+  line-height: 1.4;
+}
+.ui-kit header .buttons {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 36px;
+}
+.ui-kit header .buttons button:first-of-type {
+  margin-right: 20px;
+}
+@media all and (max-width: 600px) {
+  .ui-kit header .buttons button {
+    width: 100%;
+  }
+  .ui-kit header .buttons button:first-of-type {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}
+.ui-kit .framer-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  vertical-align: middle;
+}
+.ui-kit .framer-button.inline {
+  margin: 5em auto;
+}
+.ui-kit .framer-button img {
+  width: 32px;
+  margin-right: 10px;
+}
+.ui-kit .floating-hero {
+  display: block;
+  width: 100%;
+  max-width: 960px;
+  margin-top: -10%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.ui-kit article {
+  max-width: 740px;
+  margin: auto;
+  padding: 0 20px;
+  text-align: center;
+}
+.ui-kit article p {
+  max-width: 575px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "PT Serif", Garamond, sans-serif;
+}
+.ui-kit article ul {
+  column-count: 3;
+  line-height: 2.5;
+  font-weight: bold;
+  column-width: 150px;
+  margin: 3em auto;
+}
+.ui-kit article figure img {
+  max-width: 100%;
+  margin-bottom: 5em;
+}
 body {
   font-size: 18px;
 }

@@ -1,6 +1,34 @@
 const prototypingData = {
 
     tools: [{
+        "name": "Sketch",
+        "url": "https://www.sketchapp.com/",
+        "image": {
+            "background-position": "-200 0",
+        },
+        "surveyPercent": 0,
+        "surveyRaw": 0,
+        "platforms": {
+            "mac": true,
+        },
+        "import": {
+            "sketch": true
+        },
+        "design": true,
+        "micro": false,
+        "navigation": true,
+        "transition": true,
+        "data": false,
+        "code": false,
+        "sharing": {
+            "web": false
+        },
+        "pricing": {
+            "free": false,
+            "subscription": "",
+            "purchase": "$99"
+        }
+    }, {
         "name": "InVision Studio",
         "url": "https://www.invisionapp.com/studio",
         "image": {
@@ -329,7 +357,8 @@ const prototypingData = {
             "windows": true
         },
         "import": {
-
+            "sketch": true,
+            "photoshop": true
         },
         "navigation": true,
         "transition": true,
@@ -342,7 +371,7 @@ const prototypingData = {
             "subscription": "$10",
             "purchase": ""
         },
-        lastUpdated: "Jan '17"
+        lastUpdated: "Mar '18"
     }, {
         "name": "Craft",
         "url": "https://www.invisionapp.com/craft",
@@ -907,8 +936,8 @@ const prototypingData = {
         "sensors": false
         // "mobileOnly": null,
     }, {
-        "name": "TestLab",
-        "url": "http://testlab.io",
+        "name": "Preely",
+        "url": "https://preely.com/",
         "image": {
             "background-position": "-500 -800",
         },
