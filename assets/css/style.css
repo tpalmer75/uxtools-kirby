@@ -373,6 +373,9 @@ p {
 a {
   color: inherit;
 }
+.no-underline {
+  text-decoration: none;
+}
 time {
   display: block;
   text-transform: uppercase;

@@ -6,8 +6,8 @@
 				<h1><?= $page->title()->html() ?></h1>
 				<h2><?= $page->subtitle()->html() ?></h2>
 				<div class="buttons">
-					<button class="preview-button white">Preview</button>
-					<button class="framer-button blue"><img src="/assets/images/logos/framer-2.png">Download for Framer</button>
+					<a class="no-underline" href="https://framer.cloud/cEuQA"><button class="preview-button white">Preview</button></a>
+					<a class="no-underline" href="https://gum.co/framer-form-elements-ui-kit"><button class="framer-button blue"><img src="/assets/images/logos/framer-2.png">Download for Framer</button></a>
 				</div>
 			</div>
 		</header>
