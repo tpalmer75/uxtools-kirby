@@ -25,6 +25,9 @@ const handoffData = {
         "guides": true,
         "comments": true,
         "revisions": true,
+        "prototyping": {
+          "sketch": true,
+        },
         "sharing": {
             "mac": true,
             "web": true,
@@ -55,6 +58,7 @@ const handoffData = {
             "sketch": true,
             "photoshop":true,
             "adobeXd": true,
+            "figma": true,
         },
         "specs": true,
         "automatic": true,
@@ -156,6 +160,10 @@ const handoffData = {
         "layers": true,
         "comments": true,
         "revisions": true,
+        "prototyping": {
+          "sketch": true,
+          "adobeXd": true,
+        },
         "sharing": {
             "web": true,
             "xcode": true,
@@ -616,7 +624,14 @@ const handoffData = {
             "show": false,
             "canChange": true,
             "tipText": "Save versions <br>of files"
-    }, {
+    },
+    // {
+    //         "title": "Prototype",
+    //         "show": true,
+    //         "canChange": true,
+    //         "tipText": "Can import prototypes <br>from these apps"
+    // },
+     {
             "title": "Sharing",
             "show": true,
             "canChange": true,

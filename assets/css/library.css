@@ -336,6 +336,7 @@ table {
 #survey-banner a {
   color: inherit;
   text-decoration: underline;
+  font-weight: bold;
 }
 body {
   color: #555;

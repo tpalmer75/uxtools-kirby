@@ -1,0 +1,23 @@
+Title: 2018 UX Tools Survey
+
+----
+
+MenuTitle: Survey
+
+----
+
+Subtitle: X
+
+----
+
+Type: website
+
+----
+
+Socialimage: social.png
+
+----
+
+Description: Which design tools are you using? Add your voice to 2,000 other designers in the 2018 Design Tools Survey.
+
+----

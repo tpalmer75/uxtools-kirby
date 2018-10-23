@@ -448,7 +448,7 @@ const prototypingData = {
             "html": true
         },
         "pricing": {
-            "free": true,
+            "free": false,
             "subscription": "$24+",
             "purchase": ""
         }
@@ -494,8 +494,10 @@ const prototypingData = {
         "design": true,
         "micro": true,
         "navigation": true,
-        "transitions": false,
+        "code": true,
+        "transitions": true,
         "data": true,
+        "analytics": true,
         "sharing": {
             "web": true,
         },
@@ -962,14 +964,15 @@ const prototypingData = {
         "code": false,
         "sharing": {
             "iOS": true,
-            "Android": true,
+            "android": true,
             "web": true
         },
         "handoff": false,
         "tasks": true,
         "analytics": true,
         "heatmaps": true,
-        "sensors": false
+        "sensors": false,
+        "lastUpdated": "Mar '18"
         // "mobileOnly": null,
     }, {
         "name": "Kite Compositor",

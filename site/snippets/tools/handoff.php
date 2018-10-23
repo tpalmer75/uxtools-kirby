@@ -17,8 +17,8 @@
           <td class="name-col"><a v-bind:href="app.url" v-bind:title="app.url" target="_blank">{{ app.name }}</a></td>
           <td v-tooltip.bottom-center="app.surveyRaw + ' votes in 2017<br>Design Tools Survey'">
             <a href="/survey-2017" style="display: block;">
-              <div 
-                v-bind:class="[{'blue-bar' : app.surveyRaw}, 'bar']" 
+              <div
+                v-bind:class="[{'blue-bar' : app.surveyRaw}, 'bar']"
                 v-bind:style="{ width: app.surveyPercent + '%' }">
               </div>
             </a>
@@ -38,7 +38,7 @@
                 </div>
               </div>
               <div class="flex-col">
-                <div v-if="app.platforms.windows" v-tooltip.bottom-center="'Windows'"> 
+                <div v-if="app.platforms.windows" v-tooltip.bottom-center="'Windows'">
                   <div title="Windows"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="24" height="24" viewBox="0 0 24 24"><path d="M3,12V6.75L9,5.43V11.91L3,12M20,3V11.75L10,11.9V5.21L20,3M3,13L9,13.09V19.9L3,18.75V13M20,13.25V22L10,20.09V13.1L20,13.25Z" /></svg>
                   </div>
                 </div>
@@ -76,7 +76,7 @@
             <div class="flex-col">
               <div v-tooltip.bottom-center="'Indesign'"><img src="<?php echo kirby()->urls()->assets() . '/images/icons/indesign.png' ?>" v-if="app.programs.indesign" title="Indesign"/></div>
             </div>
-            
+
           </td>
           <td>
             <div v-if="app.specs" v-tooltip.bottom-center="'Specs'"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="24" height="24" viewBox="0 0 24 24"><path d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z" /></svg>
@@ -118,6 +118,14 @@
             <div v-if="app.revisions" v-tooltip.bottom-center="'Revisions'"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="24" height="24" viewBox="0 0 24 24"><path d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z" /></svg>
             </div>
           </td>
+          <!-- <td class="colspan-2">
+            <div class="flex-col">
+              <div v-tooltip.bottom-center="'Sketch'"><img src="<?php echo kirby()->urls()->assets() . '/images/icons/sketch.png' ?>" v-if="app.prototyping.sketch" title="Sketch"/></div>
+            </div>
+            <div class="flex-col">
+              <div v-tooltip.bottom-center="'Adobe XD'"><img src="<?php echo kirby()->urls()->assets() . '/images/icons/adobe-xd.png' ?>" v-if="app.prototyping.adobeXd" title="Adobe XD"/></div>
+            </div>
+          </td> -->
           <td class="colspan-5">
             <div class="flex-col">
               <div v-if="app.sharing.web" v-tooltip.bottom-center="'Web'">
