@@ -13,7 +13,7 @@
 
 	<?= snippet('head/favicon') ?>
 
-	<?= css('/assets/css/library.css?ver=?ver=20170207') ?>
+	<?= css('/assets/css/library.css?ver=?ver=20181024') ?>
 
 </head>
 <body>

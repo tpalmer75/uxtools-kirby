@@ -102,7 +102,8 @@ const prototypingData = {
             "mac": true
         },
         "import": {
-            "sketch": true
+            "sketch": true,
+            "figma": true
         },
         "micro": true,
         "navigation": false,

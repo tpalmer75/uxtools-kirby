@@ -184,7 +184,7 @@ table {
   padding-top: 16px;
   padding-left: 10px;
   padding-right: 10px;
-  transition: border .2s;
+  transition: border 0.2s;
   font-size: 18px;
   color: white;
 }
@@ -220,33 +220,40 @@ table {
     display: none;
   }
 }
-#main-header .scroll-tabs {
-  padding-left: 10px;
+#main-header #tab-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+#main-header #tab-container ul {
+  display: flex;
+  padding: 0 20px;
+}
+#main-header #tab-container ul li {
+  display: inline-block;
+}
+#main-header #tab-container ul li span {
+  font-size: 16px;
+}
+#main-header #tab-container .tab-left {
+  flex: 0 1 auto;
+  overflow: scroll;
+}
+#main-header #tab-container .tab-right {
+  flex: 1 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 20px;
+  border-left: 1px solid #3267D6;
+}
+#main-header #tab-container .tab-right button svg {
+  margin-left: -4px;
+  top: 0;
 }
 @media all and (max-width: 899px) {
-  #main-header .scroll-tabs {
-    width: 100%;
-  }
-}
-@media all and (max-width: 680px) {
-  #main-header .scroll-tabs {
-    overflow: scroll;
-    font-size: 14px;
-  }
-}
-@media all and (max-width: 680px) {
-  #main-header .scroll-tabs ul {
-    min-width: 660px;
-  }
-}
-#main-header .scroll-tabs li span {
-  font-size: 16px;
-  height: 44px;
-  padding-top: 10px;
-}
-@media all and (max-width: 500px) {
-  #main-header .scroll-tabs li span {
-    height: 40px;
+  #main-header #tab-container .tab-right {
+    display: none;
   }
 }
 #hamburger {
@@ -616,6 +623,15 @@ button.blue svg path,
 input[type="submit"].blue svg path {
   fill: white;
 }
+button.light-blue,
+input[type="submit"].light-blue {
+  background: #78ACFF;
+  color: white;
+}
+button.light-blue svg path,
+input[type="submit"].light-blue svg path {
+  fill: white;
+}
 button.small,
 input[type="submit"].small {
   min-height: 32px;
@@ -741,7 +757,7 @@ body {
 }
 .survey-2017 .small-caps {
   font-family: "Karla", Roboto, Helvetica, sans-serif;
-  font-size: .8em;
+  font-size: 0.8em;
   text-transform: uppercase;
   letter-spacing: 1px;
   font-weight: bold;
@@ -939,8 +955,8 @@ body {
 footer p {
   text-align: center;
   font-size: 14px;
-  opacity: .5;
-  transition: opacity .2s;
+  opacity: 0.5;
+  transition: opacity 0.2s;
 }
 footer p:hover {
   opacity: 1;
