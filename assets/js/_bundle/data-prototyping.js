@@ -86,10 +86,41 @@ const prototypingData = {
         },
         "pricing": {
             "free": false,
-            "subscription": "$15",
+            "subscription": "",
             "purchase": ""
         },
         lastUpdated: "Jan '17"
+    }, {
+        "name": "Framer X",
+        "url": "http://framer.com/",
+        "image": {
+            "background-position": "-200 -400",
+        },
+        "surveyPercent": 0,
+        "surveyRaw": 0,
+        "platforms": {
+            "mac": true
+        },
+        "import": {
+            "sketch": true
+        },
+        "design": true,
+        "micro": true,
+        "navigation": true,
+        "transition": true,
+        "data": true,
+        "code": true,
+        "sensors": false,
+        "sharing": {
+            "web": true,
+            "iOS": true
+        },
+        "pricing": {
+            "free": false,
+            "subscription": "$15",
+            "purchase": ""
+        },
+        lastUpdated: "Oct '18"
     }, {
         "name": "Principle",
         "url": "http://principleformac.com/",
@@ -126,7 +157,9 @@ const prototypingData = {
         "surveyPercent": 4,
         "surveyRaw": 43,
         "platforms": {
-            "web": true
+            "web": true,
+            "mac": true,
+            "windows": true
         },
         "design": true,
         "import": {
@@ -143,7 +176,8 @@ const prototypingData = {
             "free": false,
             "subscription": "$19+",
             "purchase": ""
-        }
+        },
+        lastUpdated: "Oct '18"
     }, {
         "name": "InVision (Classic)",
         "url": "https://www.invisionapp.com/",

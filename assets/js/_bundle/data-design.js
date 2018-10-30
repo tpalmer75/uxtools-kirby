@@ -109,7 +109,7 @@ const designData = {
         "pricing": {
             "purchase": "$99"
         },
-        lastUpdated: "Mar '18"
+        lastUpdated: "Oct '18"
     }, {
         "name": "Figma",
         "url": "https://www.figma.com",
@@ -318,7 +318,9 @@ const designData = {
         "surveyPercent": 1,
         "surveyRaw": 4,
         "platforms": {
-            "web": true
+            "web": true,
+            "mac": true,
+            "windows": true
         },
         "import": {
             "sketch": true,
@@ -347,8 +349,8 @@ const designData = {
         "pricing": {
             "free": false,
             "subscription": "$20"
-        }
-
+        },
+        lastUpdated: "Oct '18"
     }, {
         "name": "Axure",
         "url": "http://www.axure.com/",
@@ -574,6 +576,38 @@ const designData = {
         "plugins": true,
         "artboards": true,
         "symbols": false,
+        "responsive": true,
+        "vector": true,
+        "prototyping": true,
+        "pricing": {
+            "free": false,
+            "subscription": "",
+            "purchase": ""
+        },
+        lastUpdated: "Jan '18"
+    }, {
+        "name": "Framer X",
+        "url": "http://framerjs.com/",
+        "image": {
+            "background-position": "-200 -400",
+        },
+        "surveyPercent": 0,
+        "surveyRaw": 0,
+        "platforms": {
+            "mac": true,
+        },
+        "import": {
+        },
+        "export": {
+        },
+        "offline": true,
+        "penTool": true,
+        "collaboration": false,
+        "comments": false,
+        "handoff": false,
+        "plugins": true,
+        "artboards": true,
+        "symbols": true,
         "responsive": true,
         "vector": true,
         "prototyping": true,

@@ -1,7 +1,6 @@
 // @codekit-prepend "_bundle/tether-1.4.0.js"
 // @codekit-prepend "_bundle/tether-drop-.1.4.1.js"
 // @codekit-prepend "_bundle/tether-tooltip-1.1.0.js"
-// @not "_bundle/vue-tooltip@0.1.0.js"
 
 // @codekit-prepend "_bundle/vue-production.js"
 // @codekit-prepend "_bundle/vue-router.js"

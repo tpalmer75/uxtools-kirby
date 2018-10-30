@@ -19,7 +19,7 @@
 <body>
 	<div id="tools">
 	<header id="main-header">
-		<?= snippet('survey-banner')?>
+		<!-- <?= snippet('survey-banner')?> -->
 		<?php snippet('top-bar') ?>
 		<div class="bottom-bar">
 			<div id="tab-container">
