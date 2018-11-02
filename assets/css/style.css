@@ -346,7 +346,7 @@ table {
   font-weight: bold;
 }
 body {
-  color: #555;
+  color: #3D4752;
   font-family: "Karla", Roboto, Helvetica, sans-serif;
 }
 h1,
@@ -673,9 +673,7 @@ input[type="submit"].white {
 }
 #signup-form {
   background: #f0f0f0;
-  padding: 50px 20px;
-  margin-top: 50px;
-  text-align: center;
+  padding-top: 30px;
 }
 #signup-form form {
   max-width: 500px;
@@ -961,9 +959,6 @@ footer p {
 footer p:hover {
   opacity: 1;
 }
-section {
-  padding: 0 40px;
-}
 @media all and (max-width: 500px) {
   section {
     padding: 20px;
@@ -990,64 +985,46 @@ section.gray {
 .wrapper.medium {
   max-width: 800px;
 }
-.columns {
+.tile-grid {
+  padding: 20px;
+}
+.tile-grid-row {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
-  margin: 40px 0 80px;
-  align-items: center;
-  min-height: 450px;
+  align-items: stretch;
 }
-@media all and (max-width: 500px) {
-  .columns {
-    margin: 10px 0 20px;
-  }
+.tile-grid-item {
+  flex: 1 0 300px;
+  padding: 20px;
 }
-.columns.reverse {
-  flex-wrap: wrap-reverse;
+.tile-grid-item.two-thirds {
+  flex: 1 0 66.666%;
 }
-.columns .content {
-  width: 50%;
-  flex: 1 1 400px;
-  max-width: 450px;
-  margin: 20px;
+.tile-grid-item.one-third {
+  flex: 1 0 33.33%;
 }
-@media all and (max-width: 500px) {
-  .columns .content {
-    margin: 20px 0;
-  }
+.tile-grid-item .tile-grid-item-content {
+  background: #ccc;
+  border-radius: 16px;
+  min-height: 200px;
+  min-width: 300px;
+  padding: 20px 40px 40px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  height: 100%;
 }
-.columns .content img {
-  width: 100%;
+.tile-grid-item .tile-grid-item-content .text-wrapper {
+  max-width: 400px;
 }
-.columns .content.large {
-  max-width: 550px;
+.tile-grid-item .tile-grid-item-content.white {
+  background-color: white;
+  border: 1px solid #ddd;
 }
-.columns button {
-  margin-top: 10px;
-}
-.landing-image {
-  position: relative;
-  text-align: center;
-}
-.landing-image .illustration {
-  max-width: 300px;
-}
-@media all and (max-width: 500px) {
-  .landing-image .illustration {
-    max-width: 200px;
-  }
-}
-.landing-image .shadow-image {
-  position: absolute;
-  width: 100%;
-  bottom: 3px;
-  left: 0;
+.tile-grid-item .tile-grid-item-content.gray {
+  background-color: #f0f0f0;
 }
 .hero {
   padding-top: 100px;
   padding-bottom: 100px;
-  border-bottom: 1px solid #ddd;
   text-align: center;
 }
 .hero h1 {

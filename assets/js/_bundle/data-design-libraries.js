@@ -91,7 +91,7 @@ const librariesData = {
 		"surveyRaw": 8,
     "surveyPercent": 1,
 		"platforms": {
-			"mac": true
+			"web": true
 		},
 		"programs": {
 			"sketch": true,

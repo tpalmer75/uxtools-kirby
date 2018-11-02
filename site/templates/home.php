@@ -6,6 +6,39 @@
   </div>
 </section>
 <section>
+  <div class="wrapper">
+    <div class="tile-grid-row">
+      <div class="tile-grid-item two-thirds">
+        <div class="tile-grid-item-content white">
+          <div class="text-wrapper">
+            <h2>The 2017 Design Tools Survey</h2>
+            <p>Wonder which tools everyone else is using? In this survey, 2,000 designers gave their opinion on the most popular design tools of 2017.</p><a href="/survey-2017">
+            <button class="blue">See the Survey <?= (new Asset("assets/images/icons/arrow-right.svg"))->content() ?>
+            </button></a>
+          </div>
+        </div>
+      </div>
+      <div class="tile-grid-item one-third">
+        <div class="tile-grid-item-content gray no-padding">
+          <?php snippet('signup-form') ?>
+        </div>
+      </div>
+      </div>
+    <div class="tile-grid-row">
+      <div class="tile-grid-item one-half">
+        <div class="tile-grid-item-content">
+          <h2>Hello world!</h2>
+        </div>
+      </div>
+      <div class="tile-grid-item one-half">
+        <div class="tile-grid-item-content">
+          <h2>Hello world!</h2>
+        </div>
+      </div>
+  </div>
+  </div>
+</section>
+<!-- <section>
       <div class="wrapper">
         <div class="columns">
           <div class="content"><a href="/survey-2017">
@@ -67,7 +100,7 @@
           
         </div>
       </div>
-    </section>
+    </section> -->
     <section>
       <div class="wrapper extra-wide">
         <h2 style="text-align: center;">From the UX Tools Blog</h2>
@@ -87,7 +120,5 @@
         </div>
       </div>
     </section>
-
-    <?php snippet('signup-form') ?>
 
 <?php snippet('footer') ?>

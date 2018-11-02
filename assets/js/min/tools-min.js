@@ -24212,13 +24212,15 @@ const handoffData = {
         "platforms": {
             "mac": true,
             "windows": true,
-            "linux": true
+            "linux": true,
+            "web": true
         },
         "programs": {
             "sketch": true,
             "photoshop":true,
             "adobeXd": true,
             "figma": true,
+            "illustrator": true
         },
         "specs": true,
         "automatic": true,
@@ -24232,10 +24234,13 @@ const handoffData = {
         "sharing": {
             "mac": true,
             "windows": true,
-            "linux": true
+            "linux": true,
+            "web": true
         },
         "integrations": {
             "slack": true,
+            "visualStudio": true,
+            "atom": true
         },
         "pricing": {
             "free": false,
@@ -25527,7 +25532,7 @@ const librariesData = {
 		"surveyRaw": 8,
     "surveyPercent": 1,
 		"platforms": {
-			"mac": true
+			"web": true
 		},
 		"programs": {
 			"sketch": true,

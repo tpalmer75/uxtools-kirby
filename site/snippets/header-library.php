@@ -19,7 +19,7 @@
 <body>
 	<div id="library" v-bind:class="{'no-scroll':showModal || showSidebar}">    
 	<header id="main-header">
-		<!-- <?= snippet('survey-banner')?> -->
+		<?= snippet('survey-banner')?>
 		<?php snippet('top-bar') ?>
 
 		<div class="bottom-bar mobile">
