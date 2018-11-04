@@ -86,7 +86,8 @@ const handoffData = {
             "free": false,
             "subscription": "$7+",
             "purchase": ""
-        }
+        },
+        "lastUpdated": "Nov '18"
     }, {
         "name": "Marketch",
         "url": "https://github.com/tudou527/marketch",
