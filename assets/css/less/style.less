@@ -126,7 +126,8 @@ section {
 // }
 
 .tile-grid {
-	padding: 20px;
+	// padding: 20px;
+	margin-bottom: 144px;
 }
 
 .tile-grid-row {
@@ -144,23 +145,73 @@ section {
 	&.one-third {
 		flex: 1 0 33.33%;
 	}
+	&.one-half {
+		flex: 1 0 500px;
+	}
 	.tile-grid-item-content {
 		background: #ccc;
 		border-radius: 16px;
-		min-height: 200px;
+		min-height: 350px;
 		min-width: 300px;
 		padding: 20px 40px 40px;
 		box-shadow: 0 10px 20px rgba(0,0,0,.15);
 		height: 100%;
+		border: 1px solid rgba(0,0,0,.15);
+		position: relative;
+		overflow: hidden;
+		img {
+			position: absolute;
+		}
+		button {
+			margin-top: 30px;
+		}
 		.text-wrapper {
-			max-width: 400px;
+			max-width: 360px;
+			position: relative;
+			z-index: 2;
 		}
 		&.white {
 			background-color: white;
-			border: 1px solid #ddd;
+			img {
+	    	    width: 70%;
+			    bottom: -5%;
+			    right: 0%;
+			    opacity: 0.15;
+		    }
 		}
 		&.gray {
 			background-color: #f0f0f0;
+		}
+		&.blue {
+			color: white;
+		    background-image: linear-gradient(-45deg, #77BBFA 0%, #4285F4 100%);
+		    img {
+	    	    width: 90%;
+			    bottom: -5%;
+			    right: -15%;
+			    opacity: 0.15;
+		    }
+		}
+		&.blue-dark {
+			background-color: @blue-dark;
+			color: white;
+			img {
+				right: -10%;
+			    bottom: -20%;
+			    width: 80%;
+			    opacity: .2;
+			}
+		}
+
+		#signup-form {
+			text-align: left;
+			max-width: 500px;
+			.subscription-form-content {
+				display: none;
+			}
+			.sender-link {
+				display: none;
+			}
 		}
 
 	}
@@ -261,6 +312,8 @@ section {
 			padding-bottom: 66%;
 			position: relative;
 			background: #ddd;
+			border-radius: 8px;
+			overflow: hidden;
 			&.loading {
 				animation: pulse 1.5s infinite;
 			}

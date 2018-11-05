@@ -2,20 +2,20 @@
 <section class="hero">
   <div class="wrapper">
     <h1>👋 Hi, I’m <a href="/about">Taylor</a>. I compare new UX tools so you don’t have to.</h1>
-    <a href="/tools"><button class="blue">See the tools <?= (new Asset("assets/images/icons/arrow-right.svg"))->content() ?></button></a>
+    <a href="/tools"><button class="blue">See the tools</button></a>
   </div>
 </section>
 <section>
-  <div class="wrapper">
+  <div class="wrapper tile-grid">
     <div class="tile-grid-row">
       <div class="tile-grid-item two-thirds">
         <div class="tile-grid-item-content white">
           <div class="text-wrapper">
-            <h2>The 2017 Design Tools Survey</h2>
-            <p>Wonder which tools everyone else is using? In this survey, 2,000 designers gave their opinion on the most popular design tools of 2017.</p><a href="/survey-2017">
-            <button class="blue">See the Survey <?= (new Asset("assets/images/icons/arrow-right.svg"))->content() ?>
-            </button></a>
+            <h2>The 2017 Design Tools Survey Results</h2>
+            <a href="/survey-2017">
+            <button class="blue">See the Survey</button></a>
           </div>
+          <img src="assets/images/tile-image-survey-2017.png" alt="Sample graphs from the survey"/>
         </div>
       </div>
       <div class="tile-grid-item one-third">
@@ -26,13 +26,24 @@
       </div>
     <div class="tile-grid-row">
       <div class="tile-grid-item one-half">
-        <div class="tile-grid-item-content">
-          <h2>Hello world!</h2>
+        <div class="tile-grid-item-content blue">
+          <div class="text-wrapper">
+            <h2>The ultimate comparison of UX industry tools.</h2>
+            <a href="/tools">
+            <button class="white">See the Tools
+            </button></a>
+          </div>
+          <img src="assets/images/tile-image-tools.png" alt="A poorly aligned grid of logos"/>
         </div>
       </div>
       <div class="tile-grid-item one-half">
-        <div class="tile-grid-item-content">
-          <h2>Hello world!</h2>
+        <div class="tile-grid-item-content blue-dark">
+          <div class="text-wrapper">
+          <h2>The ultimate list of UX industry books.</h2>
+            <a href="/library">
+            <button class="blue">Browse the Library</button></a>
+          </div>
+          <img src="assets/images/tile-image-books.png" alt="A bunch of UX books flying through space"/>
         </div>
       </div>
   </div>
@@ -101,9 +112,10 @@
         </div>
       </div>
     </section> -->
+    <?php snippet('google-ad') ?>
     <section>
       <div class="wrapper extra-wide">
-        <h2 style="text-align: center;">From the UX Tools Blog</h2>
+        <h2 style="text-align: center; margin-top: 144px;">From the UX Tools Blog</h2>
         <div class="blog-preview">
           <ul>
             <?php foreach(page('blog')->children()->flip()->limit(3) as $article): ?>
