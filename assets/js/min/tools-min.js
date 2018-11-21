@@ -23709,7 +23709,7 @@ const prototypingData = {
         "pricing": {
             "free": true,
             "subscription": "",
-            "purchase": ""
+            "purchase": "$99"
         },
         "design": false,
         "import": {
@@ -23728,8 +23728,8 @@ const prototypingData = {
         "tasks": false,
         "analytics": false,
         "heatmaps": false,
-        "sensors": true
-        // "mobileOnly": true,
+        "sensors": true,
+        "lastUpdated": "Nov 2018"
     }, {
         "name": "Mockplus",
         "url": "https://goo.gl/uBdBne",

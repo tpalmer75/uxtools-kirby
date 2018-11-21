@@ -1003,16 +1003,15 @@ section.gray {
   flex: 1 0 66.666%;
 }
 .tile-grid-item.one-third {
-  flex: 1 0 33.33%;
+  flex: 1 0 300px;
 }
 .tile-grid-item.one-half {
-  flex: 1 0 500px;
+  flex: 1 1 500px;
 }
 .tile-grid-item .tile-grid-item-content {
   background: #ccc;
   border-radius: 16px;
   min-height: 350px;
-  min-width: 300px;
   padding: 20px 40px 40px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
   height: 100%;
@@ -1070,8 +1069,8 @@ section.gray {
 .tile-grid-item .tile-grid-item-content #signup-form .subscription-form-content {
   display: none;
 }
-.tile-grid-item .tile-grid-item-content #signup-form .sender-link {
-  display: none;
+.tile-grid-item .tile-grid-item-content #signup-form .subscription-thank-you {
+  margin-top: 30px;
 }
 .hero {
   padding-top: 100px;
