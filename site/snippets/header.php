@@ -20,6 +20,5 @@
 <body>
 
   <header id="main-header">
-    <?= snippet('survey-banner')?>
     <?= snippet('top-bar')?>
   </header>
