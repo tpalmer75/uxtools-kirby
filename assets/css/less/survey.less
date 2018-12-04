@@ -31,7 +31,7 @@ body {
 		}
 	}
 	h1,h2,h3,h4,h5,h6 {
-		margin-bottom: 2em;
+		margin-bottom: 1.5em;
 	}
 	.callout {
 		font-size: 4em;
@@ -107,6 +107,13 @@ body {
 			margin: 1em auto 2em;
 			max-width: 300px;
 		}
+		&.align-left {
+			text-align: left;
+			h4 {
+				margin: 0 0 2em;
+				max-width: 500px;
+			}
+		}
 	}
 	.graph-wrapper {
 		width: 100%;
@@ -181,8 +188,8 @@ body {
 		.number-list {
 			color: @blue-primary;
 			margin-right: 16px;
-			width: 32px;
-			text-align: right;
+			width: 24px;
+			// text-align: right;
 			display: inline-block;
 		}
 		li {
@@ -193,16 +200,16 @@ body {
 		}
 	}
 	.main-insights {
-		margin: 1.5em auto 8em;
+		margin: 1.5em auto 6em;
 		li {
 			font-family: @body-font-stack;
-			font-size: 1.5em;
+			font-size: 1.3em;
 			display: flex;
 			margin-bottom: 1em;
 			svg {
 				margin-right: .5em;
-				width: 48px;
-				height: 48px;
+				width: 36px;
+				height: 36px;
 				flex: 0 0 auto;
 				path {
 					fill: @blue-steel;

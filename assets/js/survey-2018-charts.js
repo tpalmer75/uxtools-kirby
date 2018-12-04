@@ -161,7 +161,7 @@ new Chart(document.getElementById("experience-design-graph"), {
     labels: ["Websites","Web Apps","Mobile Apps","Desktop Apps","Print Materials", "Other"],
     datasets: [
       {
-        backgroundColor: blue,
+        backgroundColor: midColors6[0],
         data: [2022,1951,1839,1046,652,211]
       }
     ]
@@ -411,14 +411,42 @@ new Chart(document.getElementById("ui-design-mac-graph"), {
   }
 });
 
-new Chart(document.getElementById("ui-design-windows-graph"), {
+// new Chart(document.getElementById("ui-design-windows-graph"), {
+//   type: 'bar',
+//   data: {
+//     labels: ["Sketch","Figma","Photoshop","Illustrator","Adobe XD","InVision Studio"],
+//     datasets: [
+//       {
+//         backgroundColor: blue,
+//         data: [123,160,232,163,211,28]
+//       }
+//     ]
+//   },
+//   options: {
+//     scales: {
+//       xAxes: [{
+//         ticks: {
+//           autoSkip: false
+//         }
+//       }]
+//     },
+//     legend: {
+//           display: false
+//         },
+//     tooltips: {
+//       caretSize: 0,
+//     }
+//   }
+// });
+
+new Chart(document.getElementById("prototyping-graph"), {
   type: 'bar',
   data: {
-    labels: ["Sketch","Figma","Photoshop","Illustrator","Adobe XD","InVision Studio"],
+    labels: ["InVision (Classic)","Sketch","HTML/CSS/JS","Principle","Adobe XD","Figma","Pencil/Paper","InVision Studio","Marvel","Axure","FramerX","Framer (Classic)","Flinto","None","Other"],
     datasets: [
       {
-        backgroundColor: blue,
-        data: [123,160,232,163,211,28]
+        backgroundColor: [blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blue,blueFaded,blue],
+        data: [1217,1014,534,528,503,413,371,294,291,235,177,142,159,113]
       }
     ]
   },
@@ -439,6 +467,144 @@ new Chart(document.getElementById("ui-design-windows-graph"), {
   }
 });
 
+new Chart(document.getElementById("handoff-graph"), {
+  type: 'bar',
+  data: {
+    labels: ["Zeplin","InVision","None","HTML/CSS/JS","Figma","Adobe XD","Sketch Measure","Marvel","Avocode","Abstract","UX Pin","Other"],
+    datasets: [
+      {
+        backgroundColor: [blue,blue,blueFaded,blue,blue,blue,blue,blue,blue,blue,blue,blue],
+        data: [983,827,504,385,366,264,213,79,43,52,23,184]
+      }
+    ]
+  },
+  options: {
+    scales: {
+      xAxes: [{
+        ticks: {
+          autoSkip: false
+        }
+      }]
+    },
+    legend: {
+          display: false
+        },
+    tooltips: {
+      caretSize: 0,
+    }
+  }
+});
 
+new Chart(document.getElementById("design-system-graph"), {
+  type: 'bar',
+  data: {
+    labels: ["Sketch","None","No Design System","Figma","HTML","Craft","Abstract","Brand.ai","Lingo","UX Pin","InVision DSM","Other"],
+    datasets: [
+      {
+        backgroundColor: [blue,blueFaded,blueFaded,blue,blue,blue,blue,blue,blue,blue,blue,blue],
+        data: [1158,530,500,334,324,295,80,33,29,28,26,199]
+      }
+    ]
+  },
+  options: {
+    scales: {
+      xAxes: [{
+        ticks: {
+          autoSkip: false
+        }
+      }]
+    },
+    legend: {
+          display: false
+        },
+    tooltips: {
+      caretSize: 0,
+    }
+  }
+});
+
+new Chart(document.getElementById("monitoring-graph"), {
+  type: 'bar',
+  data: {
+    labels: ["None","Hotjar","Fullstory","Google Analytics","Mixpanel","Jaco","Pendo.io","Inspectlet","Other"],
+    datasets: [
+      {
+        backgroundColor: [blueFaded,blue,blue,blue,blue,blue,blue,blue,blue],
+        data: [1775,508,145,31,15,11,11,10,178]
+      }
+    ]
+  },
+  options: {
+    scales: {
+      xAxes: [{
+        ticks: {
+          autoSkip: false
+        }
+      }]
+    },
+    legend: {
+          display: false
+        },
+    tooltips: {
+      caretSize: 0,
+    }
+  }
+});
+
+new Chart(document.getElementById("file-management-graph"), {
+  type: 'bar',
+  data: {
+    labels: ["Google Drive","Dropbox","None","Github","Abstract","Custom Server","Bitbucket","OneDrive","Box","Figma","Plant.io","Other"],
+    datasets: [
+      {
+        backgroundColor: [blue,blue,blueFaded,blue,blue,blue,blue,blue,blue,blue,blue,blue],
+        data: [864,614,479,471,454,381,170,152,93,71,57,164]
+      }
+    ]
+  },
+  options: {
+    scales: {
+      xAxes: [{
+        ticks: {
+          autoSkip: false
+        }
+      }]
+    },
+    legend: {
+          display: false
+        },
+    tooltips: {
+      caretSize: 0,
+    }
+  }
+});
+
+new Chart(document.getElementById("excited-graph"), {
+  type: 'bar',
+  data: {
+    labels: ["Figma","InVision Studio","FramerX","Sketch","Abstract","Principle"],
+    datasets: [
+      {
+        backgroundColor: blue,
+        data: [299,295,234,136,42,35]
+      }
+    ]
+  },
+  options: {
+    scales: {
+      xAxes: [{
+        ticks: {
+          autoSkip: false
+        }
+      }]
+    },
+    legend: {
+          display: false
+        },
+    tooltips: {
+      caretSize: 0,
+    }
+  }
+});
 
 

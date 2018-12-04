@@ -754,7 +754,7 @@ body {
 .survey-2018 h4,
 .survey-2018 h5,
 .survey-2018 h6 {
-  margin-bottom: 2em;
+  margin-bottom: 1.5em;
 }
 .survey-2018 .callout {
   font-size: 4em;
@@ -832,6 +832,13 @@ body {
   margin: 1em auto 2em;
   max-width: 300px;
 }
+.survey-2018 .graph.align-left {
+  text-align: left;
+}
+.survey-2018 .graph.align-left h4 {
+  margin: 0 0 2em;
+  max-width: 500px;
+}
 .survey-2018 .graph-wrapper {
   width: 100%;
   max-height: 300px;
@@ -902,8 +909,7 @@ body {
 .survey-2018 .table-of-contents .number-list {
   color: #4285F4;
   margin-right: 16px;
-  width: 32px;
-  text-align: right;
+  width: 24px;
   display: inline-block;
 }
 .survey-2018 .table-of-contents li {
@@ -913,18 +919,18 @@ body {
   text-decoration: none;
 }
 .survey-2018 .main-insights {
-  margin: 1.5em auto 8em;
+  margin: 1.5em auto 6em;
 }
 .survey-2018 .main-insights li {
   font-family: "Karla", Roboto, Helvetica, sans-serif;
-  font-size: 1.5em;
+  font-size: 1.3em;
   display: flex;
   margin-bottom: 1em;
 }
 .survey-2018 .main-insights li svg {
   margin-right: 0.5em;
-  width: 48px;
-  height: 48px;
+  width: 36px;
+  height: 36px;
   flex: 0 0 auto;
 }
 .survey-2018 .main-insights li svg path {

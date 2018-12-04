@@ -9,6 +9,16 @@
           <span class="name">—<a target="_blank" href="https://twitter.com/_taylorpalmer">Taylor</a></span>
         </div>
       </div>
+      <button class="white">
+    <?= (new Asset("assets/images/icons/twitter.svg"))->content() ?>
+    <a href="https://twitter.com/intent/tweet?source=webclient&text=<?php echo rawurlencode($page->title()); ?>%20<?php echo rawurlencode($page->url()); ?>%20<?php echo ('via @_taylorpalmer')?>" target="blank" title="Tweet this">Share on Twitter</a>
+  </button>
+
+  <button class="white">
+
+    <?= (new Asset("assets/images/icons/facebook-box.svg"))->content() ?>
+    <a href="http://www.facebook.com/sharer.php?u=<?php echo rawurlencode ($page->url()); ?>" target="blank" title="Share on Facebook">Share on Facebook</a>
+    </button>
     </header>
   </section>
   <section>
@@ -78,7 +88,7 @@
       </div>
       <h3>Main Insights</h3>
       <ul class="main-insights">
-          <li><?= (new Asset("assets/images/icons/lightbulb-on-outline.svg"))->content() ?><span>The job titles "UX Designer" and "Product Designer" are equally common.</span></li>
+          <li><?= (new Asset("assets/images/icons/lightbulb-on-outline.svg"))->content() ?><span>The job titles "UX Designer" and "Product Designer" are equally common among respondents.</span></li>
           <li><?= (new Asset("assets/images/icons/lightbulb-on-outline.svg"))->content() ?><span>83% of respondents work on a design team of 10 people or less.</span></li>
           <li><?= (new Asset("assets/images/icons/lightbulb-on-outline.svg"))->content() ?><span>Regardless of company size, most design teams have 10 designers or less.</span></li>
           <li><?= (new Asset("assets/images/icons/lightbulb-on-outline.svg"))->content() ?><span>80% of respondents only use Mac for design purposes.</span></li>
@@ -119,14 +129,14 @@
           </div>
         </div>
         <div class="grid-item-1-2 graph">
-          <h3>OS/Platforms</h3>
+          <h3>Platforms</h3>
           <h4>"Which platform(s) do you primarily use for&nbsp;design?"</h4>
           <div class="graph-wrapper">
             <canvas id="platform-graph"></canvas>
           </div>
         </div>
         <div class="grid-item-1-2 graph">
-          <h3>Design Output</h3>
+          <h3>Experience Design</h3>
           <h4>"What types of experiences are you&nbsp;designing?"</h4>
           <div class="graph-wrapper">
             <canvas id="experience-design-graph"></canvas>
@@ -139,14 +149,14 @@
       <div class="wrapper small">
         <div class="section-header">
           <h2>Brainstorming & Ideation Tools<span class="line"></span></h2>
-          <p>Brainstorming can mean something different to everyone, but I still like to see what designers are doing before they start creating interfaces. Brainstorming could mean anything from exploratory mocks to requirements gathering. While most designers are still using their notebooks or whiteboards, many still stay in Sketch.</p>
+          <p>Brainstorming can mean something different to everyone, but I still like to see what designers are doing before they start creating interfaces. Brainstorming could mean anything from exploratory mocks to requirements gathering. While most respondents are still using their notebooks or whiteboards, many still stay in Sketch.</p>
         </div>
         <h3>Main Insights</h3>
         <ul class="main-insights">
           <li><?= (new Asset("assets/images/icons/lightbulb-on-outline.svg"))->content() ?><span>Traditional media are still best for brainstorming.</span></li>
           <li><?= (new Asset("assets/images/icons/lightbulb-on-outline.svg"))->content() ?><span>Compared to 2017, Figma passed all three Adobe tools.</span></li>
         </ul>
-        <div class="graph">
+        <div class="graph align-left">
           <h3>Most Popular Brainstorming Tools</h3>
           <h4>"Which tools do you use for brainstorming and ideation?"</h4>
           <div class="graph-wrapper">
@@ -163,11 +173,11 @@
         </div>
         <h3>Main Insights</h3>
         <ul class="main-insights">
-          <li><?= (new Asset("assets/images/icons/lightbulb-on-outline.svg"))->content() ?><span>15% of designers don't use any special tools for creating user flows.</span></li>
+          <li><?= (new Asset("assets/images/icons/lightbulb-on-outline.svg"))->content() ?><span>15% of respondents don't use any special tools for creating user flows.</span></li>
           <li><?= (new Asset("assets/images/icons/lightbulb-on-outline.svg"))->content() ?><span>Sketch is the most used tool for creating user flows.</span></li>
-          <li><?= (new Asset("assets/images/icons/lightbulb-on-outline.svg"))->content() ?><span>Designers seem to use their primary tools for as many solutions as possible.</span></li>
+          <li><?= (new Asset("assets/images/icons/lightbulb-on-outline.svg"))->content() ?><span>Respondents seem to use their primary tools for as many solutions as possible.</span></li>
         </ul>
-        <div class="graph">
+        <div class="graph align-left">
           <h3>Most Popular User Flow Tools</h3>
           <h4>"Which tools do you use for user flows, site maps, and flow&nbsp;charts?"</h4>
           <div class="graph-wrapper">
@@ -178,16 +188,18 @@
   </section>
   <section id="wireframing">
       <div class="wrapper small">
-        <h2>Wireframing Tools<span class="line"></span></h2>
+        <div class="section-header">
+          <h2>Wireframing Tools<span class="line"></span></h2>
           <p>Are wireframing tools really a thing in 2018? The numbers indicate that most designers are wireframing in their primary UI design tools. The only traditional tools that cracks the top ten is Balsamiq. Next year, I'd like to be more thorough in asking designers if they actually create traditional wireframes.</p>
+        </div>
         <h3>Main Insights</h3>
         <ul class="main-insights">
           <li><?= (new Asset("assets/images/icons/lightbulb-on-outline.svg"))->content() ?><span>Only 3% of designers reported that they don't create wireframes, despite higher trends of using high-fidelity Design Systems.</span></li>
           <li><?= (new Asset("assets/images/icons/lightbulb-on-outline.svg"))->content() ?><span>While HTML/CSS was high on the list last in 2017, it barely appeared in this year's responses (likely to due a change in options).</span></li>
         </ul>
-        <div class="graph">
+        <div class="graph align-left">
           <h3>Most Popular User Flow Tools</h3>
-          <h4>"Which tools do you use for wireframing?"</h4>
+          <h4>"Which tools do you use for&nbsp;wireframing?"</h4>
           <div class="graph-wrapper">
             <canvas id="wireframing-graph"></canvas>
           </div>
@@ -196,17 +208,19 @@
   </section>
   <section id="ui-design">
       <div class="wrapper small">
-        <h2>UI Design Tools<span class="line"></span></h2>
+        <div class="section-header">
+          <h2>UI Design Tools<span class="line"></span></h2>
           <p>The most important category of them all! Can anyone take down Sketch? Short answer: not yet. No surprises here, but it's great to see Figma moving up in the world. (If you're wondering how Windows users are accessing Sketch, I'm guessing it's through a virtual machhine).</p>
+        </div>
         <h3>Main Insights</h3>
         <ul class="main-insights">
           <li><?= (new Asset("assets/images/icons/lightbulb-on-outline.svg"))->content() ?><span>According to this sample, Sketch is still on top.</span></li>
           <li><?= (new Asset("assets/images/icons/lightbulb-on-outline.svg"))->content() ?><span>In 2017, designers reported InVision Studio as being the most exciting tool of this year but aren't showing strong adoption yet.</span></li>
           <li><?= (new Asset("assets/images/icons/lightbulb-on-outline.svg"))->content() ?><span>All three Adobe tools continue continue to have almost equal usage.</span></li>
         </ul>
-        <div class="graph">
+        <div class="graph align-left">
           <h3>Most Popular UI Design Tools</h3>
-          <h4>"Which tools do you use for interface design?"</h4>
+          <h4>"Which tools do you use for interface&nbsp;design?"</h4>
           <div class="graph-wrapper">
             <canvas id="ui-design-graph"></canvas>
           </div>
@@ -221,44 +235,127 @@
   </section>
   <section id="prototyping">
       <div class="wrapper small">
-        <div class="section-header"><h2>Prototyping Tools</h2><div class="line"></div></div>
-        <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit tempus porttitor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
-        <canvas id="brainstorming-graph-1"></canvas>
+        <div class="section-header">
+          <h2>Prototyping Tools<span class="line"></span></h2>
+          <p>Each year, this is the most volatile category of tools. It's constantly changing and evolving, and this year was no exception. Sketch introduced its own prototyping tools which have proven quite successful.</p>
+        </div>
+        <h3>Main Insights</h3>
+        <ul class="main-insights">
+          <li><?= (new Asset("assets/images/icons/lightbulb-on-outline.svg"))->content() ?><span>Respondents use an average of 3.5 tools to accomplish their prototyping solutions.</span></li>
+          <li><?= (new Asset("assets/images/icons/lightbulb-on-outline.svg"))->content() ?><span>Sketch prototyping has a surprising amount of usage, almost rivaling InVision Classic.</span></li>
+          <li><?= (new Asset("assets/images/icons/lightbulb-on-outline.svg"))->content() ?><span>Framer's new tool, FramerX, is used only slightly more than its predecessor, Framer Classic.</span></li>
+        </ul>
+        <div class="graph align-left">
+          <h3>Most Popular Prototyping Tools</h3>
+          <h4>"Which tools do you use for&nbsp;prototyping?"</h4>
+          <div class="graph-wrapper">
+            <canvas id="prototyping-graph"></canvas>
+          </div>
+        </div>
       </div>
   </section>
   <section id="handoff">
       <div class="wrapper small">
-        <div class="section-header"><h2>Handoff Tools</h2><div class="line"></div></div>
-        <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit tempus porttitor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
-        <canvas id="brainstorming-graph-1"></canvas>
+        <div class="section-header">
+          <h2>Handoff Tools<span class="line"></span></h2>
+          <p>Handing off designs as code is a relatively recent development in the typical UX tool kit. I expect that as these features get stronger within individual tools like Sketch or Adobe XD, we'll start to see stronger leaders in this race.</p>
+        </div>
+        <h3>Main Insights</h3>
+        <ul class="main-insights">
+          <li><?= (new Asset("assets/images/icons/lightbulb-on-outline.svg"))->content() ?><span>12% of respondents don't use handoff tools for delivering designs.</span></li>
+          <li><?= (new Asset("assets/images/icons/lightbulb-on-outline.svg"))->content() ?><span>Compared to 2017, Zeplin passed InVision to take first place.</span></li>
+        </ul>
+        <div class="graph align-left">
+          <h3>Most Popular Handoff Tools</h3>
+          <h4>"Which tools (if any) do you use for&nbsp;handoff?"</h4>
+          <div class="graph-wrapper">
+            <canvas id="handoff-graph"></canvas>
+          </div>
+        </div>
       </div>
   </section>
-  <section>
+  <section id="design-system">
       <div class="wrapper small">
-        <div class="section-header"><h2>Design System Tools</h2><div class="line"></div></div>
-        <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit tempus porttitor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
-        <canvas id="brainstorming-graph-1"></canvas>
+        <div class="section-header">
+          <h2>Design System Tools<span class="line"></span></h2>
+          <p>Design Systems, Component Libraries, Pattern Libraries, Style Guides. Whatever you choose to call them, most respondents are making them in Sketch (or not using them at all).</p>
+        </div>
+        <h3>Main Insights</h3>
+        <ul class="main-insights">
+          <li><?= (new Asset("assets/images/icons/lightbulb-on-outline.svg"))->content() ?><span>Sketch is the most highly used Design System tool among respondents.</span></li>
+          <li><?= (new Asset("assets/images/icons/lightbulb-on-outline.svg"))->content() ?><span>15% of respondents don't have a Design System (down from 28% last year).</span></li>
+          <li><?= (new Asset("assets/images/icons/lightbulb-on-outline.svg"))->content() ?><span>Despite the introduction of InVision Design System Manager (DSM), InVision's Craft still holds much of the market.</span></li>
+        </ul>
+        <div class="graph align-left">
+          <h3>Most Popular Design System Tools</h3>
+          <h4>"Which tools (if any) do you use to manage your design&nbsp;system?"</h4>
+          <div class="graph-wrapper">
+            <canvas id="design-system-graph"></canvas>
+          </div>
+        </div>
       </div>
   </section>
   <section id="monitoring">
       <div class="wrapper small">
-        <div class="section-header"><h2>Monitoring Tools</h2><div class="line"></div></div>
-        <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit tempus porttitor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
-        <canvas id="brainstorming-graph-1"></canvas>
+        <div class="section-header">
+          <h2>Monitoring Tools<span class="line"></span></h2>
+          <p>This is always an interesting, untapped market for design tools. I think the lack of usage comes from implementation difficulties: designers aren't usually able to set up this tools on their own. If you're not using them, you should.</p>
+        </div>
+        <h3>Main Insights</h3>
+        <ul class="main-insights">
+          <li><?= (new Asset("assets/images/icons/lightbulb-on-outline.svg"))->content() ?><span>2 out of 3 respondents aren't using experience monitoring tools.</span></li>
+          <li><?= (new Asset("assets/images/icons/lightbulb-on-outline.svg"))->content() ?><span>56% of respondents who use experience monitoring tools use Hotjar.</span></li>
+          <li><?= (new Asset("assets/images/icons/lightbulb-on-outline.svg"))->content() ?><span>Responses almost exactly mirror the ressponses from 2017, indicated that this market hasn't changed much in the last year.</span></li>
+        </ul>
+        <div class="graph align-left">
+          <h3>Most Popular Monitoring Tools</h3>
+          <h4>"What tools (if any) do you use for experience&nbsp;monitoring?"</h4>
+          <div class="graph-wrapper">
+            <canvas id="monitoring-graph"></canvas>
+          </div>
+        </div>
       </div>
   </section>
   <section id="version-control">
       <div class="wrapper small">
-        <div class="section-header"><h2>Version Control & File Management Tools</h2><div class="line"></div></div>
-        <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit tempus porttitor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
-        <canvas id="brainstorming-graph-1"></canvas>
+        <div class="section-header">
+          <h2>File Management Tools<span class="line"></span></h2>
+          <p>The data here can be a bit scattered because some file management services (like Drive and Dropbox) offer version control tools, while some respondents are using both Drive and Abstract at the same time. Nevertheless, it is suprising how many respondents aren't managing their files using any system at all.</p>
+        </div>
+        <h3>Main Insights</h3>
+        <ul class="main-insights">
+          <li><?= (new Asset("assets/images/icons/lightbulb-on-outline.svg"))->content() ?><span>Google Drive and Dropbox continue to be highly used file management solutions, as almost all tools remained in their positions from 2017.</span></li>
+          <li><?= (new Asset("assets/images/icons/lightbulb-on-outline.svg"))->content() ?><span>12% of respondents aren't using file management software.</span></li>
+          <li><?= (new Asset("assets/images/icons/lightbulb-on-outline.svg"))->content() ?><span>Usage of Abstract among respondents lept from 7% to 11% since 2018.</span></li>
+        </ul>
+        <div class="graph align-left">
+          <h3>Most Popular File Management Tools</h3>
+          <h4>"Which tools (if any) do you use for version control and file management?"</h4>
+          <div class="graph-wrapper">
+            <canvas id="file-management-graph"></canvas>
+          </div>
+        </div>
       </div>
   </section>
   <section id="exciting">
       <div class="wrapper small">
-        <div class="section-header"><h2>Most Exciting Tools of 2019</h2><div class="line"></div></div>
-        <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit tempus porttitor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
-        <canvas id="brainstorming-graph-1"></canvas>
+        <div class="section-header">
+          <h2>Most Exciting Tools in 2019<span class="line"></span></h2>
+          <p>The data here can be a bit scattered because some file management services (like Drive and Dropbox) offer version control tools, while some respondents are using both Drive and Abstract at the same time. Nevertheless, it is suprising how many respondents aren't managing their files using any system at all.</p>
+        </div>
+        <h3>Main Insights</h3>
+        <ul class="main-insights">
+          <li><?= (new Asset("assets/images/icons/lightbulb-on-outline.svg"))->content() ?><span>Figma, which was low on the list in 2017, emerges as the most exciting tool of 2019.</span></li>
+          <li><?= (new Asset("assets/images/icons/lightbulb-on-outline.svg"))->content() ?><span>InVision Studio remains near the top, indicating that many respondents have yet to try it—or are still waiting for future development.</span></li>
+          <li><?= (new Asset("assets/images/icons/lightbulb-on-outline.svg"))->content() ?><span>Respondents always seem to keep Framer on their bucket list of design tools.</span></li>
+        </ul>
+        <div class="graph align-left">
+          <h3>Most Exciting Tools in 2019</h3>
+          <h4>"What tools are you most excited to try in 2019?"</h4>
+          <div class="graph-wrapper">
+            <canvas id="excited-graph"></canvas>
+          </div>
+        </div>
       </div>
   </section>
 </div>
