@@ -5,6 +5,7 @@ body {
 }
 
 .survey-2018 {
+	overflow-x: hidden;
 	// color: @blue-dark;
 	font-family: @serif-font-stack;
 	font-size: 16px;
@@ -16,7 +17,7 @@ body {
 		font-size: 1.2em;
 	}
 	section {
-		padding: 3em;
+		padding: 2em;
 		// background: #182F57;
 		background: white;
 		&:nth-child(odd) {
@@ -45,8 +46,9 @@ body {
 	.grid {
 		display: flex;
 		flex-wrap: wrap;
+		align-items: flex-start;
 		.grid-item-1-3 {
-			flex: 1 0 300px;
+			flex: 0 0 300px;
 			min-width: 0;
 			// min-width: 300px;
 			max-width: 700px;
@@ -64,6 +66,9 @@ body {
 			@media all and (max-width: 999px) {
 				flex: 1 0 33%;
 			}
+			@media all and (max-width: 599px) {
+				min-width: 0;
+			}
 		}
 		.grid-item-2-3 {
 			flex: 1 0 66%;
@@ -75,6 +80,9 @@ body {
 			min-width: 400px;
 			width: 100%;
 			padding: 24px;
+			@media all and (max-width: 699px) {
+				min-width: 200px;
+			}
 		}
 		.grid-item-3-3 {
 			width:100%;
@@ -93,6 +101,11 @@ body {
 				margin: 0;
 				font-size: 1.5em;
 				font-weight: normal;
+			}
+			img {
+				@media all and (max-width: 599px) {
+					max-width: 100%;
+				}
 			}
 		}
 	}
@@ -132,6 +145,43 @@ body {
 		align-items: center;
 		justify-content: center;
 	}
+	.logo-tile {
+		text-align: center;
+		margin: auto;
+		h3 {
+			margin-bottom: 0;
+		}
+		h4 {
+			opacity: .5;
+			margin-top: .5em;
+			min-height: 2.5em;
+		}
+		.logo-wrapper {
+			// background: white;
+			overflow: hidden;
+			border-radius: .5em;
+			// box-shadow: 0 5px 10px rgba(0,0,0,.1);
+			transform: scale(1);
+			transition: all .2s ease-in-out;
+			&:hover {
+				transform: scale(1.1);
+			}
+			img {
+				width: 80%;
+				padding: 1em 0;
+			}
+		}
+		&.description {
+			// display: flex;
+			text-align: left;
+			p {
+				flex: 1 0 auto;
+			}
+			> div {
+				flex: 0 0 250px;
+			}
+		}
+	}
 	#logo {
 		width: 100%;
 		max-width: 650px;
@@ -152,7 +202,7 @@ body {
 	}
 	.wrapper.small {
 		max-width: 960px;
-		padding: 96px 0;
+		padding: 6em 0;
 	}
 	.section-header {
 		// display: flex;
@@ -160,7 +210,7 @@ body {
 		// margin-bottom: 96px;
 		h2 {
 			display: inline-block;
-			margin: 0 auto 2em;
+			margin: 1em auto 2em;
 		}
 		.line {
 			display: inline-block;
@@ -219,6 +269,48 @@ body {
 				margin-top: .25em;
 				line-height: 1.5em;
 			}
+		}
+	}
+	#sign-up {
+		background: @blue-dark;
+		* {
+			font-family: @body-font-stack !important;
+			color: white;
+			font-size: 16px;
+			text-align: center;
+		}
+		.subscription-form {
+			background: @blue-dark;
+			border: 0;
+			width: 100%;
+			max-width: 500px;
+		}
+		h4 {
+			font-size: 2em;
+			margin-bottom: 0em;
+		}
+		button {
+			background: @blue-primary;
+			color: white !important;
+		}
+		.subscription-form-content {
+			line-height: 1.4;
+			margin-bottom: 2em;
+		}
+		input {
+			color: @blue-steel;
+			text-align: left;
+		}
+	}
+	.promotion-missing {
+		font-family: @body-font-stack;
+		padding: 0;
+		width: 100%;
+		h4 {
+			margin-bottom: 1em;
+		}
+		.content {
+			max-width: none;
 		}
 	}
 }

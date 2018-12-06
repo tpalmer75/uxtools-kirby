@@ -3,22 +3,15 @@
   <section>
     <header class="survey-header">
       <div class="wrapper grid">
-        <div class="grid-item-2-3"><img id="logo" src="assets/images/survey-2018/logo.svg"></div>
+        <div class="grid-item-2-3">
+          <img id="logo" src="assets/images/survey-2018/logo.svg">
+        </div>
         <div class="message grow grid-item-1-3">
-          <p>Last year was my first Design Tools survey ever, and this year was even better! Almost 2,800 designers shared their best tools and workflows. All the anonymized data is available for download <a href="LINK NEEDED">here</a>. If you'd like to help, you can share this page on Twitter, Facebook, or your media of choice.</p>
+          <p>Last year was my first Design Tools survey ever, and this year was even better! Almost 2,800 designers shared their best tools and workflows. All the anonymized data is available for download <a href="https://docs.google.com/spreadsheets/d/1Rh7DkqmttgAaUUf1R_Neg7D8j7QB0RyH9kCnt168VLw/edit?usp=sharing">here</a>. If you'd like to help, you can share this page on Twitter, Facebook, or your media of choice.</p>
           <span class="name">—<a target="_blank" href="https://twitter.com/_taylorpalmer">Taylor</a></span>
         </div>
       </div>
-      <button class="white">
-    <?= (new Asset("assets/images/icons/twitter.svg"))->content() ?>
-    <a href="https://twitter.com/intent/tweet?source=webclient&text=<?php echo rawurlencode($page->title()); ?>%20<?php echo rawurlencode($page->url()); ?>%20<?php echo ('via @_taylorpalmer')?>" target="blank" title="Tweet this">Share on Twitter</a>
-  </button>
-
-  <button class="white">
-
-    <?= (new Asset("assets/images/icons/facebook-box.svg"))->content() ?>
-    <a href="http://www.facebook.com/sharer.php?u=<?php echo rawurlencode ($page->url()); ?>" target="blank" title="Share on Facebook">Share on Facebook</a>
-    </button>
+      
     </header>
   </section>
   <section>
@@ -34,8 +27,10 @@
         <li><a href="#prototyping"><span class="number-list">06</span>Prototyping Tools </a></li>
         <li><a href="#handoff"><span class="number-list">07</span>Handoff Tools</a></li>
         <li><a href="#design-system"><span class="number-list">08</span>Design System Tools</a></li>
-        <li><a href="#file-management"><span class="number-list">09</span>File Management Tools</a></li>
-        <li><a href="#exciting"><span class="number-list">10</span>Most Exciting Tools of 2019</a></li>
+        <li><a href="#monitoring"><span class="number-list">09</span>Experience Monitoring Tools</a></li>
+        <li><a href="#file-management"><span class="number-list">10</span>File Management Tools</a></li>
+        <li><a href="#toolkit"><span class="number-list">11</span>The 2018 Designer's Toolkit</a></li>
+        <li><a href="#exciting"><span class="number-list">12</span>Most Exciting Tools of 2019</a></li>
       </ul>
   </section>
   <section id="demographics">
@@ -147,6 +142,7 @@
   </section>
   <section id="brainstorming">
       <div class="wrapper small">
+        <?php snippet('google-ad') ?>
         <div class="section-header">
           <h2>Brainstorming & Ideation Tools<span class="line"></span></h2>
           <p>Brainstorming can mean something different to everyone, but I still like to see what designers are doing before they start creating interfaces. Brainstorming could mean anything from exploratory mocks to requirements gathering. While most respondents are still using their notebooks or whiteboards, many still stay in Sketch.</p>
@@ -256,6 +252,7 @@
   </section>
   <section id="handoff">
       <div class="wrapper small">
+        <?php snippet('google-ad') ?>
         <div class="section-header">
           <h2>Handoff Tools<span class="line"></span></h2>
           <p>Handing off designs as code is a relatively recent development in the typical UX tool kit. I expect that as these features get stronger within individual tools like Sketch or Adobe XD, we'll start to see stronger leaders in this race.</p>
@@ -298,7 +295,7 @@
   <section id="monitoring">
       <div class="wrapper small">
         <div class="section-header">
-          <h2>Monitoring Tools<span class="line"></span></h2>
+          <h2>Experience Monitoring Tools<span class="line"></span></h2>
           <p>This is always an interesting, untapped market for design tools. I think the lack of usage comes from implementation difficulties: designers aren't usually able to set up this tools on their own. If you're not using them, you should.</p>
         </div>
         <h3>Main Insights</h3>
@@ -337,8 +334,115 @@
         </div>
       </div>
   </section>
+  <section id="toolkit">
+      <div class="wrapper small">
+        <div class="section-header">
+          <h2>The 2018 Designer's Toolkit<span class="line"></span></h2>
+        </div>
+        <div class="grid">
+          <div class="grid-item-1-3 logo-tile">
+            <div class="header">
+              <h3>Brainstorming</h3>
+              <h4>Pencil, Paper, Whiteboard</h4>
+            </div>
+            <div class="logo-wrapper">
+              <img src="/assets/images/survey-2018/logo-pencil-paper.png">
+            </div>
+          </div>
+          <div class="grid-item-1-3 logo-tile">
+            <div class="header">
+              <h3>User Flows</h3>
+              <h4>Sketch</h4>
+            </div>
+            <div class="logo-wrapper">
+              <a target="_blank" href="https://www.sketchapp.com/?ref=uxtools.co">
+              <img src="/assets/images/survey-2018/logo-sketch.png">
+              </a>
+            </div>
+          </div class="header">
+          <div class="grid-item-1-3 logo-tile">
+            <div>
+              <h3>Wireframing</h3>
+              <h4>Sketch</h4>
+            </div>
+            <div class="logo-wrapper">
+              <a target="_blank" href="https://www.sketchapp.com/?ref=uxtools.co">
+              <img src="/assets/images/survey-2018/logo-sketch.png">
+              </a>
+            </div>
+          </div>
+          <div class="grid-item-1-3 logo-tile">
+            <div>
+              <h3>UI Design</h3>
+              <h4>Sketch</h4>
+            </div>
+            <div class="logo-wrapper">
+              <a target="_blank" href="https://www.sketchapp.com/?ref=uxtools.co">
+              <img src="/assets/images/survey-2018/logo-sketch.png">
+              </a>
+            </div>
+          </div>
+          <div class="grid-item-1-3 logo-tile">
+            <div>
+              <h3>Prototyping</h3>
+              <h4>InVision (Classic)</h4>
+            </div>
+            <div class="logo-wrapper">
+              <a target="_blank" href="https://www.invisionapp.com/?ref=uxtools.co">
+              <img src="/assets/images/survey-2018/logo-invision.png">
+              </a>
+            </div>
+          </div>
+          <div class="grid-item-1-3 logo-tile">
+            <div>
+              <h3>Handoff</h3>
+              <h4>Zeplin</h4>
+            </div>
+            <div class="logo-wrapper">
+              <a target="_blank" href="https://zeplin.io/?ref=uxtools.co">
+              <img src="/assets/images/survey-2018/logo-zeplin.png">
+              </a>
+            </div>
+          </div>
+          <div class="grid-item-1-3 logo-tile">
+            <div>
+              <h3>Design System</h3>
+              <h4>Sketch</h4>
+            </div>
+            <div class="logo-wrapper">
+              <a target="_blank" href="https://www.sketchapp.com/?ref=uxtools.co">
+              <img src="/assets/images/survey-2018/logo-sketch.png">
+              </a>
+            </div>
+          </div>
+          <div class="grid-item-1-3 logo-tile">
+            <div>
+              <h3>Monitoring</h3>
+              <h4>Hotjar</h4>
+            </div>
+            <div class="logo-wrapper">
+              <a target="_blank" href="https://www.hotjar.com/?ref=uxtools.co">
+              <img src="/assets/images/survey-2018/logo-hotjar.png">
+              </a>
+            </div>
+          </div>
+          <div class="grid-item-1-3 logo-tile">
+            <div>
+              <h3>File Management</h3>
+              <h4>Google Drive</h4>
+            </div>
+            <div class="logo-wrapper">
+              <a target="_blank" href="https://www.google.com/drive/?ref=uxtools.co">
+              <img src="/assets/images/survey-2018/logo-drive.png">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
   <section id="exciting">
       <div class="wrapper small">
+        <?php snippet('google-ad') ?>
         <div class="section-header">
           <h2>Most Exciting Tools in 2019<span class="line"></span></h2>
           <p>The data here can be a bit scattered because some file management services (like Drive and Dropbox) offer version control tools, while some respondents are using both Drive and Abstract at the same time. Nevertheless, it is suprising how many respondents aren't managing their files using any system at all.</p>
@@ -358,8 +462,33 @@
         </div>
       </div>
   </section>
+  <section id="exciting">
+      <div class="wrapper small">
+        <div class="section-header">
+          <h2>Thanks for reading 👋<span class="line"></span></h2>
+          <p>People like you make this survey great! Thanks for participating in the second uxtools.co annual Design Tools Survey. Hopefully you learned something interesting, or maybe found a new tool to try! If you have any questions, reach out to <a href="mailto:taylor@uxtools.co">taylor@uxtools.co</a>.</p>
+          <button class="blue">
+        <?= (new Asset("assets/images/icons/twitter.svg"))->content() ?>
+        <a href="https://twitter.com/intent/tweet?source=webclient&text=<?php echo rawurlencode($page->title()); ?>%20<?php echo rawurlencode($page->url()); ?>%20<?php echo ('via @_taylorpalmer')?>" target="blank" title="Tweet this">Share on Twitter</a>
+      </button>
+
+      <button class="blue">
+        <?= (new Asset("assets/images/icons/facebook-box.svg"))->content() ?>
+        <a href="http://www.facebook.com/sharer.php?u=<?php echo rawurlencode ($page->url()); ?>" target="blank" title="Share on Facebook">Share on Facebook</a>
+      </button>
+      <button class="white">
+        <a href="https://uxtools.co/survey-2017" target="blank" title="See the 2017 Survey">See the 2017 Survey</a>
+      </button>
+        </div>
+  </section>
+  <section id="sign-up">
+      <div class="wrapper small">
+        <script type="text/javascript" src="https://app.sender.net/webforms/2857/cd2b14d0.js?v=2"></script>
+      </div>
+  </section>
 </div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/zepto/1.2.0/zepto.min.js"></script>
 <script src="/assets/js/survey-2018-charts.js"></script>
 <?php snippet('footer') ?>

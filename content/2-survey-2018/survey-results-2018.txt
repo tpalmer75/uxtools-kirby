@@ -1,12 +1,8 @@
-Title: Design Tools Survey
+Title: 2018 Design Tools Survey Results
 
 ----
 
-Subtitle: The 2018 Annual
-
-----
-
-MenuTitle: Survey
+MenuTitle: 2018 Survey
 
 ----
 
@@ -18,4 +14,4 @@ Socialimage: social.jpg
 
 ----
 
-Description: Wonder which tools everyone else is using? In this survey, 2,700 designers give their opinion on the most popular design tools of 2018.
+Description: Wonder which tools everyone else is using? In this survey, 2,800 designers give their opinion on the most popular design tools of 2018.
