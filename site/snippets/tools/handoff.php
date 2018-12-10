@@ -175,11 +175,6 @@
               <div v-if="app.integrations.microsoftTfs" v-tooltip.bottom-center="'Microsoft TFS'"><img src="<?php echo kirby()->urls()->assets() . '/images/icons/microsoft-tfs.png' ?>" title="Microsoft TFS"/></div>
             </div>
           </td>
-          <td>
-            <div v-if="app.lastUpdated">
-              {{app.lastUpdated}}
-            </div>
-          </td>
         </tr>
       </tbody>
     </table>

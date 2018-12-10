@@ -103,11 +103,6 @@
               <div v-if="app.integrations.gitlab" v-tooltip.bottom-center="'GitLab'"><img src="<?php echo kirby()->urls()->assets() . '/images/icons/gitlab.png' ?>" title="GitLab"/></div>
             </div>
           </td>
-          <td>
-            <div v-if="app.lastUpdated">
-              {{app.lastUpdated}}
-            </div>
-          </td>
         </tr>
       </tbody>
     </table>

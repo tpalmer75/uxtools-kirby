@@ -54,21 +54,7 @@ const designData = {
     }, {
             "title": "Prototyping",
             "tipText": "Can prototype<br>within the app"
-    }, {
-        "title": "Last Updated",
-        "tipText": "The last time I<br>checked on this app"
     }
-    // , {
-    //         "title": "Import",
-    //         "show": false,
-    //         "canChange": true,
-    //         "tipText": "Unique formats that<br>can be opened"
-    // }, {
-    //         "title": "Export",
-    //         "show": false,
-    //         "canChange": true,
-    //         "tipText": "Unique formats that can<br>be exported"
-    // }
     ],
     tools: [{
         "name": "Sketch",
@@ -299,14 +285,15 @@ const designData = {
         "penTool": true,
         "comments": true,
         "collaboration": false,
-        "handoff": false,
+        "handoff": true,
         "artboards": true,
         "symbols": true,
         "responsive": false,
         "prototyping": true,
         "vector": true,
         "pricing": {
-            "subscription": "$10"
+            "subscription": "$10",
+            "free": true
         }
 
     }, {
@@ -376,12 +363,12 @@ const designData = {
             "pdf": true
         },
         "offline": true,
-        "penTool": false,
+        "penTool": true,
         "collaboration": true,
-        "handoff": false, // generate a spec Word doc
+        "handoff": true,
         "artboards": false,
-        "symbols": false,
-        "responsive": false,
+        "symbols": true,
+        "responsive": true,
         "prototyping": true,
         "vector": false, // Seems HTML based
         "pricing": {
@@ -554,8 +541,8 @@ const designData = {
             "subscription": "$24+"
         }
     }, {
-        "name": "Framer",
-        "url": "http://framerjs.com/",
+        "name": "Framer (Classic)",
+        "url": "https://classic.framer.com/",
         "image": {
             "background-position": "-200 -400",
         },
@@ -587,7 +574,7 @@ const designData = {
         lastUpdated: "Jan '18"
     }, {
         "name": "Framer X",
-        "url": "http://framerjs.com/",
+        "url": "http://framer.com/",
         "image": {
             "background-position": "-200 -400",
         },

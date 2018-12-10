@@ -158,12 +158,12 @@ const librariesData = {
 		"programs": {
 			"figma": true,
 		},
-		"assets": false,
+		"assets": true,
 		"symbols": true,
 		"layers": true,
 		"sharing": true,
 		"permissions": false,
-		"interface": "Window",
+		"interface": "Panel",
 		"update": true, // push and pull changes
 		"annotate": false,
 		"styleguide": false,
@@ -204,7 +204,7 @@ const librariesData = {
 		}
 	}, {
 		"name": "Terasi",
-		"url": "https://terasi.cabai.co/",
+		"url": "https://terasi.app/",
 		"image": {
 			"background-position": "-300 -1100"
 		},
@@ -290,8 +290,5 @@ const librariesData = {
 	}, {
 			"title": "Style Guide",
 			"tipText": "Automatically generates<br> a style guide<br> of components"
-	}, {
-      "title": "Last Updated",
-      "tipText": "The last time I<br>checked on this app"
-  }]
+	}]
 };

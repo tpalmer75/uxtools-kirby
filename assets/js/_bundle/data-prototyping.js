@@ -58,8 +58,8 @@ const prototypingData = {
             "purchase": ""
         }
     }, {
-        "name": "Framer Studio",
-        "url": "http://framer.com/",
+        "name": "Framer (Classic)",
+        "url": "https://classic.framer.com/",
         "image": {
             "background-position": "-200 -400",
         },
@@ -167,6 +167,7 @@ const prototypingData = {
             "photoshop": true
         },
         "micro": true,
+        "data": true,
         "navigation": true,
         "sharing": {
             "web": true,
@@ -395,6 +396,8 @@ const prototypingData = {
             "sketch": true,
             "photoshop": true
         },
+        "data": true,
+        "micro": true,
         "navigation": true,
         "transition": true,
         "sharing": {
@@ -402,7 +405,7 @@ const prototypingData = {
         },
         "handoff": true,
         "pricing": {
-            "free": false,
+            "free": true,
             "subscription": "$10",
             "purchase": ""
         },
@@ -1132,9 +1135,9 @@ const prototypingData = {
         "import": {
             "sketch": true
         },
-        "micro": false,
+        "micro": true,
         "navigation": true,
-        "transition": false,
+        "transition": true,
         "data": false,
         "code": false,
         "sharing": {
@@ -1281,11 +1284,6 @@ const prototypingData = {
             "show": true,
             "canChange": true,
             "tipText": "Utilizes device sensors"
-        }, {
-            "title": "Last Updated",
-            "show": true,
-            "canChange": true,
-            "tipText": "The last time I<br>checked on this app"
         }
     ]
 }

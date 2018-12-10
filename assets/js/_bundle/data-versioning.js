@@ -57,10 +57,7 @@ const versioningData = {
     }, {
             "title": "Integrations",
             "tipText": "Other external apps"
-    }, {
-            "title": "Last Updated",
-            "tipText": "The last time I<br>checked on this app"
-        }
+    }
     ],
 
 
@@ -94,6 +91,7 @@ const versioningData = {
         comments: true,
         sharing: {
             web: true,
+            mac: true
         },
         integrations: {
             slack: true,

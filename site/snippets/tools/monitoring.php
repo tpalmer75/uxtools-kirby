@@ -93,11 +93,7 @@
               </div>
             </div>
           </td>
-          <td>
-            <div v-if="app.lastUpdated">
-              {{app.lastUpdated}}
-            </div>
-          </td>
+
         </tr>
       </tbody>
     </table>

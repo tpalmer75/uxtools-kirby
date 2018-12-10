@@ -150,7 +150,7 @@
         <h3>Main Insights</h3>
         <ul class="main-insights">
           <li><?= (new Asset("assets/images/icons/lightbulb-on-outline.svg"))->content() ?><span>Traditional media are still best for brainstorming.</span></li>
-          <li><?= (new Asset("assets/images/icons/lightbulb-on-outline.svg"))->content() ?><span>Compared to 2017, Figma passed all three Adobe tools.</span></li>
+          <li><?= (new Asset("assets/images/icons/lightbulb-on-outline.svg"))->content() ?><span><a target="_blank" href="https://uxtools.co/survey-2017">Compared to 2017</a>, Figma passed all three Adobe tools.</span></li>
         </ul>
         <div class="graph align-left">
           <h3>Most Popular Brainstorming Tools</h3>
@@ -186,12 +186,12 @@
       <div class="wrapper small">
         <div class="section-header">
           <h2>Wireframing Tools<span class="line"></span></h2>
-          <p>Are wireframing tools really a thing in 2018? The numbers indicate that most designers are wireframing in their primary UI design tools. The only traditional tools that cracks the top ten is Balsamiq. Next year, I'd like to be more thorough in asking designers if they actually create traditional wireframes.</p>
+          <p>Are wireframing tools still a thing in 2018? The numbers indicate that most designers are wireframing in their primary UI design tools. The only true wireframing tool that cracks the top ten is Balsamiq. Next year, I'd like to be more thorough in asking designers if they actually create traditional wireframes.</p>
         </div>
         <h3>Main Insights</h3>
         <ul class="main-insights">
           <li><?= (new Asset("assets/images/icons/lightbulb-on-outline.svg"))->content() ?><span>Only 3% of designers reported that they don't create wireframes, despite higher trends of using high-fidelity Design Systems.</span></li>
-          <li><?= (new Asset("assets/images/icons/lightbulb-on-outline.svg"))->content() ?><span>While HTML/CSS was high on the list last in 2017, it barely appeared in this year's responses (likely to due a change in options).</span></li>
+          <li><?= (new Asset("assets/images/icons/lightbulb-on-outline.svg"))->content() ?><span>While HTML/CSS was <a target="_blank" href="https://uxtools.co/survey-2017">high on the list in 2017</a>, it barely appeared in this year's responses (likely to due a change in options).</span></li>
         </ul>
         <div class="graph align-left">
           <h3>Most Popular User Flow Tools</h3>
@@ -206,12 +206,12 @@
       <div class="wrapper small">
         <div class="section-header">
           <h2>UI Design Tools<span class="line"></span></h2>
-          <p>The most important category of them all! Can anyone take down Sketch? Short answer: not yet. No surprises here, but it's great to see Figma moving up in the world. (If you're wondering how Windows users are accessing Sketch, I'm guessing it's through a virtual machhine).</p>
+          <p>The most important category of them all! Can anyone take down Sketch? Short answer: not yet. No surprises here, but it's great to see Figma moving up in the world. (If you're wondering how Windows users are accessing Sketch, I'm guessing it's through a virtual machine).</p>
         </div>
         <h3>Main Insights</h3>
         <ul class="main-insights">
           <li><?= (new Asset("assets/images/icons/lightbulb-on-outline.svg"))->content() ?><span>According to this sample, Sketch is still on top.</span></li>
-          <li><?= (new Asset("assets/images/icons/lightbulb-on-outline.svg"))->content() ?><span>In 2017, designers reported InVision Studio as being the most exciting tool of this year but aren't showing strong adoption yet.</span></li>
+          <li><?= (new Asset("assets/images/icons/lightbulb-on-outline.svg"))->content() ?><span><a target="_blank" href="https://uxtools.co/survey-2017">In 2017</a>, designers reported InVision Studio as being the most exciting tool of this year but aren't showing strong adoption yet.</span></li>
           <li><?= (new Asset("assets/images/icons/lightbulb-on-outline.svg"))->content() ?><span>All three Adobe tools continue continue to have almost equal usage.</span></li>
         </ul>
         <div class="graph align-left">
@@ -260,7 +260,7 @@
         <h3>Main Insights</h3>
         <ul class="main-insights">
           <li><?= (new Asset("assets/images/icons/lightbulb-on-outline.svg"))->content() ?><span>12% of respondents don't use handoff tools for delivering designs.</span></li>
-          <li><?= (new Asset("assets/images/icons/lightbulb-on-outline.svg"))->content() ?><span>Compared to 2017, Zeplin passed InVision to take first place.</span></li>
+          <li><?= (new Asset("assets/images/icons/lightbulb-on-outline.svg"))->content() ?><span><a target="_blank" href="https://uxtools.co/survey-2017">Compared to 2017</a>, Zeplin passed InVision to take first place.</span></li>
         </ul>
         <div class="graph align-left">
           <h3>Most Popular Handoff Tools</h3>
@@ -296,13 +296,13 @@
       <div class="wrapper small">
         <div class="section-header">
           <h2>Experience Monitoring Tools<span class="line"></span></h2>
-          <p>This is always an interesting, untapped market for design tools. I think the lack of usage comes from implementation difficulties: designers aren't usually able to set up this tools on their own. If you're not using them, you should.</p>
+          <p>This is always an interesting, untapped market for design tools. I think the lack of usage comes from implementation difficulties: designers aren't usually able to set up these tools on their own. If you're not using them, you should.</p>
         </div>
         <h3>Main Insights</h3>
         <ul class="main-insights">
           <li><?= (new Asset("assets/images/icons/lightbulb-on-outline.svg"))->content() ?><span>2 out of 3 respondents aren't using experience monitoring tools.</span></li>
           <li><?= (new Asset("assets/images/icons/lightbulb-on-outline.svg"))->content() ?><span>56% of respondents who use experience monitoring tools use Hotjar.</span></li>
-          <li><?= (new Asset("assets/images/icons/lightbulb-on-outline.svg"))->content() ?><span>Responses almost exactly mirror the ressponses from 2017, indicated that this market hasn't changed much in the last year.</span></li>
+          <li><?= (new Asset("assets/images/icons/lightbulb-on-outline.svg"))->content() ?><span>Responses almost exactly mirror the responses <a target="_blank" href="https://uxtools.co/survey-2017">from 2017</a>, indicated that this market hasn't changed much in the last year.</span></li>
         </ul>
         <div class="graph align-left">
           <h3>Most Popular Monitoring Tools</h3>
@@ -317,13 +317,13 @@
       <div class="wrapper small">
         <div class="section-header">
           <h2>File Management Tools<span class="line"></span></h2>
-          <p>The data here can be a bit scattered because some file management services (like Drive and Dropbox) offer version control tools, while some respondents are using both Drive and Abstract at the same time. Nevertheless, it is suprising how many respondents aren't managing their files using any system at all.</p>
+          <p>The data here can be a bit scattered because some file management services (like Google Drive and Dropbox) offer version control tools, while some respondents are using both Drive and Abstract at the same time. Nevertheless, it is suprising how many respondents aren't managing their files using any system at all.</p>
         </div>
         <h3>Main Insights</h3>
         <ul class="main-insights">
-          <li><?= (new Asset("assets/images/icons/lightbulb-on-outline.svg"))->content() ?><span>Google Drive and Dropbox continue to be highly used file management solutions, as almost all tools remained in their positions from 2017.</span></li>
+          <li><?= (new Asset("assets/images/icons/lightbulb-on-outline.svg"))->content() ?><span>Google Drive and Dropbox continue to be highly used file management solutions. Almost all tools remained in their same positions <a target="_blank" href="https://uxtools.co/survey-2017">from 2017</a>.</span></li>
           <li><?= (new Asset("assets/images/icons/lightbulb-on-outline.svg"))->content() ?><span>12% of respondents aren't using file management software.</span></li>
-          <li><?= (new Asset("assets/images/icons/lightbulb-on-outline.svg"))->content() ?><span>Usage of Abstract among respondents lept from 7% to 11% since 2018.</span></li>
+          <li><?= (new Asset("assets/images/icons/lightbulb-on-outline.svg"))->content() ?><span>Usage of Abstract among respondents lept from 7% to 11% <a target="_blank" href="https://uxtools.co/survey-2017">since 2017</a>.</span></li>
         </ul>
         <div class="graph align-left">
           <h3>Most Popular File Management Tools</h3>
@@ -338,6 +338,7 @@
       <div class="wrapper small">
         <div class="section-header">
           <h2>The 2018 Designer's Toolkit<span class="line"></span></h2>
+          <p>Based on this year's responses, these represent the most commonly used tools in each category. Sketch is still on top, but digging deeper into the data you'll find some movement in several of these categories—like Figma climbing within the top 5 in almost every single category.</p>
         </div>
         <div class="grid">
           <div class="grid-item-1-3 logo-tile">
@@ -445,11 +446,11 @@
         <?php snippet('google-ad') ?>
         <div class="section-header">
           <h2>Most Exciting Tools in 2019<span class="line"></span></h2>
-          <p>The data here can be a bit scattered because some file management services (like Drive and Dropbox) offer version control tools, while some respondents are using both Drive and Abstract at the same time. Nevertheless, it is suprising how many respondents aren't managing their files using any system at all.</p>
+          <p>While some designers are burned out on new design tools, these respondents aren't! See what tools are likely to take the market by storm in 2019.</p>
         </div>
         <h3>Main Insights</h3>
         <ul class="main-insights">
-          <li><?= (new Asset("assets/images/icons/lightbulb-on-outline.svg"))->content() ?><span>Figma, which was low on the list in 2017, emerges as the most exciting tool of 2019.</span></li>
+          <li><?= (new Asset("assets/images/icons/lightbulb-on-outline.svg"))->content() ?><span>Figma, which was <a target="_blank" href="https://uxtools.co/survey-2017">low on the list in 2017</a>, emerges as the most exciting tool of 2019.</span></li>
           <li><?= (new Asset("assets/images/icons/lightbulb-on-outline.svg"))->content() ?><span>InVision Studio remains near the top, indicating that many respondents have yet to try it—or are still waiting for future development.</span></li>
           <li><?= (new Asset("assets/images/icons/lightbulb-on-outline.svg"))->content() ?><span>Respondents always seem to keep Framer on their bucket list of design tools.</span></li>
         </ul>
@@ -477,7 +478,10 @@
         <a href="http://www.facebook.com/sharer.php?u=<?php echo rawurlencode ($page->url()); ?>" target="blank" title="Share on Facebook">Share on Facebook</a>
       </button>
       <button class="white">
-        <a href="https://uxtools.co/survey-2017" target="blank" title="See the 2017 Survey">See the 2017 Survey</a>
+        <a href="https://docs.google.com/spreadsheets/d/1Rh7DkqmttgAaUUf1R_Neg7D8j7QB0RyH9kCnt168VLw/edit?usp=sharing" target="blank" title="See the 2017 Survey">View the raw data</a>
+      </button>
+      <button class="white">
+        <a href="https://uxtools.co/survey-2017" target="blank" title="See the 2017 Survey">View the 2017 Survey</a>
       </button>
         </div>
   </section>

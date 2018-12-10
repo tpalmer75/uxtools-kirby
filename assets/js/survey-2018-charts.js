@@ -164,7 +164,7 @@ var graphs = [
   viewed: false,
   type: 'pie',
   data: {
-    labels: ["Mac", "windows", "Linux", "Multiple"],
+    labels: ["Mac", "Windows", "Linux", "Multiple"],
     datasets: [{
       backgroundColor: midColors4,
       data: [2208, 325, 11, 232],
@@ -457,7 +457,7 @@ var graphs = [
   data: {
     labels: ["InVision (Classic)", "Sketch", "HTML/CSS/JS", "Principle", "Adobe XD", "Figma", "Pencil/Paper", "InVision Studio", "Marvel", "Axure", "FramerX", "Framer (Classic)", "Flinto", "None", "Other"],
     datasets: [{
-      backgroundColor: [blue, blue, blue, blue, blue, blue, blue, blue, blue, blue, blue, blue, blueFaded, blue],
+      backgroundColor: [blue, blue, blue, blue, blue, blue, blue, blue, blue, blue, blue, blue, blue, blueFaded, blue],
       data: [1217, 1014, 534, 528, 503, 413, 371, 294, 291, 235, 177, 142, 159, 113]
     }]
   },

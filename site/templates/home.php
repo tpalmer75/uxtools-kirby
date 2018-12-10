@@ -11,11 +11,11 @@
       <div class="tile-grid-item two-thirds">
         <div class="tile-grid-item-content white">
           <div class="text-wrapper">
-            <h2>The 2017 Design Tools Survey Results</h2>
-            <a href="/survey-2017">
+            <h2>The 2018 Design Tools Survey Results</h2>
+            <a href="/survey-2018">
             <button class="blue">See the Survey</button></a>
           </div>
-          <img src="assets/images/tile-image-survey-2017.png" alt="Sample graphs from the survey"/>
+          <img src="assets/images/tile-image-survey-2018.png" alt="Sample graphs from the survey"/>
         </div>
       </div>
       <div class="tile-grid-item one-third">

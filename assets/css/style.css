@@ -733,6 +733,11 @@ body {
   margin: 0;
   font-size: 1.2em;
 }
+.survey-2018 button {
+  margin-top: 8px;
+  border: 0;
+  vertical-align: middle;
+}
 .survey-2018 section {
   padding: 2em;
   background: white;
@@ -915,6 +920,9 @@ body {
 }
 .survey-2018 .summary {
   margin-bottom: 48px;
+}
+.survey-2018 .message {
+  margin-bottom: 2em;
 }
 .survey-2018 .message span {
   display: inline-block;
