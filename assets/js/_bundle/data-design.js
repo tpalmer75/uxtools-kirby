@@ -13,7 +13,7 @@ const designData = {
             "title": "Usage",
             "tipText": "Based on the<br>2017 Design Tools Survey",
             "sortable": true,
-            "sortVar": "surveyRaw",
+            "sortVar": "surveyRaw2017",
             "sortDir": "desc",
     }, {
             "title": "Platform",
@@ -62,8 +62,10 @@ const designData = {
         "image": {
             "background-position": "-200 0",
         },
-        "surveyPercent": 100,
-        "surveyRaw": 1409,
+        "surveyPercent2017": 100,
+        "surveyRaw2017": 1409,
+        "surveyRaw2018": 1953,
+        "surveyPerent2018": 41,
         "platforms": {
             "mac": true
         },
@@ -102,8 +104,10 @@ const designData = {
         "image": {
             "background-position": "-200 -100",
         },
-        "surveyPercent": 15,
-        "surveyRaw": 214,
+        "surveyPercent2017": 15,
+        "surveyRaw2017": 214,
+        "surveyRaw2018": 583,
+        "surveyPerent2018": 12,
         "platforms": {
             "web": true,
             "mac": true,
@@ -141,8 +145,10 @@ const designData = {
         "image": {
             "background-position": "-100 -100",
         },
-        "surveyPercent": 28,
-        "surveyRaw": 388,
+        "surveyPercent2017": 28,
+        "surveyRaw2017": 388,
+        "surveyRaw2018": 492,
+        "surveyPerent2018": 10,
         "platforms": {
             "mac": true,
             "windows": true
@@ -183,8 +189,10 @@ const designData = {
         "image": {
             "background-position": "-100 0",
         },
-        "surveyPercent": 38,
-        "surveyRaw": 530,
+        "surveyPercent2017": 38,
+        "surveyRaw2017": 530,
+        "surveyRaw2018": 0,
+        "surveyPerent2018": 0,
         "platforms": {
             "mac": true,
             "windows": true
@@ -222,8 +230,10 @@ const designData = {
         "image": {
             "background-position": "-400 0",
         },
-        "surveyPercent": 1,
-        "surveyRaw": 23,
+        "surveyPercent2017": 1,
+        "surveyRaw2017": 23,
+        "surveyRaw2018": 0,
+        "surveyPerent2018": 0,
         "platforms": {
             "mac": true,
             "windows": true
@@ -263,8 +273,10 @@ const designData = {
         "image": {
             "background-position": "0 0",
         },
-        "surveyPercent": 20,
-        "surveyRaw": 277,
+        "surveyPercent2017": 20,
+        "surveyRaw2017": 277,
+        "surveyRaw2018": 0,
+        "surveyPerent2018": 0,
         "platforms": {
             "mac": true,
             "windows": true
@@ -302,8 +314,10 @@ const designData = {
         "image": {
             "background-position": "0 -100",
         },
-        "surveyPercent": 1,
-        "surveyRaw": 4,
+        "surveyPercent2017": 1,
+        "surveyRaw2017": 4,
+        "surveyRaw2018": 0,
+        "surveyPerent2018": 0,
         "platforms": {
             "web": true,
             "mac": true,
@@ -344,8 +358,10 @@ const designData = {
         "image": {
             "background-position": "-300 0",
         },
-        "surveyPercent": 1,
-        "surveyRaw": 96,
+        "surveyPercent2017": 1,
+        "surveyRaw2017": 96,
+        "surveyRaw2018": 0,
+        "surveyPerent2018": 0,
         "platforms": {
             "mac": true,
             "windows": true
@@ -365,6 +381,7 @@ const designData = {
         "offline": true,
         "penTool": true,
         "collaboration": true,
+        "comments": true,
         "handoff": true,
         "artboards": false,
         "symbols": true,
@@ -382,8 +399,10 @@ const designData = {
         "image": {
             "background-position": "-500 -700",
         },
-        "surveyPercent": 1,
-        "surveyRaw": 2,
+        "surveyPercent2017": 1,
+        "surveyRaw2017": 2,
+        "surveyRaw2018": 0,
+        "surveyPerent2018": 0,
         "platforms": {
             "web": true
         },
@@ -422,8 +441,10 @@ const designData = {
         "image": {
             "background-position": "0 -900",
         },
-        "surveyPercent": 1,
-        "surveyRaw": 4,
+        "surveyPercent2017": 1,
+        "surveyRaw2017": 4,
+        "surveyRaw2018": 0,
+        "surveyPerent2018": 0,
         "platforms": {
             "web": true,
             "mac": true,
@@ -454,8 +475,10 @@ const designData = {
         "image": {
             "background-position": "-200 -900",
         },
-        "surveyPercent": 100,
-        "surveyRaw": 0,
+        "surveyPercent2017": 100,
+        "surveyRaw2017": 0,
+        "surveyRaw2018": 0,
+        "surveyPerent2018": 0,
         "platforms": {
             "web": true,
             "mac": true,
@@ -486,8 +509,10 @@ const designData = {
         "image": {
             "background-position": "-400 -900",
         },
-        "surveyPercent": 100,
-        "surveyRaw": 0,
+        "surveyPercent2017": 100,
+        "surveyRaw2017": 0,
+        "surveyRaw2018": 0,
+        "surveyPerent2018": 0,
         "platforms": {
             "mac": true,
         },
@@ -516,8 +541,10 @@ const designData = {
         "image": {
             "background-position": "-100 -500",
         },
-        "surveyPercent": 1,
-        "surveyRaw": 2,
+        "surveyPercent2017": 1,
+        "surveyRaw2017": 2,
+        "surveyRaw2018": 0,
+        "surveyPerent2018": 0,
         "platforms": {
             "web": true,
         },
@@ -546,8 +573,10 @@ const designData = {
         "image": {
             "background-position": "-200 -400",
         },
-        "surveyPercent": 1,
-        "surveyRaw": 103,
+        "surveyPercent2017": 1,
+        "surveyRaw2017": 103,
+        "surveyRaw2018": 0,
+        "surveyPerent2018": 0,
         "platforms": {
             "mac": true,
         },
@@ -578,8 +607,10 @@ const designData = {
         "image": {
             "background-position": "-200 -400",
         },
-        "surveyPercent": 0,
-        "surveyRaw": 0,
+        "surveyPercent2017": 0,
+        "surveyRaw2017": 0,
+        "surveyRaw2018": 0,
+        "surveyPerent2018": 0,
         "platforms": {
             "mac": true,
         },
@@ -610,8 +641,10 @@ const designData = {
         "image": {
             "background-position": "-400 -700",
         },
-        "surveyPercent": 1,
-        "surveyRaw": 3,
+        "surveyPercent2017": 1,
+        "surveyRaw2017": 3,
+        "surveyRaw2018": 0,
+        "surveyPerent2018": 0,
         "platforms": {
             "mac": true,
             "windows": true
@@ -641,8 +674,10 @@ const designData = {
         "image": {
             "background-position": "-500 -1100",
         },
-        "surveyPercent": 100,
-        "surveyRaw": 0,
+        "surveyPercent2017": 100,
+        "surveyRaw2017": 0,
+        "surveyRaw2018": 0,
+        "surveyPerent2018": 0,
         "platforms": {
             "web": true
         },
@@ -671,8 +706,10 @@ const designData = {
         "image": {
             "background-position": "-100 -800",
         },
-        "surveyPercent": 100,
-        "surveyRaw": 0,
+        "surveyPercent2017": 100,
+        "surveyRaw2017": 0,
+        "surveyRaw2018": 0,
+        "surveyPerent2018": 0,
         "platforms": {
             "web": true
         },
@@ -702,8 +739,10 @@ const designData = {
         "image": {
             "background-position": "-300 -400",
         },
-        "surveyPercent": 100,
-        "surveyRaw": 0,
+        "surveyPercent2017": 100,
+        "surveyRaw2017": 0,
+        "surveyRaw2018": 0,
+        "surveyPerent2018": 0,
         "platforms": {
             "mac": true,
             "windows": true

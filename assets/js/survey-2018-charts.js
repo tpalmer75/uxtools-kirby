@@ -458,7 +458,7 @@ var graphs = [
     labels: ["InVision (Classic)", "Sketch", "HTML/CSS/JS", "Principle", "Adobe XD", "Figma", "Pencil/Paper", "InVision Studio", "Marvel", "Axure", "FramerX", "Framer (Classic)", "Flinto", "None", "Other"],
     datasets: [{
       backgroundColor: [blue, blue, blue, blue, blue, blue, blue, blue, blue, blue, blue, blue, blue, blueFaded, blue],
-      data: [1217, 1014, 534, 528, 503, 413, 371, 294, 291, 235, 177, 142, 159, 113]
+      data: [1217, 1014, 534, 528, 503, 413, 371, 294, 291, 235, 177, 142, 159, 113, 274]
     }]
   },
   options: {

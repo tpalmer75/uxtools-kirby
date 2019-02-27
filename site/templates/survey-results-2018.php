@@ -194,7 +194,7 @@
           <li><?= (new Asset("assets/images/icons/lightbulb-on-outline.svg"))->content() ?><span>While HTML/CSS was <a target="_blank" href="https://uxtools.co/survey-2017">high on the list in 2017</a>, it barely appeared in this year's responses (likely to due a change in options).</span></li>
         </ul>
         <div class="graph align-left">
-          <h3>Most Popular User Flow Tools</h3>
+          <h3>Most Popular Wireframing Tools</h3>
           <h4>"Which tools do you use for&nbsp;wireframing?"</h4>
           <div class="graph-wrapper">
             <canvas id="wireframing-graph"></canvas>
@@ -302,7 +302,7 @@
         <ul class="main-insights">
           <li><?= (new Asset("assets/images/icons/lightbulb-on-outline.svg"))->content() ?><span>2 out of 3 respondents aren't using experience monitoring tools.</span></li>
           <li><?= (new Asset("assets/images/icons/lightbulb-on-outline.svg"))->content() ?><span>56% of respondents who use experience monitoring tools use Hotjar.</span></li>
-          <li><?= (new Asset("assets/images/icons/lightbulb-on-outline.svg"))->content() ?><span>Responses almost exactly mirror the responses <a target="_blank" href="https://uxtools.co/survey-2017">from 2017</a>, indicated that this market hasn't changed much in the last year.</span></li>
+          <li><?= (new Asset("assets/images/icons/lightbulb-on-outline.svg"))->content() ?><span>Responses almost exactly mirror the responses <a target="_blank" href="https://uxtools.co/survey-2017">from 2017</a>, indicating that this market hasn't changed much in the last year.</span></li>
         </ul>
         <div class="graph align-left">
           <h3>Most Popular Monitoring Tools</h3>
