@@ -9,12 +9,8 @@
 
 // @codekit-prepend "_bundle/lodash-4.17.4.js"
 
-// @codekit-prepend "_bundle/data-design.js"
-// @codekit-prepend "_bundle/data-prototyping.js"
-// @codekit-prepend "_bundle/data-handoff.js"
-// @codekit-prepend "_bundle/data-versioning.js"
-// @codekit-prepend "_bundle/data-monitoring.js"
-// @codekit-prepend "_bundle/data-design-libraries.js"
+// @codekit-prepend "toolsHeaders.js"
+// @codekit-prepend "toolsData.js"
 
 Vue.use(VTooltip)
 
@@ -142,22 +138,31 @@ const designComp = {
 	template: '#design-tools',
 	data: function () {
 		return {
-			toolsData: designData,
+			toolsHeaders: toolsHeaders.design,
+			toolsData: toolsData,
+			sortedTools: [],
 			scroll: 0,
-			sortVar: "surveyRaw"
+			sortPath: "design.surveyRaw2017"
 		}
 	},
 	methods: {
 		sortBy: function (sortable, dir) {
-			this.toolsData.tools = _.orderBy(this.toolsData.tools, sortable, dir);
-			this.sortVar = sortable;
+			this.sortedTools = _.orderBy(this.sortedTools, sortable, dir);
+			this.sortPath = sortable;
 		}
 	},
-	mounted: function() {
+	created: function() {
 		// set Up Google Ads
 		(adsbygoogle = window.adsbygoogle || []).push({});
+		let tempSortedTools = [];
 		// Sort the tools by popularity
-		this.toolsData.tools = _.orderBy(this.toolsData.tools, this.sortVar, "desc");
+		for (var i=0;i<toolsData.length;i++) {
+			if (toolsData[i].design) {
+				tempSortedTools.push(toolsData[i]);
+			}
+		}
+		tempSortedTools = _.orderBy(tempSortedTools, this.sortPath, "desc");
+		this.sortedTools = tempSortedTools;
 
 	}
 }
@@ -166,22 +171,31 @@ const prototypingComp = {
 	template: '#prototyping-tools',
 	data: function () {
 		return {
-			toolsData: prototypingData,
+			toolsHeaders: toolsHeaders.prototyping,
+			toolsData: toolsData,
+			sortedTools: [],
 			scroll: 0,
-			sortVar: "surveyRaw"
+			sortPath: "prototyping.surveyRaw2017"
 		}
 	},
 	methods: {
 		sortBy: function (sortable, dir) {
-			this.toolsData.tools = _.orderBy(this.toolsData.tools, sortable, dir);
-			this.sortVar = sortable;
+			this.sortedTools = _.orderBy(this.sortedTools, sortable, dir);
+			this.sortPath = sortable;
 		}
 	},
-	mounted: function() {
+	created: function() {
 		// set Up Google Ads
 		(adsbygoogle = window.adsbygoogle || []).push({});
+		let tempSortedTools = [];
 		// Sort the tools by popularity
-		this.toolsData.tools = _.orderBy(this.toolsData.tools, this.sortVar, "desc");
+		for (var i=0;i<toolsData.length;i++) {
+			if (toolsData[i].prototyping) {
+				tempSortedTools.push(toolsData[i]);
+			}
+		}
+		tempSortedTools = _.orderBy(tempSortedTools, this.sortPath, "desc");
+		this.sortedTools = tempSortedTools;
 
 	}
 }
@@ -191,22 +205,31 @@ const handoffComp = {
 	template: '#handoff-tools',
 	data: function () {
 		return {
-			toolsData: handoffData,
+			toolsHeaders: toolsHeaders.handoff,
+			toolsData: toolsData,
+			sortedTools: [],
 			scroll: 0,
-			sortVar: "surveyRaw"
+			sortPath: "handoff.surveyRaw2017"
 		}
 	},
 	methods: {
 		sortBy: function (sortable, dir) {
-			this.toolsData.tools = _.orderBy(this.toolsData.tools, sortable, dir);
-			this.sortVar = sortable;
+			this.sortedTools = _.orderBy(this.sortedTools, sortable, dir);
+			this.sortPath = sortable;
 		}
 	},
-	mounted: function() {
+	created: function() {
 		// set Up Google Ads
 		(adsbygoogle = window.adsbygoogle || []).push({});
+		let tempSortedTools = [];
 		// Sort the tools by popularity
-		this.toolsData.tools = _.orderBy(this.toolsData.tools, this.sortVar, "desc");
+		for (var i=0;i<toolsData.length;i++) {
+			if (toolsData[i].handoff) {
+				tempSortedTools.push(toolsData[i]);
+			}
+		}
+		tempSortedTools = _.orderBy(tempSortedTools, this.sortPath, "desc");
+		this.sortedTools = tempSortedTools;
 
 	}
 }
@@ -215,23 +238,31 @@ const versioningComp = {
 	template: '#versioning-tools',
 	data: function () {
 		return {
-			toolsData: versioningData,
+			toolsHeaders: toolsHeaders.versioning,
+			toolsData: toolsData,
+			sortedTools: [],
 			scroll: 0,
-			sortVar: "surveyRaw"
+			sortPath: "versioning.surveyRaw2017"
 		}
 	},
 	methods: {
 		sortBy: function (sortable, dir) {
-			this.toolsData.tools = _.orderBy(this.toolsData.tools, sortable, dir);
-			this.sortVar = sortable;
-			console.log('sorting: ' + sortable);
+			this.sortedTools = _.orderBy(this.sortedTools, sortable, dir);
+			this.sortPath = sortable;
 		}
 	},
-	mounted: function() {
+	created: function() {
 		// set Up Google Ads
 		(adsbygoogle = window.adsbygoogle || []).push({});
+		let tempSortedTools = [];
 		// Sort the tools by popularity
-		this.toolsData.tools = _.orderBy(this.toolsData.tools, this.sortVar, "desc");
+		for (var i=0;i<toolsData.length;i++) {
+			if (toolsData[i].versioning) {
+				tempSortedTools.push(toolsData[i]);
+			}
+		}
+		tempSortedTools = _.orderBy(tempSortedTools, this.sortPath, "desc");
+		this.sortedTools = tempSortedTools;
 
 	}
 }
@@ -240,51 +271,67 @@ const monitoringComp = {
 	template: '#monitoring-tools',
 	data: function () {
 		return {
-			toolsData: monitoringData,
+			toolsHeaders: toolsHeaders.monitoring,
+			toolsData: toolsData,
+			sortedTools: [],
 			scroll: 0,
-			sortVar: "surveyRaw"
+			sortPath: "monitoring.surveyRaw2017"
 		}
 	},
 	methods: {
 		sortBy: function (sortable, dir) {
-			this.toolsData.tools = _.orderBy(this.toolsData.tools, sortable, dir);
-			this.sortVar = sortable;
-			console.log('sorting: ' + sortable);
+			this.sortedTools = _.orderBy(this.sortedTools, sortable, dir);
+			this.sortPath = sortable;
 		}
 	},
-	mounted: function() {
+	created: function() {
 		// set Up Google Ads
 		(adsbygoogle = window.adsbygoogle || []).push({});
+		let tempSortedTools = [];
 		// Sort the tools by popularity
-		this.toolsData.tools = _.orderBy(this.toolsData.tools, this.sortVar, "desc");
+		for (var i=0;i<toolsData.length;i++) {
+			if (toolsData[i].monitoring) {
+				tempSortedTools.push(toolsData[i]);
+			}
+		}
+		tempSortedTools = _.orderBy(tempSortedTools, this.sortPath, "desc");
+		this.sortedTools = tempSortedTools;
 
 	}
 }
 
-const librariesComp = {
-	template: '#design-library-tools',
+const designSystemsComp = {
+	template: '#design-system-tools',
 	data: function () {
 		return {
-			toolsData: librariesData,
+			toolsHeaders: toolsHeaders.handoff,
+			toolsData: toolsData,
+			sortedTools: [],
 			scroll: 0,
-			sortVar: "surveyRaw"
+			sortPath: "designSystems.surveyRaw2017"
 		}
 	},
 	methods: {
 		sortBy: function (sortable, dir) {
-			this.toolsData.tools = _.orderBy(this.toolsData.tools, sortable, dir);
-			this.sortVar = sortable;
+			this.sortedTools = _.orderBy(this.sortedTools, sortable, dir);
+			this.sortPath = sortable;
 		}
 	},
-	mounted: function() {
+	created: function() {
 		// set Up Google Ads
 		(adsbygoogle = window.adsbygoogle || []).push({});
+		let tempSortedTools = [];
 		// Sort the tools by popularity
-		this.toolsData.tools = _.orderBy(this.toolsData.tools, this.sortVar, "desc");
+		for (var i=0;i<toolsData.length;i++) {
+			if (toolsData[i].designSystems) {
+				tempSortedTools.push(toolsData[i]);
+			}
+		}
+		tempSortedTools = _.orderBy(tempSortedTools, this.sortPath, "desc");
+		this.sortedTools = tempSortedTools;
 
 	}
 }
-
 
 const router = new VueRouter({
 	mode:"history",
@@ -301,7 +348,10 @@ const router = new VueRouter({
 			component: handoffComp,
 		}, {
 			path: '/design-libraries', 
-			component: librariesComp,
+			redirect: '/design-systems',
+		}, {
+			path: '/design-systems', 
+			component: designSystemsComp,
 		}, {
 			path: '/versioning', 
 			component: versioningComp,

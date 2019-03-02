@@ -1,5 +1,4 @@
-{
- "tools": [
+const toolsData = [
     {
       "name": "Abstract",
       "pricing": {
@@ -13,8 +12,8 @@
         "backgroundPosition": "-100 -1000"
       },
       "versioning": {
-        "surveyRaw": 185,
-        "surveyPercent": 100,
+        "surveyRaw2017": 185,
+        "surveyPercent2017": 100,
         "platforms": {
           "mac": true
         },
@@ -171,8 +170,8 @@
         "vector": true
       },
       "prototyping": {
-        "surveyPercent": 24,
-        "surveyRaw": 292,
+        "surveyPercent2017": 24,
+        "surveyRaw2017": 292,
         "design": true,
         "platforms": {
           "mac": true,
@@ -193,8 +192,8 @@
         "lastUpdated": "Mar '18"
       },
       "handoff": {
-        "surveyRaw": 157,
-        "surveyPercent": 22,
+        "surveyRaw2017": 157,
+        "surveyPercent2017": 22,
         "platforms": {
           "mac": true,
           "windows": true
@@ -308,8 +307,8 @@
         "background-position": "-300 -800"
       },
       "prototyping": {
-        "surveyPercent": 0,
-        "surveyRaw": 0,
+        "surveyPercent2017": 0,
+        "surveyRaw2017": 0,
         "platforms": {
           "iOS": true
         },
@@ -380,8 +379,8 @@
         "prototyping": true
       },
       "prototyping": {
-        "surveyPercent": 3,
-        "surveyRaw": 39,
+        "surveyPercent2017": 3,
+        "surveyRaw2017": 39,
         "platforms": {
           "web": true
         },
@@ -413,8 +412,8 @@
         "background-position": "-400 -500"
       },
       "handoff": {
-        "surveyRaw": 30,
-        "surveyPercent": 4,
+        "surveyRaw2017": 30,
+        "surveyPercent2017": 4,
         "platforms": {
           "mac": true,
           "windows": true,
@@ -495,8 +494,8 @@
         "vector": false
       },
       "prototyping": {
-        "surveyPercent": 17,
-        "surveyRaw": 203,
+        "surveyPercent2017": 17,
+        "surveyRaw2017": 203,
         "platforms": {
           "mac": true,
           "windows": true
@@ -523,8 +522,8 @@
         "background-position": "-500 -400"
       },
       "prototyping": {
-        "surveyPercent": 0,
-        "surveyRaw": 0,
+        "surveyPercent2017": 0,
+        "surveyRaw2017": 0,
         "design": true,
         "platforms": {
           "web": true
@@ -548,9 +547,9 @@
       "image": {
         "backgroundPosition": "-200 -1000"
       },
-      "designLibraries": {
-        "surveyRaw": 49,
-        "surveyPercent": 6,
+      "designSystems": {
+        "surveyRaw2017": 49,
+        "surveyPercent2017": 6,
         "platforms": {
           "web": true
         },
@@ -584,8 +583,8 @@
         "background-position": "-500 -200"
       },
       "prototyping": {
-        "surveyPercent": 1,
-        "surveyRaw": 1,
+        "surveyPercent2017": 1,
+        "surveyRaw2017": 1,
         "platforms": {
           "web": true
         },
@@ -607,8 +606,8 @@
         "heatmap": true
       },
       "handoff": {
-        "surveyRaw": 2,
-        "surveyPercent": 1,
+        "surveyRaw2017": 2,
+        "surveyPercent2017": 1,
         "platforms": {
           "mac": true
         },
@@ -642,8 +641,8 @@
         "background-position": "-500 -300"
       },
       "prototyping": {
-        "surveyPercent": 0,
-        "surveyRaw": 0,
+        "surveyPercent2017": 0,
+        "surveyRaw2017": 0,
         "platforms": {
           "mac": true
         },
@@ -656,9 +655,9 @@
           "iOS": true
         }
       },
-      "designLibraries": {
-        "surveyRaw": 321,
-        "surveyPercent": 37,
+      "designSystems": {
+        "surveyRaw2017": 321,
+        "surveyPercent2017": 37,
         "platforms": {
           "mac": true
         },
@@ -688,8 +687,8 @@
         "background-position": "-300 -500"
       },
       "prototyping": {
-        "surveyPercent": 0,
-        "surveyRaw": 0,
+        "surveyPercent2017": 0,
+        "surveyRaw2017": 0,
         "platforms": {
           "iOS": true
         },
@@ -748,8 +747,8 @@
         "vector": true
       },
       "prototyping": {
-        "surveyPercent": 12,
-        "surveyRaw": 144,
+        "surveyPercent2017": 12,
+        "surveyRaw2017": 144,
         "platforms": {
           "web": true,
           "mac": true,
@@ -775,9 +774,9 @@
         "heatmaps": false,
         "sensors": false
       },
-      "designLibraries": {
-        "surveyRaw": 123,
-        "surveyPercent": 14,
+      "designSystems": {
+        "surveyRaw2017": 123,
+        "surveyPercent2017": 14,
         "platforms": {
           "web": true,
           "mac": true,
@@ -797,8 +796,8 @@
         "styleguide": false
       },
       "handoff": {
-        "surveyRaw": 127,
-        "surveyPercent": 18,
+        "surveyRaw2017": 127,
+        "surveyPercent2017": 18,
         "platforms": {
           "web": true,
           "mac": true,
@@ -837,8 +836,8 @@
         "background-position": "-100 -300"
       },
       "prototyping": {
-        "surveyPercent": 7,
-        "surveyRaw": 85,
+        "surveyPercent2017": 7,
+        "surveyRaw2017": 85,
         "platforms": {
           "web": true,
           "mac": true
@@ -869,8 +868,8 @@
         "background-position": "-400 -400"
       },
       "prototyping": {
-        "surveyPercent": 7,
-        "surveyRaw": 85,
+        "surveyPercent2017": 7,
+        "surveyRaw2017": 85,
         "platforms": {
           "web": true
         },
@@ -899,8 +898,8 @@
         "backgroundPosition": "-300 -1000"
       },
       "versioning": {
-        "surveyRaw": 1,
-        "surveyPercent": 1,
+        "surveyRaw2017": 1,
+        "surveyPercent2017": 1,
         "platforms": {
           "mac": true
         },
@@ -961,8 +960,8 @@
         "lastUpdated": "Jan '18"
       },
       "prototyping": {
-        "surveyPercent": 19,
-        "surveyRaw": 228,
+        "surveyPercent2017": 19,
+        "surveyRaw2017": 228,
         "platforms": {
           "mac": true
         },
@@ -1020,8 +1019,8 @@
         "lastUpdated": "Jan '18"
       },
       "prototyping": {
-        "surveyPercent": 0,
-        "surveyRaw": 0,
+        "surveyPercent2017": 0,
+        "surveyRaw2017": 0,
         "platforms": {
           "mac": true
         },
@@ -1054,8 +1053,8 @@
         "background-position": "-300 -900"
       },
       "prototyping": {
-        "surveyPercent": 0,
-        "surveyRaw": 0,
+        "surveyPercent2017": 0,
+        "surveyRaw2017": 0,
         "platforms": {
           "web": true
         },
@@ -1076,8 +1075,8 @@
         "sensors": false
       },
       "handoff": {
-        "surveyRaw": 0,
-        "surveyPercent": 0,
+        "surveyRaw2017": 0,
+        "surveyPercent2017": 0,
         "platforms": {
           "web": true
         },
@@ -1108,8 +1107,8 @@
         "background-position": "-300 -100"
       },
       "monitoring": {
-        "surveyRaw": 122,
-        "surveyPercent": 38,
+        "surveyRaw2017": 122,
+        "surveyPercent2017": 38,
         "platforms": {
           "web": true
         },
@@ -1137,8 +1136,8 @@
         "background-position": "-500 -100"
       },
       "prototyping": {
-        "surveyPercent": 1,
-        "surveyRaw": 1,
+        "surveyPercent2017": 1,
+        "surveyRaw2017": 1,
         "platforms": {
           "mac": true,
           "windows": true
@@ -1171,8 +1170,8 @@
       },
       "versioning": {
         "description": "",
-        "surveyRaw": 0,
-        "surveyPercent": 0,
+        "surveyRaw2017": 0,
+        "surveyPercent2017": 0,
         "platforms": {
           "mac": true
         },
@@ -1240,8 +1239,8 @@
         "background-position": "-200 -600"
       },
       "prototyping": {
-        "surveyPercent": 1,
-        "surveyRaw": 1,
+        "surveyPercent2017": 1,
+        "surveyRaw2017": 1,
         "design": true,
         "platforms": {
           "web": true
@@ -1267,8 +1266,8 @@
         "background-position": "0 -200"
       },
       "monitoring": {
-        "surveyRaw": 319,
-        "surveyPercent": 100,
+        "surveyRaw2017": 319,
+        "surveyPercent2017": 100,
         "platforms": {
           "web": true
         },
@@ -1293,8 +1292,8 @@
         "background-position": "-300 -400"
       },
       "handoff": {
-        "surveyRaw": 721,
-        "surveyPercent": 100,
+        "surveyRaw2017": 721,
+        "surveyPercent2017": 100,
         "platforms": {
           "web": true
         },
@@ -1326,8 +1325,8 @@
         "background-position": "-300 -400"
       },
       "prototyping": {
-        "surveyPercent": 100,
-        "surveyRaw": 1193,
+        "surveyPercent2017": 100,
+        "surveyRaw2017": 1193,
         "platforms": {
           "web": true
         },
@@ -1383,8 +1382,8 @@
         "prototyping": true
       },
       "prototyping": {
-        "surveyPercent": 0,
-        "surveyRaw": 0,
+        "surveyPercent2017": 0,
+        "surveyRaw2017": 0,
         "platforms": {
           "mac": true,
           "windows": true
@@ -1414,8 +1413,8 @@
         "background-position": "-100 -200"
       },
       "monitoring": {
-        "surveyRaw": 3,
-        "surveyPercent": 1,
+        "surveyRaw2017": 3,
+        "surveyPercent2017": 1,
         "platforms": {
           "web": true
         },
@@ -1441,8 +1440,8 @@
         "background-position": "-400 -200"
       },
       "monitoring": {
-        "surveyRaw": 8,
-        "surveyPercent": 3,
+        "surveyRaw2017": 8,
+        "surveyPercent2017": 3,
         "platforms": {
           "web": true
         },
@@ -1489,8 +1488,8 @@
         "prototyping": true
       },
       "prototyping": {
-        "surveyPercent": 1,
-        "surveyRaw": 8,
+        "surveyPercent2017": 1,
+        "surveyRaw2017": 8,
         "platforms": {
           "mac": true,
           "windows": true
@@ -1514,8 +1513,8 @@
         "responsive": true
       },
       "handoff": {
-        "surveyRaw": 10,
-        "surveyPercent": 1,
+        "surveyRaw2017": 10,
+        "surveyPercent2017": 1,
         "platforms": {
           "mac": true,
           "windows": true
@@ -1557,8 +1556,8 @@
         "backgroundPosition": "-500 -1000"
       },
       "versioning": {
-        "surveyRaw": 5,
-        "surveyPercent": 3,
+        "surveyRaw2017": 5,
+        "surveyPercent2017": 3,
         "platforms": {
           "mac": true
         },
@@ -1592,8 +1591,8 @@
         "background-position": "-100 -900"
       },
       "prototyping": {
-        "surveyPercent": 1,
-        "surveyRaw": 3,
+        "surveyPercent2017": 1,
+        "surveyRaw2017": 3,
         "platforms": {
           "mac": true
         },
@@ -1628,8 +1627,8 @@
         "background-position": "-200 -500"
       },
       "prototyping": {
-        "surveyPercent": 0,
-        "surveyRaw": 0,
+        "surveyPercent2017": 0,
+        "surveyRaw2017": 0,
         "platforms": {
           "web": true
         },
@@ -1656,8 +1655,8 @@
         "background-position": "-500 -900"
       },
       "prototyping": {
-        "surveyPercent": 0,
-        "surveyRaw": 0,
+        "surveyPercent2017": 0,
+        "surveyRaw2017": 0,
         "platforms": {
           "mac": true
         },
@@ -1691,9 +1690,9 @@
       "image": {
         "background-position": "-100 -1100"
       },
-      "designLibraries": {
-        "surveyRaw": 45,
-        "surveyPercent": 5,
+      "designSystems": {
+        "surveyRaw2017": 45,
+        "surveyPercent2017": 5,
         "platforms": {
           "mac": true
         },
@@ -1723,8 +1722,8 @@
         "background-position": "0 -500"
       },
       "prototyping": {
-        "surveyPercent": 0,
-        "surveyRaw": 0,
+        "surveyPercent2017": 0,
+        "surveyRaw2017": 0,
         "design": true,
         "platforms": {
           "web": true
@@ -1749,8 +1748,8 @@
         "background-position": "0 -300"
       },
       "monitoring": {
-        "surveyRaw": 2,
-        "surveyPercent": 1,
+        "surveyRaw2017": 2,
+        "surveyPercent2017": 1,
         "platforms": {
           "web": true
         },
@@ -1779,8 +1778,8 @@
         "background-position": "-300 -600"
       },
       "handoff": {
-        "surveyRaw": 1,
-        "surveyPercent": 1,
+        "surveyRaw2017": 1,
+        "surveyPercent2017": 1,
         "platforms": {
           "mac": true
         },
@@ -1807,8 +1806,8 @@
         "background-position": "0 -600"
       },
       "handoff": {
-        "surveyRaw": 0,
-        "surveyPercent": 0,
+        "surveyRaw2017": 0,
+        "surveyPercent2017": 0,
         "platforms": {
           "mac": true
         },
@@ -1837,8 +1836,8 @@
         "background-position": "-200 -300"
       },
       "prototyping": {
-        "surveyPercent": 21,
-        "surveyRaw": 250,
+        "surveyPercent2017": 21,
+        "surveyRaw2017": 250,
         "platforms": {
           "web": true,
           "iOS": true,
@@ -1865,8 +1864,8 @@
         }
       },
       "handoff": {
-        "surveyRaw": 75,
-        "surveyPercent": 10,
+        "surveyRaw2017": 75,
+        "surveyPercent2017": 10,
         "platforms": {
           "web": true
         },
@@ -1958,8 +1957,8 @@
         "prototyping": true
       },
       "prototyping": {
-        "surveyPercent": 1,
-        "surveyRaw": 1,
+        "surveyPercent2017": 1,
+        "surveyRaw2017": 1,
         "platforms": {
           "mac": true,
           "windows": true
@@ -1997,8 +1996,8 @@
         "background-position": "-400 -300"
       },
       "prototyping": {
-        "surveyPercent": 1,
-        "surveyRaw": 1,
+        "surveyPercent2017": 1,
+        "surveyRaw2017": 1,
         "platforms": {
           "web": true
         },
@@ -2022,8 +2021,8 @@
         "background-position": "-400 -100"
       },
       "monitoring": {
-        "surveyRaw": 0,
-        "surveyPercent": 0,
+        "surveyRaw2017": 0,
+        "surveyPercent2017": 0,
         "platforms": {
           "web": true
         },
@@ -2047,8 +2046,8 @@
         "background-position": "-0 -700"
       },
       "prototyping": {
-        "surveyPercent": 0,
-        "surveyRaw": 0,
+        "surveyPercent2017": 0,
+        "surveyRaw2017": 0,
         "platforms": {
           "web": true
         },
@@ -2072,8 +2071,8 @@
         "background-position": "-300 -300"
       },
       "prototyping": {
-        "surveyPercent": 3,
-        "surveyRaw": 41,
+        "surveyPercent2017": 3,
+        "surveyRaw2017": 41,
         "platforms": {
           "mac": true
         },
@@ -2100,8 +2099,8 @@
         "background-position": "-200 -800"
       },
       "prototyping": {
-        "surveyPercent": 0,
-        "surveyRaw": 0,
+        "surveyPercent2017": 0,
+        "surveyRaw2017": 0,
         "platforms": {
           "web": true
         },
@@ -2139,8 +2138,8 @@
       },
       "versioning": {
         "description": "",
-        "surveyRaw": 33,
-        "surveyPercent": 18,
+        "surveyRaw2017": 33,
+        "surveyPercent2017": 18,
         "platforms": {
           "mac": true
         },
@@ -2175,8 +2174,8 @@
         "background-position": "-500 -800"
       },
       "prototyping": {
-        "surveyPercent": 0,
-        "surveyRaw": 0,
+        "surveyPercent2017": 0,
+        "surveyRaw2017": 0,
         "platforms": {
           "web": true
         },
@@ -2214,8 +2213,8 @@
         "background-position": "0 -400"
       },
       "prototyping": {
-        "surveyPercent": 35,
-        "surveyRaw": 412,
+        "surveyPercent2017": 35,
+        "surveyRaw2017": 412,
         "platforms": {
           "mac": true
         },
@@ -2265,8 +2264,8 @@
         "prototyping": true
       },
       "prototyping": {
-        "surveyPercent": 5,
-        "surveyRaw": 56,
+        "surveyPercent2017": 5,
+        "surveyRaw2017": 56,
         "platforms": {
           "web": true
         },
@@ -2299,8 +2298,8 @@
         "background-position": "-0 -800"
       },
       "prototyping": {
-        "surveyPercent": 1,
-        "surveyRaw": 14,
+        "surveyPercent2017": 1,
+        "surveyRaw2017": 14,
         "platforms": {
           "mac": true,
           "windows": true
@@ -2338,8 +2337,8 @@
         "background-position": "-500 0"
       },
       "prototyping": {
-        "surveyPercent": 0,
-        "surveyRaw": 0,
+        "surveyPercent2017": 0,
+        "surveyRaw2017": 0,
         "platforms": {
           "web": true,
           "mac": true,
@@ -2374,8 +2373,8 @@
         "background-position": "-300 -700"
       },
       "handoff": {
-        "surveyRaw": 0,
-        "surveyPercent": 0,
+        "surveyRaw2017": 0,
+        "surveyPercent2017": 0,
         "programs": {},
         "platforms": {
           "web": true
@@ -2433,8 +2432,8 @@
         "lastUpdated": "Oct '18"
       },
       "prototyping": {
-        "surveyPercent": 0,
-        "surveyRaw": 0,
+        "surveyPercent2017": 0,
+        "surveyRaw2017": 0,
         "platforms": {
           "mac": true
         },
@@ -2451,9 +2450,9 @@
           "web": false
         }
       },
-      "designLibraries": {
-        "surveyRaw": 861,
-        "surveyPercent": 100,
+      "designSystems": {
+        "surveyRaw2017": 861,
+        "surveyPercent2017": 100,
         "platforms": {
           "mac": true
         },
@@ -2484,8 +2483,8 @@
         "background-position": "-500 -600"
       },
       "handoff": {
-        "surveyRaw": 152,
-        "surveyPercent": 21,
+        "surveyRaw2017": 152,
+        "surveyPercent2017": 21,
         "platforms": {
           "mac": true
         },
@@ -2514,8 +2513,8 @@
         "background-position": "-400 -800"
       },
       "monitoring": {
-        "surveyRaw": 1,
-        "surveyPercent": 1,
+        "surveyRaw2017": 1,
+        "surveyPercent2017": 1,
         "platforms": {
           "web": true
         },
@@ -2542,8 +2541,8 @@
         "background-position": "-400 -600"
       },
       "handoff": {
-        "surveyRaw": 0,
-        "surveyPercent": 0,
+        "surveyRaw2017": 0,
+        "surveyPercent2017": 0,
         "platforms": {
           "mac": true,
           "windows": true
@@ -2596,8 +2595,8 @@
         "prototyping": true
       },
       "prototyping": {
-        "surveyPercent": 0,
-        "surveyRaw": 0,
+        "surveyPercent2017": 0,
+        "surveyRaw2017": 0,
         "platforms": {
           "web": true
         },
@@ -2631,8 +2630,8 @@
         "background-position": "-100 -600"
       },
       "handoff": {
-        "surveyRaw": 5,
-        "surveyPercent": 1,
+        "surveyRaw2017": 5,
+        "surveyPercent2017": 1,
         "platforms": {
           "web": true
         },
@@ -2675,9 +2674,9 @@
       "image": {
         "background-position": "-300 -1100"
       },
-      "designLibraries": {
-        "surveyRaw": 3,
-        "surveyPercent": 1,
+      "designSystems": {
+        "surveyRaw2017": 3,
+        "surveyPercent2017": 1,
         "platforms": {
           "mac": true
         },
@@ -2742,8 +2741,8 @@
         "lastUpdated": "Oct '18"
       },
       "prototyping": {
-        "surveyPercent": 4,
-        "surveyRaw": 43,
+        "surveyPercent2017": 4,
+        "surveyRaw2017": 43,
         "platforms": {
           "web": true,
           "mac": true,
@@ -2763,9 +2762,9 @@
         "handoff": true,
         "lastUpdated": "Oct '18"
       },
-      "designLibraries": {
-        "surveyRaw": 23,
-        "surveyPercent": 3,
+      "designSystems": {
+        "surveyRaw2017": 23,
+        "surveyPercent2017": 3,
         "platforms": {
           "web": true,
           "mac": true
@@ -2785,8 +2784,8 @@
         "styleguide": true
       },
       "handoff": {
-        "surveyRaw": 14,
-        "surveyPercent": 2,
+        "surveyRaw2017": 14,
+        "surveyPercent2017": 2,
         "platforms": {
           "web": true
         },
@@ -2820,8 +2819,8 @@
         "background-position": "-200 -200"
       },
       "monitoring": {
-        "surveyRaw": 0,
-        "surveyPercent": 0,
+        "surveyRaw2017": 0,
+        "surveyPercent2017": 0,
         "platforms": {
           "web": true
         },
@@ -2844,8 +2843,8 @@
         "background-position": "-200 -700"
       },
       "prototyping": {
-        "surveyPercent": 5,
-        "surveyRaw": 65,
+        "surveyPercent2017": 5,
+        "surveyRaw2017": 65,
         "design": true,
         "platforms": {
           "web": true
@@ -2872,8 +2871,8 @@
         "background-position": "-400 -1100"
       },
       "monitoring": {
-        "surveyRaw": 7,
-        "surveyPercent": 2,
+        "surveyRaw2017": 7,
+        "surveyPercent2017": 2,
         "platforms": {
           "web": true
         },
@@ -2903,8 +2902,8 @@
         "background-position": "0 -1000"
       },
       "monitoring": {
-        "surveyRaw": 0,
-        "surveyPercent": 0,
+        "surveyRaw2017": 0,
+        "surveyPercent2017": 0,
         "platforms": {
           "web": true
         },
@@ -2932,8 +2931,8 @@
         "background-position": "-300 -200"
       },
       "monitoring": {
-        "surveyRaw": 0,
-        "surveyPercent": 0,
+        "surveyRaw2017": 0,
+        "surveyPercent2017": 0,
         "platforms": {
           "web": true
         },
@@ -2956,8 +2955,8 @@
         "background-position": "-500 -500"
       },
       "handoff": {
-        "surveyRaw": 602,
-        "surveyPercent": 83,
+        "surveyRaw2017": 602,
+        "surveyPercent2017": 83,
         "platforms": {
           "mac": true,
           "windows": true
@@ -3001,8 +3000,8 @@
         "background-position": "-100 -700"
       },
       "prototyping": {
-        "surveyPercent": 0,
-        "surveyRaw": 0,
+        "surveyPercent2017": 0,
+        "surveyRaw2017": 0,
         "design": true,
         "platforms": {
           "web": true,
@@ -3033,9 +3032,9 @@
       "image": {
         "background-position": "-200 -1100"
       },
-      "designLibraries": {
-        "surveyRaw": 8,
-        "surveyPercent": 1,
+      "designSystems": {
+        "surveyRaw2017": 8,
+        "surveyPercent2017": 1,
         "platforms": {
           "web": true
         },
@@ -3054,4 +3053,3 @@
       }
     }
   ]
-}

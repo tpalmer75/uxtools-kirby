@@ -10,7 +10,7 @@
 <?php snippet('tools/design') ?>
 <?php snippet('tools/prototyping') ?>
 <?php snippet('tools/handoff') ?>
-<?php snippet('tools/libraries') ?>
+<?php snippet('tools/design-systems') ?>
 <?php snippet('tools/versioning') ?>
 <?php snippet('tools/monitoring') ?>
 

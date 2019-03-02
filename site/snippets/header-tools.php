@@ -34,7 +34,7 @@
 								<router-link to="handoff"><span>Handoff</span></router-link>
 							</li>
 							<li>
-								<router-link to="design-libraries"><span>Design&nbsp;Libraries</span></router-link>
+								<router-link to="design-systems"><span>Design&nbsp;Systems</span></router-link>
 							</li>
 							<li>
 								<router-link to="versioning"><span>Versioning</span></router-link>
