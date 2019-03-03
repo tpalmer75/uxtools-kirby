@@ -142,7 +142,7 @@ const designComp = {
 			toolsData: toolsData,
 			sortedTools: [],
 			scroll: 0,
-			sortPath: "design.surveyRaw2017"
+			sortPath: "design.surveyRaw2018"
 		}
 	},
 	methods: {
@@ -175,7 +175,7 @@ const prototypingComp = {
 			toolsData: toolsData,
 			sortedTools: [],
 			scroll: 0,
-			sortPath: "prototyping.surveyRaw2017"
+			sortPath: "prototyping.surveyRaw2018"
 		}
 	},
 	methods: {
@@ -209,7 +209,7 @@ const handoffComp = {
 			toolsData: toolsData,
 			sortedTools: [],
 			scroll: 0,
-			sortPath: "handoff.surveyRaw2017"
+			sortPath: "handoff.surveyRaw2018"
 		}
 	},
 	methods: {
@@ -242,7 +242,7 @@ const versioningComp = {
 			toolsData: toolsData,
 			sortedTools: [],
 			scroll: 0,
-			sortPath: "versioning.surveyRaw2017"
+			sortPath: "versioning.surveyRaw2018"
 		}
 	},
 	methods: {
@@ -275,7 +275,7 @@ const monitoringComp = {
 			toolsData: toolsData,
 			sortedTools: [],
 			scroll: 0,
-			sortPath: "monitoring.surveyRaw2017"
+			sortPath: "monitoring.surveyRaw2018"
 		}
 	},
 	methods: {
@@ -308,7 +308,7 @@ const designSystemsComp = {
 			toolsData: toolsData,
 			sortedTools: [],
 			scroll: 0,
-			sortPath: "designSystems.surveyRaw2017"
+			sortPath: "designSystems.surveyRaw2018"
 		}
 	},
 	methods: {

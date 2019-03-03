@@ -489,7 +489,7 @@ const toolsHeaders = {
       "title": "Usage",
       "tipText": "Based on the<br>2017 Design Tools Survey",
       "sortable": true,
-      "sortPath": "versioning.surveyRaw2017",
+      "sortPath": "versioning.surveyRaw2018",
       "sortDir": "desc"
     },
     {
