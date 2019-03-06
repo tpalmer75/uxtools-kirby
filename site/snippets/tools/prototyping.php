@@ -166,6 +166,14 @@
             </div>
           </td>
           <td>
+            <div v-if="app.prototyping.sensors" v-tooltip.bottom-center="'Sensors'"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="24" height="24" viewBox="0 0 24 24"><path d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z" /></svg>
+            </div>
+          </td>
+          <td>
+            <div v-if="app.prototyping.voice" v-tooltip.bottom-center="'Voice'"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="24" height="24" viewBox="0 0 24 24"><path d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z" /></svg>
+            </div>
+          </td>
+          <td>
             <div v-if="app.prototyping.tasks" v-tooltip.bottom-center="'Tasks'"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="24" height="24" viewBox="0 0 24 24"><path d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z" /></svg>
             </div>
           </td>
@@ -175,10 +183,6 @@
           </td>
           <td>
             <div v-if="app.prototyping.heatmap" v-tooltip.bottom-center="'Heatmap'"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="24" height="24" viewBox="0 0 24 24"><path d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z" /></svg>
-            </div>
-          </td>
-          <td>
-            <div v-if="app.prototyping.sensors" v-tooltip.bottom-center="'Sensors'"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="24" height="24" viewBox="0 0 24 24"><path d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z" /></svg>
             </div>
           </td>
 

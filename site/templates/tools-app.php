@@ -15,5 +15,5 @@
 <?php snippet('tools/monitoring') ?>
 
 
-<script src="/assets/js/min/tools-min.js"></script>
+<script src="/assets/js/min/tools-min.js?ver=20190306"></script>
 <?php snippet('footer') ?>

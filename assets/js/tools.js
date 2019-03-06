@@ -304,7 +304,7 @@ const designSystemsComp = {
 	template: '#design-system-tools',
 	data: function () {
 		return {
-			toolsHeaders: toolsHeaders.handoff,
+			toolsHeaders: toolsHeaders.designSystems,
 			toolsData: toolsData,
 			sortedTools: [],
 			scroll: 0,

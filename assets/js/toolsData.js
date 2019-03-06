@@ -300,7 +300,7 @@ const toolsData = [
       "handoff": true,
       "artboards": true,
       "symbols": true,
-      "responsive": false,
+      "responsive": true,
       "prototyping": true,
       "vector": true
     },
@@ -316,17 +316,18 @@ const toolsData = [
       },
       "import": {
         "sketch": true,
-        "photoshop": true
+        "photoshop": true,
+        "illustrator": true
       },
       "data": true,
       "micro": true,
       "navigation": true,
       "transition": true,
+      "voice": true, // NEW!
       "sharing": {
         "web": true
       },
-      "handoff": true,
-      "lastUpdated": "Mar '18"
+      "handoff": true
     },
     "handoff": {
       "surveyRaw2017": 157,
@@ -342,17 +343,39 @@ const toolsData = [
       },
       "specs": true,
       "automatic": true,
-      "assets": false,
+      "assets": true,
       "measure": true,
       "variables": false,
       "guides": false,
       "layers": false,
-      "comments": false,
+      "comments": true,
       "revisions": false,
+      "styleguide": true, // NEW!
       "sharing": {
         "web": true
       },
       "integrations": {}
+    },
+    "designSystems": {
+      "surveyRaw2018": 21,
+      "surveyPercent2018": 2,
+      "platforms": {
+        "mac": true,
+        "windows": true
+      },
+      "programs": {
+        "sketch": true
+      },
+      "assets": true, // can share assets between Ai, Ps, XD and other CC
+      "symbols": true,
+      "layers": false,
+      "sharing": true,
+      "permissions": false,
+      "interface": "Panel",
+      "update": true,
+      "annotate": false,
+      "styleguide": true,
+      "lastUpdated": "Jan 2018"
     }
   },
   {

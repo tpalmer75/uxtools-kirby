@@ -13,9 +13,9 @@ const toolsHeaders = {
     },
     {
       "title": "Usage",
-      "tipText": "Based on the<br>2017 Design Tools Survey",
+      "tipText": "Based on the<br>2018 Design Tools Survey",
       "sortable": true,
-      "sortPath": "designSystems.surveyRaw2017",
+      "sortPath": "designSystems.surveyRaw2018",
       "sortDir": "desc"
     },
     {
@@ -89,9 +89,9 @@ const toolsHeaders = {
     },
     {
       "title": "Usage",
-      "tipText": "Based on the<br>2017 Design Tools Survey",
+      "tipText": "Based on the<br>2018 Design Tools Survey",
       "sortable": true,
-      "sortPath": "design.surveyRaw2017",
+      "sortPath": "design.surveyRaw2018",
       "sortDir": "desc"
     },
     {
@@ -163,9 +163,9 @@ const toolsHeaders = {
     },
     {
       "title": "Usage",
-      "tipText": "Based on the<br>2017 Design Tools Survey",
+      "tipText": "Based on the<br>2018 Design Tools Survey",
       "sortable": true,
-      "sortPath": "prototyping.surveyRaw2017",
+      "sortPath": "prototyping.surveyRaw2018",
       "sortDir": "desc"
     },
     {
@@ -241,6 +241,18 @@ const toolsHeaders = {
       "tipText": "Automatic specs<br>for developers"
     },
     {
+      "title": "Sensors",
+      "show": true,
+      "canChange": true,
+      "tipText": "Utilizes device sensors"
+    },
+    {
+      "title": "Voice",
+      "show": true,
+      "canChange": true,
+      "tipText": "Accept voice as input"
+    },
+    {
       "title": "Tasks",
       "show": true,
       "canChange": true,
@@ -257,12 +269,6 @@ const toolsHeaders = {
       "show": true,
       "canChange": true,
       "tipText": "Generates heatmaps<br>from user testing"
-    },
-    {
-      "title": "Sensors",
-      "show": true,
-      "canChange": true,
-      "tipText": "Utilizes device sensors"
     }
   ],
   "handoff": [
@@ -281,9 +287,9 @@ const toolsHeaders = {
     },
     {
       "title": "Usage",
-      "tipText": "Based on the<br>2017 Design Tools Survey",
+      "tipText": "Based on the<br>2018 Design Tools Survey",
       "sortable": true,
-      "sortPath": "handoff.surveyRaw2017",
+      "sortPath": "handoff.surveyRaw2018",
       "sortDir": "desc"
     },
     {
@@ -403,9 +409,9 @@ const toolsHeaders = {
     },
     {
       "title": "Usage",
-      "tipText": "Based on the<br>2017 Design Tools Survey",
+      "tipText": "Based on the<br>2018 Design Tools Survey",
       "sortable": true,
-      "sortPath": "monitoring.surveyRaw2017",
+      "sortPath": "monitoring.surveyRaw2018",
       "sortDir": "desc"
     },
     {
@@ -487,7 +493,7 @@ const toolsHeaders = {
     },
     {
       "title": "Usage",
-      "tipText": "Based on the<br>2017 Design Tools Survey",
+      "tipText": "Based on the<br>2018 Design Tools Survey",
       "sortable": true,
       "sortPath": "versioning.surveyRaw2018",
       "sortDir": "desc"
