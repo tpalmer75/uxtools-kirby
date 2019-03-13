@@ -229,6 +229,12 @@ const toolsHeaders = {
       "tipText": "Requires knowledge<br>of code"
     },
     {
+      "title": "Inputs",
+      "show": true,
+      "canChange": true,
+      "tipText": "Support dynamic<br> text inputs"
+    },
+    {
       "title": "Sharing",
       "show": true,
       "canChange": true,
