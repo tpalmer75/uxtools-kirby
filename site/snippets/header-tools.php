@@ -8,6 +8,7 @@
 	<meta name="description" content="<?= $page->description()->html() ?>">
 
 	<link href="https://fonts.googleapis.com/css?family=Karla:400,400i,700|PT+Serif:400,400i,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700|Roboto:400,700" rel="stylesheet">
 
 	<?= snippet('head/favicon') ?>
 

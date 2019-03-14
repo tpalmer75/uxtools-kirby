@@ -741,6 +741,8 @@ section .shadow-wrapper {
 table {
   width: 100%;
   font-size: 14px;
+  font-family: "Roboto";
+  color: #3d4752;
 }
 table a {
   text-decoration: none;
@@ -749,9 +751,7 @@ table a {
 table td,
 table th {
   height: 50px;
-  vertical-align: middle;
   text-align: left;
-  padding: 0 5px;
   white-space: nowrap;
   cursor: default;
 }
@@ -760,7 +760,9 @@ table th div {
   display: inline-block;
 }
 table td {
-  min-width: 100px;
+  min-width: 120px;
+  padding: 0 5px;
+  vertical-align: middle;
 }
 table td.fixed-col {
   min-width: 0;
@@ -788,6 +790,8 @@ table td.name-col {
 table th {
   position: relative;
   z-index: 3;
+  vertical-align: top;
+  background-color: #fafafa;
 }
 table th:first-of-type {
   display: none;
@@ -796,12 +800,13 @@ table th:nth-of-type(2) {
   padding-left: 50px;
 }
 table th span {
-  display: inline;
+  display: inline-block;
+  margin: 12px 12px 4px;
 }
 table th span .sort-arrow {
   position: absolute;
-  right: -25px;
-  top: -3px;
+  right: -40px;
+  top: -16px;
 }
 table th svg {
   fill: #ccc;
@@ -810,13 +815,11 @@ table th.sorted svg {
   fill: #4285F4;
 }
 table thead {
-  position: absolute;
   border-bottom: 1px solid #eee;
   z-index: 3;
   top: 0;
   background: white;
   font-weight: bold;
-  color: rgba(85, 85, 85, 0.8);
   font-size: 14px;
 }
 table tbody tr {
@@ -837,6 +840,15 @@ table img {
 }
 table svg {
   fill: #555;
+}
+table svg.yes {
+  fill: #05CE7C;
+}
+table svg.no {
+  fill: #ddd;
+}
+table svg.semi {
+  fill: #FCC438;
 }
 table .pricing-col {
   min-width: 56px;
@@ -947,5 +959,15 @@ table .blue-bar {
 .tooltip.tooltip-after-open {
   opacity: 1;
   margin-top: 0;
+}
+.description {
+  font-family: 'Roboto Condensed', 'Roboto', sans-serif;
+  font-size: 12px;
+  font-weight: normal;
+  margin: 0;
+  white-space: normal;
+  line-height: 1;
+  margin: 0 12px 12px;
+  opacity: 0.66;
 }
 /*# sourceMappingURL=tools.css.map */

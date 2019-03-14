@@ -26,13 +26,17 @@ Vue.directive('scrolltable', {
 			var ticking = false;
 			var headerHeight = mainHeader.clientHeight;
 			var fixedHeader = document.getElementById("fixed-header");
-			var fixedHeaderHeight = fixedHeader.clientHeight;
+			var fixedHeaderHeight = fixedHeader.getBoundingClientRect().height;
 			var columns = document.querySelectorAll("tr:first-of-type td");
 			var table = document.getElementById("scroll-table");
 
 			fixedHeader.style.position = "fixed"; // to keep it hidden while loading
 			// set initial position of fixed header
 			fixedHeader.style.top = headerHeight + "px";
+
+			// Make room for fixed header 
+			scrollElement.style.marginTop = fixedHeaderHeight + "px";
+			console.log(fixedHeaderHeight);
 
 			// align column headers with content
 			var alignHeaders = function() {

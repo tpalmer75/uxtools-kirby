@@ -2,149 +2,149 @@ const toolsHeaders = {
   "designSystems": [
     {
       "title": "",
-      "tipText": ""
+      "description": ""
     },
     {
       "title": "Name",
-      "tipText": "Name of app",
+      "description": "Name of app",
       "sortable": true,
       "sortPath": "name",
       "sortDir": "asc"
     },
     {
       "title": "Usage",
-      "tipText": "Based on the<br>2018 Design Tools Survey",
+      "description": "Based on the 2018 Design Tools Survey",
       "sortable": true,
       "sortPath": "designSystems.surveyRaw2018",
       "sortDir": "desc"
     },
     {
       "title": "Platform",
-      "tipText": "Platforms used to <br>upload components"
+      "description": "Platforms used to upload components"
     },
     {
       "title": "Programs",
-      "tipText": "Supported<br>file types"
+      "description": "Supported file types"
     },
     {
       "title": "Free",
-      "tipText": "Has a free version"
+      "description": "Can the tool be used for free?"
     },
     {
       "title": "Individual",
-      "tipText": "Monthly cost for<br> single user"
+      "description": "Monthly cost for  single user"
     },
     {
       "title": "Team",
-      "tipText": "Monthly cost for 2+<br> team members"
+      "description": "Monthly cost for 2+ team members"
     },
     {
       "title": "Symbols",
-      "tipText": "Can import<br>symbols"
+      "description": "Can import symbols"
     },
     {
       "title": "Layers",
-      "tipText": "Can import<br>normal layers"
+      "description": "Can import normal layers"
     },
     {
       "title": "Assets",
-      "tipText": "Can import generic<br> assets (like images)"
+      "description": "Can import generic  assets (like images)"
     },
     {
       "title": "Sharing",
-      "tipText": "Can share<br>the library"
+      "description": "Can share the library"
     },
     {
       "title": "Permissions",
-      "tipText": "Can restrict access<br>to others"
+      "description": "Can restrict access to others"
     },
     {
       "title": "Interface",
-      "tipText": "How the tool<br>appears in-app"
+      "description": "How the tool appears in-app"
     },
     {
       "title": "Update",
-      "tipText": "Can sync changes<br>across documents"
+      "description": "Can sync changes across documents"
     },
     {
       "title": "Annotate",
-      "tipText": "Can create<br>notes about components"
+      "description": "Can create notes about components"
     },
     {
       "title": "Style Guide",
-      "tipText": "Automatically generates<br> a style guide<br> of components"
+      "description": "Automatically generates  a style guide  of components"
     }
   ],
   "design": [
     {
       "title": "",
-      "tipText": ""
+      "description": ""
     },
     {
       "title": "Name",
-      "tipText": "Name of app",
+      "description": "Name of app",
       "sortable": true,
       "sortPath": "name",
       "sortDir": "asc"
     },
     {
       "title": "Usage",
-      "tipText": "Based on the<br>2018 Design Tools Survey",
+      "description": "Based on the 2018 Design Tools Survey",
       "sortable": true,
       "sortPath": "design.surveyRaw2018",
       "sortDir": "desc"
     },
     {
       "title": "Platform",
-      "tipText": "Platforms used for <br>building prototypes"
+      "description": "Platforms used for  building prototypes"
     },
     {
       "title": "Free",
-      "tipText": "Has a free version"
+      "description": "Can the tool be used for free?"
     },
     {
       "title": "Subscription",
-      "tipText": "Cheapest monthly<br>payment"
+      "description": "Cheapest monthly payment"
     },
     {
       "title": "Purchase",
-      "tipText": "One time cost"
+      "description": "One time cost"
     },
     {
       "title": "Offline",
-      "tipText": "Can open and<br>edit offline"
+      "description": "Can open and edit offline"
     },
     {
       "title": "Pen Tool",
-      "tipText": "Draw vectors<br>and paths"
+      "description": "Draw vectors and paths"
     },
     {
       "title": "Collaborate",
-      "tipText": "Simultaneous editing"
+      "description": "Simultaneous editing"
     },
     {
       "title": "Comments",
-      "tipText": "Others can<br>leave comments"
+      "description": "Others can leave comments"
     },
     {
       "title": "Handoff",
-      "tipText": "Automatic specs<br>for developers"
+      "description": "Automatic specs for developers"
     },
     {
       "title": "Artboards",
-      "tipText": "Multiple visible<br>artboards"
+      "description": "Multiple visible artboards"
     },
     {
       "title": "Symbols",
-      "tipText": "Document-wide<br>master symbols"
+      "description": "Document-wide master symbols"
     },
     {
       "title": "Responsive",
-      "tipText": "Dynamically resizing<br>groups"
+      "description": "Dynamically resizing groups"
     },
     {
       "title": "Prototyping",
-      "tipText": "Can prototype<br>within the app"
+      "description": "Can prototype within the app"
     }
   ],
   "prototyping": [
@@ -152,18 +152,18 @@ const toolsHeaders = {
       "title": "",
       "show": true,
       "canChange": false,
-      "tipText": ""
+      "description": ""
     },
     {
       "title": "Name",
-      "tipText": "Name of app",
+      "description": "Name of app",
       "sortable": true,
       "sortPath": "name",
       "sortDir": "asc"
     },
     {
       "title": "Usage",
-      "tipText": "Based on the<br>2018 Design Tools Survey",
+      "description": "Based on the 2018 Design Tools Survey",
       "sortable": true,
       "sortPath": "prototyping.surveyRaw2018",
       "sortDir": "desc"
@@ -172,103 +172,103 @@ const toolsHeaders = {
       "title": "Platform",
       "show": true,
       "canChange": true,
-      "tipText": "Platforms used for <br>building prototypes"
+      "description": "Platforms used for  building prototypes"
     },
     {
       "title": "Free",
       "show": true,
       "canChange": true,
-      "tipText": "Has a free version"
+      "description": "Has a free version"
     },
     {
       "title": "Subscription",
       "show": true,
       "canChange": true,
-      "tipText": "Cheapest monthly<br>payment"
+      "description": "Cheapest monthly payment"
     },
     {
       "title": "Purchase",
       "show": true,
       "canChange": true,
-      "tipText": "One time cost"
+      "description": "One time cost"
     },
     {
       "title": "Design",
       "show": true,
       "canChange": true,
-      "tipText": "App can design<br>from scratch"
+      "description": "App can design from scratch"
     },
     {
       "title": "Import",
       "show": true,
       "canChange": true,
-      "tipText": "Integrations with<br>other apps"
+      "description": "Integrations with other apps"
     },
     {
       "title": "Animations",
       "show": true,
       "canChange": true,
-      "tipText": "Individual animations<br>& micro-interactions"
+      "description": "Individual animations & micro-interactions"
     },
     {
       "title": "Transitions",
       "show": true,
       "canChange": true,
-      "tipText": "Animates between screens"
+      "description": "Animates between screens"
     },
     {
       "title": "Data",
       "show": true,
       "canChange": true,
-      "tipText": "Uses data to<br>render UI"
+      "description": "Uses data to render UI"
     },
     {
       "title": "Code",
       "show": true,
       "canChange": true,
-      "tipText": "Requires knowledge<br>of code"
+      "description": "Requires knowledge of code"
     },
     {
       "title": "Sharing",
       "show": true,
       "canChange": true,
-      "tipText": "How others can<br>use the prototype"
+      "description": "How others can use the prototype"
     },
     {
       "title": "Handoff",
       "show": true,
       "canChange": true,
-      "tipText": "Automatic specs<br>for developers"
+      "description": "Automatic specs for developers"
     },
     {
       "title": "Sensors",
       "show": true,
       "canChange": true,
-      "tipText": "Utilizes device sensors"
+      "description": "Utilizes device sensors"
     },
     {
       "title": "Voice",
       "show": true,
       "canChange": true,
-      "tipText": "Accept voice as input"
+      "description": "Accept voice as input"
     },
     {
       "title": "Tasks",
       "show": true,
       "canChange": true,
-      "tipText": ""
+      "description": ""
     },
     {
       "title": "Analytics",
       "show": true,
       "canChange": true,
-      "tipText": "Can track events<br>when testing"
+      "description": "Can track events when testing"
     },
     {
       "title": "Heatmap",
       "show": true,
       "canChange": true,
-      "tipText": "Generates heatmaps<br>from user testing"
+      "description": "Generates heatmaps from user testing"
     }
   ],
   "handoff": [
@@ -276,18 +276,18 @@ const toolsHeaders = {
       "title": "",
       "show": true,
       "canChange": false,
-      "tipText": ""
+      "description": ""
     },
     {
       "title": "Name",
-      "tipText": "Name of app",
+      "description": "Name of app",
       "sortable": true,
       "sortPath": "name",
       "sortDir": "asc"
     },
     {
       "title": "Usage",
-      "tipText": "Based on the<br>2018 Design Tools Survey",
+      "description": "Based on the 2018 Design Tools Survey",
       "sortable": true,
       "sortPath": "handoff.surveyRaw2018",
       "sortDir": "desc"
@@ -296,263 +296,263 @@ const toolsHeaders = {
       "title": "Platform",
       "show": true,
       "canChange": true,
-      "tipText": "Platforms used to <br>upload designs"
+      "description": "Platforms used to  upload designs"
     },
     {
       "title": "Free",
       "show": true,
       "canChange": true,
-      "tipText": "Has a free version"
+      "description": "Has a free version"
     },
     {
       "title": "Subscription",
       "show": true,
       "canChange": true,
-      "tipText": "Cheapest monthly<br>payment"
+      "description": "Cheapest monthly payment"
     },
     {
       "title": "Purchase",
       "show": true,
       "canChange": true,
-      "tipText": "One time cost"
+      "description": "One time cost"
     },
     {
       "title": "Programs",
       "show": true,
       "canChange": true,
-      "tipText": "Compatible design programs"
+      "description": "Compatible design programs"
     },
     {
       "title": "Specs",
       "show": true,
       "canChange": true,
-      "tipText": "App creates design <br>specifications"
+      "description": "App creates design  specifications"
     },
     {
       "title": "Automatic",
       "show": true,
       "canChange": true,
-      "tipText": "App automatically <br>generates specs"
+      "description": "App automatically  generates specs"
     },
     {
       "title": "Assets",
       "show": true,
       "canChange": true,
-      "tipText": "Export <br>design assets"
+      "description": "Export  design assets"
     },
     {
       "title": "Measure",
       "show": true,
       "canChange": true,
-      "tipText": "Measure <br>distance and size"
+      "description": "Measure  distance and size"
     },
     {
       "title": "Variables",
       "show": true,
       "canChange": true,
-      "tipText": "Allows custom <br>CSS variables"
+      "description": "Allows custom  CSS variables"
     },
     {
       "title": "Style Guide",
       "show": true,
       "canChange": true,
-      "tipText": "Auto-generates <br>style guide"
+      "description": "Auto-generates  style guide"
     },
     {
       "title": "Guides",
       "show": true,
       "canChange": true,
-      "tipText": "Maintains layout guides <br>from design apps"
+      "description": "Maintains layout guides  from design apps"
     },
     {
       "title": "Layers",
       "show": false,
       "canChange": true,
-      "tipText": "App shows layer tree"
+      "description": "App shows layer tree"
     },
     {
       "title": "Comments",
       "show": true,
       "canChange": true,
-      "tipText": "Viewers can comment <br>on designs"
+      "description": "Viewers can comment  on designs"
     },
     {
       "title": "Revisions",
       "show": false,
       "canChange": true,
-      "tipText": "Save versions <br>of files"
+      "description": "Save versions  of files"
     },
     {
       "title": "Sharing",
       "show": true,
       "canChange": true,
-      "tipText": "How users can <br>access designs"
+      "description": "How users can  access designs"
     },
     {
       "title": "Integrations",
       "show": true,
       "canChange": true,
-      "tipText": "Other external apps"
+      "description": "Other external apps"
     }
   ],
   "monitoring": [
     {
       "title": "",
-      "tipText": ""
+      "description": ""
     },
     {
       "title": "Name",
-      "tipText": "Name of app",
+      "description": "Name of app",
       "sortable": true,
       "sortPath": "name",
       "sortDir": "asc"
     },
     {
       "title": "Usage",
-      "tipText": "Based on the<br>2018 Design Tools Survey",
+      "description": "Based on the 2018 Design Tools Survey",
       "sortable": true,
       "sortPath": "monitoring.surveyRaw2018",
       "sortDir": "desc"
     },
     {
       "title": "Free",
-      "tipText": "Has a free version"
+      "description": "Has a free version"
     },
     {
       "title": "Subscription",
-      "tipText": "Cheapest monthly<br>payment"
+      "description": "Cheapest monthly payment"
     },
     {
       "title": "Purchase",
-      "tipText": "One time cost"
+      "description": "One time cost"
     },
     {
       "title": "Playback",
-      "tipText": "Records user's<br> actions"
+      "description": "Records user's  actions"
     },
     {
       "title": "Skip",
-      "tipText": "Can skip inactivity<br> during playback"
+      "description": "Can skip inactivity  during playback"
     },
     {
       "title": "Speed",
-      "tipText": "Fast-forward<br> & half-speed"
+      "description": "Fast-forward  & half-speed"
     },
     {
       "title": "Jump Back",
-      "tipText": "Go back a few seconds<br> in playback (so useful)"
+      "description": "Go back a few seconds  in playback (so useful)"
     },
     {
       "title": "Console",
-      "tipText": "Records JS console<br> during playback"
+      "description": "Records JS console  during playback"
     },
     {
       "title": "Heatmaps",
-      "tipText": "Generates heatmap<br> of actions"
+      "description": "Generates heatmap  of actions"
     },
     {
       "title": "Location",
-      "tipText": "Shows visitor's<br> location"
+      "description": "Shows visitor's  location"
     },
     {
       "title": "Form Stats",
-      "tipText": "Analyzes form<br> drop off & stats"
+      "description": "Analyzes form  drop off & stats"
     },
     {
       "title": "Polls",
-      "tipText": "Can create<br> user surveys"
+      "description": "Can create  user surveys"
     },
     {
       "title": "Live",
-      "tipText": "Can watch users<br> in real-time"
+      "description": "Can watch users  in real-time"
     },
     {
       "title": "Control",
-      "tipText": "Can remotely control<br> user's browser"
+      "description": "Can remotely control  user's browser"
     },
     {
       "title": "Export",
-      "tipText": "Format for<br> downloaded"
+      "description": "Format for  downloaded"
     },
     {
       "title": "Last Updated",
-      "tipText": "The last time I<br>checked on this app"
+      "description": "The last time I checked on this app"
     }
   ],
   "versioning": [
     {
       "title": "",
-      "tipText": ""
+      "description": ""
     },
     {
       "title": "Name",
-      "tipText": "Name of app",
+      "description": "Name of app",
       "sortable": true,
       "sortPath": "name",
       "sortDir": "asc"
     },
     {
       "title": "Usage",
-      "tipText": "Based on the<br>2018 Design Tools Survey",
+      "description": "Based on the 2018 Design Tools Survey",
       "sortable": true,
       "sortPath": "versioning.surveyRaw2018",
       "sortDir": "desc"
     },
     {
       "title": "Platform",
-      "tipText": "Platform for<br>uploading designs"
+      "description": "Platform for uploading designs"
     },
     {
       "title": "Free",
-      "tipText": "Has a free version"
+      "description": "Has a free version"
     },
     {
       "title": "Subscription",
-      "tipText": "Cheapest monthly<br>cost"
+      "description": "Cheapest monthly cost"
     },
     {
       "title": "Purchase",
-      "tipText": "One time cost"
+      "description": "One time cost"
     },
     {
       "title": "Team",
-      "tipText": "Cheapest monthly<br>cost for teams"
+      "description": "Cheapest monthly cost for teams"
     },
     {
       "title": "Import",
-      "tipText": "Supported<br>file types"
+      "description": "Supported file types"
     },
     {
       "title": "Symbols",
-      "tipText": "Works<br>with symbols"
+      "description": "Works with symbols"
     },
     {
       "title": "Documents",
-      "tipText": "Works<br>with documents"
+      "description": "Works with documents"
     },
     {
       "title": "Branching",
-      "tipText": "Can create<br>branches"
+      "description": "Can create branches"
     },
     {
       "title": "Preview",
-      "tipText": "Shows preview<br>of designs"
+      "description": "Shows preview of designs"
     },
     {
       "title": "Compare",
-      "tipText": "Shows versions<br>side by side"
+      "description": "Shows versions side by side"
     },
     {
       "title": "Comments",
-      "tipText": "Users can comment<br>on designs"
+      "description": "Users can comment on designs"
     },
     {
       "title": "Sharing",
-      "tipText": "How others<br>can view designs"
+      "description": "How others can view designs"
     },
     {
       "title": "Integrations",
-      "tipText": "Other external apps"
+      "description": "Other external apps"
     }
   ]
 }

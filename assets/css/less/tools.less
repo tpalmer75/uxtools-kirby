@@ -62,15 +62,15 @@ section {
 table {
 	width: 100%;
 	font-size: 14px;
+	font-family: "Roboto";
+	color: @blue-steel;
 	a {
 		text-decoration: none;
 		color: inherit;
 	}
 	td, th {
 		height: 50px;
-		vertical-align: middle;
 		text-align: left;
-		padding: 0 5px;
 		white-space: nowrap;
 		cursor: default;
 		div {
@@ -78,7 +78,9 @@ table {
 		}
 	}
 	td {
-		min-width: 100px;
+		min-width: 120px;
+		padding: 0 5px;
+		vertical-align: middle;
 		&.fixed-col {
 			min-width: 0;
 			width: 50px;
@@ -106,6 +108,8 @@ table {
 	th {
 		position: relative;
 		z-index: 3;
+		vertical-align: top;
+		background-color: #fafafa;
 		&:first-of-type {
 			display: none;
 		}
@@ -113,11 +117,12 @@ table {
 			padding-left: 50px;
 		}
 		span {
-			display: inline;
+			display: inline-block;
+			margin: 12px 12px 4px;
 			.sort-arrow {
 				position: absolute;
-				right: -25px;
-				top: -3px;
+				right: -40px;
+				top: -16px;
 			}
 		}
 		svg {
@@ -132,17 +137,13 @@ table {
 	}
 
 	thead {
-		position: absolute; // to keep it hidden while loading
 		border-bottom: 1px solid #eee;
 		z-index: 3;
 		top: 0;
 		background: white;
 	    font-weight: bold;
-	    color: fade(#555, 80%);
-	    // text-transform: uppercase;
 	    font-size: 14px;
-	    // letter-spacing: .5px;
-		}
+	}
 
 	tbody tr {
 		position: relative;
@@ -172,6 +173,15 @@ table {
 	}
 	svg {
 		fill: #555;
+		&.yes {
+			fill: #05CE7C;
+		}
+		&.no {
+			fill: #ddd;
+		}
+		&.semi {
+			fill: #FCC438;
+		}
 	}
 	.pricing-col {
 		min-width: 56px;
@@ -301,4 +311,15 @@ table {
     opacity: 1;
     margin-top: 0;
   }
+}
+
+.description {
+	font-family: 'Roboto Condensed', 'Roboto', sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	margin: 0;
+	white-space: normal;
+	line-height: 1;
+	margin: 0 12px 12px;
+	opacity: .66;
 }
