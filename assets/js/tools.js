@@ -28,6 +28,7 @@ Vue.directive('scrolltable', {
 			var fixedHeader = document.getElementById("fixed-header");
 			var fixedHeaderHeight = fixedHeader.getBoundingClientRect().height;
 			var columns = document.querySelectorAll("tr:first-of-type td");
+			var rows = document.querySelectorAll("tbody tr");
 			var table = document.getElementById("scroll-table");
 
 			fixedHeader.style.position = "fixed"; // to keep it hidden while loading
@@ -36,7 +37,6 @@ Vue.directive('scrolltable', {
 
 			// Make room for fixed header 
 			scrollElement.style.marginTop = fixedHeaderHeight + "px";
-			console.log(fixedHeaderHeight);
 
 			// align column headers with content
 			var alignHeaders = function() {
@@ -66,6 +66,11 @@ Vue.directive('scrolltable', {
 				requestAnimationFrame(update);
 			}
 			ticking = true;
+			}
+
+			// set height of fixedColumn cells
+			for ( var i=0; i < fixedCols.length; i++ ) {
+				fixedCols[i].style.height = rows[i].clientHeight + "px";
 			}
 
 			// on each scroll
@@ -107,14 +112,15 @@ Vue.directive('scrolltable', {
 					fixedHeader.style.boxShadow = "2px 2px 10px rgba(0,0,0,.15)";
 				}
 
-				// if scrolling vertically
+				// if scrolling horizontally
 				if (currentScrollX > 0) {
 					// for each column
 					for ( var i=0; i < fixedCols.length; i++ ) {
-					fixedCols[i].style.position = "fixed";
-					fixedCols[i].style.top = parseInt(fixedHeader.style.top) + fixedHeaderHeight - currentScrollY + (fixedColHeight*i);
-					fixedCols[i].style.boxShadow = "2px 0 5px rgba(0,0,0,.1)";
-					fixedCols[i].style.backgroundColor = "white";
+						fixedCols[i].style.position = "fixed";
+						// fixedCols[i].style.top = parseInt(fixedHeader.style.top) + fixedHeaderHeight - currentScrollY + (fixedColHeight*i);
+						fixedCols[i].style.top = rows[i].getBoundingClientRect().y + "px";
+						fixedCols[i].style.boxShadow = "2px 0 5px rgba(0,0,0,.1)";
+						fixedCols[i].style.backgroundColor = "white";
 					}
 					// put the column back
 				} else {

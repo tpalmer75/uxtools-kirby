@@ -73,13 +73,14 @@ table {
 		text-align: left;
 		white-space: nowrap;
 		cursor: default;
+		padding: 8px;
 		div {
 			display: inline-block;
 		}
 	}
 	td {
 		min-width: 120px;
-		padding: 0 5px;
+		padding: 8px;
 		vertical-align: middle;
 		&.fixed-col {
 			min-width: 0;
@@ -94,6 +95,8 @@ table {
 			left: 0;
 			z-index: 2;
 			transition: box-shadow .2s;
+			display: flex;
+			align-items: center;
 			img {
 				width: 36px;
 				margin: 8px;
@@ -118,11 +121,10 @@ table {
 		}
 		span {
 			display: inline-block;
-			margin: 12px 12px 4px;
 			.sort-arrow {
 				position: absolute;
-				right: -40px;
-				top: -16px;
+				right: -30px;
+				top: -5px;
 			}
 		}
 		svg {
@@ -177,7 +179,7 @@ table {
 			fill: #05CE7C;
 		}
 		&.no {
-			fill: #ddd;
+			fill: #eee;
 		}
 		&.semi {
 			fill: #FCC438;
@@ -317,9 +319,9 @@ table {
 	font-family: 'Roboto Condensed', 'Roboto', sans-serif;
 	font-size: 12px;
 	font-weight: normal;
-	margin: 0;
+	margin: 4px 0 0;
 	white-space: normal;
 	line-height: 1;
-	margin: 0 12px 12px;
+	// margin: 4px 12px 12px;
 	opacity: .66;
 }

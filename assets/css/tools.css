@@ -754,6 +754,7 @@ table th {
   text-align: left;
   white-space: nowrap;
   cursor: default;
+  padding: 8px;
 }
 table td div,
 table th div {
@@ -761,7 +762,7 @@ table th div {
 }
 table td {
   min-width: 120px;
-  padding: 0 5px;
+  padding: 8px;
   vertical-align: middle;
 }
 table td.fixed-col {
@@ -777,6 +778,8 @@ table td.fixed-col {
   left: 0;
   z-index: 2;
   transition: box-shadow 0.2s;
+  display: flex;
+  align-items: center;
 }
 table td.fixed-col img {
   width: 36px;
@@ -801,12 +804,11 @@ table th:nth-of-type(2) {
 }
 table th span {
   display: inline-block;
-  margin: 12px 12px 4px;
 }
 table th span .sort-arrow {
   position: absolute;
-  right: -40px;
-  top: -16px;
+  right: -30px;
+  top: -5px;
 }
 table th svg {
   fill: #ccc;
@@ -845,7 +847,7 @@ table svg.yes {
   fill: #05CE7C;
 }
 table svg.no {
-  fill: #ddd;
+  fill: #eee;
 }
 table svg.semi {
   fill: #FCC438;
@@ -964,10 +966,9 @@ table .blue-bar {
   font-family: 'Roboto Condensed', 'Roboto', sans-serif;
   font-size: 12px;
   font-weight: normal;
-  margin: 0;
+  margin: 4px 0 0;
   white-space: normal;
   line-height: 1;
-  margin: 0 12px 12px;
   opacity: 0.66;
 }
 /*# sourceMappingURL=tools.css.map */
