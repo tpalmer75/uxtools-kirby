@@ -17,7 +17,8 @@ const toolsData = [
       "surveyRaw2018": 454,
       "surveyPercent2018": 52,
       "platforms": {
-        "mac": true
+        "mac": true,
+        "web": true
       },
       "import": {
         "sketch": true
@@ -325,7 +326,8 @@ const toolsData = [
       "transition": true,
       "voice": true, // NEW!
       "sharing": {
-        "web": true
+        "web": true,
+        "iOS": true
       },
       "handoff": true
     },
@@ -498,74 +500,74 @@ const toolsData = [
       "sensors": false
     }
   },
-  {
-    "name": "Atomic.io",
-    "pricing": {
-      "subscription": "",
-      "free": false
-    },
-    "url": "https://atomic.io/",
-    "image": {
-      "background-position": "-500 -700"
-    },
-    "design": {
-      "surveyPercent2017": 1,
-      "surveyRaw2017": 2,
-      "surveyRaw2018": 11,
-      "surveyPercent2018": 1,
-      "platforms": {
-        "web": true
-      },
-      "import": {
-        "sketch": true,
-        "svg": true,
-        "png": true,
-        "jpg": true
-      },
-      "export": {
-        "png": true,
-        "jpg": true,
-        "svg": true,
-        "pdf": true,
-        "eps": true,
-        "tiff": true
-      },
-      "offline": false,
-      "penTool": false,
-      "collaboration": true,
-      "comments": true,
-      "handoff": false,
-      "plugins": false,
-      "artboards": false,
-      "symbols": true,
-      "responsive": false,
-      "vector": false,
-      "prototyping": true
-    },
-    "prototyping": {
-      "surveyPercent2017": 3,
-      "surveyRaw2017": 39,
-      "surveyRaw2018": 38,
-      "surveyPercent2018": 3,
-      "platforms": {
-        "web": true
-      },
-      "import": {
-        "sketch": true
-      },
-      "design": true,
-      "micro": true,
-      "navigation": true,
-      "code": true,
-      "transitions": true,
-      "data": true,
-      "analytics": true,
-      "sharing": {
-        "web": true
-      },
-      "lastUpdated": "Jan '17"
-    }
-  },
+  // {
+  //   "name": "Atomic.io",
+  //   "pricing": {
+  //     "subscription": "",
+  //     "free": false
+  //   },
+  //   "url": "https://atomic.io/",
+  //   "image": {
+  //     "background-position": "-500 -700"
+  //   },
+  //   "design": {
+  //     "surveyPercent2017": 1,
+  //     "surveyRaw2017": 2,
+  //     "surveyRaw2018": 11,
+  //     "surveyPercent2018": 1,
+  //     "platforms": {
+  //       "web": true
+  //     },
+  //     "import": {
+  //       "sketch": true,
+  //       "svg": true,
+  //       "png": true,
+  //       "jpg": true
+  //     },
+  //     "export": {
+  //       "png": true,
+  //       "jpg": true,
+  //       "svg": true,
+  //       "pdf": true,
+  //       "eps": true,
+  //       "tiff": true
+  //     },
+  //     "offline": false,
+  //     "penTool": false,
+  //     "collaboration": true,
+  //     "comments": true,
+  //     "handoff": false,
+  //     "plugins": false,
+  //     "artboards": false,
+  //     "symbols": true,
+  //     "responsive": false,
+  //     "vector": false,
+  //     "prototyping": true
+  //   },
+  //   "prototyping": {
+  //     "surveyPercent2017": 3,
+  //     "surveyRaw2017": 39,
+  //     "surveyRaw2018": 38,
+  //     "surveyPercent2018": 3,
+  //     "platforms": {
+  //       "web": true
+  //     },
+  //     "import": {
+  //       "sketch": true
+  //     },
+  //     "design": true,
+  //     "micro": true,
+  //     "navigation": true,
+  //     "code": true,
+  //     "transitions": true,
+  //     "data": true,
+  //     "analytics": true,
+  //     "sharing": {
+  //       "web": true
+  //     },
+  //     "lastUpdated": "Jan '17"
+  //   }
+  // },
   {
     "name": "Avocode",
     "pricing": {
@@ -613,7 +615,8 @@ const toolsData = [
       "integrations": {
         "slack": true,
         "visualStudio": true,
-        "atom": true
+        "atom": true,
+        "dropbox": true
       },
       "lastUpdated": "Nov '18"
     }
@@ -919,7 +922,7 @@ const toolsData = [
         "svg": true,
         "tiff": true
       },
-      "offline": false,
+      "offline": false, // sort of, can't open files offline
       "comments": true,
       "penTool": true,
       "collaboration": true,
@@ -1428,7 +1431,8 @@ const toolsData = [
   {
     "name": "Gravit Designer",
     "pricing": {
-      "free": true
+      "free": false,
+      "subscription": "$99/yr"
     },
     "url": "https://gravit.io/",
     "image": {
@@ -1545,7 +1549,7 @@ const toolsData = [
       "comments": true,
       "revisions": true,
       "assets": true,
-      "layers": true,
+      "layers": false,
       "sharing": {
         "web": true
       },
@@ -1590,7 +1594,7 @@ const toolsData = [
   {
     "name": "InVision Studio",
     "pricing": {
-      "free": false,
+      "free": true,
       "subscription": "??",
       "purchase": ""
     },
@@ -1605,7 +1609,7 @@ const toolsData = [
       "surveyPercent2018": 10,
       "platforms": {
         "mac": true,
-        "windows": true
+        // "windows": true
       },
       "import": {
         "sketch": true
@@ -2494,7 +2498,7 @@ const toolsData = [
     "pricing": {
       "free": false,
       "subscription": "",
-      "purchase": "$99"
+      "purchase": "$129"
     },
     "url": "http://principleformac.com/",
     "image": {
@@ -2616,7 +2620,8 @@ const toolsData = [
       "analytics": false,
       "heatmaps": false,
       "sensors": true,
-      "lastUpdated": "Nov 2018"
+      "variables": true, // NEW
+      "inputs": true // NEW
     }
   },
   {
@@ -2688,7 +2693,8 @@ const toolsData = [
   {
     "name": "Sketch",
     "pricing": {
-      "purchase": "$99"
+      "purchase": "",
+      "subscription": "$99/yr"
     },
     "url": "https://www.sketchapp.com/",
     "image": {
@@ -2958,7 +2964,7 @@ const toolsData = [
       "measure": true,
       "variables": true,
       "guides": true,
-      "layers": true,
+      "layers": false,
       "comments": true,
       "revisions": true,
       "prototyping": {
@@ -3009,9 +3015,9 @@ const toolsData = [
     }
   },
   {
-    "name": "UX Pin",
+    "name": "UXPin",
     "pricing": {
-      "free": false,
+      "free": true,
       "subscription": "$20"
     },
     "url": "https://www.uxpin.com/",
@@ -3072,11 +3078,15 @@ const toolsData = [
       "micro": true,
       "data": true,
       "navigation": true,
+      "transitions": true,
       "sharing": {
-        "web": true
+        "web": true,
+        "android": true,
+        "iOS": true
       },
       "handoff": true,
-      "lastUpdated": "Oct '18"
+      "variables": true, // suggestion from Michal
+      "conditional": true // suggestion from Michal
     },
     "designSystems": {
       "surveyRaw2017": 23,
@@ -3107,7 +3117,9 @@ const toolsData = [
       "surveyRaw2018": 23,
       "surveyPercent2018": 2,
       "platforms": {
-        "web": true
+        "web": true,
+        "windows": true,
+        "mac": true
       },
       "programs": {
         "sketch": true
@@ -3132,7 +3144,7 @@ const toolsData = [
     "name": "UserTrack",
     "pricing": {
       "free": false,
-      "purchase": "$27"
+      "purchase": "$49"
     },
     "url": "https://www.usertrack.net/",
     "image": {
@@ -3147,6 +3159,7 @@ const toolsData = [
         "web": true
       },
       "playback": true,
+      "live": true,
       "heatmaps": true,
       "location": true,
       "skipInactivity": true,
@@ -3218,12 +3231,12 @@ const toolsData = [
     }
   },
   {
-    "name": "Zarget",
+    "name": "Freshmarketer",
     "pricing": {
       "free": false,
       "subscription": "$44+"
     },
-    "url": "https://zarget.com",
+    "url": "https://www.freshworks.com/marketing-automation/conversion-rate-optimization/",
     "image": {
       "background-position": "0 -1000"
     },
@@ -3235,7 +3248,7 @@ const toolsData = [
       "platforms": {
         "web": true
       },
-      "playback": true,
+      "playback": false,
       "tags": false,
       "location": false,
       "heatmaps": true,
@@ -3306,6 +3319,7 @@ const toolsData = [
       "variables": true,
       "guides": true,
       "comments": true,
+      "styleguide": true,
       "revisions": true,
       "prototyping": {
         "sketch": true
