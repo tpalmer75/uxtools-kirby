@@ -22216,23 +22216,23 @@ const toolsHeaders = {
     },
     {
       "title": "Platform",
-      "description": "Platforms used for  building prototypes"
+      "description": "Platforms used for creating designs"
     },
     {
       "title": "Free",
-      "description": "Can the tool be used for free?"
+      "description": "Free to use without trial"
     },
     {
       "title": "Subscription",
-      "description": "Cheapest monthly payment"
+      "description": "Lowest recurring payment"
     },
     {
       "title": "Purchase",
-      "description": "One time cost"
+      "description": "One-time cost"
     },
     {
       "title": "Offline",
-      "description": "Can open and edit offline"
+      "description": "Can open and edit files offline"
     },
     {
       "title": "Pen Tool",
@@ -22893,15 +22893,50 @@ const toolsData = [
         "tiff": true,
         "ai": true
       },
-      "offline": true,
-      "penTool": true,
-      "collaboration": false,
-      "handoff": false,
-      "artboards": true,
-      "plugins": true,
-      "symbols": true,
-      "responsive": true,
-      "vector": true
+      "offline": {
+        "capable": "yes",
+        "notes": "Works offline"
+      },
+      "penTool": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "collaboration": {
+        "capable": "no",
+        "notes": ""
+      },
+      "handoff": {
+        "capable": "no",
+        "notes": ""
+      },
+      "artboards": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "plugins": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "symbols": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "responsive": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "vector": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "comments": {
+        "capable": "no",
+        "notes": ""
+      },
+      "prototyping": {
+        "capable": "no",
+        "notes": ""
+      }
     }
   },
   {
@@ -22937,15 +22972,50 @@ const toolsData = [
         "pdf": true,
         "psd": true
       },
-      "offline": true,
-      "penTool": true,
-      "collaboration": false,
-      "plugins": true,
-      "handoff": false,
-      "artboards": true,
-      "symbols": false,
-      "responsive": false,
-      "vector": true
+      "offline": {
+        "capable": "yes",
+        "notes": "Works offline"
+      },
+      "penTool": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "collaboration": {
+        "capable": "no",
+        "notes": ""
+      },
+      "handoff": {
+        "capable": "no",
+        "notes": ""
+      },
+      "artboards": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "plugins": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "symbols": {
+        "capable": "no",
+        "notes": ""
+      },
+      "responsive": {
+        "capable": "no",
+        "notes": ""
+      },
+      "vector": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "comments": {
+        "capable": "no",
+        "notes": ""
+      },
+      "prototyping": {
+        "capable": "no",
+        "notes": ""
+      }
     }
   },
   {
@@ -22979,16 +23049,50 @@ const toolsData = [
         "tiff": true,
         "pdf": true
       },
-      "offline": true,
-      "penTool": true,
-      "comments": true,
-      "collaboration": false,
-      "handoff": true,
-      "artboards": true,
-      "symbols": true,
-      "responsive": true,
-      "prototyping": true,
-      "vector": true
+      "offline": {
+        "capable": "yes",
+        "notes": "Works offline"
+      },
+      "penTool": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "collaboration": {
+        "capable": "no",
+        "notes": ""
+      },
+      "handoff": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "artboards": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "plugins": {
+        "capable": "no",
+        "notes": ""
+      },
+      "symbols": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "responsive": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "vector": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "comments": {
+        "capable": "no",
+        "notes": ""
+      },
+      "prototyping": {
+        "capable": "no",
+        "notes": ""
+      }
     },
     "prototyping": {
       "surveyPercent2017": 24,
@@ -23009,7 +23113,7 @@ const toolsData = [
       "micro": true,
       "navigation": true,
       "transition": true,
-      "voice": true, // NEW!
+      "voice": true,
       "sharing": {
         "web": true,
         "iOS": true
@@ -23037,7 +23141,7 @@ const toolsData = [
       "layers": false,
       "comments": true,
       "revisions": false,
-      "styleguide": true, // NEW!
+      "styleguide": true,
       "sharing": {
         "web": true
       },
@@ -23053,7 +23157,7 @@ const toolsData = [
       "programs": {
         "sketch": true
       },
-      "assets": true, // can share assets between Ai, Ps, XD and other CC
+      "assets": true,
       "symbols": true,
       "layers": false,
       "sharing": true,
@@ -23101,14 +23205,50 @@ const toolsData = [
         "tiff": true,
         "pdf": true
       },
-      "offline": true,
-      "penTool": true,
-      "collaboration": false,
-      "handoff": false,
-      "artboards": true,
-      "symbols": true,
-      "responsive": true,
-      "vector": true
+      "offline": {
+        "capable": "yes",
+        "notes": "Works offline"
+      },
+      "penTool": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "collaboration": {
+        "capable": "no",
+        "notes": ""
+      },
+      "handoff": {
+        "capable": "no",
+        "notes": ""
+      },
+      "artboards": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "plugins": {
+        "capable": "no",
+        "notes": ""
+      },
+      "symbols": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "responsive": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "vector": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "comments": {
+        "capable": "no",
+        "notes": ""
+      },
+      "prototyping": {
+        "capable": "no",
+        "notes": ""
+      }
     }
   },
   {
@@ -23131,17 +23271,50 @@ const toolsData = [
       },
       "import": {},
       "export": {},
-      "offline": true,
-      "penTool": false,
-      "collaboration": false,
-      "comments": true,
-      "handoff": true,
-      "plugins": false,
-      "artboards": true,
-      "symbols": true,
-      "responsive": true,
-      "vector": true,
-      "prototyping": true
+      "offline": {
+        "capable": "yes",
+        "notes": "Works offline"
+      },
+      "penTool": {
+        "capable": "no",
+        "notes": ""
+      },
+      "collaboration": {
+        "capable": "no",
+        "notes": ""
+      },
+      "handoff": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "artboards": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "plugins": {
+        "capable": "no",
+        "notes": ""
+      },
+      "symbols": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "responsive": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "vector": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "comments": {
+        "capable": "no",
+        "notes": ""
+      },
+      "prototyping": {
+        "capable": "no",
+        "notes": ""
+      }
     }
   },
   {
@@ -23185,74 +23358,6 @@ const toolsData = [
       "sensors": false
     }
   },
-  // {
-  //   "name": "Atomic.io",
-  //   "pricing": {
-  //     "subscription": "",
-  //     "free": false
-  //   },
-  //   "url": "https://atomic.io/",
-  //   "image": {
-  //     "background-position": "-500 -700"
-  //   },
-  //   "design": {
-  //     "surveyPercent2017": 1,
-  //     "surveyRaw2017": 2,
-  //     "surveyRaw2018": 11,
-  //     "surveyPercent2018": 1,
-  //     "platforms": {
-  //       "web": true
-  //     },
-  //     "import": {
-  //       "sketch": true,
-  //       "svg": true,
-  //       "png": true,
-  //       "jpg": true
-  //     },
-  //     "export": {
-  //       "png": true,
-  //       "jpg": true,
-  //       "svg": true,
-  //       "pdf": true,
-  //       "eps": true,
-  //       "tiff": true
-  //     },
-  //     "offline": false,
-  //     "penTool": false,
-  //     "collaboration": true,
-  //     "comments": true,
-  //     "handoff": false,
-  //     "plugins": false,
-  //     "artboards": false,
-  //     "symbols": true,
-  //     "responsive": false,
-  //     "vector": false,
-  //     "prototyping": true
-  //   },
-  //   "prototyping": {
-  //     "surveyPercent2017": 3,
-  //     "surveyRaw2017": 39,
-  //     "surveyRaw2018": 38,
-  //     "surveyPercent2018": 3,
-  //     "platforms": {
-  //       "web": true
-  //     },
-  //     "import": {
-  //       "sketch": true
-  //     },
-  //     "design": true,
-  //     "micro": true,
-  //     "navigation": true,
-  //     "code": true,
-  //     "transitions": true,
-  //     "data": true,
-  //     "analytics": true,
-  //     "sharing": {
-  //       "web": true
-  //     },
-  //     "lastUpdated": "Jan '17"
-  //   }
-  // },
   {
     "name": "Avocode",
     "pricing": {
@@ -23338,16 +23443,50 @@ const toolsData = [
         "html": true,
         "pdf": true
       },
-      "offline": true,
-      "penTool": true,
-      "collaboration": true,
-      "comments": true,
-      "handoff": true,
-      "artboards": false,
-      "symbols": true,
-      "responsive": true,
-      "prototyping": true,
-      "vector": false
+      "offline": {
+        "capable": "yes",
+        "notes": "Works offline"
+      },
+      "penTool": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "collaboration": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "handoff": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "artboards": {
+        "capable": "no",
+        "notes": ""
+      },
+      "plugins": {
+        "capable": "no",
+        "notes": ""
+      },
+      "symbols": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "responsive": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "vector": {
+        "capable": "no",
+        "notes": ""
+      },
+      "comments": {
+        "capable": "no",
+        "notes": ""
+      },
+      "prototyping": {
+        "capable": "no",
+        "notes": ""
+      }
     },
     "prototyping": {
       "surveyPercent2017": 17,
@@ -23607,16 +23746,50 @@ const toolsData = [
         "svg": true,
         "tiff": true
       },
-      "offline": false, // sort of, can't open files offline
-      "comments": true,
-      "penTool": true,
-      "collaboration": true,
-      "handoff": true,
-      "artboards": true,
-      "symbols": true,
-      "responsive": true,
-      "prototyping": true,
-      "vector": true
+      "offline": {
+        "capable": "semi",
+        "notes": "Can only edit open files while offline"
+      },
+      "penTool": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "collaboration": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "handoff": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "artboards": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "plugins": {
+        "capable": "no",
+        "notes": ""
+      },
+      "symbols": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "responsive": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "vector": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "comments": {
+        "capable": "no",
+        "notes": ""
+      },
+      "prototyping": {
+        "capable": "no",
+        "notes": ""
+      }
     },
     "prototyping": {
       "surveyPercent2017": 12,
@@ -23853,18 +24026,50 @@ const toolsData = [
       },
       "import": {},
       "export": {},
-      "offline": true,
-      "penTool": true,
-      "collaboration": false,
-      "comments": false,
-      "handoff": true,
-      "plugins": true,
-      "artboards": true,
-      "symbols": false,
-      "responsive": true,
-      "vector": true,
-      "prototyping": true,
-      "lastUpdated": "Jan '18"
+      "offline": {
+        "capable": "yes",
+        "notes": "Works offline"
+      },
+      "penTool": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "collaboration": {
+        "capable": "no",
+        "notes": ""
+      },
+      "handoff": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "artboards": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "plugins": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "symbols": {
+        "capable": "no",
+        "notes": ""
+      },
+      "responsive": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "vector": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "comments": {
+        "capable": "no",
+        "notes": ""
+      },
+      "prototyping": {
+        "capable": "no",
+        "notes": ""
+      }
     },
     "prototyping": {
       "surveyPercent2017": 19,
@@ -23914,18 +24119,50 @@ const toolsData = [
       },
       "import": {},
       "export": {},
-      "offline": true,
-      "penTool": true,
-      "collaboration": false,
-      "comments": false,
-      "handoff": false,
-      "plugins": true,
-      "artboards": true,
-      "symbols": true,
-      "responsive": true,
-      "vector": true,
-      "prototyping": true,
-      "lastUpdated": "Jan '18"
+      "offline": {
+        "capable": "yes",
+        "notes": "Works offline"
+      },
+      "penTool": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "collaboration": {
+        "capable": "no",
+        "notes": ""
+      },
+      "handoff": {
+        "capable": "no",
+        "notes": ""
+      },
+      "artboards": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "plugins": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "symbols": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "responsive": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "vector": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "comments": {
+        "capable": "no",
+        "notes": ""
+      },
+      "prototyping": {
+        "capable": "no",
+        "notes": ""
+      }
     },
     "prototyping": {
       "surveyPercent2017": 0,
@@ -24136,17 +24373,50 @@ const toolsData = [
       },
       "import": {},
       "export": {},
-      "offline": true,
-      "penTool": true,
-      "collaboration": false,
-      "comments": true,
-      "handoff": true,
-      "plugins": false,
-      "artboards": true,
-      "symbols": true,
-      "responsive": true,
-      "vector": true,
-      "prototyping": true
+      "offline": {
+        "capable": "yes",
+        "notes": "Yes, but only with a Pro account"
+      },
+      "penTool": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "collaboration": {
+        "capable": "no",
+        "notes": ""
+      },
+      "handoff": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "artboards": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "plugins": {
+        "capable": "no",
+        "notes": ""
+      },
+      "symbols": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "responsive": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "vector": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "comments": {
+        "capable": "no",
+        "notes": ""
+      },
+      "prototyping": {
+        "capable": "no",
+        "notes": ""
+      }
     }
   },
   {
@@ -24293,23 +24563,56 @@ const toolsData = [
       "surveyRaw2018": 191,
       "surveyPercent2018": 10,
       "platforms": {
-        "mac": true,
-        // "windows": true
+        "mac": true
       },
       "import": {
         "sketch": true
       },
       "export": {},
-      "offline": true,
-      "penTool": true,
-      "collaboration": false,
-      "comments": true,
-      "handoff": true,
-      "plugins": false,
-      "artboards": true,
-      "symbols": true,
-      "responsive": true,
-      "prototyping": true
+      "offline": {
+        "capable": "yes",
+        "notes": "Works offline"
+      },
+      "penTool": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "collaboration": {
+        "capable": "no",
+        "notes": ""
+      },
+      "handoff": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "artboards": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "plugins": {
+        "capable": "no",
+        "notes": ""
+      },
+      "symbols": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "responsive": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "vector": {
+        "capable": "no",
+        "notes": ""
+      },
+      "comments": {
+        "capable": "no",
+        "notes": ""
+      },
+      "prototyping": {
+        "capable": "no",
+        "notes": ""
+      }
     },
     "prototyping": {
       "surveyPercent2017": 0,
@@ -24412,16 +24715,50 @@ const toolsData = [
       },
       "import": {},
       "export": {},
-      "offline": true,
-      "penTool": false,
-      "collaboration": true,
-      "comments": true,
-      "handoff": true,
-      "plugins": false,
-      "artboards": true,
-      "symbols": true,
-      "responsive": true,
-      "prototyping": true
+      "offline": {
+        "capable": "yes",
+        "notes": "Works offline"
+      },
+      "penTool": {
+        "capable": "no",
+        "notes": ""
+      },
+      "collaboration": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "handoff": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "artboards": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "plugins": {
+        "capable": "no",
+        "notes": ""
+      },
+      "symbols": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "responsive": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "vector": {
+        "capable": "no",
+        "notes": ""
+      },
+      "comments": {
+        "capable": "no",
+        "notes": ""
+      },
+      "prototyping": {
+        "capable": "no",
+        "notes": ""
+      }
     },
     "prototyping": {
       "surveyPercent2017": 1,
@@ -24871,17 +25208,50 @@ const toolsData = [
       },
       "import": {},
       "export": {},
-      "offline": false,
-      "penTool": false,
-      "collaboration": true,
-      "comments": true,
-      "handoff": true,
-      "plugins": false,
-      "artboards": false,
-      "symbols": true,
-      "responsive": false,
-      "vector": false,
-      "prototyping": false
+      "offline": {
+        "capable": "no",
+        "notes": "Editing only available in the browser"
+      },
+      "penTool": {
+        "capable": "no",
+        "notes": ""
+      },
+      "collaboration": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "handoff": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "artboards": {
+        "capable": "no",
+        "notes": ""
+      },
+      "plugins": {
+        "capable": "no",
+        "notes": ""
+      },
+      "symbols": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "responsive": {
+        "capable": "no",
+        "notes": ""
+      },
+      "vector": {
+        "capable": "no",
+        "notes": ""
+      },
+      "comments": {
+        "capable": "no",
+        "notes": ""
+      },
+      "prototyping": {
+        "capable": "no",
+        "notes": ""
+      }
     }
   },
   {
@@ -24907,16 +25277,50 @@ const toolsData = [
         "sketch": true
       },
       "export": {},
-      "offline": false,
-      "penTool": false,
-      "collaboration": true,
-      "comments": true,
-      "handoff": false,
-      "plugins": false,
-      "artboards": false,
-      "symbols": true,
-      "responsive": false,
-      "prototyping": true
+      "offline": {
+        "capable": "no",
+        "notes": "Editing only available in the browser"
+      },
+      "penTool": {
+        "capable": "no",
+        "notes": ""
+      },
+      "collaboration": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "handoff": {
+        "capable": "no",
+        "notes": ""
+      },
+      "artboards": {
+        "capable": "no",
+        "notes": ""
+      },
+      "plugins": {
+        "capable": "no",
+        "notes": ""
+      },
+      "symbols": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "responsive": {
+        "capable": "no",
+        "notes": ""
+      },
+      "vector": {
+        "capable": "no",
+        "notes": ""
+      },
+      "comments": {
+        "capable": "no",
+        "notes": ""
+      },
+      "prototyping": {
+        "capable": "no",
+        "notes": ""
+      }
     },
     "prototyping": {
       "surveyPercent2017": 1,
@@ -25230,17 +25634,50 @@ const toolsData = [
       },
       "import": {},
       "export": {},
-      "offline": true,
-      "penTool": true,
-      "collaboration": true,
-      "comments": true,
-      "handoff": false,
-      "plugins": false,
-      "artboards": true,
-      "symbols": false,
-      "responsive": false,
-      "vector": true,
-      "prototyping": true
+      "offline": {
+        "capable": "no",
+        "notes": "But prototypes can be viewed offline with native apps"
+      },
+      "penTool": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "collaboration": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "handoff": {
+        "capable": "no",
+        "notes": ""
+      },
+      "artboards": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "plugins": {
+        "capable": "no",
+        "notes": ""
+      },
+      "symbols": {
+        "capable": "no",
+        "notes": ""
+      },
+      "responsive": {
+        "capable": "no",
+        "notes": ""
+      },
+      "vector": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "comments": {
+        "capable": "no",
+        "notes": ""
+      },
+      "prototyping": {
+        "capable": "no",
+        "notes": ""
+      }
     },
     "prototyping": {
       "surveyPercent2017": 5,
@@ -25305,8 +25742,8 @@ const toolsData = [
       "analytics": false,
       "heatmaps": false,
       "sensors": true,
-      "variables": true, // NEW
-      "inputs": true // NEW
+      "variables": true,
+      "inputs": true
     }
   },
   {
@@ -25408,17 +25845,50 @@ const toolsData = [
         "eps": true,
         "tiff": true
       },
-      "offline": true,
-      "penTool": true,
-      "collaboration": false,
-      "handoff": false,
-      "plugins": true,
-      "artboards": true,
-      "symbols": true,
-      "responsive": true,
-      "vector": true,
-      "prototyping": true,
-      "lastUpdated": "Oct '18"
+      "offline": {
+        "capable": "yes",
+        "notes": "Works offline"
+      },
+      "penTool": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "collaboration": {
+        "capable": "no",
+        "notes": ""
+      },
+      "handoff": {
+        "capable": "no",
+        "notes": ""
+      },
+      "artboards": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "plugins": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "symbols": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "responsive": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "vector": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "comments": {
+        "capable": "no",
+        "notes": ""
+      },
+      "prototyping": {
+        "capable": "no",
+        "notes": ""
+      }
     },
     "prototyping": {
       "surveyPercent2017": 0,
@@ -25582,16 +26052,50 @@ const toolsData = [
       },
       "import": {},
       "export": {},
-      "offline": false,
-      "penTool": false,
-      "collaboration": true,
-      "comments": true,
-      "handoff": false,
-      "plugins": false,
-      "artboards": true,
-      "symbols": true,
-      "responsive": true,
-      "prototyping": true
+      "offline": {
+        "capable": "no",
+        "notes": "Editing only available in the browser"
+      },
+      "penTool": {
+        "capable": "no",
+        "notes": ""
+      },
+      "collaboration": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "handoff": {
+        "capable": "no",
+        "notes": ""
+      },
+      "artboards": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "plugins": {
+        "capable": "no",
+        "notes": ""
+      },
+      "symbols": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "responsive": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "vector": {
+        "capable": "no",
+        "notes": ""
+      },
+      "comments": {
+        "capable": "no",
+        "notes": ""
+      },
+      "prototyping": {
+        "capable": "no",
+        "notes": ""
+      }
     },
     "prototyping": {
       "surveyPercent2017": 0,
@@ -25733,17 +26237,50 @@ const toolsData = [
         "pdf": true,
         "html": true
       },
-      "offline": false,
-      "penTool": true,
-      "collaboration": true,
-      "comments": true,
-      "handoff": true,
-      "artboards": false,
-      "symbols": true,
-      "responsive": true,
-      "prototyping": true,
-      "vector": true,
-      "lastUpdated": "Oct '18"
+      "offline": {
+        "capable": "semi",
+        "notes": "Can only edit open files while offline"
+      },
+      "penTool": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "collaboration": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "handoff": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "artboards": {
+        "capable": "no",
+        "notes": ""
+      },
+      "plugins": {
+        "capable": "no",
+        "notes": ""
+      },
+      "symbols": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "responsive": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "vector": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "comments": {
+        "capable": "no",
+        "notes": ""
+      },
+      "prototyping": {
+        "capable": "no",
+        "notes": ""
+      }
     },
     "prototyping": {
       "surveyPercent2017": 4,
@@ -25770,8 +26307,8 @@ const toolsData = [
         "iOS": true
       },
       "handoff": true,
-      "variables": true, // suggestion from Michal
-      "conditional": true // suggestion from Michal
+      "variables": true,
+      "conditional": true
     },
     "designSystems": {
       "surveyRaw2017": 23,
@@ -26133,7 +26670,7 @@ Vue.directive('scrolltable', {
 			var alignHeaders = function() {
 				for (var i=0; i < columns.length; i++) {
 					var newWidth = columns[i].offsetWidth;
-					fixedHeaders[i].style.minWidth = newWidth;
+					fixedHeaders[i].style.minWidth = newWidth + "px";
 
 					//Firefox fix for minwidth problems
 					if(fixedHeaders[i].offsetWidth > newWidth) {
@@ -26250,6 +26787,16 @@ const designComp = {
 		sortBy: function (sortable, dir) {
 			this.sortedTools = _.orderBy(this.sortedTools, sortable, dir);
 			this.sortPath = sortable;
+		},
+		getCheckIcon: function(capability) {
+			switch (capability) {
+				case 'yes': 
+					return '<svg class="yes" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="24" height="24" viewBox="0 0 24 24"><path d="M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2M11,16.5L18,9.5L16.59,8.09L11,13.67L7.91,10.59L6.5,12L11,16.5Z" /></svg>'
+				case 'no': 
+					return '<svg class="no" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="24" height="24" viewBox="0 0 24 24"><path d="M12,2C17.53,2 22,6.47 22,12C22,17.53 17.53,22 12,22C6.47,22 2,17.53 2,12C2,6.47 6.47,2 12,2M15.59,7L12,10.59L8.41,7L7,8.41L10.59,12L7,15.59L8.41,17L12,13.41L15.59,17L17,15.59L13.41,12L17,8.41L15.59,7Z" />'
+				case 'semi': 
+					return '<svg class="semi" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="24" height="24" viewBox="0 0 24 24"><path d="M17,13H7V11H17M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2Z" /></svg>'
+			}
 		}
 	},
 	created: function() {

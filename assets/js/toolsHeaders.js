@@ -96,23 +96,23 @@ const toolsHeaders = {
     },
     {
       "title": "Platform",
-      "description": "Platforms used for  building prototypes"
+      "description": "Platforms used for creating designs"
     },
     {
       "title": "Free",
-      "description": "Can the tool be used for free?"
+      "description": "Free to use without trial"
     },
     {
       "title": "Subscription",
-      "description": "Cheapest monthly payment"
+      "description": "Lowest recurring payment"
     },
     {
       "title": "Purchase",
-      "description": "One time cost"
+      "description": "One-time cost"
     },
     {
       "title": "Offline",
-      "description": "Can open and edit offline"
+      "description": "Can open and edit files offline"
     },
     {
       "title": "Pen Tool",
