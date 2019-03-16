@@ -214,19 +214,19 @@ const toolsData = [
       },
       "penTool": {
         "capable": "yes",
-        "notes": ""
+        "notes": "Pen tool"
       },
       "collaboration": {
         "capable": "no",
-        "notes": ""
+        "notes": "No simultaneous editing"
       },
       "handoff": {
         "capable": "no",
-        "notes": ""
+        "notes": "Handoff not supported"
       },
       "artboards": {
         "capable": "yes",
-        "notes": ""
+        "notes": "Multiple artboards can exist on a page"
       },
       "plugins": {
         "capable": "yes",
@@ -234,23 +234,23 @@ const toolsData = [
       },
       "symbols": {
         "capable": "yes",
-        "notes": ""
+        "notes": "Symbols update across the document"
       },
       "responsive": {
-        "capable": "yes",
-        "notes": ""
+        "capable": "semi",
+        "notes": "Can be mimicked with 9-slice scaling"
       },
       "vector": {
         "capable": "yes",
         "notes": ""
       },
       "comments": {
-        "capable": "no",
-        "notes": ""
+        "capable": "yes",
+        "notes": "Comments are supported"
       },
       "prototyping": {
         "capable": "no",
-        "notes": ""
+        "notes": "No prototyping functionality"
       }
     }
   },
@@ -293,19 +293,19 @@ const toolsData = [
       },
       "penTool": {
         "capable": "yes",
-        "notes": ""
+        "notes": "Pen tool"
       },
       "collaboration": {
         "capable": "no",
-        "notes": ""
+        "notes": "No simultaneous editing"
       },
       "handoff": {
         "capable": "no",
-        "notes": ""
+        "notes": "Handoff not supported"
       },
       "artboards": {
         "capable": "yes",
-        "notes": ""
+        "notes": "Multiple artboards can exist on a page"
       },
       "plugins": {
         "capable": "yes",
@@ -313,11 +313,11 @@ const toolsData = [
       },
       "symbols": {
         "capable": "no",
-        "notes": ""
+        "notes": "No symbols"
       },
       "responsive": {
         "capable": "no",
-        "notes": ""
+        "notes": "No responsive resizing"
       },
       "vector": {
         "capable": "yes",
@@ -325,11 +325,11 @@ const toolsData = [
       },
       "comments": {
         "capable": "no",
-        "notes": ""
+        "notes": "Comments not supported"
       },
       "prototyping": {
         "capable": "no",
-        "notes": ""
+        "notes": "No prototyping functionality"
       }
     }
   },
@@ -370,19 +370,19 @@ const toolsData = [
       },
       "penTool": {
         "capable": "yes",
-        "notes": ""
+        "notes": "Pen tool"
       },
       "collaboration": {
         "capable": "no",
-        "notes": ""
+        "notes": "No simultaneous editing"
       },
       "handoff": {
         "capable": "yes",
-        "notes": ""
+        "notes": "Handoff is supported"
       },
       "artboards": {
         "capable": "yes",
-        "notes": ""
+        "notes": "Multiple artboards can exist on a page"
       },
       "plugins": {
         "capable": "no",
@@ -390,23 +390,23 @@ const toolsData = [
       },
       "symbols": {
         "capable": "yes",
-        "notes": ""
+        "notes": "Symbols update across the document"
       },
       "responsive": {
         "capable": "yes",
-        "notes": ""
+        "notes": "Responsive resizing"
       },
       "vector": {
         "capable": "yes",
         "notes": ""
       },
       "comments": {
-        "capable": "no",
-        "notes": ""
+        "capable": "yes",
+        "notes": "Comments are supported"
       },
       "prototyping": {
-        "capable": "no",
-        "notes": ""
+        "capable": "yes",
+        "notes": "Native prototyping"
       }
     },
     "prototyping": {
@@ -526,19 +526,19 @@ const toolsData = [
       },
       "penTool": {
         "capable": "yes",
-        "notes": ""
+        "notes": "Pen tool"
       },
       "collaboration": {
         "capable": "no",
-        "notes": ""
+        "notes": "No simultaneous editing"
       },
       "handoff": {
         "capable": "no",
-        "notes": ""
+        "notes": "Handoff not supported"
       },
       "artboards": {
         "capable": "yes",
-        "notes": ""
+        "notes": "Multiple artboards can exist on a page"
       },
       "plugins": {
         "capable": "no",
@@ -546,11 +546,11 @@ const toolsData = [
       },
       "symbols": {
         "capable": "yes",
-        "notes": ""
+        "notes": "Symbols update across the document"
       },
       "responsive": {
         "capable": "yes",
-        "notes": ""
+        "notes": "Responsive resizing"
       },
       "vector": {
         "capable": "yes",
@@ -558,11 +558,11 @@ const toolsData = [
       },
       "comments": {
         "capable": "no",
-        "notes": ""
+        "notes": "Comments not supported"
       },
       "prototyping": {
         "capable": "no",
-        "notes": ""
+        "notes": "No prototyping functionality"
       }
     }
   },
@@ -592,19 +592,19 @@ const toolsData = [
       },
       "penTool": {
         "capable": "no",
-        "notes": ""
+        "notes": "No pen tool"
       },
       "collaboration": {
         "capable": "no",
-        "notes": ""
+        "notes": "No simultaneous editing"
       },
       "handoff": {
         "capable": "yes",
-        "notes": ""
+        "notes": "Handoff is supported"
       },
       "artboards": {
         "capable": "yes",
-        "notes": ""
+        "notes": "Multiple artboards can exist on a page"
       },
       "plugins": {
         "capable": "no",
@@ -612,23 +612,23 @@ const toolsData = [
       },
       "symbols": {
         "capable": "yes",
-        "notes": ""
+        "notes": "Symbols update across the document"
       },
       "responsive": {
         "capable": "yes",
-        "notes": ""
+        "notes": "Responsive resizing"
       },
       "vector": {
         "capable": "yes",
         "notes": ""
       },
       "comments": {
-        "capable": "no",
-        "notes": ""
+        "capable": "yes",
+        "notes": "Comments are supported"
       },
       "prototyping": {
-        "capable": "no",
-        "notes": ""
+        "capable": "yes",
+        "notes": "Native prototyping"
       }
     }
   },
@@ -764,19 +764,19 @@ const toolsData = [
       },
       "penTool": {
         "capable": "yes",
-        "notes": ""
+        "notes": "Pen tool"
       },
       "collaboration": {
-        "capable": "yes",
-        "notes": ""
+        "capable": "semi",
+        "notes": "Avoid merge conflicts with check-out system"
       },
       "handoff": {
         "capable": "yes",
-        "notes": ""
+        "notes": "Handoff is supported"
       },
       "artboards": {
         "capable": "no",
-        "notes": ""
+        "notes": "Can only view one screen at a time"
       },
       "plugins": {
         "capable": "no",
@@ -784,23 +784,23 @@ const toolsData = [
       },
       "symbols": {
         "capable": "yes",
-        "notes": ""
+        "notes": "Symbols update across the document"
       },
       "responsive": {
         "capable": "yes",
-        "notes": ""
+        "notes": "Responsive resizing"
       },
       "vector": {
         "capable": "no",
         "notes": ""
       },
       "comments": {
-        "capable": "no",
-        "notes": ""
+        "capable": "yes",
+        "notes": "Comments are supported"
       },
       "prototyping": {
-        "capable": "no",
-        "notes": ""
+        "capable": "yes",
+        "notes": "Native prototyping"
       }
     },
     "prototyping": {
@@ -1067,19 +1067,19 @@ const toolsData = [
       },
       "penTool": {
         "capable": "yes",
-        "notes": ""
+        "notes": "Pen tool"
       },
       "collaboration": {
         "capable": "yes",
-        "notes": ""
+        "notes": "Simultaneous editing"
       },
       "handoff": {
         "capable": "yes",
-        "notes": ""
+        "notes": "Handoff is supported"
       },
       "artboards": {
         "capable": "yes",
-        "notes": ""
+        "notes": "Multiple artboards can exist on a page"
       },
       "plugins": {
         "capable": "no",
@@ -1087,23 +1087,23 @@ const toolsData = [
       },
       "symbols": {
         "capable": "yes",
-        "notes": ""
+        "notes": "Symbols update across the document"
       },
       "responsive": {
         "capable": "yes",
-        "notes": ""
+        "notes": "Responsive resizing"
       },
       "vector": {
         "capable": "yes",
         "notes": ""
       },
       "comments": {
-        "capable": "no",
-        "notes": ""
+        "capable": "yes",
+        "notes": "Comments are supported"
       },
       "prototyping": {
-        "capable": "no",
-        "notes": ""
+        "capable": "yes",
+        "notes": "Basic click-through prototypes"
       }
     },
     "prototyping": {
@@ -1347,19 +1347,19 @@ const toolsData = [
       },
       "penTool": {
         "capable": "yes",
-        "notes": ""
+        "notes": "Pen tool"
       },
       "collaboration": {
         "capable": "no",
-        "notes": ""
+        "notes": "No simultaneous editing"
       },
       "handoff": {
         "capable": "yes",
-        "notes": ""
+        "notes": "Handoff is supported"
       },
       "artboards": {
         "capable": "yes",
-        "notes": ""
+        "notes": "Multiple artboards can exist on a page"
       },
       "plugins": {
         "capable": "yes",
@@ -1367,11 +1367,11 @@ const toolsData = [
       },
       "symbols": {
         "capable": "no",
-        "notes": ""
+        "notes": "No symbols"
       },
       "responsive": {
         "capable": "yes",
-        "notes": ""
+        "notes": "Responsive resizing"
       },
       "vector": {
         "capable": "yes",
@@ -1379,11 +1379,11 @@ const toolsData = [
       },
       "comments": {
         "capable": "no",
-        "notes": ""
+        "notes": "Comments not supported"
       },
       "prototyping": {
-        "capable": "no",
-        "notes": ""
+        "capable": "yes",
+        "notes": "Robust prototyping with Coffeescript"
       }
     },
     "prototyping": {
@@ -1440,31 +1440,31 @@ const toolsData = [
       },
       "penTool": {
         "capable": "yes",
-        "notes": ""
+        "notes": "Pen tool"
       },
       "collaboration": {
         "capable": "no",
-        "notes": ""
+        "notes": "No simultaneous editing"
       },
       "handoff": {
         "capable": "no",
-        "notes": ""
+        "notes": "Handoff not supported"
       },
       "artboards": {
         "capable": "yes",
-        "notes": ""
+        "notes": "Multiple artboards can exist on a page"
       },
       "plugins": {
         "capable": "yes",
         "notes": ""
       },
       "symbols": {
-        "capable": "yes",
-        "notes": ""
+        "capable": "semi",
+        "notes": "Reusable React components"
       },
       "responsive": {
         "capable": "yes",
-        "notes": ""
+        "notes": "Responsive resizing"
       },
       "vector": {
         "capable": "yes",
@@ -1472,11 +1472,11 @@ const toolsData = [
       },
       "comments": {
         "capable": "no",
-        "notes": ""
+        "notes": "Comments not supported"
       },
       "prototyping": {
-        "capable": "no",
-        "notes": ""
+        "capable": "yes",
+        "notes": "Robust prototyping with React"
       }
     },
     "prototyping": {
@@ -1694,19 +1694,19 @@ const toolsData = [
       },
       "penTool": {
         "capable": "yes",
-        "notes": ""
+        "notes": "Pen tool"
       },
       "collaboration": {
         "capable": "no",
-        "notes": ""
+        "notes": "No simultaneous editing"
       },
       "handoff": {
         "capable": "yes",
-        "notes": ""
+        "notes": "Handoff is supported"
       },
       "artboards": {
         "capable": "yes",
-        "notes": ""
+        "notes": "Multiple artboards can exist on a page"
       },
       "plugins": {
         "capable": "no",
@@ -1714,11 +1714,11 @@ const toolsData = [
       },
       "symbols": {
         "capable": "yes",
-        "notes": ""
+        "notes": "Symbols update across the document"
       },
       "responsive": {
         "capable": "yes",
-        "notes": ""
+        "notes": "Responsive resizing"
       },
       "vector": {
         "capable": "yes",
@@ -1726,11 +1726,11 @@ const toolsData = [
       },
       "comments": {
         "capable": "no",
-        "notes": ""
+        "notes": "Comments not supported"
       },
       "prototyping": {
         "capable": "no",
-        "notes": ""
+        "notes": "No prototyping functionality"
       }
     }
   },
@@ -1890,19 +1890,19 @@ const toolsData = [
       },
       "penTool": {
         "capable": "yes",
-        "notes": ""
+        "notes": "Pen tool"
       },
       "collaboration": {
         "capable": "no",
-        "notes": ""
+        "notes": "No simultaneous editing"
       },
       "handoff": {
         "capable": "yes",
-        "notes": ""
+        "notes": "Handoff is supported"
       },
       "artboards": {
         "capable": "yes",
-        "notes": ""
+        "notes": "Multiple artboards can exist on a page"
       },
       "plugins": {
         "capable": "no",
@@ -1910,23 +1910,23 @@ const toolsData = [
       },
       "symbols": {
         "capable": "yes",
-        "notes": ""
+        "notes": "Symbols update across the document"
       },
       "responsive": {
         "capable": "yes",
-        "notes": ""
+        "notes": "Responsive resizing"
       },
       "vector": {
         "capable": "no",
         "notes": ""
       },
       "comments": {
-        "capable": "no",
-        "notes": ""
+        "capable": "yes",
+        "notes": "Comments are supported"
       },
       "prototyping": {
-        "capable": "no",
-        "notes": ""
+        "capable": "yes",
+        "notes": "Native prototyping with transitions and animations"
       }
     },
     "prototyping": {
@@ -2036,19 +2036,19 @@ const toolsData = [
       },
       "penTool": {
         "capable": "no",
-        "notes": ""
+        "notes": "No pen tool"
       },
       "collaboration": {
-        "capable": "yes",
-        "notes": ""
+        "capable": "semi",
+        "notes": "Avoid merge conflicts with check-out system"
       },
       "handoff": {
         "capable": "yes",
-        "notes": ""
+        "notes": "Handoff is supported"
       },
       "artboards": {
         "capable": "yes",
-        "notes": ""
+        "notes": "Multiple artboards can exist on a page"
       },
       "plugins": {
         "capable": "no",
@@ -2056,23 +2056,23 @@ const toolsData = [
       },
       "symbols": {
         "capable": "yes",
-        "notes": ""
+        "notes": "Symbols update across the document"
       },
       "responsive": {
         "capable": "yes",
-        "notes": ""
+        "notes": "Responsive resizing"
       },
       "vector": {
         "capable": "no",
         "notes": ""
       },
       "comments": {
-        "capable": "no",
-        "notes": ""
+        "capable": "yes",
+        "notes": "Comments are supported"
       },
       "prototyping": {
-        "capable": "no",
-        "notes": ""
+        "capable": "yes",
+        "notes": "Native prototyping"
       }
     },
     "prototyping": {
@@ -2529,19 +2529,19 @@ const toolsData = [
       },
       "penTool": {
         "capable": "no",
-        "notes": ""
+        "notes": "No pen tool"
       },
       "collaboration": {
         "capable": "yes",
-        "notes": ""
+        "notes": "Simultaneous editing"
       },
       "handoff": {
         "capable": "yes",
-        "notes": ""
+        "notes": "Handoff is supported"
       },
       "artboards": {
         "capable": "no",
-        "notes": ""
+        "notes": "Artboards not supported"
       },
       "plugins": {
         "capable": "no",
@@ -2549,23 +2549,23 @@ const toolsData = [
       },
       "symbols": {
         "capable": "yes",
-        "notes": ""
+        "notes": "Symbols update across the document"
       },
       "responsive": {
         "capable": "no",
-        "notes": ""
+        "notes": "No responsive resizing"
       },
       "vector": {
         "capable": "no",
         "notes": ""
       },
       "comments": {
-        "capable": "no",
-        "notes": ""
+        "capable": "yes",
+        "notes": "Comments are supported"
       },
       "prototyping": {
         "capable": "no",
-        "notes": ""
+        "notes": "No prototyping functionality"
       }
     }
   },
@@ -2598,19 +2598,19 @@ const toolsData = [
       },
       "penTool": {
         "capable": "no",
-        "notes": ""
+        "notes": "No pen tool"
       },
       "collaboration": {
-        "capable": "yes",
-        "notes": ""
+        "capable": "semi",
+        "notes": "Avoid merge conflicts with check-out system"
       },
       "handoff": {
         "capable": "no",
-        "notes": ""
+        "notes": "Handoff not supported"
       },
       "artboards": {
         "capable": "no",
-        "notes": ""
+        "notes": "Artboards not supported"
       },
       "plugins": {
         "capable": "no",
@@ -2618,23 +2618,23 @@ const toolsData = [
       },
       "symbols": {
         "capable": "yes",
-        "notes": ""
+        "notes": "Symbols update across the document"
       },
       "responsive": {
         "capable": "no",
-        "notes": ""
+        "notes": "No responsive resizing"
       },
       "vector": {
         "capable": "no",
         "notes": ""
       },
       "comments": {
-        "capable": "no",
-        "notes": ""
+        "capable": "yes",
+        "notes": "Comments are supported"
       },
       "prototyping": {
-        "capable": "no",
-        "notes": ""
+        "capable": "yes",
+        "notes": "Native prototyping"
       }
     },
     "prototyping": {
@@ -2954,20 +2954,20 @@ const toolsData = [
         "notes": "But prototypes can be viewed offline with native apps"
       },
       "penTool": {
-        "capable": "yes",
-        "notes": ""
+        "capable": "no",
+        "notes": "No pen tool"
       },
       "collaboration": {
         "capable": "yes",
-        "notes": ""
+        "notes": "Simultaneous editing"
       },
       "handoff": {
         "capable": "no",
-        "notes": ""
+        "notes": "Handoff not supported"
       },
       "artboards": {
         "capable": "yes",
-        "notes": ""
+        "notes": "Multiple artboards can exist on a page"
       },
       "plugins": {
         "capable": "no",
@@ -2975,23 +2975,23 @@ const toolsData = [
       },
       "symbols": {
         "capable": "no",
-        "notes": ""
+        "notes": "No symbols"
       },
       "responsive": {
         "capable": "no",
-        "notes": ""
+        "notes": "No responsive resizing"
       },
       "vector": {
         "capable": "yes",
         "notes": ""
       },
       "comments": {
-        "capable": "no",
-        "notes": ""
+        "capable": "yes",
+        "notes": "Comments are supported"
       },
       "prototyping": {
-        "capable": "no",
-        "notes": ""
+        "capable": "yes",
+        "notes": "Native prototyping"
       }
     },
     "prototyping": {
@@ -3166,19 +3166,19 @@ const toolsData = [
       },
       "penTool": {
         "capable": "yes",
-        "notes": ""
+        "notes": "Pen tool"
       },
       "collaboration": {
         "capable": "no",
-        "notes": ""
+        "notes": "No simultaneous editing"
       },
       "handoff": {
         "capable": "no",
-        "notes": ""
+        "notes": "Not supported, but announced in 2019"
       },
       "artboards": {
         "capable": "yes",
-        "notes": ""
+        "notes": "Multiple artboards can exist on a page"
       },
       "plugins": {
         "capable": "yes",
@@ -3186,11 +3186,11 @@ const toolsData = [
       },
       "symbols": {
         "capable": "yes",
-        "notes": ""
+        "notes": "Symbols update across the document"
       },
       "responsive": {
         "capable": "yes",
-        "notes": ""
+        "notes": "Responsive resizing"
       },
       "vector": {
         "capable": "yes",
@@ -3198,11 +3198,11 @@ const toolsData = [
       },
       "comments": {
         "capable": "no",
-        "notes": ""
+        "notes": "Comments not supported"
       },
       "prototyping": {
-        "capable": "no",
-        "notes": ""
+        "capable": "yes",
+        "notes": "Basic click-through prototypes",
       }
     },
     "prototyping": {
@@ -3373,19 +3373,19 @@ const toolsData = [
       },
       "penTool": {
         "capable": "no",
-        "notes": ""
+        "notes": "No pen tool"
       },
       "collaboration": {
         "capable": "yes",
-        "notes": ""
+        "notes": "Simultaneous editing"
       },
       "handoff": {
         "capable": "no",
-        "notes": ""
+        "notes": "Handoff not supported"
       },
       "artboards": {
         "capable": "yes",
-        "notes": ""
+        "notes": "Multiple artboards can exist on a page"
       },
       "plugins": {
         "capable": "no",
@@ -3393,23 +3393,23 @@ const toolsData = [
       },
       "symbols": {
         "capable": "yes",
-        "notes": ""
+        "notes": "Symbols update across the document"
       },
       "responsive": {
         "capable": "yes",
-        "notes": ""
+        "notes": "Responsive resizing"
       },
       "vector": {
         "capable": "no",
         "notes": ""
       },
       "comments": {
-        "capable": "no",
-        "notes": ""
+        "capable": "yes",
+        "notes": "Comments are supported"
       },
       "prototyping": {
-        "capable": "no",
-        "notes": ""
+        "capable": "yes",
+        "notes": "Native prototyping"
       }
     },
     "prototyping": {
@@ -3558,19 +3558,19 @@ const toolsData = [
       },
       "penTool": {
         "capable": "yes",
-        "notes": ""
+        "notes": "Pen tool"
       },
       "collaboration": {
         "capable": "yes",
-        "notes": ""
+        "notes": "Simultaneous editing"
       },
       "handoff": {
         "capable": "yes",
-        "notes": ""
+        "notes": "Handoff is supported"
       },
       "artboards": {
         "capable": "no",
-        "notes": ""
+        "notes": "Can only view one screen at a time"
       },
       "plugins": {
         "capable": "no",
@@ -3578,23 +3578,23 @@ const toolsData = [
       },
       "symbols": {
         "capable": "yes",
-        "notes": ""
+        "notes": "Symbols update across the document"
       },
       "responsive": {
-        "capable": "yes",
-        "notes": ""
+        "capable": "semi",
+        "notes": "Adaptive breakpoints for screens but not objects"
       },
       "vector": {
         "capable": "yes",
         "notes": ""
       },
       "comments": {
-        "capable": "no",
-        "notes": ""
+        "capable": "yes",
+        "notes": "Comments are supported"
       },
       "prototyping": {
-        "capable": "no",
-        "notes": ""
+        "capable": "yes",
+        "notes": "Native prototyping with real form elements"
       }
     },
     "prototyping": {
@@ -3622,6 +3622,7 @@ const toolsData = [
         "iOS": true
       },
       "handoff": true,
+      "inputs": true,
       "variables": true,
       "conditional": true
     },

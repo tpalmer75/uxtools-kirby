@@ -119,7 +119,7 @@ const toolsHeaders = {
       "description": "Draw vectors and paths"
     },
     {
-      "title": "Collaborate",
+      "title": "Collaboration",
       "description": "Simultaneous editing"
     },
     {
