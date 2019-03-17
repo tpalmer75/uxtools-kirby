@@ -5,9 +5,10 @@
       <thead id="fixed-header">
         <tr>
           <th v-for="column in toolsHeaders" v-bind:class="[{'sorted' : sortPath == column.sortPath}, 'fixed-header']" v-on:click="sortBy(column.sortPath, column.sortDir)">
-            <span style="position: relative;" v-tooltip.bottom-left="column.tipText">{{ column.title }}
+            <span style="position: relative;">{{ column.title }}
               <span class="sort-arrow" v-if="column.sortable"><?= (new Asset("assets/images/icons/chevron-down.svg"))->content() ?></span>
             </span>
+            <p class="notes" v-html="column.notes"></p>
           </th>
         </tr>
       </thead>
@@ -58,13 +59,17 @@
             </div>
           </td>
           <td>
-            <div v-if="app.pricing.free" v-tooltip.bottom-center="'Free'"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="24" height="24" viewBox="0 0 24 24"><path d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z" /></svg>
+            <div v-if="app['pricing']['free']" v-tooltip.bottom-center="'Free'"><svg class="yes" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="24" height="24" viewBox="0 0 24 24"><path d="M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2M11,16.5L18,9.5L16.59,8.09L11,13.67L7.91,10.59L6.5,12L11,16.5Z" /></svg>
+            </div>
+            <div v-if="!app['pricing']['free']" v-tooltip.bottom-center="'Free'"><svg class="no" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="24" height="24" viewBox="0 0 24 24"><path d="M12,2C17.53,2 22,6.47 22,12C22,17.53 17.53,22 12,22C6.47,22 2,17.53 2,12C2,6.47 6.47,2 12,2M15.59,7L12,10.59L8.41,7L7,8.41L10.59,12L7,15.59L8.41,17L12,13.41L15.59,17L17,15.59L13.41,12L17,8.41L15.59,7Z" /></svg>
             </div>
           </td>
           <td style="min-width: 100px"><span v-tooltip.bottom-center="'Subscription'">{{app.pricing.subscription}}</span></td>
           <td><span v-tooltip.bottom-center="'Price'">{{app.pricing.purchase}}</span></td>
           <td>
-            <div v-if="app.prototyping.design" title="Design from scratch"><span v-tooltip.bottom-center="'Design'"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="24" height="24" viewBox="0 0 24 24"><path d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z" /></svg></span></div>
+            <div v-html="getCheckIcon(app.prototyping.design.capable)">
+            </div>
+            <p class="notes" v-html="app.prototyping.design.notes"></p>
           </td>
           <td class="colspan-5">
             <div class="flex-col">
@@ -90,24 +95,34 @@
             </div>
           </td>
           <td>
-            <div v-if="app.prototyping.micro" v-tooltip.bottom-center="'Animations'"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="24" height="24" viewBox="0 0 24 24"><path d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z" /></svg>
+            <div v-html="getCheckIcon(app.prototyping.micro.capable)">
             </div>
+            <p class="notes" v-html="app.prototyping.micro.notes"></p>
           </td>
           <td>
-            <div v-if="app.prototyping.transition" v-tooltip.bottom-center="'Screen transitions'"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="24" height="24" viewBox="0 0 24 24"><path d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z" /></svg>
+            <div v-html="getCheckIcon(app.prototyping.transition.capable)">
             </div>
+            <p class="notes" v-html="app.prototyping.transition.notes"></p>
           </td>
           <td>
-            <div v-if="app.prototyping.data" v-tooltip.bottom-center="'Data'"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="24" height="24" viewBox="0 0 24 24"><path d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z" /></svg>
+            <div v-html="getCheckIcon(app.prototyping.data.capable)">
             </div>
+            <p class="notes" v-html="app.prototyping.data.notes"></p>
           </td>
           <td>
-            <div v-if="app.prototyping.code" v-tooltip.bottom-center="'Code'"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="24" height="24" viewBox="0 0 24 24"><path d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z" /></svg>
+            <div v-html="getCheckIcon(app.prototyping.code.capable)">
             </div>
+            <p class="notes" v-html="app.prototyping.code.notes"></p>
           </td>
           <td>
-            <div v-if="app.prototyping.inputs" v-tooltip.bottom-center="'Inputs'"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="24" height="24" viewBox="0 0 24 24"><path d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z" /></svg>
+            <div v-html="getCheckIcon(app.prototyping.inputs.capable)">
             </div>
+            <p class="notes" v-html="app.prototyping.inputs.notes"></p>
+          </td>
+          <td>
+            <div v-html="getCheckIcon(app.prototyping.variables.capable)">
+            </div>
+            <p class="notes" v-html="app.prototyping.variables.notes"></p>
           </td>
           <td class="colspan-8">
             <div class="flex-col">
@@ -166,28 +181,34 @@
             </div>
           </td>
           <td>
-            <div v-if="app.prototyping.handoff" v-tooltip.bottom-center="'Handoff'"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="24" height="24" viewBox="0 0 24 24"><path d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z" /></svg>
+            <div v-html="getCheckIcon(app.prototyping.handoff.capable)">
             </div>
+            <p class="notes" v-html="app.prototyping.handoff.notes"></p>
           </td>
           <td>
-            <div v-if="app.prototyping.sensors" v-tooltip.bottom-center="'Sensors'"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="24" height="24" viewBox="0 0 24 24"><path d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z" /></svg>
+            <div v-html="getCheckIcon(app.prototyping.sensors.capable)">
             </div>
+            <p class="notes" v-html="app.prototyping.sensors.notes"></p>
           </td>
           <td>
-            <div v-if="app.prototyping.voice" v-tooltip.bottom-center="'Voice'"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="24" height="24" viewBox="0 0 24 24"><path d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z" /></svg>
+            <div v-html="getCheckIcon(app.prototyping.voice.capable)">
             </div>
+            <p class="notes" v-html="app.prototyping.voice.notes"></p>
           </td>
           <td>
-            <div v-if="app.prototyping.tasks" v-tooltip.bottom-center="'Tasks'"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="24" height="24" viewBox="0 0 24 24"><path d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z" /></svg>
+            <div v-html="getCheckIcon(app.prototyping.tasks.capable)">
             </div>
+            <p class="notes" v-html="app.prototyping.tasks.notes"></p>
           </td>
           <td>
-            <div v-if="app.prototyping.analytics" v-tooltip.bottom-center="'Analytics'"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="24" height="24" viewBox="0 0 24 24"><path d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z" /></svg>
+            <div v-html="getCheckIcon(app.prototyping.analytics.capable)">
             </div>
+            <p class="notes" v-html="app.prototyping.analytics.notes"></p>
           </td>
           <td>
-            <div v-if="app.prototyping.heatmap" v-tooltip.bottom-center="'Heatmap'"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="24" height="24" viewBox="0 0 24 24"><path d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z" /></svg>
+            <div v-html="getCheckIcon(app.prototyping.heatmaps.capable)">
             </div>
+            <p class="notes" v-html="app.prototyping.heatmaps.notes"></p>
           </td>
 
         </tr>

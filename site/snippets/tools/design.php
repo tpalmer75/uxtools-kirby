@@ -8,7 +8,7 @@
             <span style="position: relative;">{{ column.title }}
               <span class="sort-arrow" v-if="column.sortable"><?= (new Asset("assets/images/icons/chevron-down.svg"))->content() ?></span>
             </span>
-            <p class="description" v-html="column.description"></p>
+            <p class="notes" v-html="column.notes"></p>
           </th>
         </tr>
       </thead>
@@ -63,47 +63,47 @@
           <td>
             <div v-html="getCheckIcon(app.design.offline.capable)">
             </div>
-            <p class="description" v-html="app.design.offline.notes"></p>
+            <p class="notes" v-html="app.design.offline.notes"></p>
           </td>
           <td>
             <div v-html="getCheckIcon(app.design.penTool.capable)">
             </div>
-            <p class="description" v-html="app.design.penTool.notes"></p>
+            <p class="notes" v-html="app.design.penTool.notes"></p>
           </td>
           <td>
             <div v-html="getCheckIcon(app.design.collaboration.capable)">
             </div>
-            <p class="description" v-html="app.design.collaboration.notes"></p>
+            <p class="notes" v-html="app.design.collaboration.notes"></p>
           </td>
           <td>
             <div v-html="getCheckIcon(app.design.comments.capable)">
             </div>
-            <p class="description" v-html="app.design.comments.notes"></p>
+            <p class="notes" v-html="app.design.comments.notes"></p>
           </td>
           <td>
             <div v-html="getCheckIcon(app.design.handoff.capable)">
             </div>
-            <p class="description" v-html="app.design.handoff.notes"></p>
+            <p class="notes" v-html="app.design.handoff.notes"></p>
           </td>
           <td>
             <div v-html="getCheckIcon(app.design.artboards.capable)">
             </div>
-            <p class="description" v-html="app.design.artboards.notes"></p>
+            <p class="notes" v-html="app.design.artboards.notes"></p>
           </td>
           <td>
             <div v-html="getCheckIcon(app.design.symbols.capable)">
             </div>
-            <p class="description" v-html="app.design.symbols.notes"></p>
+            <p class="notes" v-html="app.design.symbols.notes"></p>
           </td>
           <td>
             <div v-html="getCheckIcon(app.design.responsive.capable)">
             </div>
-            <p class="description" v-html="app.design.responsive.notes"></p>
+            <p class="notes" v-html="app.design.responsive.notes"></p>
           </td>
           <td>
             <div v-html="getCheckIcon(app.design.prototyping.capable)">
             </div>
-            <p class="description" v-html="app.design.prototyping.notes"></p>
+            <p class="notes" v-html="app.design.prototyping.notes"></p>
           </td>
         </tr>
       </tbody>

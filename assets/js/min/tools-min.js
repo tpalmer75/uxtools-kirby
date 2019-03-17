@@ -22122,149 +22122,149 @@ const toolsHeaders = {
   "designSystems": [
     {
       "title": "",
-      "description": ""
+      "notes": ""
     },
     {
       "title": "Name",
-      "description": "Name of app",
+      "notes": "Name of app",
       "sortable": true,
       "sortPath": "name",
       "sortDir": "asc"
     },
     {
       "title": "Usage",
-      "description": "Based on the 2018 Design Tools Survey",
+      "notes": "Based on the 2018 Design Tools Survey",
       "sortable": true,
       "sortPath": "designSystems.surveyRaw2018",
       "sortDir": "desc"
     },
     {
       "title": "Platform",
-      "description": "Platforms used to upload components"
+      "notes": "Platforms used to upload components"
     },
     {
       "title": "Programs",
-      "description": "Supported file types"
+      "notes": "Supported file types"
     },
     {
       "title": "Free",
-      "description": "Can the tool be used for free?"
+      "notes": "Can the tool be used for free?"
     },
     {
       "title": "Individual",
-      "description": "Monthly cost for  single user"
+      "notes": "Monthly cost for  single user"
     },
     {
       "title": "Team",
-      "description": "Monthly cost for 2+ team members"
+      "notes": "Monthly cost for 2+ team members"
     },
     {
       "title": "Symbols",
-      "description": "Can import symbols"
+      "notes": "Can import symbols"
     },
     {
       "title": "Layers",
-      "description": "Can import normal layers"
+      "notes": "Can import normal layers"
     },
     {
       "title": "Assets",
-      "description": "Can import generic  assets (like images)"
+      "notes": "Can import generic  assets (like images)"
     },
     {
       "title": "Sharing",
-      "description": "Can share the library"
+      "notes": "Can share the library"
     },
     {
       "title": "Permissions",
-      "description": "Can restrict access to others"
+      "notes": "Can restrict access to others"
     },
     {
       "title": "Interface",
-      "description": "How the tool appears in-app"
+      "notes": "How the tool appears in-app"
     },
     {
       "title": "Update",
-      "description": "Can sync changes across documents"
+      "notes": "Can sync changes across documents"
     },
     {
       "title": "Annotate",
-      "description": "Can create notes about components"
+      "notes": "Can create notes about components"
     },
     {
       "title": "Style Guide",
-      "description": "Automatically generates  a style guide  of components"
+      "notes": "Automatically generates  a style guide  of components"
     }
   ],
   "design": [
     {
       "title": "",
-      "description": ""
+      "notes": ""
     },
     {
       "title": "Name",
-      "description": "Name of app",
+      "notes": "Name of app",
       "sortable": true,
       "sortPath": "name",
       "sortDir": "asc"
     },
     {
       "title": "Usage",
-      "description": "Based on the 2018 Design Tools Survey",
+      "notes": "Based on the 2018 Design Tools Survey",
       "sortable": true,
       "sortPath": "design.surveyRaw2018",
       "sortDir": "desc"
     },
     {
       "title": "Platform",
-      "description": "Platforms used for creating designs"
+      "notes": "Platforms used for creating designs"
     },
     {
       "title": "Free",
-      "description": "Free to use without trial"
+      "notes": "Free to use without trial"
     },
     {
       "title": "Subscription",
-      "description": "Lowest recurring payment"
+      "notes": "Lowest recurring payment"
     },
     {
       "title": "Purchase",
-      "description": "One-time cost"
+      "notes": "One-time cost"
     },
     {
       "title": "Offline",
-      "description": "Can open and edit files offline"
+      "notes": "Can open and edit files offline"
     },
     {
       "title": "Pen Tool",
-      "description": "Draw vectors and paths"
+      "notes": "Draw vectors and paths"
     },
     {
       "title": "Collaboration",
-      "description": "Simultaneous editing"
+      "notes": "Simultaneous editing"
     },
     {
       "title": "Comments",
-      "description": "Others can leave comments"
+      "notes": "Others can leave comments"
     },
     {
       "title": "Handoff",
-      "description": "Automatic specs for developers"
+      "notes": "Automatic specs for developers"
     },
     {
       "title": "Artboards",
-      "description": "Multiple visible artboards"
+      "notes": "Multiple visible artboards"
     },
     {
       "title": "Symbols",
-      "description": "Document-wide master symbols"
+      "notes": "Document-wide master symbols"
     },
     {
       "title": "Responsive",
-      "description": "Dynamically resizing groups"
+      "notes": "Dynamically resizing groups"
     },
     {
       "title": "Prototyping",
-      "description": "Can prototype within the app"
+      "notes": "Can prototype within the app"
     }
   ],
   "prototyping": [
@@ -22272,18 +22272,18 @@ const toolsHeaders = {
       "title": "",
       "show": true,
       "canChange": false,
-      "description": ""
+      "notes": ""
     },
     {
       "title": "Name",
-      "description": "Name of app",
+      "notes": "Name of app",
       "sortable": true,
       "sortPath": "name",
       "sortDir": "asc"
     },
     {
       "title": "Usage",
-      "description": "Based on the 2018 Design Tools Survey",
+      "notes": "Based on the 2018 Design Tools Survey",
       "sortable": true,
       "sortPath": "prototyping.surveyRaw2018",
       "sortDir": "desc"
@@ -22292,109 +22292,115 @@ const toolsHeaders = {
       "title": "Platform",
       "show": true,
       "canChange": true,
-      "description": "Platforms used for  building prototypes"
+      "notes": "Platforms used for  building prototypes"
     },
     {
       "title": "Free",
       "show": true,
       "canChange": true,
-      "description": "Has a free version"
+      "notes": "Has a free version"
     },
     {
       "title": "Subscription",
       "show": true,
       "canChange": true,
-      "description": "Cheapest monthly payment"
+      "notes": "Lowest recurring payment"
     },
     {
       "title": "Purchase",
       "show": true,
       "canChange": true,
-      "description": "One time cost"
+      "notes": "One time cost"
     },
     {
       "title": "Design",
       "show": true,
       "canChange": true,
-      "description": "App can design from scratch"
+      "notes": "Can create designs from scratch"
     },
     {
       "title": "Import",
       "show": true,
       "canChange": true,
-      "description": "Integrations with other apps"
+      "notes": "Integrations with other apps"
     },
     {
       "title": "Animations",
       "show": true,
       "canChange": true,
-      "description": "Individual animations & micro-interactions"
+      "notes": "Animate objects & micro-interactions"
     },
     {
       "title": "Transitions",
       "show": true,
       "canChange": true,
-      "description": "Animates between screens"
+      "notes": "Animate between screens"
     },
     {
       "title": "Data",
       "show": true,
       "canChange": true,
-      "description": "Uses data to render UI"
+      "notes": "Can populate objects from data"
     },
     {
       "title": "Code",
       "show": true,
       "canChange": true,
-      "description": "Requires knowledge of code"
+      "notes": "Requires code to prototype"
     },
     {
       "title": "Inputs",
       "show": true,
       "canChange": true,
-      "tipText": "Support dynamic<br> text inputs"
+      "notes": "Supports dynamic text inputs"
+    },
+    {
+      "title": "Variables",
+      "show": true,
+      "canChange": true,
+      "notes": "Conditional logic and data"
     },
     {
       "title": "Sharing",
       "show": true,
       "canChange": true,
-      "description": "How others can use the prototype"
+      "notes": "How others can preview the prototype"
     },
     {
       "title": "Handoff",
       "show": true,
       "canChange": true,
-      "description": "Automatic specs for developers"
+      "notes": "Automatic specs for developers"
     },
     {
       "title": "Sensors",
       "show": true,
       "canChange": true,
-      "description": "Utilizes device sensors"
+      "notes": "Access native device sensors"
     },
     {
       "title": "Voice",
       "show": true,
       "canChange": true,
-      "description": "Accept voice as input"
+      "notes": "Accept voice as input"
     },
     {
       "title": "Tasks",
       "show": true,
       "canChange": true,
-      "description": ""
+      "notes": ""
     },
     {
       "title": "Analytics",
       "show": true,
       "canChange": true,
-      "description": "Can track events when testing"
+      "notes": "Can track events when testing"
     },
     {
       "title": "Heatmap",
       "show": true,
       "canChange": true,
-      "description": "Generates heatmaps from user testing"
+      "notes": "Generates heatmaps from user testing"
     }
   ],
   "handoff": [
@@ -22402,18 +22408,18 @@ const toolsHeaders = {
       "title": "",
       "show": true,
       "canChange": false,
-      "description": ""
+      "notes": ""
     },
     {
       "title": "Name",
-      "description": "Name of app",
+      "notes": "Name of app",
       "sortable": true,
       "sortPath": "name",
       "sortDir": "asc"
     },
     {
       "title": "Usage",
-      "description": "Based on the 2018 Design Tools Survey",
+      "notes": "Based on the 2018 Design Tools Survey",
       "sortable": true,
       "sortPath": "handoff.surveyRaw2018",
       "sortDir": "desc"
@@ -22422,263 +22428,263 @@ const toolsHeaders = {
       "title": "Platform",
       "show": true,
       "canChange": true,
-      "description": "Platforms used to  upload designs"
+      "notes": "Platforms used to  upload designs"
     },
     {
       "title": "Free",
       "show": true,
       "canChange": true,
-      "description": "Has a free version"
+      "notes": "Has a free version"
     },
     {
       "title": "Subscription",
       "show": true,
       "canChange": true,
-      "description": "Cheapest monthly payment"
+      "notes": "Lowest recurring payment"
     },
     {
       "title": "Purchase",
       "show": true,
       "canChange": true,
-      "description": "One time cost"
+      "notes": "One time cost"
     },
     {
       "title": "Programs",
       "show": true,
       "canChange": true,
-      "description": "Compatible design programs"
+      "notes": "Compatible design programs"
     },
     {
       "title": "Specs",
       "show": true,
       "canChange": true,
-      "description": "App creates design  specifications"
+      "notes": "App creates design  specifications"
     },
     {
       "title": "Automatic",
       "show": true,
       "canChange": true,
-      "description": "App automatically  generates specs"
+      "notes": "App automatically  generates specs"
     },
     {
       "title": "Assets",
       "show": true,
       "canChange": true,
-      "description": "Export  design assets"
+      "notes": "Export  design assets"
     },
     {
       "title": "Measure",
       "show": true,
       "canChange": true,
-      "description": "Measure  distance and size"
+      "notes": "Measure  distance and size"
     },
     {
       "title": "Variables",
       "show": true,
       "canChange": true,
-      "description": "Allows custom  CSS variables"
+      "notes": "Allows custom  CSS variables"
     },
     {
       "title": "Style Guide",
       "show": true,
       "canChange": true,
-      "description": "Auto-generates  style guide"
+      "notes": "Auto-generates  style guide"
     },
     {
       "title": "Guides",
       "show": true,
       "canChange": true,
-      "description": "Maintains layout guides  from design apps"
+      "notes": "Maintains layout guides  from design apps"
     },
     {
       "title": "Layers",
       "show": false,
       "canChange": true,
-      "description": "App shows layer tree"
+      "notes": "App shows layer tree"
     },
     {
       "title": "Comments",
       "show": true,
       "canChange": true,
-      "description": "Viewers can comment  on designs"
+      "notes": "Viewers can comment  on designs"
     },
     {
       "title": "Revisions",
       "show": false,
       "canChange": true,
-      "description": "Save versions  of files"
+      "notes": "Save versions  of files"
     },
     {
       "title": "Sharing",
       "show": true,
       "canChange": true,
-      "description": "How users can  access designs"
+      "notes": "How users can  access designs"
     },
     {
       "title": "Integrations",
       "show": true,
       "canChange": true,
-      "description": "Other external apps"
+      "notes": "Other external apps"
     }
   ],
   "monitoring": [
     {
       "title": "",
-      "description": ""
+      "notes": ""
     },
     {
       "title": "Name",
-      "description": "Name of app",
+      "notes": "Name of app",
       "sortable": true,
       "sortPath": "name",
       "sortDir": "asc"
     },
     {
       "title": "Usage",
-      "description": "Based on the 2018 Design Tools Survey",
+      "notes": "Based on the 2018 Design Tools Survey",
       "sortable": true,
       "sortPath": "monitoring.surveyRaw2018",
       "sortDir": "desc"
     },
     {
       "title": "Free",
-      "description": "Has a free version"
+      "notes": "Has a free version"
     },
     {
       "title": "Subscription",
-      "description": "Cheapest monthly payment"
+      "notes": "Lowest recurring payment"
     },
     {
       "title": "Purchase",
-      "description": "One time cost"
+      "notes": "One time cost"
     },
     {
       "title": "Playback",
-      "description": "Records user's  actions"
+      "notes": "Records user's  actions"
     },
     {
       "title": "Skip",
-      "description": "Can skip inactivity  during playback"
+      "notes": "Can skip inactivity  during playback"
     },
     {
       "title": "Speed",
-      "description": "Fast-forward  & half-speed"
+      "notes": "Fast-forward  & half-speed"
     },
     {
       "title": "Jump Back",
-      "description": "Go back a few seconds  in playback (so useful)"
+      "notes": "Go back a few seconds  in playback (so useful)"
     },
     {
       "title": "Console",
-      "description": "Records JS console  during playback"
+      "notes": "Records JS console  during playback"
     },
     {
       "title": "Heatmaps",
-      "description": "Generates heatmap  of actions"
+      "notes": "Generates heatmap  of actions"
     },
     {
       "title": "Location",
-      "description": "Shows visitor's  location"
+      "notes": "Shows visitor's  location"
     },
     {
       "title": "Form Stats",
-      "description": "Analyzes form  drop off & stats"
+      "notes": "Analyzes form  drop off & stats"
     },
     {
       "title": "Polls",
-      "description": "Can create  user surveys"
+      "notes": "Can create  user surveys"
     },
     {
       "title": "Live",
-      "description": "Can watch users  in real-time"
+      "notes": "Can watch users  in real-time"
     },
     {
       "title": "Control",
-      "description": "Can remotely control  user's browser"
+      "notes": "Can remotely control  user's browser"
     },
     {
       "title": "Export",
-      "description": "Format for  downloaded"
+      "notes": "Format for  downloaded"
     },
     {
       "title": "Last Updated",
-      "description": "The last time I checked on this app"
+      "notes": "The last time I checked on this app"
     }
   ],
   "versioning": [
     {
       "title": "",
-      "description": ""
+      "notes": ""
     },
     {
       "title": "Name",
-      "description": "Name of app",
+      "notes": "Name of app",
       "sortable": true,
       "sortPath": "name",
       "sortDir": "asc"
     },
     {
       "title": "Usage",
-      "description": "Based on the 2018 Design Tools Survey",
+      "notes": "Based on the 2018 Design Tools Survey",
       "sortable": true,
       "sortPath": "versioning.surveyRaw2018",
       "sortDir": "desc"
     },
     {
       "title": "Platform",
-      "description": "Platform for uploading designs"
+      "notes": "Platform for uploading designs"
     },
     {
       "title": "Free",
-      "description": "Has a free version"
+      "notes": "Has a free version"
     },
     {
       "title": "Subscription",
-      "description": "Cheapest monthly cost"
+      "notes": "Cheapest monthly cost"
     },
     {
       "title": "Purchase",
-      "description": "One time cost"
+      "notes": "One time cost"
     },
     {
       "title": "Team",
-      "description": "Cheapest monthly cost for teams"
+      "notes": "Cheapest monthly cost for teams"
     },
     {
       "title": "Import",
-      "description": "Supported file types"
+      "notes": "Supported file types"
     },
     {
       "title": "Symbols",
-      "description": "Works with symbols"
+      "notes": "Works with symbols"
     },
     {
       "title": "Documents",
-      "description": "Works with documents"
+      "notes": "Works with documents"
     },
     {
       "title": "Branching",
-      "description": "Can create branches"
+      "notes": "Can create branches"
     },
     {
       "title": "Preview",
-      "description": "Shows preview of designs"
+      "notes": "Shows preview of designs"
     },
     {
       "title": "Compare",
-      "description": "Shows versions side by side"
+      "notes": "Shows versions side by side"
     },
     {
       "title": "Comments",
-      "description": "Users can comment on designs"
+      "notes": "Users can comment on designs"
     },
     {
       "title": "Sharing",
-      "description": "How others can view designs"
+      "notes": "How others can view designs"
     },
     {
       "title": "Integrations",
-      "description": "Other external apps"
+      "notes": "Other external apps"
     }
   ]
 }
@@ -23097,9 +23103,8 @@ const toolsData = [
     "prototyping": {
       "surveyPercent2017": 24,
       "surveyRaw2017": 292,
-      "surveyPercent2018": 41,
       "surveyRaw2018": 503,
-      "design": true,
+      "surveyPercent2018": 41,
       "platforms": {
         "mac": true,
         "windows": true
@@ -23109,16 +23114,66 @@ const toolsData = [
         "photoshop": true,
         "illustrator": true
       },
-      "data": true,
-      "micro": true,
-      "navigation": true,
-      "transition": true,
-      "voice": true,
       "sharing": {
         "web": true,
         "iOS": true
       },
-      "handoff": true
+      "design": {
+        "capable": "yes",
+        "notes": "Can create designs from scratch"
+      },
+      "micro": {
+        "capable": "yes",
+        "notes": "Can animate objects"
+      },
+      "navigation": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "transition": {
+        "capable": "yes",
+        "notes": "Can animate between screens"
+      },
+      "data": {
+        "capable": "yes",
+        "notes": "Populate prototyping with external data"
+      },
+      "code": {
+        "capable": "no",
+        "notes": ""
+      },
+      "sensors": {
+        "capable": "no",
+        "notes": ""
+      },
+      "voice": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "inputs": {
+        "capable": "no",
+        "notes": ""
+      },
+      "variables": {
+        "capable": "no",
+        "notes": "Variables not supported"
+      },
+      "tasks": {
+        "capable": "no",
+        "notes": ""
+      },
+      "analytics": {
+        "capable": "no",
+        "notes": ""
+      },
+      "heatmaps": {
+        "capable": "no",
+        "notes": ""
+      },
+      "handoff": {
+        "capable": "yes",
+        "notes": ""
+      }
     },
     "handoff": {
       "surveyRaw2017": 157,
@@ -23331,31 +23386,76 @@ const toolsData = [
     "prototyping": {
       "surveyPercent2017": 0,
       "surveyRaw2017": 0,
-      "surveyPercent2018": 0,
       "surveyRaw2018": 0,
+      "surveyPercent2018": 0,
       "platforms": {
         "iOS": true
       },
-      "design": true,
       "import": {
         "dropbox": true,
         "drive": true,
         "icloud": true
       },
-      "micro": false,
-      "navigation": true,
-      "transition": true,
-      "data": false,
-      "code": false,
       "sharing": {
         "iOS": true,
         "pdf": true
       },
-      "handoff": false,
-      "tasks": false,
-      "analytics": false,
-      "heatmaps": false,
-      "sensors": false
+      "design": {
+        "capable": "yes",
+        "notes": "Can create designs from scratch"
+      },
+      "micro": {
+        "capable": "no",
+        "notes": "No micro-interactions"
+      },
+      "navigation": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "transition": {
+        "capable": "yes",
+        "notes": "Can animate between screens"
+      },
+      "data": {
+        "capable": "no",
+        "notes": "Only static text supported"
+      },
+      "code": {
+        "capable": "no",
+        "notes": ""
+      },
+      "sensors": {
+        "capable": "no",
+        "notes": ""
+      },
+      "voice": {
+        "capable": "no",
+        "notes": ""
+      },
+      "inputs": {
+        "capable": "no",
+        "notes": ""
+      },
+      "variables": {
+        "capable": "no",
+        "notes": "Variables not supported"
+      },
+      "tasks": {
+        "capable": "no",
+        "notes": ""
+      },
+      "analytics": {
+        "capable": "no",
+        "notes": ""
+      },
+      "heatmaps": {
+        "capable": "no",
+        "notes": ""
+      },
+      "handoff": {
+        "capable": "no",
+        "notes": ""
+      }
     }
   },
   {
@@ -23491,19 +23591,71 @@ const toolsData = [
     "prototyping": {
       "surveyPercent2017": 17,
       "surveyRaw2017": 203,
-      "surveyPercent2018": 19,
       "surveyRaw2018": 235,
+      "surveyPercent2018": 19,
       "platforms": {
         "mac": true,
         "windows": true
       },
       "import": {},
-      "design": true,
-      "micro": true,
-      "navigation": true,
-      "transition": true,
       "sharing": {
         "web": true
+      },
+      "design": {
+        "capable": "yes",
+        "notes": "Can create designs from scratch"
+      },
+      "micro": {
+        "capable": "yes",
+        "notes": "Can animate objects"
+      },
+      "navigation": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "transition": {
+        "capable": "yes",
+        "notes": "Can animate between screens"
+      },
+      "data": {
+        "capable": "no",
+        "notes": "Only static text supported"
+      },
+      "code": {
+        "capable": "no",
+        "notes": ""
+      },
+      "sensors": {
+        "capable": "no",
+        "notes": ""
+      },
+      "voice": {
+        "capable": "no",
+        "notes": ""
+      },
+      "inputs": {
+        "capable": "no",
+        "notes": ""
+      },
+      "variables": {
+        "capable": "no",
+        "notes": "Variables not supported"
+      },
+      "tasks": {
+        "capable": "no",
+        "notes": ""
+      },
+      "analytics": {
+        "capable": "no",
+        "notes": ""
+      },
+      "heatmaps": {
+        "capable": "no",
+        "notes": ""
+      },
+      "handoff": {
+        "capable": "no",
+        "notes": ""
       }
     }
   },
@@ -23523,15 +23675,69 @@ const toolsData = [
       "surveyRaw2017": 0,
       "surveyRaw2018": 3,
       "surveyPercent2018": 1,
-      "design": true,
       "platforms": {
         "web": true
       },
       "import": {},
-      "navigation": true,
       "sharing": {
         "web": true,
         "pdf": true
+      },
+      "design": {
+        "capable": "yes",
+        "notes": "Can create designs from scratch"
+      },
+      "micro": {
+        "capable": "no",
+        "notes": "No micro-interactions"
+      },
+      "navigation": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "transition": {
+        "capable": "no",
+        "notes": "No transitions between screens"
+      },
+      "data": {
+        "capable": "no",
+        "notes": "Only static text supported"
+      },
+      "code": {
+        "capable": "no",
+        "notes": ""
+      },
+      "sensors": {
+        "capable": "no",
+        "notes": ""
+      },
+      "voice": {
+        "capable": "no",
+        "notes": ""
+      },
+      "inputs": {
+        "capable": "no",
+        "notes": ""
+      },
+      "variables": {
+        "capable": "no",
+        "notes": "Variables not supported"
+      },
+      "tasks": {
+        "capable": "no",
+        "notes": ""
+      },
+      "analytics": {
+        "capable": "no",
+        "notes": ""
+      },
+      "heatmaps": {
+        "capable": "no",
+        "notes": ""
+      },
+      "handoff": {
+        "capable": "no",
+        "notes": ""
       }
     }
   },
@@ -23597,16 +23803,67 @@ const toolsData = [
         "dropbox": true,
         "camera": true
       },
-      "navigation": true,
-      "transition": true,
-      "handoff": true,
       "sharing": {
         "iOS": true,
         "android": true,
         "web": true
       },
-      "analytics": true,
-      "heatmap": true
+      "design": {
+        "capable": "no",
+        "notes": "Can only prototype with existing screens"
+      },
+      "micro": {
+        "capable": "no",
+        "notes": "No micro-interactions"
+      },
+      "navigation": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "transition": {
+        "capable": "yes",
+        "notes": "Can animate between screens"
+      },
+      "data": {
+        "capable": "no",
+        "notes": "Only static text supported"
+      },
+      "code": {
+        "capable": "no",
+        "notes": ""
+      },
+      "sensors": {
+        "capable": "no",
+        "notes": ""
+      },
+      "voice": {
+        "capable": "no",
+        "notes": ""
+      },
+      "inputs": {
+        "capable": "no",
+        "notes": ""
+      },
+      "variables": {
+        "capable": "no",
+        "notes": "Variables not supported"
+      },
+      "tasks": {
+        "capable": "no",
+        "notes": ""
+      },
+      "analytics": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "heatmaps": {
+        "capable": "no",
+        "notes": ""
+      },
+      "handoff": {
+        "capable": "yes",
+        "notes": ""
+      }
     },
     "handoff": {
       "surveyRaw2017": 2,
@@ -23656,10 +23913,64 @@ const toolsData = [
       "import": {
         "sketch": true
       },
-      "navigation": true,
-      "transition": true,
       "sharing": {
         "iOS": true
+      },
+      "design": {
+        "capable": "no",
+        "notes": "Can only prototype with existing screens"
+      },
+      "micro": {
+        "capable": "no",
+        "notes": "No micro-interactions"
+      },
+      "navigation": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "transition": {
+        "capable": "yes",
+        "notes": "Can animate between screens"
+      },
+      "data": {
+        "capable": "no",
+        "notes": "Only static text supported"
+      },
+      "code": {
+        "capable": "no",
+        "notes": ""
+      },
+      "sensors": {
+        "capable": "no",
+        "notes": ""
+      },
+      "voice": {
+        "capable": "no",
+        "notes": ""
+      },
+      "inputs": {
+        "capable": "no",
+        "notes": ""
+      },
+      "variables": {
+        "capable": "no",
+        "notes": "Variables not supported"
+      },
+      "tasks": {
+        "capable": "no",
+        "notes": ""
+      },
+      "analytics": {
+        "capable": "no",
+        "notes": ""
+      },
+      "heatmaps": {
+        "capable": "no",
+        "notes": ""
+      },
+      "handoff": {
+        "capable": "no",
+        "notes": ""
       }
     },
     "designSystems": {
@@ -23698,8 +24009,8 @@ const toolsData = [
     "prototyping": {
       "surveyPercent2017": 0,
       "surveyRaw2017": 0,
-      "surveyPercent2018": 0,
       "surveyRaw2018": 0,
+      "surveyPercent2018": 0,
       "platforms": {
         "iOS": true
       },
@@ -23707,10 +24018,64 @@ const toolsData = [
         "dropbox": true,
         "camera": true
       },
-      "navigation": true,
-      "transition": true,
       "sharing": {
         "iOS": true
+      },
+      "design": {
+        "capable": "no",
+        "notes": "Can only prototype with existing screens"
+      },
+      "micro": {
+        "capable": "no",
+        "notes": "No micro-interactions"
+      },
+      "navigation": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "transition": {
+        "capable": "yes",
+        "notes": "Can animate between screens"
+      },
+      "data": {
+        "capable": "no",
+        "notes": "Only static text supported"
+      },
+      "code": {
+        "capable": "no",
+        "notes": ""
+      },
+      "sensors": {
+        "capable": "no",
+        "notes": ""
+      },
+      "voice": {
+        "capable": "no",
+        "notes": ""
+      },
+      "inputs": {
+        "capable": "no",
+        "notes": ""
+      },
+      "variables": {
+        "capable": "no",
+        "notes": "Variables not supported"
+      },
+      "tasks": {
+        "capable": "no",
+        "notes": ""
+      },
+      "analytics": {
+        "capable": "no",
+        "notes": ""
+      },
+      "heatmaps": {
+        "capable": "no",
+        "notes": ""
+      },
+      "handoff": {
+        "capable": "no",
+        "notes": ""
       }
     }
   },
@@ -23794,32 +24159,77 @@ const toolsData = [
     "prototyping": {
       "surveyPercent2017": 12,
       "surveyRaw2017": 144,
-      "surveyPercent2018": 34,
       "surveyRaw2018": 413,
+      "surveyPercent2018": 34,
       "platforms": {
         "web": true,
         "mac": true,
         "windows": true
       },
-      "design": true,
       "import": {
         "sketch": true
       },
-      "micro": true,
-      "navigation": true,
-      "transition": true,
-      "data": false,
-      "code": false,
       "sharing": {
         "web": true,
         "mac": true,
         "windows": true
       },
-      "handoff": true,
-      "tasks": false,
-      "analytics": false,
-      "heatmaps": false,
-      "sensors": false
+      "design": {
+        "capable": "yes",
+        "notes": "Can create designs from scratch"
+      },
+      "micro": {
+        "capable": "yes",
+        "notes": "Can animate objects"
+      },
+      "navigation": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "transition": {
+        "capable": "yes",
+        "notes": "Can animate between screens"
+      },
+      "data": {
+        "capable": "no",
+        "notes": "Only static text supported"
+      },
+      "code": {
+        "capable": "no",
+        "notes": ""
+      },
+      "sensors": {
+        "capable": "no",
+        "notes": ""
+      },
+      "voice": {
+        "capable": "no",
+        "notes": ""
+      },
+      "inputs": {
+        "capable": "no",
+        "notes": ""
+      },
+      "variables": {
+        "capable": "no",
+        "notes": "Variables not supported"
+      },
+      "tasks": {
+        "capable": "no",
+        "notes": ""
+      },
+      "analytics": {
+        "capable": "no",
+        "notes": ""
+      },
+      "heatmaps": {
+        "capable": "no",
+        "notes": ""
+      },
+      "handoff": {
+        "capable": "yes",
+        "notes": ""
+      }
     },
     "designSystems": {
       "surveyRaw2017": 123,
@@ -23912,24 +24322,75 @@ const toolsData = [
     "prototyping": {
       "surveyPercent2017": 7,
       "surveyRaw2017": 85,
-      "surveyPercent2018": 13,
       "surveyRaw2018": 159,
+      "surveyPercent2018": 13,
       "platforms": {
         "web": true,
         "mac": true
       },
-      "micro": true,
-      "design": true,
       "import": {
         "sketch": true,
         "dropbox": true
       },
-      "navigation": true,
-      "transition": true,
       "sharing": {
         "iOS": true
       },
-      "fixedHeader": true
+      "design": {
+        "capable": "yes",
+        "notes": "Can create designs from scratch"
+      },
+      "micro": {
+        "capable": "yes",
+        "notes": "Can animate objects"
+      },
+      "navigation": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "transition": {
+        "capable": "yes",
+        "notes": "Can animate between screens"
+      },
+      "data": {
+        "capable": "no",
+        "notes": "Only static text supported"
+      },
+      "code": {
+        "capable": "no",
+        "notes": ""
+      },
+      "sensors": {
+        "capable": "no",
+        "notes": ""
+      },
+      "voice": {
+        "capable": "no",
+        "notes": ""
+      },
+      "inputs": {
+        "capable": "no",
+        "notes": ""
+      },
+      "variables": {
+        "capable": "no",
+        "notes": "Variables not supported"
+      },
+      "tasks": {
+        "capable": "no",
+        "notes": ""
+      },
+      "analytics": {
+        "capable": "no",
+        "notes": ""
+      },
+      "heatmaps": {
+        "capable": "no",
+        "notes": ""
+      },
+      "handoff": {
+        "capable": "no",
+        "notes": ""
+      }
     }
   },
   {
@@ -23946,21 +24407,74 @@ const toolsData = [
     "prototyping": {
       "surveyPercent2017": 7,
       "surveyRaw2017": 85,
-      "surveyPercent2018": 0,
       "surveyRaw2018": 0,
+      "surveyPercent2018": 0,
       "platforms": {
         "web": true
       },
       "import": {
         "dropbox": true
       },
-      "navigation": true,
-      "transition": true,
       "sharing": {
         "iOS": true,
         "android": true
       },
-      "fixedHeader": true
+      "design": {
+        "capable": "no",
+        "notes": "Can only prototype with existing screens"
+      },
+      "micro": {
+        "capable": "no",
+        "notes": "No micro-interactions"
+      },
+      "navigation": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "transition": {
+        "capable": "yes",
+        "notes": "Can animate between screens"
+      },
+      "data": {
+        "capable": "no",
+        "notes": "Only static text supported"
+      },
+      "code": {
+        "capable": "no",
+        "notes": ""
+      },
+      "sensors": {
+        "capable": "no",
+        "notes": ""
+      },
+      "voice": {
+        "capable": "no",
+        "notes": ""
+      },
+      "inputs": {
+        "capable": "no",
+        "notes": ""
+      },
+      "variables": {
+        "capable": "no",
+        "notes": "Variables not supported"
+      },
+      "tasks": {
+        "capable": "no",
+        "notes": ""
+      },
+      "analytics": {
+        "capable": "no",
+        "notes": ""
+      },
+      "heatmaps": {
+        "capable": "no",
+        "notes": ""
+      },
+      "handoff": {
+        "capable": "no",
+        "notes": ""
+      }
     }
   },
   {
@@ -24074,8 +24588,8 @@ const toolsData = [
     "prototyping": {
       "surveyPercent2017": 19,
       "surveyRaw2017": 228,
-      "surveyPercent2018": 12,
       "surveyRaw2018": 142,
+      "surveyPercent2018": 12,
       "platforms": {
         "mac": true
       },
@@ -24084,18 +24598,66 @@ const toolsData = [
         "sketch": true,
         "figma": true
       },
-      "design": true,
-      "micro": true,
-      "navigation": true,
-      "transition": true,
-      "data": true,
-      "code": true,
-      "sensors": true,
       "sharing": {
         "web": true,
         "iOS": true
       },
-      "lastUpdated": "Jan '17"
+      "design": {
+        "capable": "yes",
+        "notes": "Can create designs from scratch"
+      },
+      "micro": {
+        "capable": "yes",
+        "notes": "Can animate objects"
+      },
+      "navigation": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "transition": {
+        "capable": "yes",
+        "notes": "Can animate between screens"
+      },
+      "data": {
+        "capable": "yes",
+        "notes": "Populate prototyping with external data"
+      },
+      "code": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "sensors": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "voice": {
+        "capable": "no",
+        "notes": ""
+      },
+      "inputs": {
+        "capable": "semi",
+        "notes": "Can be achieved with custom code/plugins"
+      },
+      "variables": {
+        "capable": "yes",
+        "notes": "Variables supported in Javascript"
+      },
+      "tasks": {
+        "capable": "no",
+        "notes": ""
+      },
+      "analytics": {
+        "capable": "no",
+        "notes": ""
+      },
+      "heatmaps": {
+        "capable": "no",
+        "notes": ""
+      },
+      "handoff": {
+        "capable": "no",
+        "notes": ""
+      }
     }
   },
   {
@@ -24167,26 +24729,74 @@ const toolsData = [
     "prototyping": {
       "surveyPercent2017": 0,
       "surveyRaw2017": 0,
-      "surveyPercent2018": 15,
       "surveyRaw2018": 177,
+      "surveyPercent2018": 15,
       "platforms": {
         "mac": true
       },
       "import": {
         "sketch": true
       },
-      "design": true,
-      "micro": true,
-      "navigation": true,
-      "transition": true,
-      "data": true,
-      "code": true,
-      "sensors": false,
       "sharing": {
         "web": true,
         "iOS": true
       },
-      "lastUpdated": "Oct '18"
+      "design": {
+        "capable": "yes",
+        "notes": "Can create designs from scratch"
+      },
+      "micro": {
+        "capable": "yes",
+        "notes": "Can animate objects"
+      },
+      "navigation": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "transition": {
+        "capable": "yes",
+        "notes": "Can animate between screens"
+      },
+      "data": {
+        "capable": "yes",
+        "notes": "Populate prototyping with external data"
+      },
+      "code": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "sensors": {
+        "capable": "no",
+        "notes": ""
+      },
+      "voice": {
+        "capable": "no",
+        "notes": ""
+      },
+      "inputs": {
+        "capable": "no",
+        "notes": "Can be acheived with custom code/plugins"
+      },
+      "variables": {
+        "capable": "yes",
+        "notes": "Variables supported in ReactJS"
+      },
+      "tasks": {
+        "capable": "no",
+        "notes": ""
+      },
+      "analytics": {
+        "capable": "no",
+        "notes": ""
+      },
+      "heatmaps": {
+        "capable": "no",
+        "notes": ""
+      },
+      "handoff": {
+        "capable": "no",
+        "notes": ""
+      }
     }
   },
   {
@@ -24203,26 +24813,71 @@ const toolsData = [
     "prototyping": {
       "surveyPercent2017": 0,
       "surveyRaw2017": 0,
-      "surveyPercent2018": 0,
       "surveyRaw2018": 0,
+      "surveyPercent2018": 0,
       "platforms": {
         "web": true
       },
-      "design": false,
       "import": {},
-      "micro": false,
-      "navigation": true,
-      "transition": false,
-      "data": false,
-      "code": false,
       "sharing": {
         "web": true
       },
-      "handoff": true,
-      "tasks": true,
-      "analytics": false,
-      "heatmaps": false,
-      "sensors": false
+      "design": {
+        "capable": "no",
+        "notes": "Can only prototype with existing screens"
+      },
+      "micro": {
+        "capable": "no",
+        "notes": "No micro-interactions"
+      },
+      "navigation": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "transition": {
+        "capable": "no",
+        "notes": "No transitions between screens"
+      },
+      "data": {
+        "capable": "no",
+        "notes": "Only static text supported"
+      },
+      "code": {
+        "capable": "no",
+        "notes": ""
+      },
+      "sensors": {
+        "capable": "no",
+        "notes": ""
+      },
+      "voice": {
+        "capable": "no",
+        "notes": ""
+      },
+      "inputs": {
+        "capable": "no",
+        "notes": ""
+      },
+      "variables": {
+        "capable": "no",
+        "notes": "Variables not supported"
+      },
+      "tasks": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "analytics": {
+        "capable": "no",
+        "notes": ""
+      },
+      "heatmaps": {
+        "capable": "no",
+        "notes": ""
+      },
+      "handoff": {
+        "capable": "yes",
+        "notes": ""
+      }
     },
     "handoff": {
       "surveyRaw2017": 0,
@@ -24292,8 +24947,8 @@ const toolsData = [
     "prototyping": {
       "surveyPercent2017": 1,
       "surveyRaw2017": 1,
-      "surveyPercent2018": 1,
       "surveyRaw2018": 1,
+      "surveyPercent2018": 1,
       "platforms": {
         "mac": true,
         "windows": true
@@ -24301,14 +24956,65 @@ const toolsData = [
       "import": {
         "sketch": true
       },
-      "navigation": true,
-      "micro": true,
-      "transition": true,
-      "data": true,
-      "code": true,
       "sharing": {
         "iOS": true,
         "android": true
+      },
+      "design": {
+        "capable": "no",
+        "notes": "Can only prototype with existing screens"
+      },
+      "micro": {
+        "capable": "yes",
+        "notes": "Can animate objects"
+      },
+      "navigation": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "transition": {
+        "capable": "yes",
+        "notes": "Can animate between screens"
+      },
+      "data": {
+        "capable": "yes",
+        "notes": "Populate prototyping with external data"
+      },
+      "code": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "sensors": {
+        "capable": "no",
+        "notes": ""
+      },
+      "voice": {
+        "capable": "no",
+        "notes": ""
+      },
+      "inputs": {
+        "capable": "no",
+        "notes": ""
+      },
+      "variables": {
+        "capable": "no",
+        "notes": "Variables not supported"
+      },
+      "tasks": {
+        "capable": "no",
+        "notes": ""
+      },
+      "analytics": {
+        "capable": "no",
+        "notes": ""
+      },
+      "heatmaps": {
+        "capable": "no",
+        "notes": ""
+      },
+      "handoff": {
+        "capable": "no",
+        "notes": ""
       }
     }
   },
@@ -24433,19 +25139,72 @@ const toolsData = [
     "prototyping": {
       "surveyPercent2017": 1,
       "surveyRaw2017": 1,
-      "surveyPercent2018": 0,
       "surveyRaw2018": 0,
-      "design": true,
+      "surveyPercent2018": 0,
       "platforms": {
         "web": true
       },
       "import": {},
-      "navigation": true,
-      "micro": true,
       "sharing": {
         "web": true,
         "pdf": true,
         "html": true
+      },
+      "design": {
+        "capable": "yes",
+        "notes": "Can create designs from scratch"
+      },
+      "micro": {
+        "capable": "yes",
+        "notes": "Can animate objects"
+      },
+      "navigation": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "transition": {
+        "capable": "no",
+        "notes": "No transitions between screens"
+      },
+      "data": {
+        "capable": "no",
+        "notes": "Only static text supported"
+      },
+      "code": {
+        "capable": "no",
+        "notes": ""
+      },
+      "sensors": {
+        "capable": "no",
+        "notes": ""
+      },
+      "voice": {
+        "capable": "no",
+        "notes": ""
+      },
+      "inputs": {
+        "capable": "no",
+        "notes": ""
+      },
+      "variables": {
+        "capable": "no",
+        "notes": "Variables not supported"
+      },
+      "tasks": {
+        "capable": "no",
+        "notes": ""
+      },
+      "analytics": {
+        "capable": "no",
+        "notes": ""
+      },
+      "heatmaps": {
+        "capable": "no",
+        "notes": ""
+      },
+      "handoff": {
+        "capable": "no",
+        "notes": ""
       }
     }
   },
@@ -24525,8 +25284,8 @@ const toolsData = [
     "prototyping": {
       "surveyPercent2017": 100,
       "surveyRaw2017": 1193,
-      "surveyPercent2018": 100,
       "surveyRaw2018": 1217,
+      "surveyPercent2018": 100,
       "platforms": {
         "web": true
       },
@@ -24535,15 +25294,67 @@ const toolsData = [
         "photoshop": true,
         "dropbox": true
       },
-      "navigation": true,
-      "transition": true,
       "sharing": {
         "web": true,
         "pdf": true,
         "html": true
       },
-      "fixedHeader": true,
-      "handoff": true
+      "design": {
+        "capable": "no",
+        "notes": "Can only prototype with existing screens"
+      },
+      "micro": {
+        "capable": "no",
+        "notes": "No micro-interactions"
+      },
+      "navigation": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "transition": {
+        "capable": "yes",
+        "notes": "Can animate between screens"
+      },
+      "data": {
+        "capable": "no",
+        "notes": "Only static text supported"
+      },
+      "code": {
+        "capable": "no",
+        "notes": ""
+      },
+      "sensors": {
+        "capable": "no",
+        "notes": ""
+      },
+      "voice": {
+        "capable": "no",
+        "notes": ""
+      },
+      "inputs": {
+        "capable": "no",
+        "notes": ""
+      },
+      "variables": {
+        "capable": "no",
+        "notes": "Variables not supported"
+      },
+      "tasks": {
+        "capable": "no",
+        "notes": ""
+      },
+      "analytics": {
+        "capable": "no",
+        "notes": ""
+      },
+      "heatmaps": {
+        "capable": "no",
+        "notes": ""
+      },
+      "handoff": {
+        "capable": "yes",
+        "notes": ""
+      }
     }
   },
   {
@@ -24617,8 +25428,8 @@ const toolsData = [
     "prototyping": {
       "surveyPercent2017": 0,
       "surveyRaw2017": 0,
-      "surveyPercent2018": 24,
       "surveyRaw2018": 294,
+      "surveyPercent2018": 24,
       "platforms": {
         "mac": true,
         "windows": true
@@ -24626,14 +25437,64 @@ const toolsData = [
       "import": {
         "sketch": true
       },
-      "design": true,
-      "micro": true,
-      "navigation": true,
-      "transition": true,
-      "data": false,
-      "code": false,
       "sharing": {
         "web": true
+      },
+      "design": {
+        "capable": "yes",
+        "notes": "Can create designs from scratch"
+      },
+      "micro": {
+        "capable": "yes",
+        "notes": "Can animate objects"
+      },
+      "navigation": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "transition": {
+        "capable": "yes",
+        "notes": "Can animate between screens"
+      },
+      "data": {
+        "capable": "no",
+        "notes": "Only static text supported"
+      },
+      "code": {
+        "capable": "no",
+        "notes": ""
+      },
+      "sensors": {
+        "capable": "no",
+        "notes": ""
+      },
+      "voice": {
+        "capable": "no",
+        "notes": ""
+      },
+      "inputs": {
+        "capable": "no",
+        "notes": ""
+      },
+      "variables": {
+        "capable": "no",
+        "notes": "Variables not supported"
+      },
+      "tasks": {
+        "capable": "no",
+        "notes": ""
+      },
+      "analytics": {
+        "capable": "no",
+        "notes": ""
+      },
+      "heatmaps": {
+        "capable": "no",
+        "notes": ""
+      },
+      "handoff": {
+        "capable": "no",
+        "notes": ""
       }
     }
   },
@@ -24763,8 +25624,8 @@ const toolsData = [
     "prototyping": {
       "surveyPercent2017": 1,
       "surveyRaw2017": 8,
-      "surveyPercent2018": 1,
       "surveyRaw2018": 4,
+      "surveyPercent2018": 1,
       "platforms": {
         "mac": true,
         "windows": true
@@ -24772,20 +25633,68 @@ const toolsData = [
       "import": {
         "sketch": true
       },
-      "design": true,
-      "navigation": true,
-      "transition": true,
-      "micro": true,
-      "data": true,
-      "handoff": true,
       "sharing": {
         "web": true,
         "iOS": true,
         "android": true,
         "html": true
       },
-      "mobileOnly": false,
-      "responsive": true
+      "design": {
+        "capable": "yes",
+        "notes": "Can create designs from scratch"
+      },
+      "micro": {
+        "capable": "yes",
+        "notes": "Can animate objects"
+      },
+      "navigation": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "transition": {
+        "capable": "yes",
+        "notes": "Can animate between screens"
+      },
+      "data": {
+        "capable": "yes",
+        "notes": "Populate prototyping with external data"
+      },
+      "code": {
+        "capable": "no",
+        "notes": ""
+      },
+      "sensors": {
+        "capable": "no",
+        "notes": ""
+      },
+      "voice": {
+        "capable": "no",
+        "notes": ""
+      },
+      "inputs": {
+        "capable": "no",
+        "notes": ""
+      },
+      "variables": {
+        "capable": "no",
+        "notes": "Variables not supported"
+      },
+      "tasks": {
+        "capable": "no",
+        "notes": ""
+      },
+      "analytics": {
+        "capable": "no",
+        "notes": ""
+      },
+      "heatmaps": {
+        "capable": "no",
+        "notes": ""
+      },
+      "handoff": {
+        "capable": "yes",
+        "notes": ""
+      }
     },
     "handoff": {
       "surveyRaw2017": 10,
@@ -24872,28 +25781,73 @@ const toolsData = [
     "prototyping": {
       "surveyPercent2017": 1,
       "surveyRaw2017": 3,
-      "surveyPercent2018": 1,
       "surveyRaw2018": 1,
+      "surveyPercent2018": 1,
       "platforms": {
         "mac": true
       },
-      "design": false,
       "import": {
         "sketch": true
       },
-      "micro": true,
-      "navigation": true,
-      "transition": true,
-      "data": false,
-      "code": false,
       "sharing": {
         "mac": true
       },
-      "handoff": false,
-      "tasks": false,
-      "analytics": false,
-      "heatmaps": false,
-      "sensors": false
+      "design": {
+        "capable": "no",
+        "notes": "Can only prototype with existing screens"
+      },
+      "micro": {
+        "capable": "yes",
+        "notes": "Can animate objects"
+      },
+      "navigation": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "transition": {
+        "capable": "yes",
+        "notes": "Can animate between screens"
+      },
+      "data": {
+        "capable": "no",
+        "notes": "Only static text supported"
+      },
+      "code": {
+        "capable": "no",
+        "notes": ""
+      },
+      "sensors": {
+        "capable": "no",
+        "notes": ""
+      },
+      "voice": {
+        "capable": "no",
+        "notes": ""
+      },
+      "inputs": {
+        "capable": "no",
+        "notes": ""
+      },
+      "variables": {
+        "capable": "no",
+        "notes": "Variables not supported"
+      },
+      "tasks": {
+        "capable": "no",
+        "notes": ""
+      },
+      "analytics": {
+        "capable": "no",
+        "notes": ""
+      },
+      "heatmaps": {
+        "capable": "no",
+        "notes": ""
+      },
+      "handoff": {
+        "capable": "no",
+        "notes": ""
+      }
     }
   },
   {
@@ -24910,20 +25864,71 @@ const toolsData = [
     "prototyping": {
       "surveyPercent2017": 0,
       "surveyRaw2017": 0,
-      "surveyPercent2018": 0,
       "surveyRaw2018": 0,
+      "surveyPercent2018": 0,
       "platforms": {
         "web": true
       },
       "import": {},
-      "navigation": true,
-      "transition": true,
       "sharing": {
         "web": true
       },
-      "tasks": true,
-      "heatmap": true,
-      "analytics": true
+      "design": {
+        "capable": "no",
+        "notes": "Can only prototype with existing screens"
+      },
+      "micro": {
+        "capable": "no",
+        "notes": "No micro-interactions"
+      },
+      "navigation": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "transition": {
+        "capable": "yes",
+        "notes": "Can animate between screens"
+      },
+      "data": {
+        "capable": "no",
+        "notes": "Only static text supported"
+      },
+      "code": {
+        "capable": "no",
+        "notes": ""
+      },
+      "sensors": {
+        "capable": "no",
+        "notes": ""
+      },
+      "voice": {
+        "capable": "no",
+        "notes": ""
+      },
+      "inputs": {
+        "capable": "no",
+        "notes": ""
+      },
+      "variables": {
+        "capable": "no",
+        "notes": "Variables not supported"
+      },
+      "tasks": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "analytics": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "heatmaps": {
+        "capable": "no",
+        "notes": ""
+      },
+      "handoff": {
+        "capable": "no",
+        "notes": ""
+      }
     }
   },
   {
@@ -24940,28 +25945,73 @@ const toolsData = [
     "prototyping": {
       "surveyPercent2017": 0,
       "surveyRaw2017": 0,
-      "surveyPercent2018": 1,
       "surveyRaw2018": 8,
+      "surveyPercent2018": 1,
       "platforms": {
         "mac": true
       },
-      "design": false,
       "import": {
         "sketch": true
       },
-      "micro": false,
-      "navigation": true,
-      "transition": true,
-      "data": false,
-      "code": false,
       "sharing": {
         "web": true
       },
-      "handoff": true,
-      "tasks": false,
-      "analytics": true,
-      "heatmaps": false,
-      "sensors": false
+      "design": {
+        "capable": "no",
+        "notes": "Can only prototype with existing screens"
+      },
+      "micro": {
+        "capable": "no",
+        "notes": "No micro-interactions"
+      },
+      "navigation": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "transition": {
+        "capable": "yes",
+        "notes": "Can animate between screens"
+      },
+      "data": {
+        "capable": "no",
+        "notes": "Only static text supported"
+      },
+      "code": {
+        "capable": "no",
+        "notes": ""
+      },
+      "sensors": {
+        "capable": "no",
+        "notes": ""
+      },
+      "voice": {
+        "capable": "no",
+        "notes": ""
+      },
+      "inputs": {
+        "capable": "no",
+        "notes": ""
+      },
+      "variables": {
+        "capable": "no",
+        "notes": "Variables not supported"
+      },
+      "tasks": {
+        "capable": "no",
+        "notes": ""
+      },
+      "analytics": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "heatmaps": {
+        "capable": "no",
+        "notes": ""
+      },
+      "handoff": {
+        "capable": "yes",
+        "notes": ""
+      }
     }
   },
   {
@@ -25011,19 +26061,71 @@ const toolsData = [
     "prototyping": {
       "surveyPercent2017": 0,
       "surveyRaw2017": 0,
-      "surveyPercent2018": 0,
       "surveyRaw2018": 0,
-      "design": true,
+      "surveyPercent2018": 0,
       "platforms": {
         "web": true
       },
-      "navigation": true,
-      "data": true,
+      "import": {},
       "sharing": {
         "web": true
       },
-      "import": {},
-      "lastUpdated": "Jan '17"
+      "design": {
+        "capable": "yes",
+        "notes": "Can create designs from scratch"
+      },
+      "micro": {
+        "capable": "no",
+        "notes": "No micro-interactions"
+      },
+      "navigation": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "transition": {
+        "capable": "no",
+        "notes": "No transitions between screens"
+      },
+      "data": {
+        "capable": "yes",
+        "notes": "Populate prototyping with external data"
+      },
+      "code": {
+        "capable": "no",
+        "notes": ""
+      },
+      "sensors": {
+        "capable": "no",
+        "notes": ""
+      },
+      "voice": {
+        "capable": "no",
+        "notes": ""
+      },
+      "inputs": {
+        "capable": "no",
+        "notes": ""
+      },
+      "variables": {
+        "capable": "no",
+        "notes": "Variables not supported"
+      },
+      "tasks": {
+        "capable": "no",
+        "notes": ""
+      },
+      "analytics": {
+        "capable": "no",
+        "notes": ""
+      },
+      "heatmaps": {
+        "capable": "no",
+        "notes": ""
+      },
+      "handoff": {
+        "capable": "no",
+        "notes": ""
+      }
     }
   },
   {
@@ -25133,14 +26235,13 @@ const toolsData = [
     "prototyping": {
       "surveyPercent2017": 21,
       "surveyRaw2017": 250,
-      "surveyPercent2018": 22,
       "surveyRaw2018": 291,
+      "surveyPercent2018": 22,
       "platforms": {
         "web": true,
         "iOS": true,
         "android": true
       },
-      "design": true,
       "import": {
         "sketch": true,
         "dropbox": true,
@@ -25148,8 +26249,6 @@ const toolsData = [
         "googleDrive": true,
         "box": true
       },
-      "navigation": true,
-      "transition": true,
       "sharing": {
         "web": true,
         "iOS": true,
@@ -25158,6 +26257,62 @@ const toolsData = [
         "appleTv": true,
         "html": true,
         "pdf": true
+      },
+      "design": {
+        "capable": "yes",
+        "notes": "Can create designs from scratch"
+      },
+      "micro": {
+        "capable": "no",
+        "notes": "No micro-interactions"
+      },
+      "navigation": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "transition": {
+        "capable": "yes",
+        "notes": "Can animate between screens"
+      },
+      "data": {
+        "capable": "no",
+        "notes": "Only static text supported"
+      },
+      "code": {
+        "capable": "no",
+        "notes": ""
+      },
+      "sensors": {
+        "capable": "no",
+        "notes": ""
+      },
+      "voice": {
+        "capable": "no",
+        "notes": ""
+      },
+      "inputs": {
+        "capable": "no",
+        "notes": ""
+      },
+      "variables": {
+        "capable": "no",
+        "notes": "Variables not supported"
+      },
+      "tasks": {
+        "capable": "no",
+        "notes": ""
+      },
+      "analytics": {
+        "capable": "no",
+        "notes": ""
+      },
+      "heatmaps": {
+        "capable": "no",
+        "notes": ""
+      },
+      "handoff": {
+        "capable": "no",
+        "notes": ""
       }
     },
     "handoff": {
@@ -25331,25 +26486,71 @@ const toolsData = [
         "mac": true,
         "windows": true
       },
-      "design": true,
       "import": {
         "sketch": true
       },
-      "micro": true,
-      "navigation": true,
-      "transition": true,
-      "data": false,
-      "code": false,
       "sharing": {
         "html": true,
         "web": true,
         "android": true,
         "iOS": true
       },
-      "tasks": false,
-      "analytics": false,
-      "heatmaps": false,
-      "sensors": false
+      "design": {
+        "capable": "yes",
+        "notes": "Can create designs from scratch"
+      },
+      "micro": {
+        "capable": "yes",
+        "notes": "Can animate objects"
+      },
+      "navigation": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "transition": {
+        "capable": "yes",
+        "notes": "Can animate between screens"
+      },
+      "data": {
+        "capable": "no",
+        "notes": "Only static text supported"
+      },
+      "code": {
+        "capable": "no",
+        "notes": ""
+      },
+      "sensors": {
+        "capable": "no",
+        "notes": ""
+      },
+      "voice": {
+        "capable": "no",
+        "notes": ""
+      },
+      "inputs": {
+        "capable": "no",
+        "notes": ""
+      },
+      "variables": {
+        "capable": "no",
+        "notes": "Variables not supported"
+      },
+      "tasks": {
+        "capable": "no",
+        "notes": ""
+      },
+      "analytics": {
+        "capable": "no",
+        "notes": ""
+      },
+      "heatmaps": {
+        "capable": "no",
+        "notes": ""
+      },
+      "handoff": {
+        "capable": "no",
+        "notes": ""
+      }
     }
   },
   {
@@ -25366,17 +26567,71 @@ const toolsData = [
     "prototyping": {
       "surveyPercent2017": 1,
       "surveyRaw2017": 1,
-      "surveyPercent2018": 1,
       "surveyRaw2018": 2,
+      "surveyPercent2018": 1,
       "platforms": {
         "web": true
       },
       "import": {},
-      "design": true,
-      "navigation": true,
       "sharing": {
         "web": true,
         "pdf": true
+      },
+      "design": {
+        "capable": "yes",
+        "notes": "Can create designs from scratch"
+      },
+      "micro": {
+        "capable": "no",
+        "notes": "No micro-interactions"
+      },
+      "navigation": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "transition": {
+        "capable": "no",
+        "notes": "No transitions between screens"
+      },
+      "data": {
+        "capable": "no",
+        "notes": "Only static text supported"
+      },
+      "code": {
+        "capable": "no",
+        "notes": ""
+      },
+      "sensors": {
+        "capable": "no",
+        "notes": ""
+      },
+      "voice": {
+        "capable": "no",
+        "notes": ""
+      },
+      "inputs": {
+        "capable": "no",
+        "notes": ""
+      },
+      "variables": {
+        "capable": "no",
+        "notes": "Variables not supported"
+      },
+      "tasks": {
+        "capable": "no",
+        "notes": ""
+      },
+      "analytics": {
+        "capable": "no",
+        "notes": ""
+      },
+      "heatmaps": {
+        "capable": "no",
+        "notes": ""
+      },
+      "handoff": {
+        "capable": "no",
+        "notes": ""
       }
     }
   },
@@ -25420,16 +26675,70 @@ const toolsData = [
     "prototyping": {
       "surveyPercent2017": 0,
       "surveyRaw2017": 0,
-      "surveyPercent2018": 0,
       "surveyRaw2018": 0,
+      "surveyPercent2018": 0,
       "platforms": {
         "web": true
       },
       "import": {},
-      "navigation": true,
-      "transition": true,
       "sharing": {
         "web": true
+      },
+      "design": {
+        "capable": "no",
+        "notes": "Can only prototype with existing screens"
+      },
+      "micro": {
+        "capable": "no",
+        "notes": "No micro-interactions"
+      },
+      "navigation": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "transition": {
+        "capable": "yes",
+        "notes": "Can animate between screens"
+      },
+      "data": {
+        "capable": "no",
+        "notes": "Only static text supported"
+      },
+      "code": {
+        "capable": "no",
+        "notes": ""
+      },
+      "sensors": {
+        "capable": "no",
+        "notes": ""
+      },
+      "voice": {
+        "capable": "no",
+        "notes": ""
+      },
+      "inputs": {
+        "capable": "no",
+        "notes": ""
+      },
+      "variables": {
+        "capable": "no",
+        "notes": "Variables not supported"
+      },
+      "tasks": {
+        "capable": "no",
+        "notes": ""
+      },
+      "analytics": {
+        "capable": "no",
+        "notes": ""
+      },
+      "heatmaps": {
+        "capable": "no",
+        "notes": ""
+      },
+      "handoff": {
+        "capable": "no",
+        "notes": ""
       }
     }
   },
@@ -25447,20 +26756,73 @@ const toolsData = [
     "prototyping": {
       "surveyPercent2017": 3,
       "surveyRaw2017": 41,
-      "surveyPercent2018": 2,
       "surveyRaw2018": 19,
+      "surveyPercent2018": 2,
       "platforms": {
         "mac": true
       },
       "import": {
         "sketch": true
       },
-      "micro": true,
-      "data": true,
       "sharing": {
         "iOS": true
       },
-      "sensors": true
+      "design": {
+        "capable": "no",
+        "notes": "Can only prototype with existing screens"
+      },
+      "micro": {
+        "capable": "yes",
+        "notes": "Can animate objects"
+      },
+      "navigation": {
+        "capable": "no",
+        "notes": ""
+      },
+      "transition": {
+        "capable": "no",
+        "notes": "No transitions between screens"
+      },
+      "data": {
+        "capable": "yes",
+        "notes": "Populate prototyping with external data"
+      },
+      "code": {
+        "capable": "no",
+        "notes": ""
+      },
+      "sensors": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "voice": {
+        "capable": "no",
+        "notes": ""
+      },
+      "inputs": {
+        "capable": "no",
+        "notes": ""
+      },
+      "variables": {
+        "capable": "yes",
+        "notes": "Supported through switches and logic"
+      },
+      "tasks": {
+        "capable": "no",
+        "notes": ""
+      },
+      "analytics": {
+        "capable": "no",
+        "notes": ""
+      },
+      "heatmaps": {
+        "capable": "no",
+        "notes": ""
+      },
+      "handoff": {
+        "capable": "no",
+        "notes": ""
+      }
     }
   },
   {
@@ -25477,18 +26839,12 @@ const toolsData = [
     "prototyping": {
       "surveyPercent2017": 0,
       "surveyRaw2017": 0,
-      "surveyPercent2018": 0,
       "surveyRaw2018": 0,
+      "surveyPercent2018": 0,
       "platforms": {
         "web": true
       },
-      "design": true,
       "import": {},
-      "micro": true,
-      "navigation": true,
-      "transition": true,
-      "data": false,
-      "code": false,
       "sharing": {
         "html": true,
         "web": true,
@@ -25496,10 +26852,62 @@ const toolsData = [
         "android": true,
         "pdf": true
       },
-      "tasks": false,
-      "analytics": false,
-      "heatmaps": false,
-      "sensors": false
+      "design": {
+        "capable": "yes",
+        "notes": "Can create designs from scratch"
+      },
+      "micro": {
+        "capable": "yes",
+        "notes": "Can animate objects"
+      },
+      "navigation": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "transition": {
+        "capable": "yes",
+        "notes": "Can animate between screens"
+      },
+      "data": {
+        "capable": "no",
+        "notes": "Only static text supported"
+      },
+      "code": {
+        "capable": "no",
+        "notes": ""
+      },
+      "sensors": {
+        "capable": "no",
+        "notes": ""
+      },
+      "voice": {
+        "capable": "no",
+        "notes": ""
+      },
+      "inputs": {
+        "capable": "no",
+        "notes": ""
+      },
+      "variables": {
+        "capable": "no",
+        "notes": "Variables not supported"
+      },
+      "tasks": {
+        "capable": "no",
+        "notes": ""
+      },
+      "analytics": {
+        "capable": "no",
+        "notes": ""
+      },
+      "heatmaps": {
+        "capable": "no",
+        "notes": ""
+      },
+      "handoff": {
+        "capable": "no",
+        "notes": ""
+      }
     }
   },
   {
@@ -25555,31 +26963,75 @@ const toolsData = [
     "prototyping": {
       "surveyPercent2017": 0,
       "surveyRaw2017": 0,
-      "surveyPercent2018": 1,
       "surveyRaw2018": 1,
+      "surveyPercent2018": 1,
       "platforms": {
         "web": true
       },
-      "design": false,
       "import": {
         "sketch": true
       },
-      "micro": false,
-      "navigation": true,
-      "transition": true,
-      "data": false,
-      "code": false,
       "sharing": {
         "iOS": true,
         "android": true,
         "web": true
       },
-      "handoff": false,
-      "tasks": true,
-      "analytics": true,
-      "heatmaps": true,
-      "sensors": false,
-      "lastUpdated": "Mar '18"
+      "design": {
+        "capable": "no",
+        "notes": "Can only prototype with existing screens"
+      },
+      "micro": {
+        "capable": "no",
+        "notes": "No micro-interactions"
+      },
+      "navigation": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "transition": {
+        "capable": "yes",
+        "notes": "Can animate between screens"
+      },
+      "data": {
+        "capable": "no",
+        "notes": "Only static text supported"
+      },
+      "code": {
+        "capable": "no",
+        "notes": ""
+      },
+      "sensors": {
+        "capable": "no",
+        "notes": ""
+      },
+      "voice": {
+        "capable": "no",
+        "notes": ""
+      },
+      "inputs": {
+        "capable": "no",
+        "notes": ""
+      },
+      "variables": {
+        "capable": "no",
+        "notes": "Variables not supported"
+      },
+      "tasks": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "analytics": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "heatmaps": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "handoff": {
+        "capable": "no",
+        "notes": ""
+      }
     }
   },
   {
@@ -25596,8 +27048,8 @@ const toolsData = [
     "prototyping": {
       "surveyPercent2017": 35,
       "surveyRaw2017": 412,
-      "surveyPercent2018": 43,
       "surveyRaw2018": 528,
+      "surveyPercent2018": 43,
       "platforms": {
         "mac": true
       },
@@ -25605,12 +27057,65 @@ const toolsData = [
         "sketch": true,
         "figma": true
       },
-      "micro": true,
-      "navigation": false,
-      "transition": false,
       "sharing": {
         "iOS": true,
         "mac": true
+      },
+      "design": {
+        "capable": "no",
+        "notes": "Can only prototype with existing screens"
+      },
+      "micro": {
+        "capable": "yes",
+        "notes": "Can animate objects"
+      },
+      "navigation": {
+        "capable": "no",
+        "notes": ""
+      },
+      "transition": {
+        "capable": "semi",
+        "notes": "Can be mimicked by transitioning objects"
+      },
+      "data": {
+        "capable": "no",
+        "notes": "Only static text supported"
+      },
+      "code": {
+        "capable": "no",
+        "notes": ""
+      },
+      "sensors": {
+        "capable": "no",
+        "notes": ""
+      },
+      "voice": {
+        "capable": "no",
+        "notes": ""
+      },
+      "inputs": {
+        "capable": "no",
+        "notes": ""
+      },
+      "variables": {
+        "capable": "no",
+        "notes": "Variables not supported"
+      },
+      "tasks": {
+        "capable": "no",
+        "notes": ""
+      },
+      "analytics": {
+        "capable": "no",
+        "notes": ""
+      },
+      "heatmaps": {
+        "capable": "no",
+        "notes": ""
+      },
+      "handoff": {
+        "capable": "no",
+        "notes": ""
       }
     }
   },
@@ -25692,15 +27197,67 @@ const toolsData = [
         "dropbox": true,
         "sketch": true
       },
-      "design": true,
-      "micro": true,
-      "navigation": true,
-      "transition": true,
       "sharing": {
         "iOS": true,
         "android": true,
         "web": true,
         "html": true
+      },
+      "design": {
+        "capable": "yes",
+        "notes": "Can create designs from scratch"
+      },
+      "micro": {
+        "capable": "yes",
+        "notes": "Can animate objects"
+      },
+      "navigation": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "transition": {
+        "capable": "yes",
+        "notes": "Can animate between screens"
+      },
+      "data": {
+        "capable": "no",
+        "notes": "Only static text supported"
+      },
+      "code": {
+        "capable": "no",
+        "notes": ""
+      },
+      "sensors": {
+        "capable": "no",
+        "notes": ""
+      },
+      "voice": {
+        "capable": "no",
+        "notes": ""
+      },
+      "inputs": {
+        "capable": "no",
+        "notes": ""
+      },
+      "variables": {
+        "capable": "no",
+        "notes": "Variables not supported"
+      },
+      "tasks": {
+        "capable": "no",
+        "notes": ""
+      },
+      "analytics": {
+        "capable": "no",
+        "notes": ""
+      },
+      "heatmaps": {
+        "capable": "no",
+        "notes": ""
+      },
+      "handoff": {
+        "capable": "no",
+        "notes": ""
       }
     }
   },
@@ -25718,32 +27275,76 @@ const toolsData = [
     "prototyping": {
       "surveyPercent2017": 1,
       "surveyRaw2017": 14,
-      "surveyPercent2018": 9,
       "surveyRaw2018": 113,
+      "surveyPercent2018": 9,
       "platforms": {
         "mac": true,
         "windows": true
       },
-      "design": false,
       "import": {
         "sketch": true
       },
-      "micro": true,
-      "navigation": true,
-      "transition": true,
-      "data": false,
-      "code": false,
       "sharing": {
         "web": true,
         "android": true,
         "iOS": true
       },
-      "tasks": false,
-      "analytics": false,
-      "heatmaps": false,
-      "sensors": true,
-      "variables": true,
-      "inputs": true
+      "design": {
+        "capable": "no",
+        "notes": "Can only prototype with existing screens"
+      },
+      "micro": {
+        "capable": "yes",
+        "notes": "Can animate objects"
+      },
+      "navigation": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "transition": {
+        "capable": "yes",
+        "notes": "Can animate between screens"
+      },
+      "data": {
+        "capable": "no",
+        "notes": "Only static text supported"
+      },
+      "code": {
+        "capable": "no",
+        "notes": ""
+      },
+      "sensors": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "voice": {
+        "capable": "no",
+        "notes": ""
+      },
+      "inputs": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "variables": {
+        "capable": "no",
+        "notes": "Variables not supported"
+      },
+      "tasks": {
+        "capable": "no",
+        "notes": ""
+      },
+      "analytics": {
+        "capable": "no",
+        "notes": ""
+      },
+      "heatmaps": {
+        "capable": "no",
+        "notes": ""
+      },
+      "handoff": {
+        "capable": "no",
+        "notes": ""
+      }
     }
   },
   {
@@ -25760,27 +27361,80 @@ const toolsData = [
     "prototyping": {
       "surveyPercent2017": 0,
       "surveyRaw2017": 0,
-      "surveyPercent2018": 1,
       "surveyRaw2018": 1,
+      "surveyPercent2018": 1,
       "platforms": {
         "web": true,
         "mac": true,
         "iOS": true,
         "android": true
       },
-      "design": true,
       "import": {
         "sketch": true,
         "photoshop": true,
         "camera": true,
         "dropbox": true
       },
-      "navigation": true,
-      "transition": true,
       "sharing": {
         "web": true,
         "iOS": true,
         "android": true
+      },
+      "design": {
+        "capable": "yes",
+        "notes": "Can create designs from scratch"
+      },
+      "micro": {
+        "capable": "no",
+        "notes": "No micro-interactions"
+      },
+      "navigation": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "transition": {
+        "capable": "yes",
+        "notes": "Can animate between screens"
+      },
+      "data": {
+        "capable": "no",
+        "notes": "Only static text supported"
+      },
+      "code": {
+        "capable": "no",
+        "notes": ""
+      },
+      "sensors": {
+        "capable": "no",
+        "notes": ""
+      },
+      "voice": {
+        "capable": "no",
+        "notes": ""
+      },
+      "inputs": {
+        "capable": "no",
+        "notes": ""
+      },
+      "variables": {
+        "capable": "no",
+        "notes": "Variables not supported"
+      },
+      "tasks": {
+        "capable": "no",
+        "notes": ""
+      },
+      "analytics": {
+        "capable": "no",
+        "notes": ""
+      },
+      "heatmaps": {
+        "capable": "no",
+        "notes": ""
+      },
+      "handoff": {
+        "capable": "no",
+        "notes": ""
       }
     }
   },
@@ -25887,28 +27541,78 @@ const toolsData = [
       },
       "prototyping": {
         "capable": "yes",
-        "notes": "Basic click-through prototypes",
+        "notes": "Basic click-through prototypes"
       }
     },
     "prototyping": {
       "surveyPercent2017": 0,
       "surveyRaw2017": 0,
-      "surveyPercent2018": 83,
       "surveyRaw2018": 1014,
+      "surveyPercent2018": 83,
       "platforms": {
         "mac": true
       },
       "import": {
         "sketch": true
       },
-      "design": true,
-      "micro": false,
-      "navigation": true,
-      "transition": true,
-      "data": false,
-      "code": false,
       "sharing": {
         "web": false
+      },
+      "design": {
+        "capable": "yes",
+        "notes": "Can create designs from scratch"
+      },
+      "micro": {
+        "capable": "no",
+        "notes": "No micro-interactions"
+      },
+      "navigation": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "transition": {
+        "capable": "yes",
+        "notes": "Can animate between screens"
+      },
+      "data": {
+        "capable": "yes",
+        "notes": "Populate designs with JSON or plugins"
+      },
+      "code": {
+        "capable": "no",
+        "notes": ""
+      },
+      "sensors": {
+        "capable": "no",
+        "notes": ""
+      },
+      "voice": {
+        "capable": "no",
+        "notes": ""
+      },
+      "inputs": {
+        "capable": "no",
+        "notes": ""
+      },
+      "variables": {
+        "capable": "no",
+        "notes": "Variables not supported"
+      },
+      "tasks": {
+        "capable": "no",
+        "notes": ""
+      },
+      "analytics": {
+        "capable": "no",
+        "notes": ""
+      },
+      "heatmaps": {
+        "capable": "no",
+        "notes": ""
+      },
+      "handoff": {
+        "capable": "no",
+        "notes": ""
       }
     },
     "designSystems": {
@@ -26105,22 +27809,66 @@ const toolsData = [
       "platforms": {
         "web": true
       },
-      "design": true,
       "import": {},
-      "micro": false,
-      "navigation": true,
-      "transition": true,
-      "data": false,
-      "code": false,
       "sharing": {
         "web": true
       },
-      "handoff": false,
-      "tasks": false,
-      "analytics": false,
-      "heatmaps": false,
-      "sensors": false,
-      "description": "Althought it seems like just another browser-based design tool, there is a lot going on under the hood. The responsive mechanics will blow your mind."
+      "design": {
+        "capable": "yes",
+        "notes": "Can create designs from scratch"
+      },
+      "micro": {
+        "capable": "no",
+        "notes": "No micro-interactions"
+      },
+      "navigation": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "transition": {
+        "capable": "yes",
+        "notes": "Can animate between screens"
+      },
+      "data": {
+        "capable": "no",
+        "notes": "Only static text supported"
+      },
+      "code": {
+        "capable": "no",
+        "notes": ""
+      },
+      "sensors": {
+        "capable": "no",
+        "notes": ""
+      },
+      "voice": {
+        "capable": "no",
+        "notes": ""
+      },
+      "inputs": {
+        "capable": "no",
+        "notes": ""
+      },
+      "variables": {
+        "capable": "no",
+        "notes": "Variables not supported"
+      },
+      "tasks": {
+        "capable": "no",
+        "notes": ""
+      },
+      "analytics": {
+        "capable": "no",
+        "notes": ""
+      },
+      "heatmaps": {
+        "capable": "no",
+        "notes": ""
+      },
+      "handoff": {
+        "capable": "no",
+        "notes": ""
+      }
     }
   },
   {
@@ -26285,31 +28033,78 @@ const toolsData = [
     "prototyping": {
       "surveyPercent2017": 4,
       "surveyRaw2017": 43,
-      "surveyPercent2018": 4,
       "surveyRaw2018": 46,
+      "surveyPercent2018": 4,
       "platforms": {
         "web": true,
         "mac": true,
         "windows": true
       },
-      "design": true,
       "import": {
         "sketch": true,
         "photoshop": true
       },
-      "micro": true,
-      "data": true,
-      "navigation": true,
-      "transitions": true,
       "sharing": {
         "web": true,
         "android": true,
         "iOS": true
       },
-      "handoff": true,
-      "inputs": true,
-      "variables": true,
-      "conditional": true
+      "design": {
+        "capable": "yes",
+        "notes": "Can create designs from scratch"
+      },
+      "micro": {
+        "capable": "yes",
+        "notes": "Can animate objects"
+      },
+      "navigation": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "transition": {
+        "capable": "no",
+        "notes": "No transitions between screens"
+      },
+      "data": {
+        "capable": "yes",
+        "notes": "Populate prototyping with external data"
+      },
+      "code": {
+        "capable": "no",
+        "notes": ""
+      },
+      "sensors": {
+        "capable": "no",
+        "notes": ""
+      },
+      "voice": {
+        "capable": "no",
+        "notes": ""
+      },
+      "inputs": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "variables": {
+        "capable": "yes",
+        "notes": "Conditional logic with variables"
+      },
+      "tasks": {
+        "capable": "no",
+        "notes": ""
+      },
+      "analytics": {
+        "capable": "no",
+        "notes": ""
+      },
+      "heatmaps": {
+        "capable": "no",
+        "notes": ""
+      },
+      "handoff": {
+        "capable": "yes",
+        "notes": ""
+      }
     },
     "designSystems": {
       "surveyRaw2017": 23,
@@ -26403,20 +28198,71 @@ const toolsData = [
     "prototyping": {
       "surveyPercent2017": 5,
       "surveyRaw2017": 65,
-      "surveyPercent2018": 3,
       "surveyRaw2018": 31,
-      "design": true,
+      "surveyPercent2018": 3,
       "platforms": {
         "web": true
       },
       "import": {},
-      "navigation": true,
-      "micro": true,
-      "transition": false,
-      "data": true,
       "sharing": {
         "web": true,
         "html": true
+      },
+      "design": {
+        "capable": "yes",
+        "notes": "Can create designs from scratch"
+      },
+      "micro": {
+        "capable": "yes",
+        "notes": "Can animate objects"
+      },
+      "navigation": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "transition": {
+        "capable": "no",
+        "notes": "No transitions between screens"
+      },
+      "data": {
+        "capable": "yes",
+        "notes": "Populate prototyping with external data"
+      },
+      "code": {
+        "capable": "no",
+        "notes": ""
+      },
+      "sensors": {
+        "capable": "no",
+        "notes": ""
+      },
+      "voice": {
+        "capable": "no",
+        "notes": ""
+      },
+      "inputs": {
+        "capable": "no",
+        "notes": ""
+      },
+      "variables": {
+        "capable": "yes",
+        "notes": "Logic through conditional visibility and rules"
+      },
+      "tasks": {
+        "capable": "no",
+        "notes": ""
+      },
+      "analytics": {
+        "capable": "no",
+        "notes": ""
+      },
+      "heatmaps": {
+        "capable": "no",
+        "notes": ""
+      },
+      "handoff": {
+        "capable": "no",
+        "notes": ""
       }
     }
   },
@@ -26571,24 +28417,75 @@ const toolsData = [
     "prototyping": {
       "surveyPercent2017": 0,
       "surveyRaw2017": 0,
-      "surveyPercent2018": 0,
       "surveyRaw2018": 0,
-      "design": true,
+      "surveyPercent2018": 0,
       "platforms": {
         "web": true,
         "windows": true,
         "mac": true
       },
       "import": {},
-      "micro": true,
-      "data": true,
-      "navigation": true,
-      "transition": true,
       "sharing": {
         "iOS": true,
         "web": true,
         "windows": true,
         "mac": true
+      },
+      "design": {
+        "capable": "yes",
+        "notes": "Can create designs from scratch"
+      },
+      "micro": {
+        "capable": "yes",
+        "notes": "Can animate objects"
+      },
+      "navigation": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "transition": {
+        "capable": "yes",
+        "notes": "Can animate between screens"
+      },
+      "data": {
+        "capable": "yes",
+        "notes": "Populate prototyping with external data"
+      },
+      "code": {
+        "capable": "no",
+        "notes": ""
+      },
+      "sensors": {
+        "capable": "no",
+        "notes": ""
+      },
+      "voice": {
+        "capable": "no",
+        "notes": ""
+      },
+      "inputs": {
+        "capable": "no",
+        "notes": ""
+      },
+      "variables": {
+        "capable": "no",
+        "notes": "Variables not supported"
+      },
+      "tasks": {
+        "capable": "no",
+        "notes": ""
+      },
+      "analytics": {
+        "capable": "no",
+        "notes": ""
+      },
+      "heatmaps": {
+        "capable": "no",
+        "notes": ""
+      },
+      "handoff": {
+        "capable": "no",
+        "notes": ""
       }
     }
   },
@@ -26769,7 +28666,6 @@ Vue.directive('scrolltable', {
 				fixedHeader.style.top = headerHeight + "px";
 				alignHeaders();
 			};
-
 	}
 })
 
@@ -26831,6 +28727,16 @@ const prototypingComp = {
 		sortBy: function (sortable, dir) {
 			this.sortedTools = _.orderBy(this.sortedTools, sortable, dir);
 			this.sortPath = sortable;
+		},
+		getCheckIcon: function(capability) {
+			switch (capability) {
+				case 'yes': 
+					return '<svg class="yes" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="24" height="24" viewBox="0 0 24 24"><path d="M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2M11,16.5L18,9.5L16.59,8.09L11,13.67L7.91,10.59L6.5,12L11,16.5Z" /></svg>'
+				case 'no': 
+					return '<svg class="no" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="24" height="24" viewBox="0 0 24 24"><path d="M12,2C17.53,2 22,6.47 22,12C22,17.53 17.53,22 12,22C6.47,22 2,17.53 2,12C2,6.47 6.47,2 12,2M15.59,7L12,10.59L8.41,7L7,8.41L10.59,12L7,15.59L8.41,17L12,13.41L15.59,17L17,15.59L13.41,12L17,8.41L15.59,7Z" />'
+				case 'semi': 
+					return '<svg class="semi" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="24" height="24" viewBox="0 0 24 24"><path d="M17,13H7V11H17M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2Z" /></svg>'
+			}
 		}
 	},
 	created: function() {

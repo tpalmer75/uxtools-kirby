@@ -2,149 +2,149 @@ const toolsHeaders = {
   "designSystems": [
     {
       "title": "",
-      "description": ""
+      "notes": ""
     },
     {
       "title": "Name",
-      "description": "Name of app",
+      "notes": "Name of app",
       "sortable": true,
       "sortPath": "name",
       "sortDir": "asc"
     },
     {
       "title": "Usage",
-      "description": "Based on the 2018 Design Tools Survey",
+      "notes": "Based on the 2018 Design Tools Survey",
       "sortable": true,
       "sortPath": "designSystems.surveyRaw2018",
       "sortDir": "desc"
     },
     {
       "title": "Platform",
-      "description": "Platforms used to upload components"
+      "notes": "Platforms used to upload components"
     },
     {
       "title": "Programs",
-      "description": "Supported file types"
+      "notes": "Supported file types"
     },
     {
       "title": "Free",
-      "description": "Can the tool be used for free?"
+      "notes": "Can the tool be used for free?"
     },
     {
       "title": "Individual",
-      "description": "Monthly cost for  single user"
+      "notes": "Monthly cost for  single user"
     },
     {
       "title": "Team",
-      "description": "Monthly cost for 2+ team members"
+      "notes": "Monthly cost for 2+ team members"
     },
     {
       "title": "Symbols",
-      "description": "Can import symbols"
+      "notes": "Can import symbols"
     },
     {
       "title": "Layers",
-      "description": "Can import normal layers"
+      "notes": "Can import normal layers"
     },
     {
       "title": "Assets",
-      "description": "Can import generic  assets (like images)"
+      "notes": "Can import generic  assets (like images)"
     },
     {
       "title": "Sharing",
-      "description": "Can share the library"
+      "notes": "Can share the library"
     },
     {
       "title": "Permissions",
-      "description": "Can restrict access to others"
+      "notes": "Can restrict access to others"
     },
     {
       "title": "Interface",
-      "description": "How the tool appears in-app"
+      "notes": "How the tool appears in-app"
     },
     {
       "title": "Update",
-      "description": "Can sync changes across documents"
+      "notes": "Can sync changes across documents"
     },
     {
       "title": "Annotate",
-      "description": "Can create notes about components"
+      "notes": "Can create notes about components"
     },
     {
       "title": "Style Guide",
-      "description": "Automatically generates  a style guide  of components"
+      "notes": "Automatically generates  a style guide  of components"
     }
   ],
   "design": [
     {
       "title": "",
-      "description": ""
+      "notes": ""
     },
     {
       "title": "Name",
-      "description": "Name of app",
+      "notes": "Name of app",
       "sortable": true,
       "sortPath": "name",
       "sortDir": "asc"
     },
     {
       "title": "Usage",
-      "description": "Based on the 2018 Design Tools Survey",
+      "notes": "Based on the 2018 Design Tools Survey",
       "sortable": true,
       "sortPath": "design.surveyRaw2018",
       "sortDir": "desc"
     },
     {
       "title": "Platform",
-      "description": "Platforms used for creating designs"
+      "notes": "Platforms used for creating designs"
     },
     {
       "title": "Free",
-      "description": "Free to use without trial"
+      "notes": "Free to use without trial"
     },
     {
       "title": "Subscription",
-      "description": "Lowest recurring payment"
+      "notes": "Lowest recurring payment"
     },
     {
       "title": "Purchase",
-      "description": "One-time cost"
+      "notes": "One-time cost"
     },
     {
       "title": "Offline",
-      "description": "Can open and edit files offline"
+      "notes": "Can open and edit files offline"
     },
     {
       "title": "Pen Tool",
-      "description": "Draw vectors and paths"
+      "notes": "Draw vectors and paths"
     },
     {
       "title": "Collaboration",
-      "description": "Simultaneous editing"
+      "notes": "Simultaneous editing"
     },
     {
       "title": "Comments",
-      "description": "Others can leave comments"
+      "notes": "Others can leave comments"
     },
     {
       "title": "Handoff",
-      "description": "Automatic specs for developers"
+      "notes": "Automatic specs for developers"
     },
     {
       "title": "Artboards",
-      "description": "Multiple visible artboards"
+      "notes": "Multiple visible artboards"
     },
     {
       "title": "Symbols",
-      "description": "Document-wide master symbols"
+      "notes": "Document-wide master symbols"
     },
     {
       "title": "Responsive",
-      "description": "Dynamically resizing groups"
+      "notes": "Dynamically resizing groups"
     },
     {
       "title": "Prototyping",
-      "description": "Can prototype within the app"
+      "notes": "Can prototype within the app"
     }
   ],
   "prototyping": [
@@ -152,18 +152,18 @@ const toolsHeaders = {
       "title": "",
       "show": true,
       "canChange": false,
-      "description": ""
+      "notes": ""
     },
     {
       "title": "Name",
-      "description": "Name of app",
+      "notes": "Name of app",
       "sortable": true,
       "sortPath": "name",
       "sortDir": "asc"
     },
     {
       "title": "Usage",
-      "description": "Based on the 2018 Design Tools Survey",
+      "notes": "Based on the 2018 Design Tools Survey",
       "sortable": true,
       "sortPath": "prototyping.surveyRaw2018",
       "sortDir": "desc"
@@ -172,109 +172,115 @@ const toolsHeaders = {
       "title": "Platform",
       "show": true,
       "canChange": true,
-      "description": "Platforms used for  building prototypes"
+      "notes": "Platforms used for  building prototypes"
     },
     {
       "title": "Free",
       "show": true,
       "canChange": true,
-      "description": "Has a free version"
+      "notes": "Has a free version"
     },
     {
       "title": "Subscription",
       "show": true,
       "canChange": true,
-      "description": "Cheapest monthly payment"
+      "notes": "Lowest recurring payment"
     },
     {
       "title": "Purchase",
       "show": true,
       "canChange": true,
-      "description": "One time cost"
+      "notes": "One time cost"
     },
     {
       "title": "Design",
       "show": true,
       "canChange": true,
-      "description": "App can design from scratch"
+      "notes": "Can create designs from scratch"
     },
     {
       "title": "Import",
       "show": true,
       "canChange": true,
-      "description": "Integrations with other apps"
+      "notes": "Integrations with other apps"
     },
     {
       "title": "Animations",
       "show": true,
       "canChange": true,
-      "description": "Individual animations & micro-interactions"
+      "notes": "Animate objects & micro-interactions"
     },
     {
       "title": "Transitions",
       "show": true,
       "canChange": true,
-      "description": "Animates between screens"
+      "notes": "Animate between screens"
     },
     {
       "title": "Data",
       "show": true,
       "canChange": true,
-      "description": "Uses data to render UI"
+      "notes": "Can populate objects from data"
     },
     {
       "title": "Code",
       "show": true,
       "canChange": true,
-      "description": "Requires knowledge of code"
+      "notes": "Requires code to prototype"
     },
     {
       "title": "Inputs",
       "show": true,
       "canChange": true,
-      "tipText": "Support dynamic<br> text inputs"
+      "notes": "Supports dynamic text inputs"
+    },
+    {
+      "title": "Variables",
+      "show": true,
+      "canChange": true,
+      "notes": "Conditional logic and data"
     },
     {
       "title": "Sharing",
       "show": true,
       "canChange": true,
-      "description": "How others can use the prototype"
+      "notes": "How others can preview the prototype"
     },
     {
       "title": "Handoff",
       "show": true,
       "canChange": true,
-      "description": "Automatic specs for developers"
+      "notes": "Automatic specs for developers"
     },
     {
       "title": "Sensors",
       "show": true,
       "canChange": true,
-      "description": "Utilizes device sensors"
+      "notes": "Access native device sensors"
     },
     {
       "title": "Voice",
       "show": true,
       "canChange": true,
-      "description": "Accept voice as input"
+      "notes": "Accept voice as input"
     },
     {
       "title": "Tasks",
       "show": true,
       "canChange": true,
-      "description": ""
+      "notes": ""
     },
     {
       "title": "Analytics",
       "show": true,
       "canChange": true,
-      "description": "Can track events when testing"
+      "notes": "Can track events when testing"
     },
     {
       "title": "Heatmap",
       "show": true,
       "canChange": true,
-      "description": "Generates heatmaps from user testing"
+      "notes": "Generates heatmaps from user testing"
     }
   ],
   "handoff": [
@@ -282,18 +288,18 @@ const toolsHeaders = {
       "title": "",
       "show": true,
       "canChange": false,
-      "description": ""
+      "notes": ""
     },
     {
       "title": "Name",
-      "description": "Name of app",
+      "notes": "Name of app",
       "sortable": true,
       "sortPath": "name",
       "sortDir": "asc"
     },
     {
       "title": "Usage",
-      "description": "Based on the 2018 Design Tools Survey",
+      "notes": "Based on the 2018 Design Tools Survey",
       "sortable": true,
       "sortPath": "handoff.surveyRaw2018",
       "sortDir": "desc"
@@ -302,263 +308,263 @@ const toolsHeaders = {
       "title": "Platform",
       "show": true,
       "canChange": true,
-      "description": "Platforms used to  upload designs"
+      "notes": "Platforms used to  upload designs"
     },
     {
       "title": "Free",
       "show": true,
       "canChange": true,
-      "description": "Has a free version"
+      "notes": "Has a free version"
     },
     {
       "title": "Subscription",
       "show": true,
       "canChange": true,
-      "description": "Cheapest monthly payment"
+      "notes": "Lowest recurring payment"
     },
     {
       "title": "Purchase",
       "show": true,
       "canChange": true,
-      "description": "One time cost"
+      "notes": "One time cost"
     },
     {
       "title": "Programs",
       "show": true,
       "canChange": true,
-      "description": "Compatible design programs"
+      "notes": "Compatible design programs"
     },
     {
       "title": "Specs",
       "show": true,
       "canChange": true,
-      "description": "App creates design  specifications"
+      "notes": "App creates design  specifications"
     },
     {
       "title": "Automatic",
       "show": true,
       "canChange": true,
-      "description": "App automatically  generates specs"
+      "notes": "App automatically  generates specs"
     },
     {
       "title": "Assets",
       "show": true,
       "canChange": true,
-      "description": "Export  design assets"
+      "notes": "Export  design assets"
     },
     {
       "title": "Measure",
       "show": true,
       "canChange": true,
-      "description": "Measure  distance and size"
+      "notes": "Measure  distance and size"
     },
     {
       "title": "Variables",
       "show": true,
       "canChange": true,
-      "description": "Allows custom  CSS variables"
+      "notes": "Allows custom  CSS variables"
     },
     {
       "title": "Style Guide",
       "show": true,
       "canChange": true,
-      "description": "Auto-generates  style guide"
+      "notes": "Auto-generates  style guide"
     },
     {
       "title": "Guides",
       "show": true,
       "canChange": true,
-      "description": "Maintains layout guides  from design apps"
+      "notes": "Maintains layout guides  from design apps"
     },
     {
       "title": "Layers",
       "show": false,
       "canChange": true,
-      "description": "App shows layer tree"
+      "notes": "App shows layer tree"
     },
     {
       "title": "Comments",
       "show": true,
       "canChange": true,
-      "description": "Viewers can comment  on designs"
+      "notes": "Viewers can comment  on designs"
     },
     {
       "title": "Revisions",
       "show": false,
       "canChange": true,
-      "description": "Save versions  of files"
+      "notes": "Save versions  of files"
     },
     {
       "title": "Sharing",
       "show": true,
       "canChange": true,
-      "description": "How users can  access designs"
+      "notes": "How users can  access designs"
     },
     {
       "title": "Integrations",
       "show": true,
       "canChange": true,
-      "description": "Other external apps"
+      "notes": "Other external apps"
     }
   ],
   "monitoring": [
     {
       "title": "",
-      "description": ""
+      "notes": ""
     },
     {
       "title": "Name",
-      "description": "Name of app",
+      "notes": "Name of app",
       "sortable": true,
       "sortPath": "name",
       "sortDir": "asc"
     },
     {
       "title": "Usage",
-      "description": "Based on the 2018 Design Tools Survey",
+      "notes": "Based on the 2018 Design Tools Survey",
       "sortable": true,
       "sortPath": "monitoring.surveyRaw2018",
       "sortDir": "desc"
     },
     {
       "title": "Free",
-      "description": "Has a free version"
+      "notes": "Has a free version"
     },
     {
       "title": "Subscription",
-      "description": "Cheapest monthly payment"
+      "notes": "Lowest recurring payment"
     },
     {
       "title": "Purchase",
-      "description": "One time cost"
+      "notes": "One time cost"
     },
     {
       "title": "Playback",
-      "description": "Records user's  actions"
+      "notes": "Records user's  actions"
     },
     {
       "title": "Skip",
-      "description": "Can skip inactivity  during playback"
+      "notes": "Can skip inactivity  during playback"
     },
     {
       "title": "Speed",
-      "description": "Fast-forward  & half-speed"
+      "notes": "Fast-forward  & half-speed"
     },
     {
       "title": "Jump Back",
-      "description": "Go back a few seconds  in playback (so useful)"
+      "notes": "Go back a few seconds  in playback (so useful)"
     },
     {
       "title": "Console",
-      "description": "Records JS console  during playback"
+      "notes": "Records JS console  during playback"
     },
     {
       "title": "Heatmaps",
-      "description": "Generates heatmap  of actions"
+      "notes": "Generates heatmap  of actions"
     },
     {
       "title": "Location",
-      "description": "Shows visitor's  location"
+      "notes": "Shows visitor's  location"
     },
     {
       "title": "Form Stats",
-      "description": "Analyzes form  drop off & stats"
+      "notes": "Analyzes form  drop off & stats"
     },
     {
       "title": "Polls",
-      "description": "Can create  user surveys"
+      "notes": "Can create  user surveys"
     },
     {
       "title": "Live",
-      "description": "Can watch users  in real-time"
+      "notes": "Can watch users  in real-time"
     },
     {
       "title": "Control",
-      "description": "Can remotely control  user's browser"
+      "notes": "Can remotely control  user's browser"
     },
     {
       "title": "Export",
-      "description": "Format for  downloaded"
+      "notes": "Format for  downloaded"
     },
     {
       "title": "Last Updated",
-      "description": "The last time I checked on this app"
+      "notes": "The last time I checked on this app"
     }
   ],
   "versioning": [
     {
       "title": "",
-      "description": ""
+      "notes": ""
     },
     {
       "title": "Name",
-      "description": "Name of app",
+      "notes": "Name of app",
       "sortable": true,
       "sortPath": "name",
       "sortDir": "asc"
     },
     {
       "title": "Usage",
-      "description": "Based on the 2018 Design Tools Survey",
+      "notes": "Based on the 2018 Design Tools Survey",
       "sortable": true,
       "sortPath": "versioning.surveyRaw2018",
       "sortDir": "desc"
     },
     {
       "title": "Platform",
-      "description": "Platform for uploading designs"
+      "notes": "Platform for uploading designs"
     },
     {
       "title": "Free",
-      "description": "Has a free version"
+      "notes": "Has a free version"
     },
     {
       "title": "Subscription",
-      "description": "Cheapest monthly cost"
+      "notes": "Cheapest monthly cost"
     },
     {
       "title": "Purchase",
-      "description": "One time cost"
+      "notes": "One time cost"
     },
     {
       "title": "Team",
-      "description": "Cheapest monthly cost for teams"
+      "notes": "Cheapest monthly cost for teams"
     },
     {
       "title": "Import",
-      "description": "Supported file types"
+      "notes": "Supported file types"
     },
     {
       "title": "Symbols",
-      "description": "Works with symbols"
+      "notes": "Works with symbols"
     },
     {
       "title": "Documents",
-      "description": "Works with documents"
+      "notes": "Works with documents"
     },
     {
       "title": "Branching",
-      "description": "Can create branches"
+      "notes": "Can create branches"
     },
     {
       "title": "Preview",
-      "description": "Shows preview of designs"
+      "notes": "Shows preview of designs"
     },
     {
       "title": "Compare",
-      "description": "Shows versions side by side"
+      "notes": "Shows versions side by side"
     },
     {
       "title": "Comments",
-      "description": "Users can comment on designs"
+      "notes": "Users can comment on designs"
     },
     {
       "title": "Sharing",
-      "description": "How others can view designs"
+      "notes": "How others can view designs"
     },
     {
       "title": "Integrations",
-      "description": "Other external apps"
+      "notes": "Other external apps"
     }
   ]
 }
