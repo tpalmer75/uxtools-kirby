@@ -103,13 +103,13 @@ const toolsHeaders = {
       "notes": "Free to use without trial"
     },
     {
-      "title": "Subscription",
-      "notes": "Lowest recurring payment"
+      "title": "Cost",
+      "notes": "Estimated cost per year"
     },
-    {
-      "title": "Purchase",
-      "notes": "One-time cost"
-    },
+    // {
+    //   "title": "Purchase",
+    //   "notes": "One-time cost"
+    // },
     {
       "title": "Offline",
       "notes": "Can open and edit files offline"
@@ -181,17 +181,13 @@ const toolsHeaders = {
       "notes": "Has a free version"
     },
     {
-      "title": "Subscription",
-      "show": true,
-      "canChange": true,
-      "notes": "Lowest recurring payment"
+      "title": "Cost",
+      "notes": "Estimated cost per year"
     },
-    {
-      "title": "Purchase",
-      "show": true,
-      "canChange": true,
-      "notes": "One time cost"
-    },
+    // {
+    //   "title": "Purchase",
+    //   "notes": "One-time cost"
+    // },
     {
       "title": "Design",
       "show": true,
@@ -317,17 +313,13 @@ const toolsHeaders = {
       "notes": "Has a free version"
     },
     {
-      "title": "Subscription",
-      "show": true,
-      "canChange": true,
-      "notes": "Lowest recurring payment"
+      "title": "Cost",
+      "notes": "Estimated cost per year"
     },
-    {
-      "title": "Purchase",
-      "show": true,
-      "canChange": true,
-      "notes": "One time cost"
-    },
+    // {
+    //   "title": "Purchase",
+    //   "notes": "One-time cost"
+    // },
     {
       "title": "Programs",
       "show": true,
@@ -431,13 +423,13 @@ const toolsHeaders = {
       "notes": "Has a free version"
     },
     {
-      "title": "Subscription",
-      "notes": "Lowest recurring payment"
+      "title": "Cost",
+      "notes": "Estimated cost per year"
     },
-    {
-      "title": "Purchase",
-      "notes": "One time cost"
-    },
+    // {
+    //   "title": "Purchase",
+    //   "notes": "One-time cost"
+    // },
     {
       "title": "Playback",
       "notes": "Records user's  actions"
@@ -515,13 +507,13 @@ const toolsHeaders = {
       "notes": "Platform for uploading designs"
     },
     {
-      "title": "Free",
-      "notes": "Has a free version"
+      "title": "Cost",
+      "notes": "Estimated cost per year"
     },
-    {
-      "title": "Subscription",
-      "notes": "Cheapest monthly cost"
-    },
+    // {
+    //   "title": "Purchase",
+    //   "notes": "One-time cost"
+    // },
     {
       "title": "Purchase",
       "notes": "One time cost"

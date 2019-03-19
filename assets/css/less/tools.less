@@ -82,6 +82,12 @@ table {
 	td {
 		padding: 8px;
 		vertical-align: middle;
+		vertical-align: top;
+		span {
+			display: inline-block;
+			height: 24px;
+			padding-top: 4px;
+		}
 		&.fixed-col {
 			min-width: 0;
 			width: 50px;
@@ -95,8 +101,6 @@ table {
 			left: 0;
 			z-index: 2;
 			transition: box-shadow .2s;
-			display: flex;
-			align-items: center;
 			img {
 				width: 36px;
 				margin: 8px;
@@ -106,6 +110,7 @@ table {
 		}
 		&.name-col {
 			padding-left: 55px;
+			padding-top: 12px;
 		}
 	}
 	th {

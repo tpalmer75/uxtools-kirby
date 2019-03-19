@@ -15,7 +15,7 @@
       <tbody>
         <tr v-for="app in sortedTools">
           <td class="fixed-col"><a v-bind:href="app.url" v-bind:title="app.url" target="_blank"><img v-tooltip.right-middle="app.name" v-bind:alt="app.name + 'Logo'" src="<?php echo kirby()->urls()->assets() . '/images/blank.png' ?>" v-bind:style="app.image"/></a></td>
-          <td class="name-col"><a v-bind:href="app.url" v-bind:title="app.url" target="_blank">{{ app.name }}</a></td>
+          <td class="name-col"><a v-bind:href="app.url" v-bind:title="app.url" target="_blank"><span>{{ app.name }}</span></a></td>
           <td v-tooltip.bottom-center="app.design.surveyRaw2018 + ' votes in 2018<br>Design Tools Survey'">
             <a href="/survey-2018" style="display: block;">
               <div 
@@ -58,8 +58,10 @@
             <div v-if="!app['pricing']['free']" v-tooltip.bottom-center="'Free'"><svg class="no" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="24" height="24" viewBox="0 0 24 24"><path d="M12,2C17.53,2 22,6.47 22,12C22,17.53 17.53,22 12,22C6.47,22 2,17.53 2,12C2,6.47 6.47,2 12,2M15.59,7L12,10.59L8.41,7L7,8.41L10.59,12L7,15.59L8.41,17L12,13.41L15.59,17L17,15.59L13.41,12L17,8.41L15.59,7Z" /></svg>
             </div>
           </td>
-          <td><span v-tooltip.bottom-center="'Subscription'">{{app.pricing.subscription}}</span></td>
-          <td><span v-tooltip.bottom-center="'Purchase'">{{app.pricing.purchase}}</span></td>
+          <td>
+            <span>{{app.pricing.cost}}</span>
+            <p class="notes">{{app.pricing.notes}}</p>
+          </td>
           <td>
             <div v-html="getCheckIcon(app.design.offline.capable)">
             </div>

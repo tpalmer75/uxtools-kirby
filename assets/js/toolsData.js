@@ -4,8 +4,10 @@ const toolsData = [
     "pricing": {
       "free": true,
       "subscription": "$9+",
+      "cost": "$108+",
       "purchase": "",
-      "team": "$21+"
+      "team": "$21+",
+      "notes": ""
     },
     "url": "https://www.goabstract.com?utm_source=uxtools.co&utm_medium=website&utm_campaign=UX%20Tools",
     "image": {
@@ -44,7 +46,9 @@ const toolsData = [
     "pricing": {
       "free": true,
       "subscription": "$2+",
-      "purchase": ""
+      "purchase": "",
+      "cost": "$24+",
+      "notes": ""
     },
     "url": "https://www.google.com/drive/",
     "image": {
@@ -77,7 +81,9 @@ const toolsData = [
     "pricing": {
       "free": true,
       "subscription": "$10+",
-      "purchase": ""
+      "purchase": "",
+      "cost": "$120+",
+      "notes": ""
     },
     "url": "https://www.dropbox.com/",
     "image": {
@@ -111,7 +117,9 @@ const toolsData = [
     "pricing": {
       "free": true,
       "subscription": "$7+",
-      "purchase": ""
+      "purchase": "",
+      "cost": "$84+",
+      "notes": ""
     },
     "url": "https://www.github.com/",
     "image": {
@@ -144,7 +152,9 @@ const toolsData = [
     "pricing": {
       "free": true,
       "subscription": "$2+",
-      "purchase": ""
+      "purchase": "",
+      "cost": "$24+",
+      "notes": ""
     },
     "url": "https://bitbucket.org/",
     "image": {
@@ -176,7 +186,9 @@ const toolsData = [
     "name": "Adobe Illustrator",
     "pricing": {
       "free": false,
-      "subscription": "$20"
+      "subscription": "$20",
+      "cost": "$240+",
+      "notes": ""
     },
     "url": "http://www.adobe.com/products/illustrator.html",
     "image": {
@@ -258,7 +270,9 @@ const toolsData = [
     "name": "Adobe Photoshop",
     "pricing": {
       "free": false,
-      "subscription": "$20"
+      "subscription": "$20",
+      "cost": "$240+",
+      "notes": ""
     },
     "url": "http://www.adobe.com/products/photoshop.html",
     "image": {
@@ -337,7 +351,9 @@ const toolsData = [
     "name": "Adobe XD",
     "pricing": {
       "subscription": "$10",
-      "free": true
+      "free": true,
+      "cost": "$120+",
+      "notes": ""
     },
     "url": "http://www.adobe.com/products/experience-design.html",
     "image": {
@@ -537,7 +553,9 @@ const toolsData = [
     "name": "Affinity Designer",
     "pricing": {
       "free": false,
-      "purchase": "$40"
+      "purchase": "$40",
+      "cost": "$40",
+      "notes": "One-time purchase"
     },
     "url": "https://affinity.serif.com/en-us/",
     "image": {
@@ -619,7 +637,9 @@ const toolsData = [
     "name": "Antetype",
     "pricing": {
       "free": false,
-      "purchase": "$189"
+      "purchase": "$189",
+      "cost": "$189",
+      "notes": "One-time purchase"
     },
     "url": "http://antetype.com/",
     "image": {
@@ -686,7 +706,9 @@ const toolsData = [
     "pricing": {
       "free": false,
       "subscription": "",
-      "purchase": "$29"
+      "purchase": "$29",
+      "cost": "$29",
+      "notes": "One-time purchase"
     },
     "url": "http://www.appcooker.com/",
     "image": {
@@ -772,7 +794,9 @@ const toolsData = [
     "pricing": {
       "free": false,
       "subscription": "$7+",
-      "purchase": ""
+      "purchase": "",
+      "cost": "$84+",
+      "notes": ""
     },
     "url": "https://avocode.com/",
     "image": {
@@ -825,7 +849,9 @@ const toolsData = [
     "pricing": {
       "free": false,
       "subscription": "$29",
-      "purchase": "$495"
+      "purchase": "$495",
+      "cost": "$348+",
+      "notes": ""
     },
     "url": "http://www.axure.com/",
     "image": {
@@ -973,7 +999,9 @@ const toolsData = [
     "pricing": {
       "free": false,
       "subscription": "$12+",
-      "purchase": "$89"
+      "purchase": "$89",
+      "cost": "$144+",
+      "notes": ""
     },
     "url": "https://balsamiq.com/",
     "image": {
@@ -1055,7 +1083,8 @@ const toolsData = [
     "pricing": {
       "free": false,
       "individual": "—",
-      "team": "$19–$99"
+      "team": "$19–$99",
+      "notes": ""
     },
     "url": "https://brand.ai/",
     "image": {
@@ -1088,124 +1117,13 @@ const toolsData = [
     }
   },
   {
-    "name": "CanvasFlip",
-    "pricing": {
-      "free": true,
-      "subscription": "$19+",
-      "purchase": ""
-    },
-    "url": "http://canvasflip.com/",
-    "image": {
-      "background-position": "-500 -200"
-    },
-    "prototyping": {
-      "surveyPercent2017": 1,
-      "surveyRaw2017": 1,
-      "surveyRaw2018": 1,
-      "surveyPercent2018": 1,
-      "platforms": {
-        "web": true
-      },
-      "import": {
-        "sketch": true,
-        "balsamiq": true,
-        "dropbox": true,
-        "camera": true
-      },
-      "sharing": {
-        "iOS": true,
-        "android": true,
-        "web": true
-      },
-      "design": {
-        "capable": "no",
-        "notes": "Can only prototype with existing screens"
-      },
-      "micro": {
-        "capable": "no",
-        "notes": "No micro-interactions"
-      },
-      "navigation": {
-        "capable": "yes",
-        "notes": ""
-      },
-      "transition": {
-        "capable": "yes",
-        "notes": "Can animate between screens"
-      },
-      "data": {
-        "capable": "no",
-        "notes": "Only static text supported"
-      },
-      "code": {
-        "capable": "no",
-        "notes": ""
-      },
-      "sensors": {
-        "capable": "no",
-        "notes": ""
-      },
-      "voice": {
-        "capable": "no",
-        "notes": ""
-      },
-      "inputs": {
-        "capable": "no",
-        "notes": ""
-      },
-      "variables": {
-        "capable": "no",
-        "notes": "Variables not supported"
-      },
-      "tasks": {
-        "capable": "no",
-        "notes": ""
-      },
-      "analytics": {
-        "capable": "yes",
-        "notes": ""
-      },
-      "heatmaps": {
-        "capable": "no",
-        "notes": ""
-      },
-      "handoff": {
-        "capable": "yes",
-        "notes": ""
-      }
-    },
-    "handoff": {
-      "surveyRaw2017": 2,
-      "surveyPercent2017": 1,
-      "surveyPercent2018": 0,
-      "surveyRaw2018": 0,
-      "platforms": {
-        "mac": true
-      },
-      "programs": {
-        "sketch": true
-      },
-      "specs": true,
-      "automatic": true,
-      "assets": true,
-      "measure": true,
-      "variables": true,
-      "guides": true,
-      "layers": true,
-      "comments": true,
-      "revisions": true,
-      "sharing": {
-        "web": true
-      },
-      "integrations": {}
-    }
-  },
-  {
     "name": "Craft",
     "pricing": {
       "free": false,
-      "subscription": "",
-      "purchase": ""
+      "subscription": "1",
+      "purchase": "",
+      "cost": "$12+",
+      "notes": ""
     },
     "url": "https://www.invisionapp.com/craft",
     "image": {
@@ -1309,7 +1227,8 @@ const toolsData = [
     "pricing": {
       "free": true,
       "subscription": "",
-      "purchase": ""
+      "purchase": "",
+      "notes": ""
     },
     "url": "http://nfnlabs.in/demonstrate/",
     "image": {
@@ -1393,7 +1312,9 @@ const toolsData = [
     "pricing": {
       "free": true,
       "subscription": "$12+",
-      "purchase": ""
+      "purchase": "",
+      "cost": "$144+",
+      "notes": ""
     },
     "url": "https://www.figma.com",
     "image": {
@@ -1622,7 +1543,9 @@ const toolsData = [
     "pricing": {
       "free": false,
       "subscription": "",
-      "purchase": "$99"
+      "purchase": "$99",
+      "cost": "$99",
+      "notes": "One-time purchase"
     },
     "url": "https://www.flinto.com/mac",
     "image": {
@@ -1707,7 +1630,9 @@ const toolsData = [
     "pricing": {
       "free": false,
       "subscription": "$20+",
-      "purchase": ""
+      "purchase": "",
+      "cost": "$240+",
+      "notes": ""
     },
     "url": "https://www.flinto.com/lite",
     "image": {
@@ -1792,7 +1717,9 @@ const toolsData = [
       "free": false,
       "purchase": "$49",
       "subscription": "",
-      "team": ""
+      "team": "",
+      "cost": "$49",
+      "notes": "One-time purchase"
     },
     "url": "http://folioformac.com/?utm_source=uxtools.co&utm_medium=website&utm_campaign=UX%20Tools",
     "image": {
@@ -1833,7 +1760,8 @@ const toolsData = [
     "pricing": {
       "free": false,
       "subscription": "",
-      "purchase": ""
+      "purchase": "",
+      "notes": "No longer being sold"
     },
     "url": "https://classic.framer.com/",
     "image": {
@@ -1974,7 +1902,9 @@ const toolsData = [
     "pricing": {
       "free": false,
       "subscription": "$12",
-      "purchase": ""
+      "purchase": "",
+      "cost": "$144+",
+      "notes": ""
     },
     "url": "http://framer.com/",
     "image": {
@@ -2113,7 +2043,9 @@ const toolsData = [
     "pricing": {
       "free": false,
       "subscription": "$29+",
-      "purchase": ""
+      "purchase": "",
+      "cost": "$348+",
+      "notes": ""
     },
     "url": "https://frontify.com/workspace",
     "image": {
@@ -2216,7 +2148,9 @@ const toolsData = [
     "name": "Fullstory",
     "pricing": {
       "free": true,
-      "subscription": "$199+"
+      "subscription": "$199+",
+      "cost": "$2388+",
+      "notes": ""
     },
     "url": "http://www.fullstory.com/",
     "image": {
@@ -2247,7 +2181,8 @@ const toolsData = [
     "pricing": {
       "free": true,
       "subscription": "",
-      "purchase": ""
+      "purchase": "",
+      "notes": ""
     },
     "url": "https://www.fusetools.com/",
     "image": {
@@ -2333,7 +2268,8 @@ const toolsData = [
       "free": true,
       "purchase": "",
       "subscription": "",
-      "team": ""
+      "team": "",
+      "notes": ""
     },
     "url": "http://mathieudutour.github.io/git-sketch-plugin/?utm_source=uxtools.co&utm_medium=website&utm_campaign=UX%20Tools",
     "image": {
@@ -2369,7 +2305,9 @@ const toolsData = [
     "name": "Gravit Designer",
     "pricing": {
       "free": false,
-      "subscription": "$99/yr"
+      "subscription": "$99/yr",
+      "cost": "$99",
+      "notes": ""
     },
     "url": "https://gravit.io/",
     "image": {
@@ -2439,7 +2377,9 @@ const toolsData = [
     "pricing": {
       "free": false,
       "subscription": "$15+",
-      "purchase": ""
+      "purchase": "",
+      "cost": "$180+",
+      "notes": ""
     },
     "url": "https://www.hotgloo.com/",
     "image": {
@@ -2521,7 +2461,9 @@ const toolsData = [
     "name": "Hotjar",
     "pricing": {
       "free": true,
-      "subscription": "$29+"
+      "subscription": "$29+",
+      "cost": "$348+",
+      "notes": ""
     },
     "url": "https://www.hotjar.com/",
     "image": {
@@ -2549,7 +2491,9 @@ const toolsData = [
     "name": "InVision",
     "pricing": {
       "free": false,
-      "subscription": "$15+"
+      "subscription": "$15+",
+      "cost": "$180+",
+      "notes": ""
     },
     "url": "https://www.invisionapp.com/",
     "image": {
@@ -2584,7 +2528,9 @@ const toolsData = [
     "pricing": {
       "free": true,
       "subscription": "$15+",
-      "purchase": ""
+      "purchase": "",
+      "cost": "$180+",
+      "notes": ""
     },
     "url": "https://www.invisionapp.com/",
     "image": {
@@ -2671,7 +2617,9 @@ const toolsData = [
     "pricing": {
       "free": true,
       "subscription": "??",
-      "purchase": ""
+      "purchase": "",
+      "cost": "$0",
+      "notes": "Free forever"
     },
     "url": "https://www.invisionapp.com/studio",
     "image": {
@@ -2811,7 +2759,9 @@ const toolsData = [
     "name": "Inspectlet",
     "pricing": {
       "free": true,
-      "subscription": "$39+"
+      "subscription": "$39+",
+      "cost": "$468+",
+      "notes": ""
     },
     "url": "http://www.inspectlet.com/",
     "image": {
@@ -2840,7 +2790,9 @@ const toolsData = [
     "name": "Jaco",
     "pricing": {
       "free": true,
-      "subscription": "$39+"
+      "subscription": "$39+",
+      "cost": "$468+",
+      "notes": ""
     },
     "url": "http://www.getjaco.com/",
     "image": {
@@ -2868,7 +2820,9 @@ const toolsData = [
     "pricing": {
       "free": true,
       "subscription": "$19",
-      "purchase": "$495"
+      "purchase": "$495",
+      "cost": "$228+",
+      "notes": ""
     },
     "url": "http://www.justinmind.com/",
     "image": {
@@ -3044,7 +2998,9 @@ const toolsData = [
       "free": true,
       "purchase": "",
       "subscription": "$5+",
-      "team": "$5+"
+      "team": "$5+",
+      "cost": "$60+",
+      "notes": ""
     },
     "url": "http://kactus.io/?utm_source=uxtools.co&utm_medium=website&utm_campaign=UX%20Tools",
     "image": {
@@ -3081,7 +3037,9 @@ const toolsData = [
     "pricing": {
       "free": false,
       "subscription": "",
-      "purchase": "$99"
+      "purchase": "$99",
+      "cost": "$99",
+      "notes": "One-time purchase"
     },
     "url": "https://kiteapp.co",
     "image": {
@@ -3164,7 +3122,9 @@ const toolsData = [
     "pricing": {
       "free": false,
       "subscription": "$15+",
-      "purchase": ""
+      "purchase": "",
+      "cost": "$180+",
+      "notes": ""
     },
     "url": "https://konceptapp.com/",
     "image": {
@@ -3245,7 +3205,9 @@ const toolsData = [
     "pricing": {
       "free": false,
       "subscription": "",
-      "purchase": "$99"
+      "purchase": "$99",
+      "cost": "$99",
+      "notes": "One-time purchase"
     },
     "url": "https://www.animaapp.com/u/yHhxqGR",
     "image": {
@@ -3328,7 +3290,8 @@ const toolsData = [
     "pricing": {
       "free": true,
       "individual": "$0+",
-      "team": "$29–$149"
+      "team": "$29–$149",
+      "notes": ""
     },
     "url": "https://www.lingoapp.com/",
     "image": {
@@ -3361,7 +3324,9 @@ const toolsData = [
     "pricing": {
       "free": true,
       "subscription": "$5+",
-      "purchase": ""
+      "purchase": "",
+      "cost": "$60+",
+      "notes": ""
     },
     "url": "https://lucidchart.com/",
     "image": {
@@ -3441,7 +3406,9 @@ const toolsData = [
     "name": "Lucky Orange",
     "pricing": {
       "free": false,
-      "subscription": "$10+"
+      "subscription": "$10+",
+      "cost": "$120+",
+      "notes": ""
     },
     "url": "http://www.luckyorange.com/",
     "image": {
@@ -3473,7 +3440,8 @@ const toolsData = [
     "pricing": {
       "free": true,
       "subscription": "",
-      "purchase": ""
+      "purchase": "",
+      "notes": ""
     },
     "url": "https://github.com/tudou527/marketch",
     "image": {
@@ -3503,7 +3471,9 @@ const toolsData = [
     "pricing": {
       "free": true,
       "subscription": "",
-      "purchase": "?"
+      "purchase": "?",
+      "cost": "?",
+      "notes": "One-time purchase"
     },
     "url": "http://marklyapp.com/",
     "image": {
@@ -3535,7 +3505,9 @@ const toolsData = [
     "pricing": {
       "free": true,
       "subscription": "$12+",
-      "purchase": ""
+      "purchase": "",
+      "cost": "$144+",
+      "notes": ""
     },
     "url": "https://marvelapp.com/",
     "image": {
@@ -3654,7 +3626,9 @@ const toolsData = [
     "name": "MockFlow",
     "pricing": {
       "free": false,
-      "subscription": "$19"
+      "subscription": "$19",
+      "cost": "$228+",
+      "notes": ""
     },
     "url": "https://www.mockflow.com/",
     "image": {
@@ -3723,7 +3697,9 @@ const toolsData = [
     "pricing": {
       "free": true,
       "subscription": "$29+",
-      "purchase": ""
+      "purchase": "",
+      "cost": "$348+",
+      "notes": ""
     },
     "url": "https://goo.gl/uBdBne",
     "image": {
@@ -3867,7 +3843,9 @@ const toolsData = [
     "pricing": {
       "free": true,
       "subscription": "$19+",
-      "purchase": ""
+      "purchase": "",
+      "cost": "$228+",
+      "notes": ""
     },
     "url": "https://moqups.com/",
     "image": {
@@ -3948,7 +3926,9 @@ const toolsData = [
     "name": "MouseStats",
     "pricing": {
       "free": false,
-      "subscription": "$29+"
+      "subscription": "$29+",
+      "cost": "$348+",
+      "notes": ""
     },
     "url": "https://www.mousestats.com/",
     "image": {
@@ -3975,7 +3955,9 @@ const toolsData = [
     "pricing": {
       "free": false,
       "subscription": "$20+",
-      "purchase": ""
+      "purchase": "",
+      "cost": "$240+",
+      "notes": ""
     },
     "url": "http://notable.zurb.com/",
     "image": {
@@ -4056,7 +4038,8 @@ const toolsData = [
     "pricing": {
       "free": true,
       "subscription": "",
-      "purchase": ""
+      "purchase": "",
+      "notes": ""
     },
     "url": "https://facebook.github.io/origami/",
     "image": {
@@ -4139,7 +4122,9 @@ const toolsData = [
     "pricing": {
       "free": false,
       "subscription": "$12+",
-      "purchase": ""
+      "purchase": "",
+      "cost": "$144+",
+      "notes": ""
     },
     "url": "https://pidoco.com/",
     "image": {
@@ -4225,7 +4210,9 @@ const toolsData = [
       "free": true,
       "purchase": "",
       "subscription": "$12",
-      "team": "$12+"
+      "team": "$12+",
+      "cost": "$144+",
+      "notes": ""
     },
     "url": "https://plantapp.io/?utm_source=uxtools.co&utm_medium=website&utm_campaign=UX%20Tools",
     "image": {
@@ -4263,7 +4250,8 @@ const toolsData = [
     "pricing": {
       "free": true,
       "subscription": "",
-      "purchase": ""
+      "purchase": "",
+      "notes": ""
     },
     "url": "https://preely.com/",
     "image": {
@@ -4348,7 +4336,9 @@ const toolsData = [
     "pricing": {
       "free": false,
       "subscription": "",
-      "purchase": "$129"
+      "purchase": "$129",
+      "cost": "$129",
+      "notes": "One-time purchase"
     },
     "url": "http://principleformac.com/",
     "image": {
@@ -4432,7 +4422,9 @@ const toolsData = [
     "name": "Proto.io",
     "pricing": {
       "free": true,
-      "subscription": "$24+"
+      "subscription": "$24+",
+      "cost": "$288+",
+      "notes": ""
     },
     "url": "https://proto.io/",
     "image": {
@@ -4575,7 +4567,9 @@ const toolsData = [
     "pricing": {
       "free": true,
       "subscription": "",
-      "purchase": "$99"
+      "purchase": "$99",
+      "cost": "$99",
+      "notes": "One-time purchase"
     },
     "url": "https://www.protopie.io",
     "image": {
@@ -4661,7 +4655,9 @@ const toolsData = [
     "pricing": {
       "free": true,
       "subscription": "$19+",
-      "purchase": null
+      "purchase": null,
+      "cost": "$228+",
+      "notes": ""
     },
     "url": "https://prottapp.com/",
     "image": {
@@ -4752,7 +4748,9 @@ const toolsData = [
     "pricing": {
       "free": false,
       "subscription": "$20+",
-      "purchase": ""
+      "purchase": "",
+      "cost": "$240+",
+      "notes": ""
     },
     "url": "https://redpen.io/",
     "image": {
@@ -4779,7 +4777,9 @@ const toolsData = [
     "name": "Sketch",
     "pricing": {
       "purchase": "",
-      "subscription": "$99/yr"
+      "subscription": "$99/yr",
+      "cost": "$1188+",
+      "notes": ""
     },
     "url": "https://www.sketchapp.com/",
     "image": {
@@ -4952,7 +4952,8 @@ const toolsData = [
     "pricing": {
       "free": true,
       "subscription": "",
-      "purchase": ""
+      "purchase": "",
+      "notes": ""
     },
     "url": "https://github.com/utom/sketch-measure",
     "image": {
@@ -4984,7 +4985,9 @@ const toolsData = [
     "name": "Smartlook",
     "pricing": {
       "free": true,
-      "subscription": "$16+"
+      "subscription": "$16+",
+      "cost": "$192+",
+      "notes": ""
     },
     "url": "https://www.smartlook.com/",
     "image": {
@@ -5014,7 +5017,9 @@ const toolsData = [
     "pricing": {
       "free": true,
       "subscription": "$9+",
-      "purchase": ""
+      "purchase": "",
+      "cost": "$108+",
+      "notes": ""
     },
     "url": "https://specctr.com/cloud/home",
     "image": {
@@ -5049,7 +5054,8 @@ const toolsData = [
     "pricing": {
       "free": true,
       "subscription": "",
-      "purchase": ""
+      "purchase": "",
+      "notes": ""
     },
     "url": "https://studio.design",
     "image": {
@@ -5185,7 +5191,9 @@ const toolsData = [
     "pricing": {
       "free": true,
       "subscription": "$15+",
-      "purchase": ""
+      "purchase": "",
+      "cost": "$180+",
+      "notes": ""
     },
     "url": "https://sympli.io/",
     "image": {
@@ -5232,7 +5240,8 @@ const toolsData = [
     "pricing": {
       "free": true,
       "individual": "—",
-      "team": "—"
+      "team": "—",
+      "notes": ""
     },
     "url": "https://terasi.app/",
     "image": {
@@ -5264,7 +5273,9 @@ const toolsData = [
     "name": "UXPin",
     "pricing": {
       "free": true,
-      "subscription": "$20"
+      "subscription": "$20",
+      "cost": "$240+",
+      "notes": ""
     },
     "url": "https://www.uxpin.com/",
     "image": {
@@ -5471,7 +5482,9 @@ const toolsData = [
     "name": "UserTrack",
     "pricing": {
       "free": false,
-      "purchase": "$49"
+      "purchase": "$49",
+      "cost": "$49",
+      "notes": "One-time purchase"
     },
     "url": "https://www.usertrack.net/",
     "image": {
@@ -5498,7 +5511,9 @@ const toolsData = [
     "pricing": {
       "free": true,
       "subscription": "$16+",
-      "purchase": null
+      "purchase": null,
+      "cost": "$192+",
+      "notes": ""
     },
     "url": "https://webflow.com/",
     "image": {
@@ -5579,7 +5594,9 @@ const toolsData = [
     "name": "Wisdom",
     "pricing": {
       "free": true,
-      "subscription": "$89+"
+      "subscription": "$89+",
+      "cost": "$1068+",
+      "notes": ""
     },
     "url": "https://getwisdom.io/",
     "image": {
@@ -5612,7 +5629,9 @@ const toolsData = [
     "name": "Freshmarketer",
     "pricing": {
       "free": false,
-      "subscription": "$44+"
+      "subscription": "$44+",
+      "cost": "$528+",
+      "notes": ""
     },
     "url": "https://www.freshworks.com/marketing-automation/conversion-rate-optimization/",
     "image": {
@@ -5643,7 +5662,9 @@ const toolsData = [
     "name": "Zeerat",
     "pricing": {
       "free": false,
-      "subscription": "$40+"
+      "subscription": "$40+",
+      "cost": "$480+",
+      "notes": ""
     },
     "url": "https://zeerat.com",
     "image": {
@@ -5669,7 +5690,9 @@ const toolsData = [
     "pricing": {
       "free": true,
       "subscription": "$15+",
-      "purchase": ""
+      "purchase": "",
+      "cost": "$180+",
+      "notes": ""
     },
     "url": "https://zeplin.io/",
     "image": {
@@ -5717,7 +5740,9 @@ const toolsData = [
     "pricing": {
       "free": false,
       "subscription": "$29+",
-      "purchase": ""
+      "purchase": "",
+      "cost": "$348+",
+      "notes": ""
     },
     "url": "https://www.irise.com/",
     "image": {
@@ -5803,7 +5828,8 @@ const toolsData = [
     "pricing": {
       "free": false,
       "individual": "—",
-      "team": "$19–$99"
+      "team": "$19–$99",
+      "notes": ""
     },
     "url": "https://www.zeroheight.com/",
     "image": {

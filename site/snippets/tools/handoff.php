@@ -55,8 +55,6 @@
             <div v-if="app.pricing.free"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="24" height="24" viewBox="0 0 24 24"><path d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z" /></svg>
             </div>
           </td>
-          <td style="min-width: 100px"><span v-tooltip.bottom-center="'Subscription'">{{app.pricing.subscription}}</span></td>
-          <td><span v-tooltip.bottom-center="'Price'">{{app.pricing.purchase}}</span></td>
           <td class="colspan-2">
             <div class="flex-col">
               <div v-tooltip.bottom-center="'Sketch'"><img src="<?php echo kirby()->urls()->assets() . '/images/icons/sketch.png' ?>" v-if="app.handoff.programs.sketch" title="Sketch"/></div>

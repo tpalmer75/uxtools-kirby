@@ -764,6 +764,12 @@ table th div {
 table td {
   padding: 8px;
   vertical-align: middle;
+  vertical-align: top;
+}
+table td span {
+  display: inline-block;
+  height: 24px;
+  padding-top: 4px;
 }
 table td.fixed-col {
   min-width: 0;
@@ -778,8 +784,6 @@ table td.fixed-col {
   left: 0;
   z-index: 2;
   transition: box-shadow 0.2s;
-  display: flex;
-  align-items: center;
 }
 table td.fixed-col img {
   width: 36px;
@@ -789,6 +793,7 @@ table td.fixed-col img {
 }
 table td.name-col {
   padding-left: 55px;
+  padding-top: 12px;
 }
 table th {
   position: relative;

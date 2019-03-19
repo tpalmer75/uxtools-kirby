@@ -28,9 +28,6 @@
               <?= (new Asset("assets/images/icons/check.svg"))->content() ?>
             </div>
           </td>
-          <td style="min-width: 100px"><span v-tooltip.bottom-center="'Subscription'">{{app.pricing.subscription}}</span></td>
-          <td><span v-tooltip.bottom-center="'Price'">{{app.pricing.purchase}}</span></td>
-          <td>
             <div v-if="app.monitoring.playback" v-tooltip.bottom-center="'Playback'">
               <?= (new Asset("assets/images/icons/check.svg"))->content() ?>
             </div>
