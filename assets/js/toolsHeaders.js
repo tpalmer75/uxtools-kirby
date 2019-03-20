@@ -99,12 +99,12 @@ const toolsHeaders = {
       "notes": "Platforms used for creating designs"
     },
     {
-      "title": "Free",
-      "notes": "Free to use without trial"
-    },
-    {
       "title": "Cost",
       "notes": "Estimated cost per year"
+    },
+    {
+      "title": "Free",
+      "notes": "Free to use without trial"
     },
     // {
     //   "title": "Purchase",
@@ -175,14 +175,14 @@ const toolsHeaders = {
       "notes": "Platforms used for  building prototypes"
     },
     {
+      "title": "Cost",
+      "notes": "Estimated cost per year"
+    },
+    {
       "title": "Free",
       "show": true,
       "canChange": true,
       "notes": "Has a free version"
-    },
-    {
-      "title": "Cost",
-      "notes": "Estimated cost per year"
     },
     // {
     //   "title": "Purchase",
@@ -264,7 +264,7 @@ const toolsHeaders = {
       "title": "Tasks",
       "show": true,
       "canChange": true,
-      "notes": ""
+      "notes": "Guided usability testing prompts"
     },
     {
       "title": "Analytics",

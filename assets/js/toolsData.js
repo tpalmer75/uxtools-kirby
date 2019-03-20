@@ -465,19 +465,20 @@ const toolsData = [
       },
       "code": {
         "capable": "no",
-        "notes": ""
+        "notes": "No coding functionality"
       },
       "sensors": {
         "capable": "no",
-        "notes": ""
+        "notes": "No device sensors"
       },
       "voice": {
         "capable": "yes",
-        "notes": ""
+        "notes": "Voice command triggers and playback",
+        "url": "https://theblog.adobe.com/introducing-voice-prototyping-in-adobe-xd/"
       },
       "inputs": {
         "capable": "no",
-        "notes": ""
+        "notes": "No dynamic inputs"
       },
       "variables": {
         "capable": "no",
@@ -485,19 +486,19 @@ const toolsData = [
       },
       "tasks": {
         "capable": "no",
-        "notes": ""
+        "notes": "No guided tasks"
       },
       "analytics": {
         "capable": "no",
-        "notes": ""
+        "notes": "No supported analytics"
       },
       "heatmaps": {
         "capable": "no",
-        "notes": ""
+        "notes": "No heatmap support"
       },
       "handoff": {
         "capable": "yes",
-        "notes": ""
+        "notes": "Automatic specs for developers"
       }
     },
     "handoff": {
@@ -753,19 +754,19 @@ const toolsData = [
       },
       "code": {
         "capable": "no",
-        "notes": ""
+        "notes": "No coding functionality"
       },
       "sensors": {
         "capable": "no",
-        "notes": ""
+        "notes": "No device sensors"
       },
       "voice": {
         "capable": "no",
-        "notes": ""
+        "notes": "No voice support"
       },
       "inputs": {
         "capable": "no",
-        "notes": ""
+        "notes": "No dynamic inputs"
       },
       "variables": {
         "capable": "no",
@@ -773,19 +774,19 @@ const toolsData = [
       },
       "tasks": {
         "capable": "no",
-        "notes": ""
+        "notes": "No guided tasks"
       },
       "analytics": {
         "capable": "no",
-        "notes": ""
+        "notes": "No supported analytics"
       },
       "heatmaps": {
         "capable": "no",
-        "notes": ""
+        "notes": "No heatmap support"
       },
       "handoff": {
         "capable": "no",
-        "notes": ""
+        "notes": "No developer handoff"
       }
     }
   },
@@ -958,19 +959,19 @@ const toolsData = [
       },
       "code": {
         "capable": "no",
-        "notes": ""
+        "notes": "No coding functionality"
       },
       "sensors": {
         "capable": "no",
-        "notes": ""
+        "notes": "No device sensors"
       },
       "voice": {
         "capable": "no",
-        "notes": ""
+        "notes": "No voice support"
       },
       "inputs": {
         "capable": "no",
-        "notes": ""
+        "notes": "No dynamic inputs"
       },
       "variables": {
         "capable": "no",
@@ -978,19 +979,19 @@ const toolsData = [
       },
       "tasks": {
         "capable": "no",
-        "notes": ""
+        "notes": "No guided tasks"
       },
       "analytics": {
         "capable": "no",
-        "notes": ""
+        "notes": "No supported analytics"
       },
       "heatmaps": {
         "capable": "no",
-        "notes": ""
+        "notes": "No heatmap support"
       },
       "handoff": {
         "capable": "no",
-        "notes": ""
+        "notes": "No developer handoff"
       }
     }
   },
@@ -1042,19 +1043,19 @@ const toolsData = [
       },
       "code": {
         "capable": "no",
-        "notes": ""
+        "notes": "No coding functionality"
       },
       "sensors": {
         "capable": "no",
-        "notes": ""
+        "notes": "No device sensors"
       },
       "voice": {
         "capable": "no",
-        "notes": ""
+        "notes": "No voice support"
       },
       "inputs": {
         "capable": "no",
-        "notes": ""
+        "notes": "No dynamic inputs"
       },
       "variables": {
         "capable": "no",
@@ -1062,19 +1063,19 @@ const toolsData = [
       },
       "tasks": {
         "capable": "no",
-        "notes": ""
+        "notes": "No guided tasks"
       },
       "analytics": {
         "capable": "no",
-        "notes": ""
+        "notes": "No supported analytics"
       },
       "heatmaps": {
         "capable": "no",
-        "notes": ""
+        "notes": "No heatmap support"
       },
       "handoff": {
         "capable": "no",
-        "notes": ""
+        "notes": "No developer handoff"
       }
     }
   },
@@ -1165,19 +1166,19 @@ const toolsData = [
       },
       "code": {
         "capable": "no",
-        "notes": ""
+        "notes": "No coding functionality"
       },
       "sensors": {
         "capable": "no",
-        "notes": ""
+        "notes": "No device sensors"
       },
       "voice": {
         "capable": "no",
-        "notes": ""
+        "notes": "No voice support"
       },
       "inputs": {
         "capable": "no",
-        "notes": ""
+        "notes": "No dynamic inputs"
       },
       "variables": {
         "capable": "no",
@@ -1185,19 +1186,19 @@ const toolsData = [
       },
       "tasks": {
         "capable": "no",
-        "notes": ""
+        "notes": "No guided tasks"
       },
       "analytics": {
         "capable": "no",
-        "notes": ""
+        "notes": "No supported analytics"
       },
       "heatmaps": {
         "capable": "no",
-        "notes": ""
+        "notes": "No heatmap support"
       },
       "handoff": {
         "capable": "no",
-        "notes": ""
+        "notes": "No developer handoff"
       }
     },
     "designSystems": {
@@ -1271,19 +1272,19 @@ const toolsData = [
       },
       "code": {
         "capable": "no",
-        "notes": ""
+        "notes": "No coding functionality"
       },
       "sensors": {
         "capable": "no",
-        "notes": ""
+        "notes": "No device sensors"
       },
       "voice": {
         "capable": "no",
-        "notes": ""
+        "notes": "No voice support"
       },
       "inputs": {
         "capable": "no",
-        "notes": ""
+        "notes": "No dynamic inputs"
       },
       "variables": {
         "capable": "no",
@@ -1291,19 +1292,19 @@ const toolsData = [
       },
       "tasks": {
         "capable": "no",
-        "notes": ""
+        "notes": "No guided tasks"
       },
       "analytics": {
         "capable": "no",
-        "notes": ""
+        "notes": "No supported analytics"
       },
       "heatmaps": {
         "capable": "no",
-        "notes": ""
+        "notes": "No heatmap support"
       },
       "handoff": {
         "capable": "no",
-        "notes": ""
+        "notes": "No developer handoff"
       }
     }
   },
@@ -1426,19 +1427,19 @@ const toolsData = [
       },
       "code": {
         "capable": "no",
-        "notes": ""
+        "notes": "No coding functionality"
       },
       "sensors": {
         "capable": "no",
-        "notes": ""
+        "notes": "No device sensors"
       },
       "voice": {
         "capable": "no",
-        "notes": ""
+        "notes": "No voice support"
       },
       "inputs": {
         "capable": "no",
-        "notes": ""
+        "notes": "No dynamic inputs"
       },
       "variables": {
         "capable": "no",
@@ -1446,19 +1447,19 @@ const toolsData = [
       },
       "tasks": {
         "capable": "no",
-        "notes": ""
+        "notes": "No guided tasks"
       },
       "analytics": {
         "capable": "no",
-        "notes": ""
+        "notes": "No supported analytics"
       },
       "heatmaps": {
         "capable": "no",
-        "notes": ""
+        "notes": "No heatmap support"
       },
       "handoff": {
         "capable": "yes",
-        "notes": ""
+        "notes": "Automatic specs for developers"
       }
     },
     "designSystems": {
@@ -1589,19 +1590,19 @@ const toolsData = [
       },
       "code": {
         "capable": "no",
-        "notes": ""
+        "notes": "No coding functionality"
       },
       "sensors": {
         "capable": "no",
-        "notes": ""
+        "notes": "No device sensors"
       },
       "voice": {
         "capable": "no",
-        "notes": ""
+        "notes": "No voice support"
       },
       "inputs": {
         "capable": "no",
-        "notes": ""
+        "notes": "No dynamic inputs"
       },
       "variables": {
         "capable": "no",
@@ -1609,19 +1610,19 @@ const toolsData = [
       },
       "tasks": {
         "capable": "no",
-        "notes": ""
+        "notes": "No guided tasks"
       },
       "analytics": {
         "capable": "no",
-        "notes": ""
+        "notes": "No supported analytics"
       },
       "heatmaps": {
         "capable": "no",
-        "notes": ""
+        "notes": "No heatmap support"
       },
       "handoff": {
         "capable": "no",
-        "notes": ""
+        "notes": "No developer handoff"
       }
     }
   },
@@ -1675,19 +1676,19 @@ const toolsData = [
       },
       "code": {
         "capable": "no",
-        "notes": ""
+        "notes": "No coding functionality"
       },
       "sensors": {
         "capable": "no",
-        "notes": ""
+        "notes": "No device sensors"
       },
       "voice": {
         "capable": "no",
-        "notes": ""
+        "notes": "No voice support"
       },
       "inputs": {
         "capable": "no",
-        "notes": ""
+        "notes": "No dynamic inputs"
       },
       "variables": {
         "capable": "no",
@@ -1695,19 +1696,19 @@ const toolsData = [
       },
       "tasks": {
         "capable": "no",
-        "notes": ""
+        "notes": "No guided tasks"
       },
       "analytics": {
         "capable": "no",
-        "notes": ""
+        "notes": "No supported analytics"
       },
       "heatmaps": {
         "capable": "no",
-        "notes": ""
+        "notes": "No heatmap support"
       },
       "handoff": {
         "capable": "no",
-        "notes": ""
+        "notes": "No developer handoff"
       }
     }
   },
@@ -1861,15 +1862,15 @@ const toolsData = [
       },
       "code": {
         "capable": "yes",
-        "notes": ""
+        "notes": "Runs on Coffeescript"
       },
       "sensors": {
-        "capable": "yes",
-        "notes": ""
+        "capable": "semi",
+        "notes": "Supported through custom code or plugins"
       },
       "voice": {
-        "capable": "no",
-        "notes": ""
+        "capable": "semi",
+        "notes": "Supported through custom code or plugins"
       },
       "inputs": {
         "capable": "semi",
@@ -1881,19 +1882,19 @@ const toolsData = [
       },
       "tasks": {
         "capable": "no",
-        "notes": ""
+        "notes": "No guided tasks"
       },
       "analytics": {
         "capable": "no",
-        "notes": ""
+        "notes": "No supported analytics"
       },
       "heatmaps": {
         "capable": "no",
-        "notes": ""
+        "notes": "No heatmap support"
       },
       "handoff": {
-        "capable": "no",
-        "notes": ""
+        "capable": "semi",
+        "notes": "Supported through custom code or plugins"
       }
     }
   },
@@ -2002,18 +2003,18 @@ const toolsData = [
       },
       "code": {
         "capable": "yes",
-        "notes": ""
+        "notes": "Runs on React"
       },
       "sensors": {
-        "capable": "no",
-        "notes": ""
+        "capable": "semi",
+        "notes": "Supported through custom code or plugins"
       },
       "voice": {
-        "capable": "no",
-        "notes": ""
+        "capable": "semi",
+        "notes": "Supported through custom code or plugins"
       },
       "inputs": {
-        "capable": "no",
+        "capable": "semi",
         "notes": "Can be acheived with custom code/plugins"
       },
       "variables": {
@@ -2022,19 +2023,19 @@ const toolsData = [
       },
       "tasks": {
         "capable": "no",
-        "notes": ""
+        "notes": "No guided tasks"
       },
       "analytics": {
         "capable": "no",
-        "notes": ""
+        "notes": "No supported analytics"
       },
       "heatmaps": {
         "capable": "no",
-        "notes": ""
+        "notes": "No heatmap support"
       },
       "handoff": {
-        "capable": "no",
-        "notes": ""
+        "capable": "semi",
+        "notes": "Handoff integrated with React"
       }
     }
   },
@@ -2085,19 +2086,19 @@ const toolsData = [
       },
       "code": {
         "capable": "no",
-        "notes": ""
+        "notes": "No coding functionality"
       },
       "sensors": {
         "capable": "no",
-        "notes": ""
+        "notes": "No device sensors"
       },
       "voice": {
         "capable": "no",
-        "notes": ""
+        "notes": "No voice support"
       },
       "inputs": {
         "capable": "no",
-        "notes": ""
+        "notes": "No dynamic inputs"
       },
       "variables": {
         "capable": "no",
@@ -2105,19 +2106,19 @@ const toolsData = [
       },
       "tasks": {
         "capable": "yes",
-        "notes": ""
+        "notes": "Guided usability testing prompts"
       },
       "analytics": {
         "capable": "no",
-        "notes": ""
+        "notes": "No supported analytics"
       },
       "heatmaps": {
         "capable": "no",
-        "notes": ""
+        "notes": "No heatmap support"
       },
       "handoff": {
         "capable": "yes",
-        "notes": ""
+        "notes": "Automatic specs for developers"
       }
     },
     "handoff": {
@@ -2177,14 +2178,14 @@ const toolsData = [
     }
   },
   {
-    "name": "Fuse",
+    "name": "Fuse Open",
     "pricing": {
       "free": true,
       "subscription": "",
       "purchase": "",
       "notes": ""
     },
-    "url": "https://www.fusetools.com/",
+    "url": "https://fuseopen.com/",
     "image": {
       "background-position": "-500 -100"
     },
@@ -2226,19 +2227,19 @@ const toolsData = [
       },
       "code": {
         "capable": "yes",
-        "notes": ""
+        "notes": "Runs on UX Markup"
       },
       "sensors": {
         "capable": "no",
-        "notes": ""
+        "notes": "No device sensors"
       },
       "voice": {
         "capable": "no",
-        "notes": ""
+        "notes": "No voice support"
       },
       "inputs": {
         "capable": "no",
-        "notes": ""
+        "notes": "No dynamic inputs"
       },
       "variables": {
         "capable": "no",
@@ -2246,19 +2247,19 @@ const toolsData = [
       },
       "tasks": {
         "capable": "no",
-        "notes": ""
+        "notes": "No guided tasks"
       },
       "analytics": {
         "capable": "no",
-        "notes": ""
+        "notes": "No supported analytics"
       },
       "heatmaps": {
         "capable": "no",
-        "notes": ""
+        "notes": "No heatmap support"
       },
       "handoff": {
         "capable": "no",
-        "notes": ""
+        "notes": "No developer handoff"
       }
     }
   },
@@ -2421,19 +2422,19 @@ const toolsData = [
       },
       "code": {
         "capable": "no",
-        "notes": ""
+        "notes": "No coding functionality"
       },
       "sensors": {
         "capable": "no",
-        "notes": ""
+        "notes": "No device sensors"
       },
       "voice": {
         "capable": "no",
-        "notes": ""
+        "notes": "No voice support"
       },
       "inputs": {
         "capable": "no",
-        "notes": ""
+        "notes": "No dynamic inputs"
       },
       "variables": {
         "capable": "no",
@@ -2441,19 +2442,19 @@ const toolsData = [
       },
       "tasks": {
         "capable": "no",
-        "notes": ""
+        "notes": "No guided tasks"
       },
       "analytics": {
         "capable": "no",
-        "notes": ""
+        "notes": "No supported analytics"
       },
       "heatmaps": {
         "capable": "no",
-        "notes": ""
+        "notes": "No heatmap support"
       },
       "handoff": {
         "capable": "no",
-        "notes": ""
+        "notes": "No developer handoff"
       }
     }
   },
@@ -2576,19 +2577,19 @@ const toolsData = [
       },
       "code": {
         "capable": "no",
-        "notes": ""
+        "notes": "No coding functionality"
       },
       "sensors": {
         "capable": "no",
-        "notes": ""
+        "notes": "No device sensors"
       },
       "voice": {
         "capable": "no",
-        "notes": ""
+        "notes": "No voice support"
       },
       "inputs": {
         "capable": "no",
-        "notes": ""
+        "notes": "No dynamic inputs"
       },
       "variables": {
         "capable": "no",
@@ -2596,19 +2597,19 @@ const toolsData = [
       },
       "tasks": {
         "capable": "no",
-        "notes": ""
+        "notes": "No guided tasks"
       },
       "analytics": {
         "capable": "no",
-        "notes": ""
+        "notes": "No supported analytics"
       },
       "heatmaps": {
         "capable": "no",
-        "notes": ""
+        "notes": "No heatmap support"
       },
       "handoff": {
         "capable": "yes",
-        "notes": ""
+        "notes": "Automatic specs for developers"
       }
     }
   },
@@ -2719,19 +2720,19 @@ const toolsData = [
       },
       "code": {
         "capable": "no",
-        "notes": ""
+        "notes": "No coding functionality"
       },
       "sensors": {
         "capable": "no",
-        "notes": ""
+        "notes": "No device sensors"
       },
       "voice": {
         "capable": "no",
-        "notes": ""
+        "notes": "No voice support"
       },
       "inputs": {
         "capable": "no",
-        "notes": ""
+        "notes": "No dynamic inputs"
       },
       "variables": {
         "capable": "no",
@@ -2739,19 +2740,19 @@ const toolsData = [
       },
       "tasks": {
         "capable": "no",
-        "notes": ""
+        "notes": "No guided tasks"
       },
       "analytics": {
         "capable": "no",
-        "notes": ""
+        "notes": "No supported analytics"
       },
       "heatmaps": {
         "capable": "no",
-        "notes": ""
+        "notes": "No heatmap support"
       },
       "handoff": {
         "capable": "no",
-        "notes": ""
+        "notes": "No developer handoff"
       }
     }
   },
@@ -2924,19 +2925,19 @@ const toolsData = [
       },
       "code": {
         "capable": "no",
-        "notes": ""
+        "notes": "No coding functionality"
       },
       "sensors": {
         "capable": "no",
-        "notes": ""
+        "notes": "No device sensors"
       },
       "voice": {
         "capable": "no",
-        "notes": ""
+        "notes": "No voice support"
       },
       "inputs": {
         "capable": "no",
-        "notes": ""
+        "notes": "No dynamic inputs"
       },
       "variables": {
         "capable": "no",
@@ -2944,19 +2945,19 @@ const toolsData = [
       },
       "tasks": {
         "capable": "no",
-        "notes": ""
+        "notes": "No guided tasks"
       },
       "analytics": {
         "capable": "no",
-        "notes": ""
+        "notes": "No supported analytics"
       },
       "heatmaps": {
         "capable": "no",
-        "notes": ""
+        "notes": "No heatmap support"
       },
       "handoff": {
         "capable": "yes",
-        "notes": ""
+        "notes": "Automatic specs for developers"
       }
     },
     "handoff": {
@@ -3081,19 +3082,19 @@ const toolsData = [
       },
       "code": {
         "capable": "no",
-        "notes": ""
+        "notes": "No coding functionality"
       },
       "sensors": {
         "capable": "no",
-        "notes": ""
+        "notes": "No device sensors"
       },
       "voice": {
         "capable": "no",
-        "notes": ""
+        "notes": "No voice support"
       },
       "inputs": {
         "capable": "no",
-        "notes": ""
+        "notes": "No dynamic inputs"
       },
       "variables": {
         "capable": "no",
@@ -3101,19 +3102,19 @@ const toolsData = [
       },
       "tasks": {
         "capable": "no",
-        "notes": ""
+        "notes": "No guided tasks"
       },
       "analytics": {
         "capable": "no",
-        "notes": ""
+        "notes": "No supported analytics"
       },
       "heatmaps": {
         "capable": "no",
-        "notes": ""
+        "notes": "No heatmap support"
       },
       "handoff": {
         "capable": "no",
-        "notes": ""
+        "notes": "No developer handoff"
       }
     }
   },
@@ -3164,19 +3165,19 @@ const toolsData = [
       },
       "code": {
         "capable": "no",
-        "notes": ""
+        "notes": "No coding functionality"
       },
       "sensors": {
         "capable": "no",
-        "notes": ""
+        "notes": "No device sensors"
       },
       "voice": {
         "capable": "no",
-        "notes": ""
+        "notes": "No voice support"
       },
       "inputs": {
         "capable": "no",
-        "notes": ""
+        "notes": "No dynamic inputs"
       },
       "variables": {
         "capable": "no",
@@ -3184,19 +3185,19 @@ const toolsData = [
       },
       "tasks": {
         "capable": "yes",
-        "notes": ""
+        "notes": "Guided usability testing prompts"
       },
       "analytics": {
         "capable": "yes",
-        "notes": ""
+        "notes": "Analyze click rates"
       },
       "heatmaps": {
-        "capable": "no",
-        "notes": ""
+        "capable": "yes",
+        "notes": "Automatic heatmaps from usability testing"
       },
       "handoff": {
         "capable": "no",
-        "notes": ""
+        "notes": "No developer handoff"
       }
     }
   },
@@ -3249,19 +3250,19 @@ const toolsData = [
       },
       "code": {
         "capable": "no",
-        "notes": ""
+        "notes": "No coding functionality"
       },
       "sensors": {
         "capable": "no",
-        "notes": ""
+        "notes": "No device sensors"
       },
       "voice": {
         "capable": "no",
-        "notes": ""
+        "notes": "No voice support"
       },
       "inputs": {
         "capable": "no",
-        "notes": ""
+        "notes": "No dynamic inputs"
       },
       "variables": {
         "capable": "no",
@@ -3269,19 +3270,19 @@ const toolsData = [
       },
       "tasks": {
         "capable": "no",
-        "notes": ""
+        "notes": "No guided tasks"
       },
       "analytics": {
-        "capable": "yes",
-        "notes": ""
+        "capable": "semi",
+        "notes": "Support for Google Analytics"
       },
       "heatmaps": {
         "capable": "no",
-        "notes": ""
+        "notes": "No heatmap support"
       },
       "handoff": {
         "capable": "yes",
-        "notes": ""
+        "notes": "Automatic specs for developers"
       }
     }
   },
@@ -3366,19 +3367,19 @@ const toolsData = [
       },
       "code": {
         "capable": "no",
-        "notes": ""
+        "notes": "No coding functionality"
       },
       "sensors": {
         "capable": "no",
-        "notes": ""
+        "notes": "No device sensors"
       },
       "voice": {
         "capable": "no",
-        "notes": ""
+        "notes": "No voice support"
       },
       "inputs": {
         "capable": "no",
-        "notes": ""
+        "notes": "No dynamic inputs"
       },
       "variables": {
         "capable": "no",
@@ -3386,19 +3387,19 @@ const toolsData = [
       },
       "tasks": {
         "capable": "no",
-        "notes": ""
+        "notes": "No guided tasks"
       },
       "analytics": {
         "capable": "no",
-        "notes": ""
+        "notes": "No supported analytics"
       },
       "heatmaps": {
         "capable": "no",
-        "notes": ""
+        "notes": "No heatmap support"
       },
       "handoff": {
         "capable": "no",
-        "notes": ""
+        "notes": "No developer handoff"
       }
     }
   },
@@ -3561,19 +3562,19 @@ const toolsData = [
       },
       "code": {
         "capable": "no",
-        "notes": ""
+        "notes": "No coding functionality"
       },
       "sensors": {
         "capable": "no",
-        "notes": ""
+        "notes": "No device sensors"
       },
       "voice": {
         "capable": "no",
-        "notes": ""
+        "notes": "No voice support"
       },
       "inputs": {
         "capable": "no",
-        "notes": ""
+        "notes": "No dynamic inputs"
       },
       "variables": {
         "capable": "no",
@@ -3581,19 +3582,19 @@ const toolsData = [
       },
       "tasks": {
         "capable": "no",
-        "notes": ""
+        "notes": "No guided tasks"
       },
       "analytics": {
         "capable": "no",
-        "notes": ""
+        "notes": "No supported analytics"
       },
       "heatmaps": {
         "capable": "no",
-        "notes": ""
+        "notes": "No heatmap support"
       },
       "handoff": {
         "capable": "no",
-        "notes": ""
+        "notes": "No developer handoff"
       }
     },
     "handoff": {
@@ -3802,19 +3803,19 @@ const toolsData = [
       },
       "code": {
         "capable": "no",
-        "notes": ""
+        "notes": "No coding functionality"
       },
       "sensors": {
         "capable": "no",
-        "notes": ""
+        "notes": "No device sensors"
       },
       "voice": {
         "capable": "no",
-        "notes": ""
+        "notes": "No voice support"
       },
       "inputs": {
         "capable": "no",
-        "notes": ""
+        "notes": "No dynamic inputs"
       },
       "variables": {
         "capable": "no",
@@ -3822,19 +3823,19 @@ const toolsData = [
       },
       "tasks": {
         "capable": "no",
-        "notes": ""
+        "notes": "No guided tasks"
       },
       "analytics": {
         "capable": "no",
-        "notes": ""
+        "notes": "No supported analytics"
       },
       "heatmaps": {
         "capable": "no",
-        "notes": ""
+        "notes": "No heatmap support"
       },
       "handoff": {
         "capable": "no",
-        "notes": ""
+        "notes": "No developer handoff"
       }
     }
   },
@@ -3886,19 +3887,19 @@ const toolsData = [
       },
       "code": {
         "capable": "no",
-        "notes": ""
+        "notes": "No coding functionality"
       },
       "sensors": {
         "capable": "no",
-        "notes": ""
+        "notes": "No device sensors"
       },
       "voice": {
         "capable": "no",
-        "notes": ""
+        "notes": "No voice support"
       },
       "inputs": {
         "capable": "no",
-        "notes": ""
+        "notes": "No dynamic inputs"
       },
       "variables": {
         "capable": "no",
@@ -3906,19 +3907,19 @@ const toolsData = [
       },
       "tasks": {
         "capable": "no",
-        "notes": ""
+        "notes": "No guided tasks"
       },
       "analytics": {
         "capable": "no",
-        "notes": ""
+        "notes": "No supported analytics"
       },
       "heatmaps": {
         "capable": "no",
-        "notes": ""
+        "notes": "No heatmap support"
       },
       "handoff": {
         "capable": "no",
-        "notes": ""
+        "notes": "No developer handoff"
       }
     }
   },
@@ -3997,19 +3998,19 @@ const toolsData = [
       },
       "code": {
         "capable": "no",
-        "notes": ""
+        "notes": "No coding functionality"
       },
       "sensors": {
         "capable": "no",
-        "notes": ""
+        "notes": "No device sensors"
       },
       "voice": {
         "capable": "no",
-        "notes": ""
+        "notes": "No voice support"
       },
       "inputs": {
         "capable": "no",
-        "notes": ""
+        "notes": "No dynamic inputs"
       },
       "variables": {
         "capable": "no",
@@ -4017,19 +4018,19 @@ const toolsData = [
       },
       "tasks": {
         "capable": "no",
-        "notes": ""
+        "notes": "No guided tasks"
       },
       "analytics": {
         "capable": "no",
-        "notes": ""
+        "notes": "No supported analytics"
       },
       "heatmaps": {
         "capable": "no",
-        "notes": ""
+        "notes": "No heatmap support"
       },
       "handoff": {
         "capable": "no",
-        "notes": ""
+        "notes": "No developer handoff"
       }
     }
   },
@@ -4081,19 +4082,20 @@ const toolsData = [
       },
       "code": {
         "capable": "no",
-        "notes": ""
+        "notes": "No coding functionality"
       },
       "sensors": {
         "capable": "yes",
-        "notes": ""
+        "notes": "Accelerometer and gyroscope support",
+        "url": "https://origami.design/documentation/patches/builtin.motion.html"
       },
       "voice": {
         "capable": "no",
-        "notes": ""
+        "notes": "No voice support"
       },
       "inputs": {
         "capable": "no",
-        "notes": ""
+        "notes": "No dynamic inputs"
       },
       "variables": {
         "capable": "yes",
@@ -4101,19 +4103,19 @@ const toolsData = [
       },
       "tasks": {
         "capable": "no",
-        "notes": ""
+        "notes": "No guided tasks"
       },
       "analytics": {
         "capable": "no",
-        "notes": ""
+        "notes": "No supported analytics"
       },
       "heatmaps": {
         "capable": "no",
-        "notes": ""
+        "notes": "No heatmap support"
       },
       "handoff": {
         "capable": "no",
-        "notes": ""
+        "notes": "No developer handoff"
       }
     }
   },
@@ -4168,19 +4170,19 @@ const toolsData = [
       },
       "code": {
         "capable": "no",
-        "notes": ""
+        "notes": "No coding functionality"
       },
       "sensors": {
         "capable": "no",
-        "notes": ""
+        "notes": "No device sensors"
       },
       "voice": {
         "capable": "no",
-        "notes": ""
+        "notes": "No voice support"
       },
       "inputs": {
         "capable": "no",
-        "notes": ""
+        "notes": "No dynamic inputs"
       },
       "variables": {
         "capable": "no",
@@ -4188,19 +4190,19 @@ const toolsData = [
       },
       "tasks": {
         "capable": "no",
-        "notes": ""
+        "notes": "No guided tasks"
       },
       "analytics": {
         "capable": "no",
-        "notes": ""
+        "notes": "No supported analytics"
       },
       "heatmaps": {
         "capable": "no",
-        "notes": ""
+        "notes": "No heatmap support"
       },
       "handoff": {
         "capable": "no",
-        "notes": ""
+        "notes": "No developer handoff"
       }
     }
   },
@@ -4295,19 +4297,19 @@ const toolsData = [
       },
       "code": {
         "capable": "no",
-        "notes": ""
+        "notes": "No coding functionality"
       },
       "sensors": {
         "capable": "no",
-        "notes": ""
+        "notes": "No device sensors"
       },
       "voice": {
         "capable": "no",
-        "notes": ""
+        "notes": "No voice support"
       },
       "inputs": {
         "capable": "no",
-        "notes": ""
+        "notes": "No dynamic inputs"
       },
       "variables": {
         "capable": "no",
@@ -4315,19 +4317,19 @@ const toolsData = [
       },
       "tasks": {
         "capable": "yes",
-        "notes": ""
+        "notes": "Guided usability testing prompts"
       },
       "analytics": {
         "capable": "yes",
-        "notes": ""
+        "notes": "Analytics supported"
       },
       "heatmaps": {
         "capable": "yes",
-        "notes": ""
+        "notes": "Automatic heatmaps from usability testing"
       },
       "handoff": {
         "capable": "no",
-        "notes": ""
+        "notes": "No developer handoff"
       }
     }
   },
@@ -4382,19 +4384,19 @@ const toolsData = [
       },
       "code": {
         "capable": "no",
-        "notes": ""
+        "notes": "No coding functionality"
       },
       "sensors": {
         "capable": "no",
-        "notes": ""
+        "notes": "No device sensors"
       },
       "voice": {
         "capable": "no",
-        "notes": ""
+        "notes": "No voice support"
       },
       "inputs": {
         "capable": "no",
-        "notes": ""
+        "notes": "No dynamic inputs"
       },
       "variables": {
         "capable": "no",
@@ -4402,19 +4404,19 @@ const toolsData = [
       },
       "tasks": {
         "capable": "no",
-        "notes": ""
+        "notes": "No guided tasks"
       },
       "analytics": {
         "capable": "no",
-        "notes": ""
+        "notes": "No supported analytics"
       },
       "heatmaps": {
         "capable": "no",
-        "notes": ""
+        "notes": "No heatmap support"
       },
       "handoff": {
         "capable": "no",
-        "notes": ""
+        "notes": "No developer handoff"
       }
     }
   },
@@ -4526,19 +4528,19 @@ const toolsData = [
       },
       "code": {
         "capable": "no",
-        "notes": ""
+        "notes": "No coding functionality"
       },
       "sensors": {
         "capable": "no",
-        "notes": ""
+        "notes": "No device sensors"
       },
       "voice": {
         "capable": "no",
-        "notes": ""
+        "notes": "No voice support"
       },
       "inputs": {
         "capable": "no",
-        "notes": ""
+        "notes": "No dynamic inputs"
       },
       "variables": {
         "capable": "no",
@@ -4546,19 +4548,19 @@ const toolsData = [
       },
       "tasks": {
         "capable": "no",
-        "notes": ""
+        "notes": "No guided tasks"
       },
       "analytics": {
         "capable": "no",
-        "notes": ""
+        "notes": "No supported analytics"
       },
       "heatmaps": {
         "capable": "no",
-        "notes": ""
+        "notes": "No heatmap support"
       },
       "handoff": {
         "capable": "no",
-        "notes": ""
+        "notes": "No developer handoff"
       }
     }
   },
@@ -4614,19 +4616,20 @@ const toolsData = [
       },
       "code": {
         "capable": "no",
-        "notes": ""
+        "notes": "No coding functionality"
       },
       "sensors": {
         "capable": "yes",
-        "notes": ""
+        "notes": "Microphone, tilt, compass, 3d touch",
+        "url": "https://blog.protopie.io/prototype-with-sensors-in-protopie-73a0375e1128"
       },
       "voice": {
         "capable": "no",
-        "notes": ""
+        "notes": "No voice support"
       },
       "inputs": {
         "capable": "yes",
-        "notes": ""
+        "notes": "Supports dynamic inputs"
       },
       "variables": {
         "capable": "no",
@@ -4634,19 +4637,19 @@ const toolsData = [
       },
       "tasks": {
         "capable": "no",
-        "notes": ""
+        "notes": "No guided tasks"
       },
       "analytics": {
         "capable": "no",
-        "notes": ""
+        "notes": "No supported analytics"
       },
       "heatmaps": {
         "capable": "no",
-        "notes": ""
+        "notes": "No heatmap support"
       },
       "handoff": {
         "capable": "no",
-        "notes": ""
+        "notes": "No developer handoff"
       }
     }
   },
@@ -4707,19 +4710,19 @@ const toolsData = [
       },
       "code": {
         "capable": "no",
-        "notes": ""
+        "notes": "No coding functionality"
       },
       "sensors": {
         "capable": "no",
-        "notes": ""
+        "notes": "No device sensors"
       },
       "voice": {
         "capable": "no",
-        "notes": ""
+        "notes": "No voice support"
       },
       "inputs": {
         "capable": "no",
-        "notes": ""
+        "notes": "No dynamic inputs"
       },
       "variables": {
         "capable": "no",
@@ -4727,19 +4730,19 @@ const toolsData = [
       },
       "tasks": {
         "capable": "no",
-        "notes": ""
+        "notes": "No guided tasks"
       },
       "analytics": {
         "capable": "no",
-        "notes": ""
+        "notes": "No supported analytics"
       },
       "heatmaps": {
         "capable": "no",
-        "notes": ""
+        "notes": "No heatmap support"
       },
       "handoff": {
         "capable": "no",
-        "notes": ""
+        "notes": "No developer handoff"
       }
     }
   },
@@ -4778,7 +4781,7 @@ const toolsData = [
     "pricing": {
       "purchase": "",
       "subscription": "$99/yr",
-      "cost": "$1188+",
+      "cost": "$99",
       "notes": ""
     },
     "url": "https://www.sketchapp.com/",
@@ -4889,19 +4892,19 @@ const toolsData = [
       },
       "code": {
         "capable": "no",
-        "notes": ""
+        "notes": "No coding functionality"
       },
       "sensors": {
         "capable": "no",
-        "notes": ""
+        "notes": "No device sensors"
       },
       "voice": {
         "capable": "no",
-        "notes": ""
+        "notes": "No voice support"
       },
       "inputs": {
         "capable": "no",
-        "notes": ""
+        "notes": "No dynamic inputs"
       },
       "variables": {
         "capable": "no",
@@ -4909,19 +4912,19 @@ const toolsData = [
       },
       "tasks": {
         "capable": "no",
-        "notes": ""
+        "notes": "No guided tasks"
       },
       "analytics": {
         "capable": "no",
-        "notes": ""
+        "notes": "No supported analytics"
       },
       "heatmaps": {
         "capable": "no",
-        "notes": ""
+        "notes": "No heatmap support"
       },
       "handoff": {
         "capable": "no",
-        "notes": ""
+        "notes": "No developer handoff"
       }
     },
     "designSystems": {
@@ -5150,19 +5153,19 @@ const toolsData = [
       },
       "code": {
         "capable": "no",
-        "notes": ""
+        "notes": "No coding functionality"
       },
       "sensors": {
         "capable": "no",
-        "notes": ""
+        "notes": "No device sensors"
       },
       "voice": {
         "capable": "no",
-        "notes": ""
+        "notes": "No voice support"
       },
       "inputs": {
         "capable": "no",
-        "notes": ""
+        "notes": "No dynamic inputs"
       },
       "variables": {
         "capable": "no",
@@ -5170,19 +5173,19 @@ const toolsData = [
       },
       "tasks": {
         "capable": "no",
-        "notes": ""
+        "notes": "No guided tasks"
       },
       "analytics": {
         "capable": "no",
-        "notes": ""
+        "notes": "No supported analytics"
       },
       "heatmaps": {
         "capable": "no",
-        "notes": ""
+        "notes": "No heatmap support"
       },
       "handoff": {
         "capable": "no",
-        "notes": ""
+        "notes": "No developer handoff"
       }
     }
   },
@@ -5391,19 +5394,19 @@ const toolsData = [
       },
       "code": {
         "capable": "no",
-        "notes": ""
+        "notes": "No coding functionality"
       },
       "sensors": {
         "capable": "no",
-        "notes": ""
+        "notes": "No device sensors"
       },
       "voice": {
         "capable": "no",
-        "notes": ""
+        "notes": "No voice support"
       },
       "inputs": {
         "capable": "yes",
-        "notes": ""
+        "notes": "Supports dynamic inputs"
       },
       "variables": {
         "capable": "yes",
@@ -5411,19 +5414,19 @@ const toolsData = [
       },
       "tasks": {
         "capable": "no",
-        "notes": ""
+        "notes": "No guided tasks"
       },
       "analytics": {
         "capable": "no",
-        "notes": ""
+        "notes": "No supported analytics"
       },
       "heatmaps": {
         "capable": "no",
-        "notes": ""
+        "notes": "No heatmap support"
       },
       "handoff": {
         "capable": "yes",
-        "notes": ""
+        "notes": "Automatic specs for developers"
       }
     },
     "designSystems": {
@@ -5554,19 +5557,19 @@ const toolsData = [
       },
       "code": {
         "capable": "no",
-        "notes": ""
+        "notes": "No coding functionality"
       },
       "sensors": {
         "capable": "no",
-        "notes": ""
+        "notes": "No device sensors"
       },
       "voice": {
         "capable": "no",
-        "notes": ""
+        "notes": "No voice support"
       },
       "inputs": {
         "capable": "no",
-        "notes": ""
+        "notes": "No dynamic inputs"
       },
       "variables": {
         "capable": "yes",
@@ -5574,19 +5577,19 @@ const toolsData = [
       },
       "tasks": {
         "capable": "no",
-        "notes": ""
+        "notes": "No guided tasks"
       },
       "analytics": {
         "capable": "no",
-        "notes": ""
+        "notes": "No supported analytics"
       },
       "heatmaps": {
         "capable": "no",
-        "notes": ""
+        "notes": "No heatmap support"
       },
       "handoff": {
         "capable": "no",
-        "notes": ""
+        "notes": "No developer handoff"
       }
     }
   },
@@ -5787,19 +5790,19 @@ const toolsData = [
       },
       "code": {
         "capable": "no",
-        "notes": ""
+        "notes": "No coding functionality"
       },
       "sensors": {
         "capable": "no",
-        "notes": ""
+        "notes": "No device sensors"
       },
       "voice": {
         "capable": "no",
-        "notes": ""
+        "notes": "No voice support"
       },
       "inputs": {
         "capable": "no",
-        "notes": ""
+        "notes": "No dynamic inputs"
       },
       "variables": {
         "capable": "no",
@@ -5807,19 +5810,19 @@ const toolsData = [
       },
       "tasks": {
         "capable": "no",
-        "notes": ""
+        "notes": "No guided tasks"
       },
       "analytics": {
         "capable": "no",
-        "notes": ""
+        "notes": "No supported analytics"
       },
       "heatmaps": {
         "capable": "no",
-        "notes": ""
+        "notes": "No heatmap support"
       },
       "handoff": {
         "capable": "no",
-        "notes": ""
+        "notes": "No developer handoff"
       }
     }
   },

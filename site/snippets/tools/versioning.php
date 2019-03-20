@@ -5,9 +5,10 @@
       <thead id="fixed-header">
         <tr>
           <th v-for="column in toolsHeaders" v-bind:class="[{'sorted' : sortPath == column.sortPath}, 'fixed-header']" v-on:click="sortBy(column.sortPath, column.sortDir)">
-            <span style="position: relative;" v-tooltip.bottom-left="column.tipText">{{ column.title }}
+            <span style="position: relative;">{{ column.title }}
               <span class="sort-arrow" v-if="column.sortable"><?= (new Asset("assets/images/icons/chevron-down.svg"))->content() ?></span>
             </span>
+            <p class="notes" v-html="column.notes"></p>
           </th>
         </tr>
       </thead>
