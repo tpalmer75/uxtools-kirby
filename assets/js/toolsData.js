@@ -572,16 +572,39 @@ const toolsData = [
       "programs": {
         "sketch": true
       },
-      "assets": true,
-      "symbols": true,
-      "layers": false,
-      "sharing": true,
-      "permissions": false,
       "interface": "Panel",
-      "update": true,
-      "annotate": false,
-      "styleguide": true,
-      "lastUpdated": "Jan 2018"
+      "assets": {
+        "capable": "yes",
+        "notes": "External assets not supported"
+      },
+      "symbols": {
+        "capable": "yes",
+        "notes": "Can import symbols"
+      },
+      "layers": {
+        "capable": "no",
+        "notes": "Can't import normal layers"
+      },
+      "sharing": {
+        "capable": "yes",
+        "notes": "Library can be shared with others"
+      },
+      "permissions": {
+        "capable": "no",
+        "notes": "Can't restrict design system access"
+      },
+      "update": {
+        "capable": "yes",
+        "notes": "Can't sync changes to documents"
+      },
+      "annotate": {
+        "capable": "no",
+        "notes": "Can't create notes about components"
+      },
+      "styleguide": {
+        "capable": "yes",
+        "notes": "No automatic style guide"
+      }
     }
   },
   {
@@ -1160,8 +1183,8 @@ const toolsData = [
       "backgroundPosition": "-200 -1000"
     },
     "designSystems": {
-      "surveyRaw2017": 49,
       "surveyPercent2017": 6,
+      "surveyRaw2017": 49,
       "surveyRaw2018": 33,
       "surveyPercent2018": 3,
       "platforms": {
@@ -1174,15 +1197,39 @@ const toolsData = [
         "powerpoint": true,
         "word": true
       },
-      "assets": true,
-      "symbols": true,
-      "layers": true,
-      "sharing": true,
-      "permissions": true,
       "interface": "Window",
-      "update": true,
-      "annotate": false,
-      "styleguide": true
+      "assets": {
+        "capable": "yes",
+        "notes": "External assets not supported"
+      },
+      "symbols": {
+        "capable": "yes",
+        "notes": "Can import symbols"
+      },
+      "layers": {
+        "capable": "yes",
+        "notes": "Can't import normal layers"
+      },
+      "sharing": {
+        "capable": "yes",
+        "notes": "Library can be shared with others"
+      },
+      "permissions": {
+        "capable": "yes",
+        "notes": "Can't restrict design system access"
+      },
+      "update": {
+        "capable": "yes",
+        "notes": "Can't sync changes to documents"
+      },
+      "annotate": {
+        "capable": "no",
+        "notes": "Can't create notes about components"
+      },
+      "styleguide": {
+        "capable": "yes",
+        "notes": "No automatic style guide"
+      }
     }
   },
   {
@@ -1270,8 +1317,8 @@ const toolsData = [
       }
     },
     "designSystems": {
-      "surveyRaw2017": 321,
       "surveyPercent2017": 37,
+      "surveyRaw2017": 321,
       "surveyRaw2018": 295,
       "surveyPercent2018": 25,
       "platforms": {
@@ -1280,15 +1327,39 @@ const toolsData = [
       "programs": {
         "sketch": true
       },
-      "assets": false,
-      "symbols": true,
-      "layers": false,
-      "sharing": true,
-      "permissions": false,
       "interface": "Panel",
-      "update": true,
-      "annotate": false,
-      "styleguide": false
+      "assets": {
+        "capable": "no",
+        "notes": "External assets not supported"
+      },
+      "symbols": {
+        "capable": "yes",
+        "notes": "Can import symbols"
+      },
+      "layers": {
+        "capable": "no",
+        "notes": "Can't import normal layers"
+      },
+      "sharing": {
+        "capable": "yes",
+        "notes": "Library can be shared with others"
+      },
+      "permissions": {
+        "capable": "no",
+        "notes": "Can't restrict design system access"
+      },
+      "update": {
+        "capable": "yes",
+        "notes": "Can't sync changes to documents"
+      },
+      "annotate": {
+        "capable": "no",
+        "notes": "Can't create notes about components"
+      },
+      "styleguide": {
+        "capable": "no",
+        "notes": "No automatic style guide"
+      }
     }
   },
   {
@@ -1531,8 +1602,8 @@ const toolsData = [
       }
     },
     "designSystems": {
-      "surveyRaw2017": 123,
       "surveyPercent2017": 14,
+      "surveyRaw2017": 123,
       "surveyRaw2018": 334,
       "surveyPercent2018": 29,
       "platforms": {
@@ -1543,15 +1614,39 @@ const toolsData = [
       "programs": {
         "figma": true
       },
-      "assets": true,
-      "symbols": true,
-      "layers": true,
-      "sharing": true,
-      "permissions": false,
       "interface": "Panel",
-      "update": true,
-      "annotate": false,
-      "styleguide": false
+      "assets": {
+        "capable": "yes",
+        "notes": "External assets not supported"
+      },
+      "symbols": {
+        "capable": "yes",
+        "notes": "Can import symbols"
+      },
+      "layers": {
+        "capable": "yes",
+        "notes": "Can't import normal layers"
+      },
+      "sharing": {
+        "capable": "yes",
+        "notes": "Library can be shared with others"
+      },
+      "permissions": {
+        "capable": "no",
+        "notes": "Can't restrict design system access"
+      },
+      "update": {
+        "capable": "yes",
+        "notes": "Can't sync changes to documents"
+      },
+      "annotate": {
+        "capable": "no",
+        "notes": "Can't create notes about components"
+      },
+      "styleguide": {
+        "capable": "no",
+        "notes": "No automatic style guide"
+      }
     },
     "handoff": {
       "surveyPercent2017": 18,
@@ -3509,8 +3604,8 @@ const toolsData = [
       "background-position": "-100 -1100"
     },
     "designSystems": {
-      "surveyRaw2017": 45,
       "surveyPercent2017": 5,
+      "surveyRaw2017": 45,
       "surveyRaw2018": 29,
       "surveyPercent2018": 3,
       "platforms": {
@@ -3519,15 +3614,39 @@ const toolsData = [
       "programs": {
         "sketch": true
       },
-      "assets": true,
-      "symbols": true,
-      "layers": true,
-      "sharing": true,
-      "permissions": true,
       "interface": "Window",
-      "update": true,
-      "annotate": true,
-      "styleguide": false
+      "assets": {
+        "capable": "yes",
+        "notes": "External assets not supported"
+      },
+      "symbols": {
+        "capable": "yes",
+        "notes": "Can import symbols"
+      },
+      "layers": {
+        "capable": "yes",
+        "notes": "Can't import normal layers"
+      },
+      "sharing": {
+        "capable": "yes",
+        "notes": "Library can be shared with others"
+      },
+      "permissions": {
+        "capable": "yes",
+        "notes": "Can't restrict design system access"
+      },
+      "update": {
+        "capable": "yes",
+        "notes": "Can't sync changes to documents"
+      },
+      "annotate": {
+        "capable": "yes",
+        "notes": "Can't create notes about components"
+      },
+      "styleguide": {
+        "capable": "no",
+        "notes": "No automatic style guide"
+      }
     }
   },
   {
@@ -5151,7 +5270,8 @@ const toolsData = [
       "purchase": "",
       "subscription": "$99/yr",
       "cost": "$99",
-      "notes": ""
+      "notes": "",
+      "free": false
     },
     "url": "https://www.sketchapp.com/",
     "image": {
@@ -5297,8 +5417,8 @@ const toolsData = [
       }
     },
     "designSystems": {
-      "surveyRaw2017": 861,
       "surveyPercent2017": 100,
+      "surveyRaw2017": 861,
       "surveyRaw2018": 1158,
       "surveyPercent2018": 100,
       "platforms": {
@@ -5307,16 +5427,39 @@ const toolsData = [
       "programs": {
         "sketch": true
       },
-      "assets": false,
-      "symbols": true,
-      "layers": false,
-      "sharing": true,
-      "permissions": false,
       "interface": "Drop Down",
-      "update": true,
-      "annotate": false,
-      "styleguide": false,
-      "lastUpdated": "Jan 2018"
+      "assets": {
+        "capable": "no",
+        "notes": "External assets not supported"
+      },
+      "symbols": {
+        "capable": "yes",
+        "notes": "Can import symbols"
+      },
+      "layers": {
+        "capable": "no",
+        "notes": "Can't import normal layers"
+      },
+      "sharing": {
+        "capable": "yes",
+        "notes": "Library can be shared with others"
+      },
+      "permissions": {
+        "capable": "no",
+        "notes": "Can't restrict design system access"
+      },
+      "update": {
+        "capable": "yes",
+        "notes": "Can't sync changes to documents"
+      },
+      "annotate": {
+        "capable": "no",
+        "notes": "Can't create notes about components"
+      },
+      "styleguide": {
+        "capable": "no",
+        "notes": "No automatic style guide"
+      }
     }
   },
   {
@@ -5730,8 +5873,8 @@ const toolsData = [
       "background-position": "-300 -1100"
     },
     "designSystems": {
-      "surveyRaw2017": 3,
       "surveyPercent2017": 1,
+      "surveyRaw2017": 3,
       "surveyRaw2018": 0,
       "surveyPercent2018": 0,
       "platforms": {
@@ -5740,15 +5883,39 @@ const toolsData = [
       "programs": {
         "sketch": true
       },
-      "assets": false,
-      "symbols": true,
-      "layers": false,
-      "sharing": true,
-      "permissions": false,
       "interface": "Window",
-      "update": true,
-      "annotate": false,
-      "styleguide": false
+      "assets": {
+        "capable": "no",
+        "notes": "External assets not supported"
+      },
+      "symbols": {
+        "capable": "yes",
+        "notes": "Can import symbols"
+      },
+      "layers": {
+        "capable": "no",
+        "notes": "Can't import normal layers"
+      },
+      "sharing": {
+        "capable": "yes",
+        "notes": "Library can be shared with others"
+      },
+      "permissions": {
+        "capable": "no",
+        "notes": "Can't restrict design system access"
+      },
+      "update": {
+        "capable": "yes",
+        "notes": "Can't sync changes to documents"
+      },
+      "annotate": {
+        "capable": "no",
+        "notes": "Can't create notes about components"
+      },
+      "styleguide": {
+        "capable": "no",
+        "notes": "No automatic style guide"
+      }
     }
   },
   {
@@ -5909,8 +6076,8 @@ const toolsData = [
       }
     },
     "designSystems": {
-      "surveyRaw2017": 23,
       "surveyPercent2017": 3,
+      "surveyRaw2017": 23,
       "surveyRaw2018": 28,
       "surveyPercent2018": 3,
       "platforms": {
@@ -5921,15 +6088,39 @@ const toolsData = [
         "uxPin": true,
         "sketch": true
       },
-      "assets": true,
-      "symbols": true,
-      "layers": true,
-      "sharing": true,
-      "permissions": true,
       "interface": "Window",
-      "update": true,
-      "annotate": true,
-      "styleguide": true
+      "assets": {
+        "capable": "yes",
+        "notes": "External assets not supported"
+      },
+      "symbols": {
+        "capable": "yes",
+        "notes": "Can import symbols"
+      },
+      "layers": {
+        "capable": "yes",
+        "notes": "Can't import normal layers"
+      },
+      "sharing": {
+        "capable": "yes",
+        "notes": "Library can be shared with others"
+      },
+      "permissions": {
+        "capable": "yes",
+        "notes": "Can't restrict design system access"
+      },
+      "update": {
+        "capable": "yes",
+        "notes": "Can't sync changes to documents"
+      },
+      "annotate": {
+        "capable": "yes",
+        "notes": "Can't create notes about components"
+      },
+      "styleguide": {
+        "capable": "yes",
+        "notes": "No automatic style guide"
+      }
     },
     "handoff": {
       "surveyPercent2017": 2,
@@ -6386,8 +6577,8 @@ const toolsData = [
       "background-position": "-200 -1100"
     },
     "designSystems": {
-      "surveyRaw2017": 8,
       "surveyPercent2017": 1,
+      "surveyRaw2017": 8,
       "surveyRaw2018": 11,
       "surveyPercent2018": 1,
       "platforms": {
@@ -6396,15 +6587,39 @@ const toolsData = [
       "programs": {
         "sketch": true
       },
-      "assets": false,
-      "symbols": true,
-      "layers": true,
-      "sharing": true,
-      "permissions": false,
       "interface": "Panel",
-      "update": true,
-      "annotate": false,
-      "styleguide": true
+      "assets": {
+        "capable": "no",
+        "notes": "External assets not supported"
+      },
+      "symbols": {
+        "capable": "yes",
+        "notes": "Can import symbols"
+      },
+      "layers": {
+        "capable": "yes",
+        "notes": "Can't import normal layers"
+      },
+      "sharing": {
+        "capable": "yes",
+        "notes": "Library can be shared with others"
+      },
+      "permissions": {
+        "capable": "no",
+        "notes": "Can't restrict design system access"
+      },
+      "update": {
+        "capable": "yes",
+        "notes": "Can't sync changes to documents"
+      },
+      "annotate": {
+        "capable": "no",
+        "notes": "Can't create notes about components"
+      },
+      "styleguide": {
+        "capable": "yes",
+        "notes": "No automatic style guide"
+      }
     }
   }
 ]
