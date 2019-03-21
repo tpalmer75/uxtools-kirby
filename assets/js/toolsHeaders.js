@@ -20,11 +20,11 @@ const toolsHeaders = {
     },
     {
       "title": "Platform",
-      "notes": "Platforms used to upload components"
+      "notes": "Which platforms can import components?"
     },
     {
       "title": "Programs",
-      "notes": "Supported file types"
+      "notes": "Which file types are support?"
     },
     {
       "title": "Free",
@@ -32,47 +32,47 @@ const toolsHeaders = {
     },
     {
       "title": "Individual",
-      "notes": "Monthly cost for  single user"
+      "notes": "Cost for single user?"
     },
     {
       "title": "Team",
-      "notes": "Monthly cost for 2+ team members"
+      "notes": "Cost for 2+ team members?"
     },
     {
       "title": "Symbols",
-      "notes": "Can import symbols"
+      "notes": "Can import symbols?"
     },
     {
       "title": "Layers",
-      "notes": "Can import normal layers"
+      "notes": "Can import normal layers?"
     },
     {
       "title": "Assets",
-      "notes": "Can import generic  assets (like images)"
+      "notes": "Can import generic assets (like images)?"
     },
     {
       "title": "Sharing",
-      "notes": "Can share the library"
+      "notes": "Can the library be shared?"
     },
     {
       "title": "Permissions",
-      "notes": "Can restrict access to others"
+      "notes": "Can access be restricted?"
     },
     {
       "title": "Interface",
-      "notes": "How the tool appears in-app"
+      "notes": "Which type of interface?"
     },
     {
       "title": "Update",
-      "notes": "Can sync changes across documents"
+      "notes": "Can sync changes across documents?"
     },
     {
       "title": "Annotate",
-      "notes": "Can create notes about components"
+      "notes": "Include descriptions about components?"
     },
     {
       "title": "Style Guide",
-      "notes": "Automatically generates  a style guide  of components"
+      "notes": "Can automatically generate a style guide?"
     }
   ],
   "design": [
@@ -96,15 +96,15 @@ const toolsHeaders = {
     },
     {
       "title": "Platform",
-      "notes": "Platforms used for creating designs"
+      "notes": "Which platforms can create designs?"
     },
     {
       "title": "Cost",
-      "notes": "Estimated cost per year"
+      "notes": "Estimated cost per year?"
     },
     {
       "title": "Free",
-      "notes": "Free to use without trial"
+      "notes": "Free to use without trial?"
     },
     // {
     //   "title": "Purchase",
@@ -112,39 +112,39 @@ const toolsHeaders = {
     // },
     {
       "title": "Offline",
-      "notes": "Can open and edit files offline"
+      "notes": "Can open and edit files offline?"
     },
     {
       "title": "Pen Tool",
-      "notes": "Draw vectors and paths"
+      "notes": "Can draw vectors and paths?"
     },
     {
       "title": "Collaboration",
-      "notes": "Simultaneous editing"
+      "notes": "Supports simultaneous editing?"
     },
     {
       "title": "Comments",
-      "notes": "Others can leave comments"
+      "notes": "Others can leave comments?"
     },
     {
       "title": "Handoff",
-      "notes": "Automatic specs for developers"
+      "notes": "Can create automatic specs for developers?"
     },
     {
       "title": "Artboards",
-      "notes": "Multiple visible artboards"
+      "notes": "Can show multiple artboards at once?"
     },
     {
       "title": "Symbols",
-      "notes": "Document-wide master symbols"
+      "notes": "Supports document-wide master symbols?"
     },
     {
       "title": "Responsive",
-      "notes": "Dynamically resizing groups"
+      "notes": "Can resize groups dynamically?"
     },
     {
       "title": "Prototyping",
-      "notes": "Can prototype within the app"
+      "notes": "Can prototype within the app?"
     }
   ],
   "prototyping": [
@@ -172,17 +172,17 @@ const toolsHeaders = {
       "title": "Platform",
       "show": true,
       "canChange": true,
-      "notes": "Platforms used for  building prototypes"
+      "notes": "Which platforms can create prototypes?"
     },
     {
       "title": "Cost",
-      "notes": "Estimated cost per year"
+      "notes": "Estimated cost per year?"
     },
     {
       "title": "Free",
       "show": true,
       "canChange": true,
-      "notes": "Has a free version"
+      "notes": "Can be used for free without trial?"
     },
     // {
     //   "title": "Purchase",
@@ -192,91 +192,91 @@ const toolsHeaders = {
       "title": "Design",
       "show": true,
       "canChange": true,
-      "notes": "Can create designs from scratch"
+      "notes": "Can create designs from scratch?"
     },
     {
       "title": "Import",
       "show": true,
       "canChange": true,
-      "notes": "Integrations with other apps"
+      "notes": "Integrations with other apps?"
     },
     {
       "title": "Animations",
       "show": true,
       "canChange": true,
-      "notes": "Animate objects & micro-interactions"
+      "notes": "Can animate objects & micro-interactions?"
     },
     {
       "title": "Transitions",
       "show": true,
       "canChange": true,
-      "notes": "Animate between screens"
+      "notes": "Can animate between screens?"
     },
     {
       "title": "Data",
       "show": true,
       "canChange": true,
-      "notes": "Can populate objects from data"
+      "notes": "Can populate objects from data?"
     },
     {
       "title": "Code",
       "show": true,
       "canChange": true,
-      "notes": "Requires code to prototype"
+      "notes": "Requires code to prototype?"
     },
     {
       "title": "Inputs",
       "show": true,
       "canChange": true,
-      "notes": "Supports dynamic text inputs"
+      "notes": "Supports dynamic text inputs?"
     },
     {
       "title": "Variables",
       "show": true,
       "canChange": true,
-      "notes": "Conditional logic and data"
+      "notes": "Supports conditional logic and data?"
     },
     {
       "title": "Sharing",
       "show": true,
       "canChange": true,
-      "notes": "How others can preview the prototype"
+      "notes": "How others can view the prototype?"
     },
     {
       "title": "Handoff",
       "show": true,
       "canChange": true,
-      "notes": "Automatic specs for developers"
+      "notes": "Can create specs for developers?"
     },
     {
       "title": "Sensors",
       "show": true,
       "canChange": true,
-      "notes": "Access native device sensors"
+      "notes": "Supports native device sensors?"
     },
     {
       "title": "Voice",
       "show": true,
       "canChange": true,
-      "notes": "Accept voice as input"
+      "notes": "Can use voice as input?"
     },
     {
       "title": "Tasks",
       "show": true,
       "canChange": true,
-      "notes": "Guided usability testing prompts"
+      "notes": "Supports guided usability testing prompts?"
     },
     {
       "title": "Analytics",
       "show": true,
       "canChange": true,
-      "notes": "Can track events when testing"
+      "notes": "Can track events when testing?"
     },
     {
       "title": "Heatmap",
       "show": true,
       "canChange": true,
-      "notes": "Generates heatmaps from user testing"
+      "notes": "Can generates heatmaps from user testing?"
     }
   ],
   "handoff": [
@@ -304,17 +304,17 @@ const toolsHeaders = {
       "title": "Platform",
       "show": true,
       "canChange": true,
-      "notes": "Platforms used to  upload designs"
+      "notes": "Which platforms can upload designs?"
     },
     {
       "title": "Free",
       "show": true,
       "canChange": true,
-      "notes": "Has a free version"
+      "notes": "Can be used for free without trial?"
     },
     {
       "title": "Cost",
-      "notes": "Estimated cost per year"
+      "notes": "Estimated cost per year?"
     },
     // {
     //   "title": "Purchase",
@@ -324,79 +324,79 @@ const toolsHeaders = {
       "title": "Programs",
       "show": true,
       "canChange": true,
-      "notes": "Compatible design programs"
+      "notes": "Compatible design programs?"
     },
     {
       "title": "Specs",
       "show": true,
       "canChange": true,
-      "notes": "App creates design  specifications"
+      "notes": "Can create design specs?"
     },
     {
       "title": "Automatic",
       "show": true,
       "canChange": true,
-      "notes": "App automatically  generates specs"
+      "notes": "Can automatically generates specs?"
     },
     {
       "title": "Assets",
       "show": true,
       "canChange": true,
-      "notes": "Export  design assets"
+      "notes": "Can export design assets?"
     },
     {
       "title": "Measure",
       "show": true,
       "canChange": true,
-      "notes": "Measure  distance and size"
+      "notes": "Can measure distance and size?"
     },
     {
       "title": "Variables",
       "show": true,
       "canChange": true,
-      "notes": "Allows custom  CSS variables"
+      "notes": "Supports custom CSS variables?"
     },
     {
       "title": "Style Guide",
       "show": true,
       "canChange": true,
-      "notes": "Auto-generates  style guide"
+      "notes": "Can automatically generate style guide"
     },
     {
       "title": "Guides",
       "show": true,
       "canChange": true,
-      "notes": "Maintains layout guides  from design apps"
+      "notes": "Can display layout guides from design apps?"
     },
     {
       "title": "Layers",
       "show": false,
       "canChange": true,
-      "notes": "App shows layer tree"
+      "notes": "Can show layer tree?"
     },
     {
       "title": "Comments",
       "show": true,
       "canChange": true,
-      "notes": "Viewers can comment  on designs"
+      "notes": "Other can leave comments?"
     },
     {
       "title": "Revisions",
       "show": false,
       "canChange": true,
-      "notes": "Save versions  of files"
+      "notes": "Can save versions of files?"
     },
     {
       "title": "Sharing",
       "show": true,
       "canChange": true,
-      "notes": "How users can  access designs"
+      "notes": "How others can access designs?"
     },
     {
       "title": "Integrations",
       "show": true,
       "canChange": true,
-      "notes": "Other external apps"
+      "notes": "Other external apps?"
     }
   ],
   "monitoring": [
@@ -420,11 +420,11 @@ const toolsHeaders = {
     },
     {
       "title": "Free",
-      "notes": "Has a free version"
+      "notes": "Can be used for free without trial?"
     },
     {
       "title": "Cost",
-      "notes": "Estimated cost per year"
+      "notes": "Estimated cost per year?"
     },
     // {
     //   "title": "Purchase",
@@ -432,55 +432,51 @@ const toolsHeaders = {
     // },
     {
       "title": "Playback",
-      "notes": "Records user's  actions"
+      "notes": "Can record user actions?"
     },
     {
       "title": "Skip",
-      "notes": "Can skip inactivity  during playback"
+      "notes": "Can skip inactivity during playback?"
     },
     {
       "title": "Speed",
-      "notes": "Fast-forward  & half-speed"
+      "notes": "Supports fast-forward & half-speed?"
     },
     {
       "title": "Jump Back",
-      "notes": "Go back a few seconds  in playback (so useful)"
+      "notes": "Can rewind few seconds in playback?"
     },
     {
       "title": "Console",
-      "notes": "Records JS console  during playback"
+      "notes": "Can records JS console during playback?"
     },
     {
       "title": "Heatmaps",
-      "notes": "Generates heatmap  of actions"
+      "notes": "Can generate heatmap of actions?"
     },
     {
       "title": "Location",
-      "notes": "Shows visitor's  location"
+      "notes": "Can show visitor location?"
     },
     {
       "title": "Form Stats",
-      "notes": "Analyzes form  drop off & stats"
+      "notes": "Can analyze form drop-off and stats?"
     },
     {
       "title": "Polls",
-      "notes": "Can create  user surveys"
+      "notes": "Can create user surveys?"
     },
     {
       "title": "Live",
-      "notes": "Can watch users  in real-time"
+      "notes": "Can watch users in real-time?"
     },
     {
       "title": "Control",
-      "notes": "Can remotely control  user's browser"
+      "notes": "Can remotely control user's browser?"
     },
     {
       "title": "Export",
-      "notes": "Format for  downloaded"
-    },
-    {
-      "title": "Last Updated",
-      "notes": "The last time I checked on this app"
+      "notes": "Supported format for download?"
     }
   ],
   "versioning": [
@@ -504,11 +500,11 @@ const toolsHeaders = {
     },
     {
       "title": "Platform",
-      "notes": "Platform for uploading designs"
+      "notes": "Which platforms can upload designs?"
     },
     {
       "title": "Cost",
-      "notes": "Estimated cost per year"
+      "notes": "Estimated cost per year?"
     },
     // {
     //   "title": "Purchase",
@@ -520,43 +516,43 @@ const toolsHeaders = {
     },
     {
       "title": "Team",
-      "notes": "Cheapest monthly cost for teams"
+      "notes": "Cheapest monthly cost for teams?"
     },
     {
       "title": "Import",
-      "notes": "Supported file types"
+      "notes": "Supported file types?"
     },
     {
       "title": "Symbols",
-      "notes": "Works with symbols"
+      "notes": "Works with symbols?"
     },
     {
       "title": "Documents",
-      "notes": "Works with documents"
+      "notes": "Works with documents?"
     },
     {
       "title": "Branching",
-      "notes": "Can create branches"
+      "notes": "Can create branches?"
     },
     {
       "title": "Preview",
-      "notes": "Shows preview of designs"
+      "notes": "Can show visual preview of designs?"
     },
     {
       "title": "Compare",
-      "notes": "Shows versions side by side"
+      "notes": "Can show versions side-by-side?"
     },
     {
       "title": "Comments",
-      "notes": "Users can comment on designs"
+      "notes": "Others can leave comments?"
     },
     {
       "title": "Sharing",
-      "notes": "How others can view designs"
+      "notes": "How others can view designs?"
     },
     {
       "title": "Integrations",
-      "notes": "Other external apps"
+      "notes": "Other external apps?"
     }
   ]
 }

@@ -575,7 +575,7 @@ const toolsData = [
       "interface": "Panel",
       "assets": {
         "capable": "yes",
-        "notes": "External assets not supported"
+        "notes": "Can import generic assets"
       },
       "symbols": {
         "capable": "yes",
@@ -595,7 +595,7 @@ const toolsData = [
       },
       "update": {
         "capable": "yes",
-        "notes": "Can't sync changes to documents"
+        "notes": "Can sync changes across documents"
       },
       "annotate": {
         "capable": "no",
@@ -603,7 +603,7 @@ const toolsData = [
       },
       "styleguide": {
         "capable": "yes",
-        "notes": "No automatic style guide"
+        "notes": "Automatic style guide"
       }
     }
   },
@@ -932,7 +932,7 @@ const toolsData = [
       },
       "layers": {
         "capable": "yes",
-        "notes": "Layer hierarchy visible in handoff"
+        "notes": "Can import normal layers into Design System"
       }
     }
   },
@@ -1200,7 +1200,7 @@ const toolsData = [
       "interface": "Window",
       "assets": {
         "capable": "yes",
-        "notes": "External assets not supported"
+        "notes": "Can import generic assets"
       },
       "symbols": {
         "capable": "yes",
@@ -1208,7 +1208,7 @@ const toolsData = [
       },
       "layers": {
         "capable": "yes",
-        "notes": "Can't import normal layers"
+        "notes": "Can import normal layers into Design System"
       },
       "sharing": {
         "capable": "yes",
@@ -1216,11 +1216,11 @@ const toolsData = [
       },
       "permissions": {
         "capable": "yes",
-        "notes": "Can't restrict design system access"
+        "notes": "Can restrict design system access"
       },
       "update": {
         "capable": "yes",
-        "notes": "Can't sync changes to documents"
+        "notes": "Can sync changes across documents"
       },
       "annotate": {
         "capable": "no",
@@ -1228,7 +1228,7 @@ const toolsData = [
       },
       "styleguide": {
         "capable": "yes",
-        "notes": "No automatic style guide"
+        "notes": "Automatic style guide"
       }
     }
   },
@@ -1350,7 +1350,7 @@ const toolsData = [
       },
       "update": {
         "capable": "yes",
-        "notes": "Can't sync changes to documents"
+        "notes": "Can sync changes across documents"
       },
       "annotate": {
         "capable": "no",
@@ -1617,7 +1617,7 @@ const toolsData = [
       "interface": "Panel",
       "assets": {
         "capable": "yes",
-        "notes": "External assets not supported"
+        "notes": "Can import generic assets"
       },
       "symbols": {
         "capable": "yes",
@@ -1625,7 +1625,7 @@ const toolsData = [
       },
       "layers": {
         "capable": "yes",
-        "notes": "Can't import normal layers"
+        "notes": "Can import normal layers into Design System"
       },
       "sharing": {
         "capable": "yes",
@@ -1637,7 +1637,7 @@ const toolsData = [
       },
       "update": {
         "capable": "yes",
-        "notes": "Can't sync changes to documents"
+        "notes": "Can sync changes across documents"
       },
       "annotate": {
         "capable": "no",
@@ -1710,7 +1710,7 @@ const toolsData = [
       },
       "layers": {
         "capable": "yes",
-        "notes": "Layer hierarchy visible in handoff"
+        "notes": "Can import normal layers into Design System"
       }
     },
     "versioning": {
@@ -3294,7 +3294,7 @@ const toolsData = [
       },
       "layers": {
         "capable": "yes",
-        "notes": "Layer hierarchy visible in handoff"
+        "notes": "Can import normal layers into Design System"
       }
     }
   },
@@ -3617,7 +3617,7 @@ const toolsData = [
       "interface": "Window",
       "assets": {
         "capable": "yes",
-        "notes": "External assets not supported"
+        "notes": "Can import generic assets"
       },
       "symbols": {
         "capable": "yes",
@@ -3625,7 +3625,7 @@ const toolsData = [
       },
       "layers": {
         "capable": "yes",
-        "notes": "Can't import normal layers"
+        "notes": "Can import normal layers into Design System"
       },
       "sharing": {
         "capable": "yes",
@@ -3633,15 +3633,15 @@ const toolsData = [
       },
       "permissions": {
         "capable": "yes",
-        "notes": "Can't restrict design system access"
+        "notes": "Can restrict design system access"
       },
       "update": {
         "capable": "yes",
-        "notes": "Can't sync changes to documents"
+        "notes": "Can sync changes across documents"
       },
       "annotate": {
         "capable": "yes",
-        "notes": "Can't create notes about components"
+        "notes": "Can create notes about components"
       },
       "styleguide": {
         "capable": "no",
@@ -5313,8 +5313,8 @@ const toolsData = [
         "notes": "No simultaneous editing"
       },
       "handoff": {
-        "capable": "no",
-        "notes": "Not supported, but announced in 2019"
+        "capable": "semi",
+        "notes": "Can be done with plugins, but on the 2019 roadmap"
       },
       "artboards": {
         "capable": "yes",
@@ -5450,7 +5450,7 @@ const toolsData = [
       },
       "update": {
         "capable": "yes",
-        "notes": "Can't sync changes to documents"
+        "notes": "Can sync changes across documents"
       },
       "annotate": {
         "capable": "no",
@@ -5906,7 +5906,7 @@ const toolsData = [
       },
       "update": {
         "capable": "yes",
-        "notes": "Can't sync changes to documents"
+        "notes": "Can sync changes across documents"
       },
       "annotate": {
         "capable": "no",
@@ -6091,7 +6091,7 @@ const toolsData = [
       "interface": "Window",
       "assets": {
         "capable": "yes",
-        "notes": "External assets not supported"
+        "notes": "Can import generic assets"
       },
       "symbols": {
         "capable": "yes",
@@ -6099,7 +6099,7 @@ const toolsData = [
       },
       "layers": {
         "capable": "yes",
-        "notes": "Can't import normal layers"
+        "notes": "Can import normal layers into Design System"
       },
       "sharing": {
         "capable": "yes",
@@ -6107,19 +6107,19 @@ const toolsData = [
       },
       "permissions": {
         "capable": "yes",
-        "notes": "Can't restrict design system access"
+        "notes": "Can restrict design system access"
       },
       "update": {
         "capable": "yes",
-        "notes": "Can't sync changes to documents"
+        "notes": "Can sync changes across documents"
       },
       "annotate": {
         "capable": "yes",
-        "notes": "Can't create notes about components"
+        "notes": "Can create notes about components"
       },
       "styleguide": {
         "capable": "yes",
-        "notes": "No automatic style guide"
+        "notes": "Automatic style guide"
       }
     },
     "handoff": {
@@ -6183,7 +6183,7 @@ const toolsData = [
       },
       "layers": {
         "capable": "yes",
-        "notes": "Layer hierarchy visible in handoff"
+        "notes": "Can import normal layers into Design System"
       }
     }
   },
@@ -6598,7 +6598,7 @@ const toolsData = [
       },
       "layers": {
         "capable": "yes",
-        "notes": "Can't import normal layers"
+        "notes": "Can import normal layers into Design System"
       },
       "sharing": {
         "capable": "yes",
@@ -6610,7 +6610,7 @@ const toolsData = [
       },
       "update": {
         "capable": "yes",
-        "notes": "Can't sync changes to documents"
+        "notes": "Can sync changes across documents"
       },
       "annotate": {
         "capable": "no",
@@ -6618,7 +6618,7 @@ const toolsData = [
       },
       "styleguide": {
         "capable": "yes",
-        "notes": "No automatic style guide"
+        "notes": "Automatic style guide"
       }
     }
   }

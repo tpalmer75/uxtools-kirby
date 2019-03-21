@@ -79,58 +79,24 @@
               <div v-tooltip.bottom-center="'Word'"><img src="<?php echo kirby()->urls()->assets() . '/images/icons/word.png' ?>" v-if="app.designSystems.programs.word" title="Word"/></div>
             </div>
           </td>
-          <td>
-            <div v-if="app.pricing.free" v-tooltip.bottom-center="'Free'">
-              <?= (new Asset("assets/images/icons/check.svg"))->content() ?>
-            </div>
-          </td>
+          <check-box-table-cell :tool-property="app.pricing.free"></check-box-table-cell>
           <td style="min-width: 100px;"><span v-tooltip.bottom-center="'Individual'">{{app.pricing.individual}}</span></td>
           <td style="min-width: 100px;"><span v-tooltip.bottom-center="'Team'">{{app.pricing.team}}</span></td>
-          <td>
-            <div v-if="app.designSystems.symbols" v-tooltip.bottom-center="'Symbols'">
-              <?= (new Asset("assets/images/icons/check.svg"))->content() ?>
-            </div>
-          </td>
-          <td>
-            <div v-if="app.designSystems.layers" v-tooltip.bottom-center="'Layers'">
-              <?= (new Asset("assets/images/icons/check.svg"))->content() ?>
-            </div>
-          </td>
-          <td>
-            <div v-if="app.designSystems.assets" v-tooltip.bottom-center="'Assets'">
-              <?= (new Asset("assets/images/icons/check.svg"))->content() ?>
-            </div>
-          </td>
-          <td>
-            <div v-if="app.designSystems.sharing" v-tooltip.bottom-center="'Sharing'">
-              <?= (new Asset("assets/images/icons/check.svg"))->content() ?>
-            </div>
-          </td>
-          <td>
-            <div v-if="app.designSystems.permissions" v-tooltip.bottom-center="'Permissions'">
-              <?= (new Asset("assets/images/icons/check.svg"))->content() ?>
-            </div>
-          </td>
+          
+
+          <check-box-table-cell :tool-property="app.designSystems.symbols"></check-box-table-cell>
+          <check-box-table-cell :tool-property="app.designSystems.layers"></check-box-table-cell>
+          <check-box-table-cell :tool-property="app.designSystems.assets"></check-box-table-cell>
+          <check-box-table-cell :tool-property="app.designSystems.sharing"></check-box-table-cell>
+          <check-box-table-cell :tool-property="app.designSystems.permissions"></check-box-table-cell>
           <td>
             <div v-if="app.designSystems.interface" v-tooltip.bottom-center="'Interface'">
               <span>{{app.designSystems.interface}}</span>
             </div>
           </td>
-          <td>
-            <div v-if="app.designSystems.update" v-tooltip.bottom-center="'Update'">
-              <?= (new Asset("assets/images/icons/check.svg"))->content() ?>
-            </div>
-          </td>
-          <td>
-            <div v-if="app.designSystems.annotate" v-tooltip.bottom-center="'Annotate'">
-              <?= (new Asset("assets/images/icons/check.svg"))->content() ?>
-            </div>
-          </td>
-          <td>
-            <div v-if="app.designSystems.styleguide" v-tooltip.bottom-center="'S'">
-              <?= (new Asset("assets/images/icons/check.svg"))->content() ?>
-            </div>
-          </td>
+          <check-box-table-cell :tool-property="app.designSystems.update"></check-box-table-cell>
+          <check-box-table-cell :tool-property="app.designSystems.annotate"></check-box-table-cell>
+          <check-box-table-cell :tool-property="app.designSystems.styleguide"></check-box-table-cell>
         </tr>
       </tbody>
     </table>
