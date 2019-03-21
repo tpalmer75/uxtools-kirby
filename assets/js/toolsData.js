@@ -502,8 +502,8 @@ const toolsData = [
       }
     },
     "handoff": {
-      "surveyRaw2017": 157,
       "surveyPercent2017": 22,
+      "surveyRaw2017": 157,
       "surveyRaw2018": 264,
       "surveyPercent2018": 27,
       "platforms": {
@@ -513,20 +513,54 @@ const toolsData = [
       "programs": {
         "adobeXd": true
       },
-      "specs": true,
-      "automatic": true,
-      "assets": true,
-      "measure": true,
-      "variables": false,
-      "guides": false,
-      "layers": false,
-      "comments": true,
-      "revisions": false,
-      "styleguide": true,
+      "integrations": {},
       "sharing": {
         "web": true
       },
-      "integrations": {}
+      "prototyping": {
+        "capable": "no",
+        "notes": ""
+      },
+      "specs": {
+        "capable": "yes",
+        "notes": "Supports specs"
+      },
+      "automatic": {
+        "capable": "yes",
+        "notes": "Automatically generated specs"
+      },
+      "assets": {
+        "capable": "yes",
+        "notes": "Export assets and images"
+      },
+      "measure": {
+        "capable": "yes",
+        "notes": "Can measure distances and sizes"
+      },
+      "variables": {
+        "capable": "no",
+        "notes": "No variables or tokens"
+      },
+      "guides": {
+        "capable": "no",
+        "notes": "Guides not present in handoff"
+      },
+      "comments": {
+        "capable": "yes",
+        "notes": "Reviewers can leave comments"
+      },
+      "styleguide": {
+        "capable": "yes",
+        "notes": "Automatic style guide"
+      },
+      "revisions": {
+        "capable": "no",
+        "notes": "Can't view past revisions"
+      },
+      "layers": {
+        "capable": "no",
+        "notes": "Layer hierarchy not present in handoff"
+      }
     },
     "designSystems": {
       "surveyRaw2018": 21,
@@ -804,8 +838,8 @@ const toolsData = [
       "background-position": "-400 -500"
     },
     "handoff": {
-      "surveyRaw2017": 30,
       "surveyPercent2017": 4,
+      "surveyRaw2017": 30,
       "surveyRaw2018": 43,
       "surveyPercent2018": 4,
       "platforms": {
@@ -821,28 +855,62 @@ const toolsData = [
         "figma": true,
         "illustrator": true
       },
-      "specs": true,
-      "automatic": true,
-      "assets": true,
-      "measure": true,
-      "variables": true,
-      "guides": true,
-      "layers": true,
-      "comments": true,
-      "revisions": true,
-      "sharing": {
-        "mac": true,
-        "windows": true,
-        "linux": true,
-        "web": true
-      },
       "integrations": {
         "slack": true,
         "visualStudio": true,
         "atom": true,
         "dropbox": true
       },
-      "lastUpdated": "Nov '18"
+      "sharing": {
+        "mac": true,
+        "windows": true,
+        "linux": true,
+        "web": true
+      },
+      "prototyping": {
+        "capable": "no",
+        "notes": ""
+      },
+      "specs": {
+        "capable": "yes",
+        "notes": "Supports specs"
+      },
+      "automatic": {
+        "capable": "yes",
+        "notes": "Automatically generated specs"
+      },
+      "assets": {
+        "capable": "yes",
+        "notes": "Export assets and images"
+      },
+      "measure": {
+        "capable": "yes",
+        "notes": "Can measure distances and sizes"
+      },
+      "variables": {
+        "capable": "yes",
+        "notes": "Sync CSS color variables"
+      },
+      "guides": {
+        "capable": "yes",
+        "notes": "Guides can be viewed in handoff"
+      },
+      "comments": {
+        "capable": "yes",
+        "notes": "Reviewers can leave comments"
+      },
+      "styleguide": {
+        "capable": "no",
+        "notes": "No style guides"
+      },
+      "revisions": {
+        "capable": "yes",
+        "notes": "Revision stored with handoff"
+      },
+      "layers": {
+        "capable": "yes",
+        "notes": "Layer hierarchy visible in handoff"
+      }
     }
   },
   {
@@ -1486,8 +1554,8 @@ const toolsData = [
       "styleguide": false
     },
     "handoff": {
-      "surveyRaw2017": 127,
       "surveyPercent2017": 18,
+      "surveyRaw2017": 127,
       "surveyRaw2018": 366,
       "surveyPercent2018": 37,
       "platforms": {
@@ -1499,21 +1567,56 @@ const toolsData = [
         "sketch": true,
         "figma": true
       },
-      "specs": true,
-      "automatic": true,
-      "assets": true,
-      "measure": true,
-      "variables": false,
-      "guides": true,
-      "layers": true,
-      "comments": true,
-      "revisions": false,
+      "integrations": {},
       "sharing": {
         "web": true,
         "windows": true,
         "mac": true
       },
-      "integrations": {}
+      "prototyping": {
+        "capable": "no",
+        "notes": ""
+      },
+      "specs": {
+        "capable": "yes",
+        "notes": "Supports specs"
+      },
+      "automatic": {
+        "capable": "yes",
+        "notes": "Automatically generated specs"
+      },
+      "assets": {
+        "capable": "yes",
+        "notes": "Export assets and images"
+      },
+      "measure": {
+        "capable": "yes",
+        "notes": "Can measure distances and sizes"
+      },
+      "variables": {
+        "capable": "no",
+        "notes": "No variables or tokens"
+      },
+      "guides": {
+        "capable": "yes",
+        "notes": "Guides can be viewed in handoff"
+      },
+      "comments": {
+        "capable": "yes",
+        "notes": "Reviewers can leave comments"
+      },
+      "styleguide": {
+        "capable": "no",
+        "notes": "No style guides"
+      },
+      "revisions": {
+        "capable": "no",
+        "notes": "Can't view past revisions"
+      },
+      "layers": {
+        "capable": "yes",
+        "notes": "Layer hierarchy visible in handoff"
+      }
     },
     "versioning": {
       "surveyRaw2018": 71,
@@ -2122,27 +2225,62 @@ const toolsData = [
       }
     },
     "handoff": {
-      "surveyRaw2017": 0,
       "surveyPercent2017": 0,
-      "surveyPercent2018": 1,
+      "surveyRaw2017": 0,
       "surveyRaw2018": 1,
+      "surveyPercent2018": 1,
       "platforms": {
         "web": true
       },
       "programs": {},
-      "specs": true,
-      "automatic": false,
-      "assets": false,
-      "measure": true,
-      "variables": true,
-      "guides": false,
-      "layers": false,
-      "comments": true,
-      "revisions": true,
+      "integrations": {},
       "sharing": {
         "web": true
       },
-      "integrations": {}
+      "prototyping": {
+        "capable": "no",
+        "notes": ""
+      },
+      "specs": {
+        "capable": "yes",
+        "notes": "Supports specs"
+      },
+      "automatic": {
+        "capable": "no",
+        "notes": "Specs must be manually created"
+      },
+      "assets": {
+        "capable": "no",
+        "notes": "No asset exporting"
+      },
+      "measure": {
+        "capable": "yes",
+        "notes": "Can measure distances and sizes"
+      },
+      "variables": {
+        "capable": "yes",
+        "notes": "Sync CSS color variables"
+      },
+      "guides": {
+        "capable": "no",
+        "notes": "Guides not present in handoff"
+      },
+      "comments": {
+        "capable": "yes",
+        "notes": "Reviewers can leave comments"
+      },
+      "styleguide": {
+        "capable": "no",
+        "notes": "No style guides"
+      },
+      "revisions": {
+        "capable": "yes",
+        "notes": "Revision stored with handoff"
+      },
+      "layers": {
+        "capable": "no",
+        "notes": "Layer hierarchy not present in handoff"
+      }
     }
   },
   {
@@ -2501,8 +2639,8 @@ const toolsData = [
       "background-position": "-300 -400"
     },
     "handoff": {
-      "surveyRaw2017": 721,
       "surveyPercent2017": 100,
+      "surveyRaw2017": 721,
       "surveyRaw2018": 827,
       "surveyPercent2018": 84,
       "platforms": {
@@ -2511,17 +2649,54 @@ const toolsData = [
       "programs": {
         "sketch": true
       },
-      "automatic": true,
-      "specs": true,
-      "measure": true,
-      "comments": true,
-      "revisions": true,
-      "assets": true,
-      "layers": false,
+      "integrations": {},
       "sharing": {
         "web": true
       },
-      "integrations": {}
+      "prototyping": {
+        "capable": "no",
+        "notes": ""
+      },
+      "specs": {
+        "capable": "yes",
+        "notes": "Supports specs"
+      },
+      "automatic": {
+        "capable": "yes",
+        "notes": "Automatically generated specs"
+      },
+      "assets": {
+        "capable": "yes",
+        "notes": "Export assets and images"
+      },
+      "measure": {
+        "capable": "yes",
+        "notes": "Can measure distances and sizes"
+      },
+      "variables": {
+        "capable": "no",
+        "notes": "No variables or tokens"
+      },
+      "guides": {
+        "capable": "no",
+        "notes": "Guides not present in handoff"
+      },
+      "comments": {
+        "capable": "yes",
+        "notes": "Reviewers can leave comments"
+      },
+      "styleguide": {
+        "capable": "no",
+        "notes": "No style guides"
+      },
+      "revisions": {
+        "capable": "yes",
+        "notes": "Revision stored with handoff"
+      },
+      "layers": {
+        "capable": "no",
+        "notes": "Layer hierarchy not present in handoff"
+      }
     }
   },
   {
@@ -2961,8 +3136,8 @@ const toolsData = [
       }
     },
     "handoff": {
-      "surveyRaw2017": 10,
       "surveyPercent2017": 1,
+      "surveyRaw2017": 10,
       "surveyRaw2018": 9,
       "surveyPercent2018": 1,
       "platforms": {
@@ -2972,24 +3147,59 @@ const toolsData = [
       "programs": {
         "sketch": true
       },
-      "specs": true,
-      "automatic": true,
-      "assets": true,
-      "measure": true,
-      "variables": false,
-      "guides": false,
-      "layers": true,
-      "comments": true,
-      "revisions": true,
+      "integrations": {
+        "jira": true,
+        "microsoftTfs": true
+      },
       "sharing": {
         "web": true,
         "html": true,
         "windows": true,
         "mac": true
       },
-      "integrations": {
-        "jira": true,
-        "microsoftTfs": true
+      "prototyping": {
+        "capable": "no",
+        "notes": ""
+      },
+      "specs": {
+        "capable": "yes",
+        "notes": "Supports specs"
+      },
+      "automatic": {
+        "capable": "yes",
+        "notes": "Automatically generated specs"
+      },
+      "assets": {
+        "capable": "yes",
+        "notes": "Export assets and images"
+      },
+      "measure": {
+        "capable": "yes",
+        "notes": "Can measure distances and sizes"
+      },
+      "variables": {
+        "capable": "no",
+        "notes": "No variables or tokens"
+      },
+      "guides": {
+        "capable": "no",
+        "notes": "Guides not present in handoff"
+      },
+      "comments": {
+        "capable": "yes",
+        "notes": "Reviewers can leave comments"
+      },
+      "styleguide": {
+        "capable": "no",
+        "notes": "No style guides"
+      },
+      "revisions": {
+        "capable": "yes",
+        "notes": "Revision stored with handoff"
+      },
+      "layers": {
+        "capable": "yes",
+        "notes": "Layer hierarchy visible in handoff"
       }
     }
   },
@@ -3449,8 +3659,8 @@ const toolsData = [
       "background-position": "-300 -600"
     },
     "handoff": {
-      "surveyRaw2017": 1,
       "surveyPercent2017": 1,
+      "surveyRaw2017": 1,
       "surveyRaw2018": 0,
       "surveyPercent2018": 0,
       "platforms": {
@@ -3459,12 +3669,54 @@ const toolsData = [
       "programs": {
         "sketch": true
       },
-      "specs": true,
-      "measure": true,
+      "integrations": {},
       "sharing": {
         "html": true
       },
-      "integrations": {}
+      "prototyping": {
+        "capable": "no",
+        "notes": ""
+      },
+      "specs": {
+        "capable": "yes",
+        "notes": "Supports specs"
+      },
+      "automatic": {
+        "capable": "no",
+        "notes": "Specs must be manually created"
+      },
+      "assets": {
+        "capable": "no",
+        "notes": "No asset exporting"
+      },
+      "measure": {
+        "capable": "yes",
+        "notes": "Can measure distances and sizes"
+      },
+      "variables": {
+        "capable": "no",
+        "notes": "No variables or tokens"
+      },
+      "guides": {
+        "capable": "no",
+        "notes": "Guides not present in handoff"
+      },
+      "comments": {
+        "capable": "no",
+        "notes": "Comments not supported"
+      },
+      "styleguide": {
+        "capable": "no",
+        "notes": "No style guides"
+      },
+      "revisions": {
+        "capable": "no",
+        "notes": "Can't view past revisions"
+      },
+      "layers": {
+        "capable": "no",
+        "notes": "Layer hierarchy not present in handoff"
+      }
     }
   },
   {
@@ -3473,16 +3725,16 @@ const toolsData = [
       "free": true,
       "subscription": "",
       "purchase": "?",
-      "cost": "?",
-      "notes": "One-time purchase"
+      "cost": "",
+      "notes": ""
     },
     "url": "http://marklyapp.com/",
     "image": {
       "background-position": "0 -600"
     },
     "handoff": {
-      "surveyRaw2017": 0,
       "surveyPercent2017": 0,
+      "surveyRaw2017": 0,
       "surveyRaw2018": 0,
       "surveyPercent2018": 0,
       "platforms": {
@@ -3491,14 +3743,54 @@ const toolsData = [
       "programs": {
         "sketch": true
       },
-      "specs": true,
-      "automatic": true,
-      "measure": true,
-      "comments": true,
+      "integrations": {},
       "sharing": {
         "mac": true
       },
-      "integrations": {}
+      "prototyping": {
+        "capable": "no",
+        "notes": ""
+      },
+      "specs": {
+        "capable": "yes",
+        "notes": "Supports specs"
+      },
+      "automatic": {
+        "capable": "yes",
+        "notes": "Automatically generated specs"
+      },
+      "assets": {
+        "capable": "no",
+        "notes": "No asset exporting"
+      },
+      "measure": {
+        "capable": "yes",
+        "notes": "Can measure distances and sizes"
+      },
+      "variables": {
+        "capable": "no",
+        "notes": "No variables or tokens"
+      },
+      "guides": {
+        "capable": "no",
+        "notes": "Guides not present in handoff"
+      },
+      "comments": {
+        "capable": "yes",
+        "notes": "Reviewers can leave comments"
+      },
+      "styleguide": {
+        "capable": "no",
+        "notes": "No style guides"
+      },
+      "revisions": {
+        "capable": "no",
+        "notes": "Can't view past revisions"
+      },
+      "layers": {
+        "capable": "no",
+        "notes": "Layer hierarchy not present in handoff"
+      }
     }
   },
   {
@@ -3598,8 +3890,8 @@ const toolsData = [
       }
     },
     "handoff": {
-      "surveyRaw2017": 75,
       "surveyPercent2017": 10,
+      "surveyRaw2017": 75,
       "surveyRaw2018": 79,
       "surveyPercent2018": 8,
       "platforms": {
@@ -3608,19 +3900,54 @@ const toolsData = [
       "programs": {
         "sketch": true
       },
-      "specs": true,
-      "automatic": true,
-      "assets": true,
-      "measure": true,
-      "variables": false,
-      "guides": false,
-      "layers": false,
-      "comments": false,
-      "revisions": false,
+      "integrations": {},
       "sharing": {
         "web": true
       },
-      "integrations": {}
+      "prototyping": {
+        "capable": "no",
+        "notes": ""
+      },
+      "specs": {
+        "capable": "yes",
+        "notes": "Supports specs"
+      },
+      "automatic": {
+        "capable": "yes",
+        "notes": "Automatically generated specs"
+      },
+      "assets": {
+        "capable": "yes",
+        "notes": "Export assets and images"
+      },
+      "measure": {
+        "capable": "yes",
+        "notes": "Can measure distances and sizes"
+      },
+      "variables": {
+        "capable": "no",
+        "notes": "No variables or tokens"
+      },
+      "guides": {
+        "capable": "no",
+        "notes": "Guides not present in handoff"
+      },
+      "comments": {
+        "capable": "no",
+        "notes": "Comments not supported"
+      },
+      "styleguide": {
+        "capable": "no",
+        "notes": "No style guides"
+      },
+      "revisions": {
+        "capable": "no",
+        "notes": "Can't view past revisions"
+      },
+      "layers": {
+        "capable": "no",
+        "notes": "Layer hierarchy not present in handoff"
+      }
     }
   },
   {
@@ -4760,20 +5087,62 @@ const toolsData = [
       "background-position": "-300 -700"
     },
     "handoff": {
-      "surveyRaw2017": 0,
       "surveyPercent2017": 0,
+      "surveyRaw2017": 0,
       "surveyRaw2018": 0,
       "surveyPercent2018": 0,
-      "programs": {},
       "platforms": {
         "web": true
       },
-      "comments": true,
-      "revisions": true,
+      "programs": {},
+      "integrations": {},
       "sharing": {
         "web": true
       },
-      "integrations": {}
+      "prototyping": {
+        "capable": "no",
+        "notes": ""
+      },
+      "specs": {
+        "capable": "no",
+        "notes": "No specs"
+      },
+      "automatic": {
+        "capable": "no",
+        "notes": "Specs must be manually created"
+      },
+      "assets": {
+        "capable": "no",
+        "notes": "No asset exporting"
+      },
+      "measure": {
+        "capable": "no",
+        "notes": "No measurements"
+      },
+      "variables": {
+        "capable": "no",
+        "notes": "No variables or tokens"
+      },
+      "guides": {
+        "capable": "no",
+        "notes": "Guides not present in handoff"
+      },
+      "comments": {
+        "capable": "yes",
+        "notes": "Reviewers can leave comments"
+      },
+      "styleguide": {
+        "capable": "no",
+        "notes": "No style guides"
+      },
+      "revisions": {
+        "capable": "yes",
+        "notes": "Revision stored with handoff"
+      },
+      "layers": {
+        "capable": "no",
+        "notes": "Layer hierarchy not present in handoff"
+      }
     }
   },
   {
@@ -4963,8 +5332,8 @@ const toolsData = [
       "background-position": "-500 -600"
     },
     "handoff": {
-      "surveyRaw2017": 152,
       "surveyPercent2017": 21,
+      "surveyRaw2017": 152,
       "surveyRaw2018": 213,
       "surveyPercent2018": 22,
       "platforms": {
@@ -4973,15 +5342,54 @@ const toolsData = [
       "programs": {
         "sketch": true
       },
-      "variables": true,
-      "automatic": true,
-      "assets": true,
-      "specs": true,
-      "measure": true,
+      "integrations": {},
       "sharing": {
         "html": true
       },
-      "integrations": {}
+      "prototyping": {
+        "capable": "no",
+        "notes": ""
+      },
+      "specs": {
+        "capable": "yes",
+        "notes": "Supports specs"
+      },
+      "automatic": {
+        "capable": "yes",
+        "notes": "Automatically generated specs"
+      },
+      "assets": {
+        "capable": "yes",
+        "notes": "Export assets and images"
+      },
+      "measure": {
+        "capable": "yes",
+        "notes": "Can measure distances and sizes using Spec Export"
+      },
+      "variables": {
+        "capable": "yes",
+        "notes": "Sync CSS color variables"
+      },
+      "guides": {
+        "capable": "no",
+        "notes": "Guides not present in handoff"
+      },
+      "comments": {
+        "capable": "no",
+        "notes": "Comments not supported"
+      },
+      "styleguide": {
+        "capable": "no",
+        "notes": "No style guides"
+      },
+      "revisions": {
+        "capable": "no",
+        "notes": "Can't view past revisions"
+      },
+      "layers": {
+        "capable": "no",
+        "notes": "Layer hierarchy not present in handoff"
+      }
     }
   },
   {
@@ -5029,8 +5437,8 @@ const toolsData = [
       "background-position": "-400 -600"
     },
     "handoff": {
-      "surveyRaw2017": 0,
       "surveyPercent2017": 0,
+      "surveyRaw2017": 0,
       "surveyRaw2018": 1,
       "surveyPercent2018": 1,
       "platforms": {
@@ -5042,14 +5450,54 @@ const toolsData = [
         "illustrator": true,
         "indesign": true
       },
-      "specs": true,
-      "measure": true,
-      "comments": true,
-      "revisions": true,
+      "integrations": {},
       "sharing": {
         "web": true
       },
-      "integrations": {}
+      "prototyping": {
+        "capable": "no",
+        "notes": ""
+      },
+      "specs": {
+        "capable": "yes",
+        "notes": "Supports specs"
+      },
+      "automatic": {
+        "capable": "no",
+        "notes": "Specs must be manually created"
+      },
+      "assets": {
+        "capable": "no",
+        "notes": "No asset exporting"
+      },
+      "measure": {
+        "capable": "yes",
+        "notes": "Can measure distances and sizes"
+      },
+      "variables": {
+        "capable": "no",
+        "notes": "No variables or tokens"
+      },
+      "guides": {
+        "capable": "no",
+        "notes": "Guides not present in handoff"
+      },
+      "comments": {
+        "capable": "yes",
+        "notes": "Reviewers can leave comments"
+      },
+      "styleguide": {
+        "capable": "no",
+        "notes": "No style guides"
+      },
+      "revisions": {
+        "capable": "yes",
+        "notes": "Revision stored with handoff"
+      },
+      "layers": {
+        "capable": "no",
+        "notes": "Layer hierarchy not present in handoff"
+      }
     }
   },
   {
@@ -5203,8 +5651,8 @@ const toolsData = [
       "background-position": "-100 -600"
     },
     "handoff": {
-      "surveyRaw2017": 5,
       "surveyPercent2017": 1,
+      "surveyRaw2017": 5,
       "surveyRaw2018": 7,
       "surveyPercent2018": 1,
       "platforms": {
@@ -5215,26 +5663,57 @@ const toolsData = [
         "photoshop": true,
         "adobeXd": true
       },
-      "specs": true,
-      "automatic": true,
-      "assets": true,
-      "measure": true,
-      "variables": true,
-      "guides": true,
-      "layers": false,
-      "comments": true,
-      "revisions": true,
-      "prototyping": {
-        "sketch": true,
-        "adobeXd": true
+      "integrations": {
+        "slack": true
       },
       "sharing": {
         "web": true,
         "xcode": true,
         "androidStudio": true
       },
-      "integrations": {
-        "slack": true
+      "prototyping": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "specs": {
+        "capable": "yes",
+        "notes": "Supports specs"
+      },
+      "automatic": {
+        "capable": "yes",
+        "notes": "Automatically generated specs"
+      },
+      "assets": {
+        "capable": "yes",
+        "notes": "Export assets and images"
+      },
+      "measure": {
+        "capable": "yes",
+        "notes": "Can measure distances and sizes"
+      },
+      "variables": {
+        "capable": "yes",
+        "notes": "Sync CSS color variables"
+      },
+      "guides": {
+        "capable": "yes",
+        "notes": "Guides can be viewed in handoff"
+      },
+      "comments": {
+        "capable": "yes",
+        "notes": "Reviewers can leave comments"
+      },
+      "styleguide": {
+        "capable": "no",
+        "notes": "No style guides"
+      },
+      "revisions": {
+        "capable": "yes",
+        "notes": "Revision stored with handoff"
+      },
+      "layers": {
+        "capable": "no",
+        "notes": "Layer hierarchy not present in handoff"
       }
     }
   },
@@ -5453,8 +5932,8 @@ const toolsData = [
       "styleguide": true
     },
     "handoff": {
-      "surveyRaw2017": 14,
       "surveyPercent2017": 2,
+      "surveyRaw2017": 14,
       "surveyRaw2018": 23,
       "surveyPercent2018": 2,
       "platforms": {
@@ -5465,19 +5944,55 @@ const toolsData = [
       "programs": {
         "sketch": true
       },
-      "specs": true,
-      "automatic": true,
-      "assets": true,
-      "layers": true,
-      "measure": true,
-      "comments": true,
-      "revisions": true,
-      "styleguide": true,
+      "integrations": {
+        "slack": true
+      },
       "sharing": {
         "web": true
       },
-      "integrations": {
-        "slack": true
+      "prototyping": {
+        "capable": "no",
+        "notes": ""
+      },
+      "specs": {
+        "capable": "yes",
+        "notes": "Supports specs"
+      },
+      "automatic": {
+        "capable": "yes",
+        "notes": "Automatically generated specs"
+      },
+      "assets": {
+        "capable": "yes",
+        "notes": "Export assets and images"
+      },
+      "measure": {
+        "capable": "yes",
+        "notes": "Can measure distances and sizes"
+      },
+      "variables": {
+        "capable": "no",
+        "notes": "No variables or tokens"
+      },
+      "guides": {
+        "capable": "no",
+        "notes": "Guides not present in handoff"
+      },
+      "comments": {
+        "capable": "yes",
+        "notes": "Reviewers can leave comments"
+      },
+      "styleguide": {
+        "capable": "yes",
+        "notes": "Automatic style guide"
+      },
+      "revisions": {
+        "capable": "yes",
+        "notes": "Revision stored with handoff"
+      },
+      "layers": {
+        "capable": "yes",
+        "notes": "Layer hierarchy visible in handoff"
       }
     }
   },
@@ -5702,8 +6217,8 @@ const toolsData = [
       "background-position": "-500 -500"
     },
     "handoff": {
-      "surveyRaw2017": 602,
       "surveyPercent2017": 83,
+      "surveyRaw2017": 602,
       "surveyRaw2018": 983,
       "surveyPercent2018": 100,
       "platforms": {
@@ -5716,25 +6231,57 @@ const toolsData = [
         "figma": true,
         "adobeXd": true
       },
-      "specs": true,
-      "automatic": true,
-      "assets": true,
-      "measure": true,
-      "variables": true,
-      "guides": true,
-      "comments": true,
-      "styleguide": true,
-      "revisions": true,
-      "prototyping": {
-        "sketch": true
+      "integrations": {
+        "slack": true
       },
       "sharing": {
         "mac": true,
         "web": true,
         "windows": true
       },
-      "integrations": {
-        "slack": true
+      "prototyping": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "specs": {
+        "capable": "yes",
+        "notes": "Supports specs"
+      },
+      "automatic": {
+        "capable": "yes",
+        "notes": "Automatically generated specs"
+      },
+      "assets": {
+        "capable": "yes",
+        "notes": "Export assets and images"
+      },
+      "measure": {
+        "capable": "yes",
+        "notes": "Can measure distances and sizes"
+      },
+      "variables": {
+        "capable": "yes",
+        "notes": "Sync CSS color variables"
+      },
+      "guides": {
+        "capable": "yes",
+        "notes": "Guides can be viewed in handoff"
+      },
+      "comments": {
+        "capable": "yes",
+        "notes": "Reviewers can leave comments"
+      },
+      "styleguide": {
+        "capable": "yes",
+        "notes": "Automatic style guide"
+      },
+      "revisions": {
+        "capable": "yes",
+        "notes": "Revision stored with handoff"
+      },
+      "layers": {
+        "capable": "no",
+        "notes": "Layer hierarchy not present in handoff"
       }
     }
   },
