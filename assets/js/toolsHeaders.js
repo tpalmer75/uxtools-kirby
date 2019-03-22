@@ -24,7 +24,7 @@ const toolsHeaders = {
     },
     {
       "title": "Programs",
-      "notes": "Which file types are support?"
+      "notes": "Which file types are supported?"
     },
     {
       "title": "Free",

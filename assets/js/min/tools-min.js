@@ -22144,7 +22144,7 @@ const toolsHeaders = {
     },
     {
       "title": "Programs",
-      "notes": "Which file types are support?"
+      "notes": "Which file types are supported?"
     },
     {
       "title": "Free",
@@ -22717,27 +22717,27 @@ const toolsData = [
       },
       "symbols": {
         "capable": "yes",
-        "notes": "Can version symbols"
+        "notes": "Doesn't work with symbols"
       },
       "documents": {
         "capable": "yes",
-        "notes": "Can version entire documents"
+        "notes": "Doesn't work with documents"
       },
       "branching": {
         "capable": "yes",
-        "notes": "Can create branches"
+        "notes": "No branching functionality"
       },
       "preview": {
         "capable": "yes",
-        "notes": "Can show visual previews"
+        "notes": "No preview shown"
       },
       "compare": {
         "capable": "yes",
-        "notes": "Can show comparisons"
+        "notes": "No comparisons"
       },
       "comments": {
         "capable": "yes",
-        "notes": "Others can leave comments"
+        "notes": "Comments not supported"
       }
     }
   },
@@ -22777,11 +22777,11 @@ const toolsData = [
       },
       "documents": {
         "capable": "yes",
-        "notes": "Can version entire documents"
+        "notes": "Doesn't work with documents"
       },
       "branching": {
         "capable": "yes",
-        "notes": "Can create branches"
+        "notes": "No branching functionality"
       },
       "preview": {
         "capable": "no",
@@ -22833,8 +22833,8 @@ const toolsData = [
         "notes": "Doesn't work with symbols"
       },
       "documents": {
-        "capable": "yes",
-        "notes": "Can version entire documents"
+        "capable": "no",
+        "notes": "Doesn't work with documents"
       },
       "branching": {
         "capable": "no",
@@ -22850,7 +22850,7 @@ const toolsData = [
       },
       "comments": {
         "capable": "yes",
-        "notes": "Others can leave comments"
+        "notes": "Comments not supported"
       }
     }
   },
@@ -22889,8 +22889,8 @@ const toolsData = [
         "notes": "Doesn't work with symbols"
       },
       "documents": {
-        "capable": "semi",
-        "notes": "Works but merge conflicts are messy"
+        "capable": "no",
+        "notes": "Doesn't work with documents"
       },
       "branching": {
         "capable": "no",
@@ -22906,7 +22906,7 @@ const toolsData = [
       },
       "comments": {
         "capable": "yes",
-        "notes": "Others can leave comments"
+        "notes": "Comments not supported"
       }
     }
   },
@@ -22962,7 +22962,7 @@ const toolsData = [
       },
       "comments": {
         "capable": "yes",
-        "notes": "Others can leave comments"
+        "notes": "Comments not supported"
       }
     }
   },
@@ -24518,11 +24518,11 @@ const toolsData = [
       },
       "symbols": {
         "capable": "yes",
-        "notes": "Can version symbols"
+        "notes": "Doesn't work with symbols"
       },
       "documents": {
         "capable": "yes",
-        "notes": "Can version entire documents"
+        "notes": "Doesn't work with documents"
       },
       "branching": {
         "capable": "no",
@@ -24530,7 +24530,7 @@ const toolsData = [
       },
       "preview": {
         "capable": "yes",
-        "notes": "Can show visual previews"
+        "notes": "No preview shown"
       },
       "compare": {
         "capable": "no",
@@ -24538,7 +24538,7 @@ const toolsData = [
       },
       "comments": {
         "capable": "yes",
-        "notes": "Others can leave comments"
+        "notes": "Comments not supported"
       }
     }
   },
@@ -24756,19 +24756,19 @@ const toolsData = [
       },
       "symbols": {
         "capable": "yes",
-        "notes": "Can version symbols"
+        "notes": "Doesn't work with symbols"
       },
       "documents": {
         "capable": "yes",
-        "notes": "Can version entire documents"
+        "notes": "Doesn't work with documents"
       },
       "branching": {
         "capable": "yes",
-        "notes": "Can create branches"
+        "notes": "No branching functionality"
       },
       "preview": {
         "capable": "yes",
-        "notes": "Can show visual previews"
+        "notes": "No preview shown"
       },
       "compare": {
         "capable": "no",
@@ -25217,23 +25217,62 @@ const toolsData = [
       "background-position": "-300 -100"
     },
     "monitoring": {
-      "surveyRaw2017": 122,
       "surveyPercent2017": 38,
+      "surveyRaw2017": 122,
       "surveyRaw2018": 145,
       "surveyPercent2018": 28,
       "platforms": {
         "web": true
       },
-      "playback": true,
-      "tags": true,
-      "location": true,
-      "console": true,
-      "skipInactivity": true,
-      "playbackSpeed": true,
-      "jumpBack": true,
-      "taylorChoice": true,
-      "live": true,
-      "export": {}
+      "export": {},
+      "playback": {
+        "capable": "yes",
+        "notes": "No session recording"
+      },
+      "tags": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "location": {
+        "capable": "yes",
+        "notes": "No location tracking"
+      },
+      "console": {
+        "capable": "yes",
+        "notes": "No console logging"
+      },
+      "skipInactivity": {
+        "capable": "yes",
+        "notes": "No skipping"
+      },
+      "playbackSpeed": {
+        "capable": "yes",
+        "notes": "No speed changes"
+      },
+      "jumpBack": {
+        "capable": "yes",
+        "notes": "No jumping back"
+      },
+      "live": {
+        "capable": "yes",
+        "notes": "No live viewing"
+      },
+      "formAnalytics": {
+        "capable": "no",
+        "notes": "No form analysis"
+      },
+      "polls": {
+        "capable": "no",
+        "notes": "No user polls"
+      },
+      "control": {
+        "capable": "no",
+        "notes": "No remote control"
+      },
+      "heatmaps": {
+        "capable": "no",
+        "notes": "No heatmap"
+      }
     }
   },
   {
@@ -25360,7 +25399,7 @@ const toolsData = [
       },
       "documents": {
         "capable": "yes",
-        "notes": "Can version entire documents"
+        "notes": "Doesn't work with documents"
       },
       "branching": {
         "capable": "no",
@@ -25368,7 +25407,7 @@ const toolsData = [
       },
       "preview": {
         "capable": "yes",
-        "notes": "Can show visual previews"
+        "notes": "No preview shown"
       },
       "compare": {
         "capable": "no",
@@ -25376,7 +25415,7 @@ const toolsData = [
       },
       "comments": {
         "capable": "yes",
-        "notes": "Others can leave comments"
+        "notes": "Comments not supported"
       }
     }
   },
@@ -25549,21 +25588,62 @@ const toolsData = [
       "background-position": "0 -200"
     },
     "monitoring": {
-      "surveyRaw2017": 319,
       "surveyPercent2017": 100,
+      "surveyRaw2017": 319,
       "surveyRaw2018": 508,
       "surveyPercent2018": 100,
       "platforms": {
         "web": true
       },
-      "playback": true,
-      "heatmaps": true,
-      "location": true,
-      "formAnalytics": true,
-      "polls": true,
-      "playbackSpeed": true,
-      "skipInactivity": true,
-      "export": {}
+      "export": {},
+      "playback": {
+        "capable": "yes",
+        "notes": "No session recording"
+      },
+      "tags": {
+        "capable": "no",
+        "notes": ""
+      },
+      "location": {
+        "capable": "yes",
+        "notes": "No location tracking"
+      },
+      "console": {
+        "capable": "no",
+        "notes": "No console logging"
+      },
+      "skipInactivity": {
+        "capable": "yes",
+        "notes": "No skipping"
+      },
+      "playbackSpeed": {
+        "capable": "yes",
+        "notes": "No speed changes"
+      },
+      "jumpBack": {
+        "capable": "no",
+        "notes": "No jumping back"
+      },
+      "live": {
+        "capable": "no",
+        "notes": "No live viewing"
+      },
+      "formAnalytics": {
+        "capable": "yes",
+        "notes": "No form analysis"
+      },
+      "polls": {
+        "capable": "yes",
+        "notes": "No user polls"
+      },
+      "control": {
+        "capable": "no",
+        "notes": "No remote control"
+      },
+      "heatmaps": {
+        "capable": "yes",
+        "notes": "Can generate heatmaps"
+      }
     }
   },
   {
@@ -25884,21 +25964,63 @@ const toolsData = [
       "background-position": "-100 -200"
     },
     "monitoring": {
-      "surveyRaw2017": 3,
       "surveyPercent2017": 1,
+      "surveyRaw2017": 3,
       "surveyRaw2018": 11,
       "surveyPercent2018": 2,
       "platforms": {
         "web": true
       },
-      "playback": true,
-      "heatmaps": true,
-      "tags": true,
-      "location": true,
-      "skipInactivity": true,
-      "playbackSpeed": true,
       "export": {
         "html": true
+      },
+      "playback": {
+        "capable": "yes",
+        "notes": "No session recording"
+      },
+      "tags": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "location": {
+        "capable": "yes",
+        "notes": "No location tracking"
+      },
+      "console": {
+        "capable": "no",
+        "notes": "No console logging"
+      },
+      "skipInactivity": {
+        "capable": "yes",
+        "notes": "No skipping"
+      },
+      "playbackSpeed": {
+        "capable": "yes",
+        "notes": "No speed changes"
+      },
+      "jumpBack": {
+        "capable": "no",
+        "notes": "No jumping back"
+      },
+      "live": {
+        "capable": "no",
+        "notes": "No live viewing"
+      },
+      "formAnalytics": {
+        "capable": "no",
+        "notes": "No form analysis"
+      },
+      "polls": {
+        "capable": "no",
+        "notes": "No user polls"
+      },
+      "control": {
+        "capable": "no",
+        "notes": "No remote control"
+      },
+      "heatmaps": {
+        "capable": "yes",
+        "notes": "Can generate heatmaps"
       }
     }
   },
@@ -25915,20 +26037,62 @@ const toolsData = [
       "background-position": "-400 -200"
     },
     "monitoring": {
-      "surveyRaw2017": 8,
       "surveyPercent2017": 3,
+      "surveyRaw2017": 8,
       "surveyRaw2018": 11,
       "surveyPercent2018": 2,
       "platforms": {
         "web": true
       },
-      "playback": true,
-      "tags": false,
-      "location": false,
-      "console": false,
-      "skipInactivity": true,
-      "playbackSpeed": true,
-      "export": {}
+      "export": {},
+      "playback": {
+        "capable": "yes",
+        "notes": "No session recording"
+      },
+      "tags": {
+        "capable": "no",
+        "notes": ""
+      },
+      "location": {
+        "capable": "no",
+        "notes": "No location tracking"
+      },
+      "console": {
+        "capable": "no",
+        "notes": "No console logging"
+      },
+      "skipInactivity": {
+        "capable": "yes",
+        "notes": "No skipping"
+      },
+      "playbackSpeed": {
+        "capable": "yes",
+        "notes": "No speed changes"
+      },
+      "jumpBack": {
+        "capable": "no",
+        "notes": "No jumping back"
+      },
+      "live": {
+        "capable": "no",
+        "notes": "No live viewing"
+      },
+      "formAnalytics": {
+        "capable": "no",
+        "notes": "No form analysis"
+      },
+      "polls": {
+        "capable": "no",
+        "notes": "No user polls"
+      },
+      "control": {
+        "capable": "no",
+        "notes": "No remote control"
+      },
+      "heatmaps": {
+        "capable": "no",
+        "notes": "No heatmap"
+      }
     }
   },
   {
@@ -26180,23 +26344,23 @@ const toolsData = [
       },
       "symbols": {
         "capable": "yes",
-        "notes": "Can version symbols"
+        "notes": "Doesn't work with symbols"
       },
       "documents": {
         "capable": "yes",
-        "notes": "Can version entire documents"
+        "notes": "Doesn't work with documents"
       },
       "branching": {
         "capable": "yes",
-        "notes": "Can create branches"
+        "notes": "No branching functionality"
       },
       "preview": {
         "capable": "yes",
-        "notes": "Can show visual previews"
+        "notes": "No preview shown"
       },
       "compare": {
         "capable": "yes",
-        "notes": "Can show comparisons"
+        "notes": "No comparisons"
       },
       "comments": {
         "capable": "no",
@@ -26611,24 +26775,62 @@ const toolsData = [
       "background-position": "0 -300"
     },
     "monitoring": {
-      "surveyRaw2017": 2,
       "surveyPercent2017": 1,
+      "surveyRaw2017": 2,
       "surveyRaw2018": 3,
       "surveyPercent2018": 1,
       "platforms": {
         "web": true
       },
-      "playback": true,
-      "heatmaps": true,
-      "tags": true,
-      "polls": true,
-      "formAnalytics": true,
-      "location": true,
-      "console": true,
-      "skipInactivity": true,
-      "playbackSpeed": true,
-      "live": true,
-      "export": {}
+      "export": {},
+      "playback": {
+        "capable": "yes",
+        "notes": "No session recording"
+      },
+      "tags": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "location": {
+        "capable": "yes",
+        "notes": "No location tracking"
+      },
+      "console": {
+        "capable": "yes",
+        "notes": "No console logging"
+      },
+      "skipInactivity": {
+        "capable": "yes",
+        "notes": "No skipping"
+      },
+      "playbackSpeed": {
+        "capable": "yes",
+        "notes": "No speed changes"
+      },
+      "jumpBack": {
+        "capable": "no",
+        "notes": "No jumping back"
+      },
+      "live": {
+        "capable": "yes",
+        "notes": "No live viewing"
+      },
+      "formAnalytics": {
+        "capable": "yes",
+        "notes": "No form analysis"
+      },
+      "polls": {
+        "capable": "yes",
+        "notes": "No user polls"
+      },
+      "control": {
+        "capable": "no",
+        "notes": "No remote control"
+      },
+      "heatmaps": {
+        "capable": "yes",
+        "notes": "Can generate heatmaps"
+      }
     }
   },
   {
@@ -27248,19 +27450,62 @@ const toolsData = [
       "background-position": "-400 -100"
     },
     "monitoring": {
-      "surveyRaw2017": 0,
       "surveyPercent2017": 0,
+      "surveyRaw2017": 0,
       "surveyRaw2018": 1,
       "surveyPercent2018": 1,
       "platforms": {
         "web": true
       },
-      "playback": true,
-      "heatmaps": true,
-      "formAnalytics": true,
-      "polls": true,
-      "skipInactivity": true,
-      "export": {}
+      "export": {},
+      "playback": {
+        "capable": "yes",
+        "notes": "No session recording"
+      },
+      "tags": {
+        "capable": "no",
+        "notes": ""
+      },
+      "location": {
+        "capable": "no",
+        "notes": "No location tracking"
+      },
+      "console": {
+        "capable": "no",
+        "notes": "No console logging"
+      },
+      "skipInactivity": {
+        "capable": "yes",
+        "notes": "No skipping"
+      },
+      "playbackSpeed": {
+        "capable": "no",
+        "notes": "No speed changes"
+      },
+      "jumpBack": {
+        "capable": "no",
+        "notes": "No jumping back"
+      },
+      "live": {
+        "capable": "no",
+        "notes": "No live viewing"
+      },
+      "formAnalytics": {
+        "capable": "yes",
+        "notes": "No form analysis"
+      },
+      "polls": {
+        "capable": "yes",
+        "notes": "No user polls"
+      },
+      "control": {
+        "capable": "no",
+        "notes": "No remote control"
+      },
+      "heatmaps": {
+        "capable": "yes",
+        "notes": "Can generate heatmaps"
+      }
     }
   },
   {
@@ -27556,11 +27801,11 @@ const toolsData = [
       },
       "symbols": {
         "capable": "yes",
-        "notes": "Can version symbols"
+        "notes": "Doesn't work with symbols"
       },
       "documents": {
         "capable": "yes",
-        "notes": "Can version entire documents"
+        "notes": "Doesn't work with documents"
       },
       "branching": {
         "capable": "no",
@@ -27568,15 +27813,15 @@ const toolsData = [
       },
       "preview": {
         "capable": "yes",
-        "notes": "Can show visual previews"
+        "notes": "No preview shown"
       },
       "compare": {
         "capable": "yes",
-        "notes": "Can show comparisons"
+        "notes": "No comparisons"
       },
       "comments": {
         "capable": "yes",
-        "notes": "Others can leave comments"
+        "notes": "Comments not supported"
       }
     }
   },
@@ -28435,22 +28680,62 @@ const toolsData = [
       "background-position": "-400 -800"
     },
     "monitoring": {
-      "surveyRaw2017": 1,
       "surveyPercent2017": 1,
+      "surveyRaw2017": 1,
       "surveyRaw2018": 1,
       "surveyPercent2018": 1,
       "platforms": {
         "web": true
       },
-      "playback": true,
-      "tags": false,
-      "location": true,
-      "console": false,
-      "skipInactivity": true,
-      "playbackSpeed": true,
-      "jumpBack": true,
-      "live": true,
-      "export": {}
+      "export": {},
+      "playback": {
+        "capable": "yes",
+        "notes": "No session recording"
+      },
+      "tags": {
+        "capable": "no",
+        "notes": ""
+      },
+      "location": {
+        "capable": "yes",
+        "notes": "No location tracking"
+      },
+      "console": {
+        "capable": "no",
+        "notes": "No console logging"
+      },
+      "skipInactivity": {
+        "capable": "yes",
+        "notes": "No skipping"
+      },
+      "playbackSpeed": {
+        "capable": "yes",
+        "notes": "No speed changes"
+      },
+      "jumpBack": {
+        "capable": "yes",
+        "notes": "No jumping back"
+      },
+      "live": {
+        "capable": "yes",
+        "notes": "No live viewing"
+      },
+      "formAnalytics": {
+        "capable": "no",
+        "notes": "No form analysis"
+      },
+      "polls": {
+        "capable": "no",
+        "notes": "No user polls"
+      },
+      "control": {
+        "capable": "no",
+        "notes": "No remote control"
+      },
+      "heatmaps": {
+        "capable": "no",
+        "notes": "No heatmap"
+      }
     }
   },
   {
@@ -29087,19 +29372,62 @@ const toolsData = [
       "background-position": "-200 -200"
     },
     "monitoring": {
-      "surveyRaw2017": 0,
       "surveyPercent2017": 0,
+      "surveyRaw2017": 0,
       "surveyRaw2018": 0,
       "surveyPercent2018": 0,
       "platforms": {
         "web": true
       },
-      "playback": true,
-      "live": true,
-      "heatmaps": true,
-      "location": true,
-      "skipInactivity": true,
-      "export": {}
+      "export": {},
+      "playback": {
+        "capable": "yes",
+        "notes": "No session recording"
+      },
+      "tags": {
+        "capable": "no",
+        "notes": ""
+      },
+      "location": {
+        "capable": "yes",
+        "notes": "No location tracking"
+      },
+      "console": {
+        "capable": "no",
+        "notes": "No console logging"
+      },
+      "skipInactivity": {
+        "capable": "yes",
+        "notes": "No skipping"
+      },
+      "playbackSpeed": {
+        "capable": "no",
+        "notes": "No speed changes"
+      },
+      "jumpBack": {
+        "capable": "no",
+        "notes": "No jumping back"
+      },
+      "live": {
+        "capable": "yes",
+        "notes": "No live viewing"
+      },
+      "formAnalytics": {
+        "capable": "no",
+        "notes": "No form analysis"
+      },
+      "polls": {
+        "capable": "no",
+        "notes": "No user polls"
+      },
+      "control": {
+        "capable": "no",
+        "notes": "No remote control"
+      },
+      "heatmaps": {
+        "capable": "yes",
+        "notes": "Can generate heatmaps"
+      }
     }
   },
   {
@@ -29199,26 +29527,62 @@ const toolsData = [
       "background-position": "-400 -1100"
     },
     "monitoring": {
-      "surveyRaw2017": 7,
       "surveyPercent2017": 2,
+      "surveyRaw2017": 7,
       "surveyRaw2018": 0,
       "surveyPercent2018": 0,
       "platforms": {
         "web": true
       },
-      "playback": true,
-      "tags": false,
-      "location": true,
-      "heatmaps": false,
-      "console": true,
-      "skipInactivity": true,
-      "playbackSpeed": true,
-      "formAnalytics": false,
-      "jumpBack": false,
-      "polls": false,
-      "live": true,
-      "control": true,
-      "export": {}
+      "export": {},
+      "playback": {
+        "capable": "yes",
+        "notes": "No session recording"
+      },
+      "tags": {
+        "capable": "no",
+        "notes": ""
+      },
+      "location": {
+        "capable": "yes",
+        "notes": "No location tracking"
+      },
+      "console": {
+        "capable": "yes",
+        "notes": "No console logging"
+      },
+      "skipInactivity": {
+        "capable": "yes",
+        "notes": "No skipping"
+      },
+      "playbackSpeed": {
+        "capable": "yes",
+        "notes": "No speed changes"
+      },
+      "jumpBack": {
+        "capable": "no",
+        "notes": "No jumping back"
+      },
+      "live": {
+        "capable": "yes",
+        "notes": "No live viewing"
+      },
+      "formAnalytics": {
+        "capable": "no",
+        "notes": "No form analysis"
+      },
+      "polls": {
+        "capable": "no",
+        "notes": "No user polls"
+      },
+      "control": {
+        "capable": "yes",
+        "notes": "No remote control"
+      },
+      "heatmaps": {
+        "capable": "no",
+        "notes": "No heatmap"
+      }
     }
   },
   {
@@ -29234,24 +29598,62 @@ const toolsData = [
       "background-position": "0 -1000"
     },
     "monitoring": {
-      "surveyRaw2017": 0,
       "surveyPercent2017": 0,
+      "surveyRaw2017": 0,
       "surveyRaw2018": 0,
       "surveyPercent2018": 0,
       "platforms": {
         "web": true
       },
-      "playback": false,
-      "tags": false,
-      "location": false,
-      "heatmaps": true,
-      "console": false,
-      "skipInactivity": false,
-      "playbackSpeed": false,
-      "formAnalytics": true,
-      "jumpBack": false,
-      "polls": true,
-      "export": {}
+      "export": {},
+      "playback": {
+        "capable": "no",
+        "notes": "No session recording"
+      },
+      "tags": {
+        "capable": "no",
+        "notes": ""
+      },
+      "location": {
+        "capable": "no",
+        "notes": "No location tracking"
+      },
+      "console": {
+        "capable": "no",
+        "notes": "No console logging"
+      },
+      "skipInactivity": {
+        "capable": "no",
+        "notes": "No skipping"
+      },
+      "playbackSpeed": {
+        "capable": "no",
+        "notes": "No speed changes"
+      },
+      "jumpBack": {
+        "capable": "no",
+        "notes": "No jumping back"
+      },
+      "live": {
+        "capable": "no",
+        "notes": "No live viewing"
+      },
+      "formAnalytics": {
+        "capable": "yes",
+        "notes": "No form analysis"
+      },
+      "polls": {
+        "capable": "yes",
+        "notes": "No user polls"
+      },
+      "control": {
+        "capable": "no",
+        "notes": "No remote control"
+      },
+      "heatmaps": {
+        "capable": "yes",
+        "notes": "Can generate heatmaps"
+      }
     }
   },
   {
@@ -29267,18 +29669,62 @@ const toolsData = [
       "background-position": "-300 -200"
     },
     "monitoring": {
-      "surveyRaw2017": 0,
       "surveyPercent2017": 0,
+      "surveyRaw2017": 0,
       "surveyRaw2018": 0,
       "surveyPercent2018": 0,
       "platforms": {
         "web": true
       },
-      "playback": true,
-      "heatmaps": true,
-      "location": true,
-      "formAnalytics": true,
-      "export": {}
+      "export": {},
+      "playback": {
+        "capable": "yes",
+        "notes": "No session recording"
+      },
+      "tags": {
+        "capable": "no",
+        "notes": ""
+      },
+      "location": {
+        "capable": "yes",
+        "notes": "No location tracking"
+      },
+      "console": {
+        "capable": "no",
+        "notes": "No console logging"
+      },
+      "skipInactivity": {
+        "capable": "no",
+        "notes": "No skipping"
+      },
+      "playbackSpeed": {
+        "capable": "no",
+        "notes": "No speed changes"
+      },
+      "jumpBack": {
+        "capable": "no",
+        "notes": "No jumping back"
+      },
+      "live": {
+        "capable": "no",
+        "notes": "No live viewing"
+      },
+      "formAnalytics": {
+        "capable": "yes",
+        "notes": "No form analysis"
+      },
+      "polls": {
+        "capable": "no",
+        "notes": "No user polls"
+      },
+      "control": {
+        "capable": "no",
+        "notes": "No remote control"
+      },
+      "heatmaps": {
+        "capable": "yes",
+        "notes": "Can generate heatmaps"
+      }
     }
   },
   {
@@ -29911,7 +30357,6 @@ const designSystemsComp = {
 		}
 		tempSortedTools = _.orderBy(tempSortedTools, this.sortPath, "desc");
 		this.sortedTools = tempSortedTools;
-
 	}
 }
 
@@ -29944,6 +30389,25 @@ Vue.component('check-box-table-cell', {
 		}
 	}
 }) 
+
+// Vue.component('uxtools-table' {
+// 	template: `<p>Hello world</p>`,
+// 	props: ['tabToolsData', 'tabToolsHeaders', 'sortPath'],
+// 	created: function() {
+// 		// set Up Google Ads
+// 		(adsbygoogle = window.adsbygoogle || []).push({});
+// 		let tempSortedTools = [];
+// 		// Sort the tools by popularity
+// 		for (var i=0;i<toolsData.length;i++) {
+// 			if (toolsData[i].designSystems) {
+// 				tempSortedTools.push(toolsData[i]);
+// 			}
+// 		}
+// 		tempSortedTools = _.orderBy(tempSortedTools, this.sortPath, "desc");
+// 		this.sortedTools = tempSortedTools;
+// 	}
+
+// })
 	
 
 const router = new VueRouter({

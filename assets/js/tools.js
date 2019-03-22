@@ -398,7 +398,6 @@ const designSystemsComp = {
 		}
 		tempSortedTools = _.orderBy(tempSortedTools, this.sortPath, "desc");
 		this.sortedTools = tempSortedTools;
-
 	}
 }
 
@@ -431,6 +430,25 @@ Vue.component('check-box-table-cell', {
 		}
 	}
 }) 
+
+// Vue.component('uxtools-table' {
+// 	template: `<p>Hello world</p>`,
+// 	props: ['tabToolsData', 'tabToolsHeaders', 'sortPath'],
+// 	created: function() {
+// 		// set Up Google Ads
+// 		(adsbygoogle = window.adsbygoogle || []).push({});
+// 		let tempSortedTools = [];
+// 		// Sort the tools by popularity
+// 		for (var i=0;i<toolsData.length;i++) {
+// 			if (toolsData[i].designSystems) {
+// 				tempSortedTools.push(toolsData[i]);
+// 			}
+// 		}
+// 		tempSortedTools = _.orderBy(tempSortedTools, this.sortPath, "desc");
+// 		this.sortedTools = tempSortedTools;
+// 	}
+
+// })
 	
 
 const router = new VueRouter({

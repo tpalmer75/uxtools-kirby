@@ -15,7 +15,7 @@
       <tbody>
         <tr v-for="app in sortedTools">
           <td class="fixed-col"><a v-bind:href="app.url" v-bind:title="app.url" target="_blank"><img v-tooltip.right-middle="app.name" v-bind:alt="app.name + 'Logo'" src="<?php echo kirby()->urls()->assets() . '/images/blank.png' ?>" v-bind:style="app.image"/></a></td>
-          <td class="name-col"><a v-bind:href="app.url" v-bind:title="app.url" target="_blank">{{ app.name }}</a></td>
+          <td class="name-col"><a v-bind:href="app.url" v-bind:title="app.url" target="_blank"><span>{{ app.name }}</span></a></td>
           <td v-tooltip.bottom-center="app.versioning.surveyRaw2018 + ' votes in 2018<br>Design Tools Survey'">
             <a href="/survey-2018" style="display: block;">
               <div 

@@ -14,8 +14,8 @@
       </thead>
       <tbody>
         <tr v-for="app in sortedTools">
-          <td class="fixed-col"><a v-bind:href="app.url+'?utm_source=uxtools.co&utm_medium=website&utm_campaign=uxtools.co'" v-bind:title="app.url" target="_blank"><img v-tooltip.right-middle="app.name" v-bind:alt="app.name + 'Logo'" src="<?php echo kirby()->urls()->assets() . '/images/blank.png' ?>" v-bind:style="app.image"/></a></td>
-          <td class="name-col"><a v-bind:href="app.url+'?utm_source=uxtools.co&utm_medium=website&utm_campaign=uxtools.co'" v-bind:title="app.url" target="_blank">{{ app.name }}</a></td>
+          <td class="fixed-col"><a v-bind:href="app.url" v-bind:title="app.url" target="_blank"><img v-tooltip.right-middle="app.name" v-bind:alt="app.name + 'Logo'" src="<?php echo kirby()->urls()->assets() . '/images/blank.png' ?>" v-bind:style="app.image"/></a></td>
+          <td class="name-col"><a v-bind:href="app.url" v-bind:title="app.url" target="_blank"><span>{{ app.name }}</span></a></td>
           <td v-tooltip.bottom-center="app.monitoring.surveyRaw2018 + ' votes in 2018<br>Design Tools Survey'">
             <a href="/survey-2018" style="display: block;">
               <div 
@@ -24,65 +24,24 @@
               </div>
             </a>
           </td>
+          <check-box-table-cell :tool-property="app.pricing.free"></check-box-table-cell>
           <td>
-            <div v-if="app.pricing.free">
-              <?= (new Asset("assets/images/icons/check.svg"))->content() ?>
-            </div>
+            <span>{{app.pricing.cost}}</span>
+            <p class="notes">{{app.pricing.notes}}</p>
           </td>
-            <div v-if="app.monitoring.playback" v-tooltip.bottom-center="'Playback'">
-              <?= (new Asset("assets/images/icons/check.svg"))->content() ?>
-            </div>
-          </td>
-          <td>
-            <div v-if="app.monitoring.skipInactivity" v-tooltip.bottom-center="'Skip Inactivity'">
-              <?= (new Asset("assets/images/icons/check.svg"))->content() ?>
-            </div>
-          </td>
-          <td>
-            <div v-if="app.monitoring.playbackSpeed" v-tooltip.bottom-center="'Speed'">
-              <?= (new Asset("assets/images/icons/check.svg"))->content() ?>
-            </div>
-          </td>
-          <td>
-            <div v-if="app.monitoring.jumpBack" v-tooltip.bottom-center="'Jump Back'">
-              <?= (new Asset("assets/images/icons/check.svg"))->content() ?>
-            </div>
-          </td>
-          <td>
-            <div v-if="app.monitoring.console" v-tooltip.bottom-center="'Console'">
-              <?= (new Asset("assets/images/icons/check.svg"))->content() ?>
-            </div>
-          </td>
-          <td>
-            <div v-if="app.monitoring.heatmaps" v-tooltip.bottom-center="'Heatmaps'">
-              <?= (new Asset("assets/images/icons/check.svg"))->content() ?>
-            </div>
-          </td>
-          <td>
-            <div v-if="app.monitoring.location" v-tooltip.bottom-center="'Location'">
-              <?= (new Asset("assets/images/icons/check.svg"))->content() ?>
-            </div>
-          </td>
-          <td>
-            <div v-if="app.monitoring.formAnalytics" v-tooltip.bottom-center="'Form Stats'">
-              <?= (new Asset("assets/images/icons/check.svg"))->content() ?>
-            </div>
-          </td>
-          <td>
-            <div v-if="app.monitoring.polls" v-tooltip.bottom-center="'Polls'">
-              <?= (new Asset("assets/images/icons/check.svg"))->content() ?>
-            </div>
-          </td>
-          <td>
-            <div v-if="app.monitoring.live" v-tooltip.bottom-center="'Live'">
-              <?= (new Asset("assets/images/icons/check.svg"))->content() ?>
-            </div>
-          </td>
-          <td>
-            <div v-if="app.monitoring.control" v-tooltip.bottom-center="'Control'">
-              <?= (new Asset("assets/images/icons/check.svg"))->content() ?>
-            </div>
-          </td>
+          <check-box-table-cell :tool-property="app.monitoring.playback"></check-box-table-cell>
+          <check-box-table-cell :tool-property="app.monitoring.skipInactivity"></check-box-table-cell>
+          <check-box-table-cell :tool-property="app.monitoring.playbackSpeed"></check-box-table-cell>
+          <check-box-table-cell :tool-property="app.monitoring.jumpBack"></check-box-table-cell>
+          <check-box-table-cell :tool-property="app.monitoring.console"></check-box-table-cell>
+          <check-box-table-cell :tool-property="app.monitoring.heatmaps"></check-box-table-cell>
+          <check-box-table-cell :tool-property="app.monitoring.location"></check-box-table-cell>
+          <check-box-table-cell :tool-property="app.monitoring.formAnalytics"></check-box-table-cell>
+          <check-box-table-cell :tool-property="app.monitoring.polls"></check-box-table-cell>
+          <check-box-table-cell :tool-property="app.monitoring.live"></check-box-table-cell>
+          <check-box-table-cell :tool-property="app.monitoring.control"></check-box-table-cell>
+
+          
           <td>
             <div class="flex-col">
               <div v-if="app.monitoring.export.html" v-tooltip.bottom-center="'Static HTML file'">
