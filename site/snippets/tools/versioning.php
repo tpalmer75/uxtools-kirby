@@ -24,7 +24,7 @@
               </div>
             </a>
           </td>
-          <td class="colspan-3">
+          <td>
             <div class="flex-wrapper">
               <div class="flex-col">
                 <div v-if="app.versioning.platforms.web" v-tooltip.bottom-center="'Web'">
@@ -41,11 +41,10 @@
             </div>
           </td>
           <td>
-            <div v-if="app.pricing.free" v-tooltip.bottom-center="'Free'"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="24" height="24" viewBox="0 0 24 24"><path d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z" /></svg>
-            </div>
+            <span>{{app.pricing.cost}}</span>
+            <p class="notes">{{app.pricing.notes}}</p>
           </td>
-          <td><span v-tooltip.bottom-center="'Team'">{{app.pricing.team}}</span></td>
-          <td class="colspan-2">
+          <td>
             <div class="flex-col">
               <div v-tooltip.bottom-center="'Sketch'"><img src="<?php echo kirby()->urls()->assets() . '/images/icons/sketch.png' ?>" v-if="app.versioning.import.sketch" title="Sketch"/></div>
             </div>
@@ -56,30 +55,14 @@
               <div v-tooltip.bottom-center="'Illustrator'"><img src="<?php echo kirby()->urls()->assets() . '/images/icons/illustrator.png' ?>" v-if="app.versioning.import.illustrator" title="Illustrator"/></div>
             </div>
           </td>
-          <td>
-            <div v-if="app.versioning.symbols" v-tooltip.bottom-center="'Symbols'"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="24" height="24" viewBox="0 0 24 24"><path d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z" /></svg>
-            </div>
-          </td>
-          <td>
-            <div v-if="app.versioning.documents" v-tooltip.bottom-center="'Documents'"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="24" height="24" viewBox="0 0 24 24"><path d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z" /></svg>
-            </div>
-          </td>
-          <td>
-            <div v-if="app.versioning.branching" v-tooltip.bottom-center="'Branching'"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="24" height="24" viewBox="0 0 24 24"><path d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z" /></svg>
-            </div>
-          </td>
-          <td>
-            <div v-if="app.versioning.preview" v-tooltip.bottom-center="'Preview'"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="24" height="24" viewBox="0 0 24 24"><path d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z" /></svg>
-            </div>
-          </td>
-          <td>
-            <div v-if="app.versioning.compare" v-tooltip.bottom-center="'Compare'"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="24" height="24" viewBox="0 0 24 24"><path d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z" /></svg>
-            </div>
-          </td>
-          <td>
-            <div v-if="app.versioning.comments" v-tooltip.bottom-center="'Comments'"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="24" height="24" viewBox="0 0 24 24"><path d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z" /></svg>
-            </div>
-          </td>
+          <check-box-table-cell :tool-property="app.versioning.symbols"></check-box-table-cell>
+          <check-box-table-cell :tool-property="app.versioning.documents"></check-box-table-cell>
+          <check-box-table-cell :tool-property="app.versioning.branching"></check-box-table-cell>
+          <check-box-table-cell :tool-property="app.versioning.preview"></check-box-table-cell>
+          <check-box-table-cell :tool-property="app.versioning.compare"></check-box-table-cell>
+          <check-box-table-cell :tool-property="app.versioning.comments"></check-box-table-cell>
+
+
           <td class="colspan-5">
             <div class="flex-col">
               <div v-if="app.versioning.sharing.web" v-tooltip.bottom-center="'Web'">

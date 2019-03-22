@@ -22630,21 +22630,21 @@ const toolsHeaders = {
     //   "title": "Purchase",
     //   "notes": "One-time cost"
     // },
-    {
-      "title": "Purchase",
-      "notes": "One time cost"
-    },
-    {
-      "title": "Team",
-      "notes": "Cheapest monthly cost for teams?"
-    },
+    // {
+    //   "title": "Purchase",
+    //   "notes": "One time cost"
+    // },
+    // {
+    //   "title": "Team",
+    //   "notes": "Cheapest monthly cost for teams?"
+    // },
     {
       "title": "Import",
       "notes": "Supported file types?"
     },
     {
       "title": "Symbols",
-      "notes": "Works with symbols?"
+      "notes": "Can version individual symbols?"
     },
     {
       "title": "Documents",
@@ -22693,8 +22693,8 @@ const toolsData = [
       "backgroundPosition": "-100 -1000"
     },
     "versioning": {
-      "surveyRaw2017": 185,
       "surveyPercent2017": 100,
+      "surveyRaw2017": 185,
       "surveyRaw2018": 454,
       "surveyPercent2018": 52,
       "platforms": {
@@ -22704,19 +22704,40 @@ const toolsData = [
       "import": {
         "sketch": true
       },
-      "git": false,
-      "symbols": true,
-      "documents": true,
-      "branching": true,
-      "preview": true,
-      "compare": true,
-      "comments": true,
+      "integrations": {
+        "slack": true
+      },
       "sharing": {
         "web": true,
         "mac": true
       },
-      "integrations": {
-        "slack": true
+      "git": {
+        "capable": "no",
+        "notes": ""
+      },
+      "symbols": {
+        "capable": "yes",
+        "notes": "Can version symbols"
+      },
+      "documents": {
+        "capable": "yes",
+        "notes": "Can version entire documents"
+      },
+      "branching": {
+        "capable": "yes",
+        "notes": "Can create branches"
+      },
+      "preview": {
+        "capable": "yes",
+        "notes": "Can show visual previews"
+      },
+      "compare": {
+        "capable": "yes",
+        "notes": "Can show comparisons"
+      },
+      "comments": {
+        "capable": "yes",
+        "notes": "Others can leave comments"
       }
     }
   },
@@ -22742,17 +22763,38 @@ const toolsData = [
         "windows": true
       },
       "import": {},
-      "git": false,
-      "symbols": false,
-      "documents": true,
-      "branching": true,
-      "preview": false,
-      "compare": false,
-      "comments": false,
+      "integrations": {},
       "sharing": {
         "web": true
       },
-      "integrations": {}
+      "git": {
+        "capable": "no",
+        "notes": ""
+      },
+      "symbols": {
+        "capable": "no",
+        "notes": "Doesn't work with symbols"
+      },
+      "documents": {
+        "capable": "yes",
+        "notes": "Can version entire documents"
+      },
+      "branching": {
+        "capable": "yes",
+        "notes": "Can create branches"
+      },
+      "preview": {
+        "capable": "no",
+        "notes": "No preview shown"
+      },
+      "compare": {
+        "capable": "no",
+        "notes": "No comparisons"
+      },
+      "comments": {
+        "capable": "no",
+        "notes": "Comments not supported"
+      }
     }
   },
   {
@@ -22778,17 +22820,38 @@ const toolsData = [
         "linux": true
       },
       "import": {},
-      "git": false,
-      "symbols": false,
-      "documents": false,
-      "branching": false,
-      "preview": false,
-      "compare": false,
-      "comments": true,
+      "integrations": {},
       "sharing": {
         "web": true
       },
-      "integrations": {}
+      "git": {
+        "capable": "no",
+        "notes": ""
+      },
+      "symbols": {
+        "capable": "no",
+        "notes": "Doesn't work with symbols"
+      },
+      "documents": {
+        "capable": "yes",
+        "notes": "Can version entire documents"
+      },
+      "branching": {
+        "capable": "no",
+        "notes": "No branching functionality"
+      },
+      "preview": {
+        "capable": "no",
+        "notes": "No preview shown"
+      },
+      "compare": {
+        "capable": "no",
+        "notes": "No comparisons"
+      },
+      "comments": {
+        "capable": "yes",
+        "notes": "Others can leave comments"
+      }
     }
   },
   {
@@ -22813,17 +22876,38 @@ const toolsData = [
         "windows": true
       },
       "import": {},
-      "git": true,
-      "symbols": false,
-      "documents": false,
-      "branching": false,
-      "preview": false,
-      "compare": false,
-      "comments": true,
+      "integrations": {},
       "sharing": {
         "web": true
       },
-      "integrations": {}
+      "git": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "symbols": {
+        "capable": "no",
+        "notes": "Doesn't work with symbols"
+      },
+      "documents": {
+        "capable": "semi",
+        "notes": "Works but merge conflicts are messy"
+      },
+      "branching": {
+        "capable": "no",
+        "notes": "No branching functionality"
+      },
+      "preview": {
+        "capable": "no",
+        "notes": "No preview shown"
+      },
+      "compare": {
+        "capable": "no",
+        "notes": "No comparisons"
+      },
+      "comments": {
+        "capable": "yes",
+        "notes": "Others can leave comments"
+      }
     }
   },
   {
@@ -22848,17 +22932,38 @@ const toolsData = [
         "windows": true
       },
       "import": {},
-      "git": true,
-      "symbols": false,
-      "documents": false,
-      "branching": false,
-      "preview": false,
-      "compare": false,
-      "comments": true,
+      "integrations": {},
       "sharing": {
         "web": true
       },
-      "integrations": {}
+      "git": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "symbols": {
+        "capable": "no",
+        "notes": "Doesn't work with symbols"
+      },
+      "documents": {
+        "capable": "no",
+        "notes": "Doesn't work with documents"
+      },
+      "branching": {
+        "capable": "no",
+        "notes": "No branching functionality"
+      },
+      "preview": {
+        "capable": "no",
+        "notes": "No preview shown"
+      },
+      "compare": {
+        "capable": "no",
+        "notes": "No comparisons"
+      },
+      "comments": {
+        "capable": "yes",
+        "notes": "Others can leave comments"
+      }
     }
   },
   {
@@ -24403,17 +24508,38 @@ const toolsData = [
       "import": {
         "figma": true
       },
-      "git": false,
-      "symbols": true,
-      "documents": true,
-      "branching": false,
-      "preview": true,
-      "compare": false,
-      "comments": true,
+      "integrations": {},
       "sharing": {
         "web": true
       },
-      "integrations": {}
+      "git": {
+        "capable": "no",
+        "notes": ""
+      },
+      "symbols": {
+        "capable": "yes",
+        "notes": "Can version symbols"
+      },
+      "documents": {
+        "capable": "yes",
+        "notes": "Can version entire documents"
+      },
+      "branching": {
+        "capable": "no",
+        "notes": "No branching functionality"
+      },
+      "preview": {
+        "capable": "yes",
+        "notes": "Can show visual previews"
+      },
+      "compare": {
+        "capable": "no",
+        "notes": "No comparisons"
+      },
+      "comments": {
+        "capable": "yes",
+        "notes": "Others can leave comments"
+      }
     }
   },
   {
@@ -24604,8 +24730,8 @@ const toolsData = [
       "backgroundPosition": "-300 -1000"
     },
     "versioning": {
-      "surveyRaw2017": 1,
       "surveyPercent2017": 1,
+      "surveyRaw2017": 1,
       "surveyRaw2018": 0,
       "surveyPercent2018": 0,
       "platforms": {
@@ -24616,20 +24742,41 @@ const toolsData = [
         "photoshop": true,
         "illustrator": true
       },
-      "git": true,
-      "symbols": true,
-      "documents": true,
-      "branching": true,
-      "preview": true,
-      "compare": false,
-      "comments": false,
+      "integrations": {
+        "slack": false,
+        "gitlab": true
+      },
       "sharing": {
         "web": false,
         "mac": true
       },
-      "integrations": {
-        "slack": false,
-        "gitlab": true
+      "git": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "symbols": {
+        "capable": "yes",
+        "notes": "Can version symbols"
+      },
+      "documents": {
+        "capable": "yes",
+        "notes": "Can version entire documents"
+      },
+      "branching": {
+        "capable": "yes",
+        "notes": "Can create branches"
+      },
+      "preview": {
+        "capable": "yes",
+        "notes": "Can show visual previews"
+      },
+      "compare": {
+        "capable": "no",
+        "notes": "No comparisons"
+      },
+      "comments": {
+        "capable": "no",
+        "notes": "Comments not supported"
       }
     }
   },
@@ -25189,29 +25336,48 @@ const toolsData = [
       "backgroundPosition": "-400 -1000"
     },
     "versioning": {
-      "description": "",
-      "surveyRaw2017": 0,
       "surveyPercent2017": 0,
+      "surveyRaw2017": 0,
       "surveyRaw2018": 0,
-      "surveyPerecent2018": 0,
       "platforms": {
         "mac": true
       },
       "import": {
         "sketch": true
       },
-      "git": true,
-      "symbols": false,
-      "documents": true,
-      "branching": false,
-      "preview": true,
-      "compare": false,
-      "comments": true,
+      "integrations": {},
       "sharing": {
         "mac": true,
         "web": true
       },
-      "integrations": {}
+      "git": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "symbols": {
+        "capable": "no",
+        "notes": "Doesn't work with symbols"
+      },
+      "documents": {
+        "capable": "yes",
+        "notes": "Can version entire documents"
+      },
+      "branching": {
+        "capable": "no",
+        "notes": "No branching functionality"
+      },
+      "preview": {
+        "capable": "yes",
+        "notes": "Can show visual previews"
+      },
+      "compare": {
+        "capable": "no",
+        "notes": "No comparisons"
+      },
+      "comments": {
+        "capable": "yes",
+        "notes": "Others can leave comments"
+      }
     }
   },
   {
@@ -25992,8 +26158,8 @@ const toolsData = [
       "backgroundPosition": "-500 -1000"
     },
     "versioning": {
-      "surveyRaw2017": 5,
       "surveyPercent2017": 3,
+      "surveyRaw2017": 5,
       "surveyRaw2018": 1,
       "surveyPercent2018": 1,
       "platforms": {
@@ -26002,18 +26168,39 @@ const toolsData = [
       "import": {
         "sketch": true
       },
-      "git": true,
-      "symbols": true,
-      "documents": true,
-      "branching": true,
-      "preview": true,
-      "compare": true,
-      "comments": false,
+      "integrations": {
+        "slack": false
+      },
       "sharing": {
         "web": false
       },
-      "integrations": {
-        "slack": false
+      "git": {
+        "capable": "yes",
+        "notes": ""
+      },
+      "symbols": {
+        "capable": "yes",
+        "notes": "Can version symbols"
+      },
+      "documents": {
+        "capable": "yes",
+        "notes": "Can version entire documents"
+      },
+      "branching": {
+        "capable": "yes",
+        "notes": "Can create branches"
+      },
+      "preview": {
+        "capable": "yes",
+        "notes": "Can show visual previews"
+      },
+      "compare": {
+        "capable": "yes",
+        "notes": "Can show comparisons"
+      },
+      "comments": {
+        "capable": "no",
+        "notes": "Comments not supported"
       }
     }
   },
@@ -27346,8 +27533,8 @@ const toolsData = [
       "backgroundPosition": "0 -1100"
     },
     "versioning": {
-      "surveyRaw2017": 33,
       "surveyPercent2017": 18,
+      "surveyRaw2017": 33,
       "surveyRaw2018": 57,
       "surveyPercent2018": 6,
       "platforms": {
@@ -27356,19 +27543,40 @@ const toolsData = [
       "import": {
         "sketch": true
       },
-      "git": false,
-      "symbols": true,
-      "documents": true,
-      "branching": false,
-      "preview": true,
-      "compare": true,
-      "comments": true,
+      "integrations": {
+        "slack": true
+      },
       "sharing": {
         "mac": true,
         "web": true
       },
-      "integrations": {
-        "slack": true
+      "git": {
+        "capable": "no",
+        "notes": ""
+      },
+      "symbols": {
+        "capable": "yes",
+        "notes": "Can version symbols"
+      },
+      "documents": {
+        "capable": "yes",
+        "notes": "Can version entire documents"
+      },
+      "branching": {
+        "capable": "no",
+        "notes": "No branching functionality"
+      },
+      "preview": {
+        "capable": "yes",
+        "notes": "Can show visual previews"
+      },
+      "compare": {
+        "capable": "yes",
+        "notes": "Can show comparisons"
+      },
+      "comments": {
+        "capable": "yes",
+        "notes": "Others can leave comments"
       }
     }
   },

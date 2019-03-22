@@ -510,21 +510,21 @@ const toolsHeaders = {
     //   "title": "Purchase",
     //   "notes": "One-time cost"
     // },
-    {
-      "title": "Purchase",
-      "notes": "One time cost"
-    },
-    {
-      "title": "Team",
-      "notes": "Cheapest monthly cost for teams?"
-    },
+    // {
+    //   "title": "Purchase",
+    //   "notes": "One time cost"
+    // },
+    // {
+    //   "title": "Team",
+    //   "notes": "Cheapest monthly cost for teams?"
+    // },
     {
       "title": "Import",
       "notes": "Supported file types?"
     },
     {
       "title": "Symbols",
-      "notes": "Works with symbols?"
+      "notes": "Can version individual symbols?"
     },
     {
       "title": "Documents",
