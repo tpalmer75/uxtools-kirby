@@ -8,7 +8,7 @@
             <span style="position: relative;">{{ column.title }}
               <span class="sort-arrow" v-if="column.sortable"><?= (new Asset("assets/images/icons/chevron-down.svg"))->content() ?></span>
             </span>
-            <p class="notes" v-html="column.notes"></p>
+            <p v-if="$parent.$data.tableConfiguration.showNotes" class="notes" v-html="column.notes"></p>
           </th>
         </tr>
       </thead>

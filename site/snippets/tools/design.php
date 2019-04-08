@@ -8,7 +8,7 @@
             <span style="position: relative;">{{ column.title }}
               <span class="sort-arrow" v-if="column.sortable"><?= (new Asset("assets/images/icons/chevron-down.svg"))->content() ?></span>
             </span>
-            <p class="notes" v-html="column.notes"></p>
+            <p v-if="$parent.$data.tableConfiguration.showNotes" class="notes" v-html="column.notes"></p>
           </th>
         </tr>
       </thead>
@@ -54,7 +54,7 @@
           </td>
           <td>
             <span>{{app.pricing.cost}}</span>
-            <p class="notes">{{app.pricing.notes}}</p>
+            <p v-if="$parent.$data.tableConfiguration.showNotes" class="notes">{{app.pricing.notes}}</p>
           </td>
           <check-box-table-cell :tool-property="app.pricing.free"></check-box-table-cell>
           <check-box-table-cell :tool-property="app.design.offline"></check-box-table-cell>

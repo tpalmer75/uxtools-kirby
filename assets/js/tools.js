@@ -15,7 +15,7 @@
 Vue.use(VTooltip)
 
 Vue.directive('scrolltable', {
-	inserted: function(el) {
+	inserted: function(el, binding, vnode) {
 			var scrollElement = document.getElementById("scroll-element");
 			var fixedHeaders = document.querySelectorAll("th");
 			var fixedCols = document.querySelectorAll(".fixed-col");
@@ -68,9 +68,11 @@ Vue.directive('scrolltable', {
 			ticking = true;
 			}
 
-			// set height of fixedColumn cells
-			for ( var i=0; i < fixedCols.length; i++ ) {
-				fixedCols[i].style.height = rows[i].clientHeight + "px";
+			var setRowHeight = function() {
+				// set height of fixedColumn cells
+				for ( var i=0; i < fixedCols.length; i++ ) {
+					fixedCols[i].style.height = rows[i].clientHeight + "px";
+				}
 			}
 
 			// on each scroll
@@ -130,18 +132,41 @@ Vue.directive('scrolltable', {
 					fixedCols[i].style.boxShadow = "";
 					}
 				}
-			};	
+			};
+
+			var setTableConfiguration = function() {
+				if (scrollElement.offsetWidth < 800) {
+					vnode.context.$parent.tableConfiguration.showNotes = false;
+				} else {
+					vnode.context.$parent.tableConfiguration.showNotes = true;
+				}
+			}
+
+			
 
 			scrollElement.onscroll = function() {onScroll()};
-			window.onresize = function() {resizeThings};
 
 			function resizeThings() {
 				headerHeight = mainHeader.clientHeight;
 				fixedHeader.style.top = headerHeight + "px";
 				alignHeaders();
+				setTableConfiguration();
+				fixedHeaderHeight = fixedHeader.getBoundingClientRect().height;
+				scrollElement.style.marginTop = fixedHeaderHeight + "px";
+				setRowHeight();
 			};
+
+			window.onresize = function() {resizeThings()};
+
+			setTableConfiguration();
+			Vue.nextTick(function() {
+				resizeThings();
+			})
+			
 	}
 })
+
+
 
 const designComp = {
 	template: '#design-tools',
@@ -402,7 +427,7 @@ const designSystemsComp = {
 }
 
 Vue.component('check-box-table-cell', {
-	template: '<td><div v-html="getCheckIcon(toolProperty)"></div><p class="notes" v-html="toolProperty.notes"></p></td>',
+	template: '<td><div v-html="getCheckIcon(toolProperty)"></div><p v-if="$parent.$parent.$data.tableConfiguration.showNotes" class="notes" v-html="toolProperty.notes"></p></td>',
 	props: ['toolProperty'],
 	methods: {
 		getCheckIcon: function(toolProperty) {
@@ -431,24 +456,7 @@ Vue.component('check-box-table-cell', {
 	}
 }) 
 
-// Vue.component('uxtools-table' {
-// 	template: `<p>Hello world</p>`,
-// 	props: ['tabToolsData', 'tabToolsHeaders', 'sortPath'],
-// 	created: function() {
-// 		// set Up Google Ads
-// 		(adsbygoogle = window.adsbygoogle || []).push({});
-// 		let tempSortedTools = [];
-// 		// Sort the tools by popularity
-// 		for (var i=0;i<toolsData.length;i++) {
-// 			if (toolsData[i].designSystems) {
-// 				tempSortedTools.push(toolsData[i]);
-// 			}
-// 		}
-// 		tempSortedTools = _.orderBy(tempSortedTools, this.sortPath, "desc");
-// 		this.sortedTools = tempSortedTools;
-// 	}
 
-// })
 	
 
 const router = new VueRouter({
@@ -489,6 +497,9 @@ const app = new Vue({
 	data: function() {
 		return {
 			showMenu: false,
+			tableConfiguration: {
+				showNotes: true
+			}
 		}
 	}
 });

@@ -1719,7 +1719,7 @@ const toolsData = [
       "programs": {
         "figma": true
       },
-      "interface": "Panel",
+      "interface": "Panel or Window",
       "assets": {
         "capable": "yes",
         "notes": "Can import generic assets"
@@ -7239,7 +7239,8 @@ const toolsData = [
         "web": true
       },
       "programs": {
-        "sketch": true
+        "sketch": true,
+        "figma": true
       },
       "interface": "Panel",
       "assets": {

@@ -237,7 +237,8 @@ table {
 }
 #main-header #tab-container .tab-left {
   flex: 0 1 auto;
-  overflow: scroll;
+  overflow-x: scroll;
+  -ms-overflow-style: none;
 }
 #main-header #tab-container .tab-right {
   flex: 1 0 auto;
