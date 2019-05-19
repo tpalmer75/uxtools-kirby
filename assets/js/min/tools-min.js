@@ -22677,6 +22677,76 @@ const toolsHeaders = {
   ]
 }
 
+// "handoff": {
+//       "platforms": {
+//       },
+//       "programs": {
+//         "sketch": true,
+//         "photoshop": true,
+//         "adobeXd": true,
+//         "figma": true,
+//         "illustrator": true
+//       },
+//       "integrations": {
+//         "slack": true,
+//         "visualStudio": true,
+//         "atom": true,
+//         "dropbox": true
+//       },
+//       "sharing": {
+//         "mac": true,
+//         "windows": true,
+//         "linux": true,
+//         "web": true
+//       },
+//       "prototyping": {
+//         "capable": "no",
+//         "notes": ""
+//       },
+//       "specs": {
+//         "capable": "no",
+//         "notes": "Supports specs"
+//       },
+//       "automatic": {
+//         "capable": "no",
+//         "notes": ""
+//       },
+//       "assets": {
+//         "capable": "no",
+//         "notes": ""
+//       },
+//       "measure": {
+//         "capable": "no",
+//         "notes": ""
+//       },
+//       "variables": {
+//         "capable": "no",
+//         "notes": ""
+//       },
+//       "guides": {
+//         "capable": "no",
+//         "notes": ""
+//       },
+//       "comments": {
+//         "capable": "no",
+//         "notes": ""
+//       },
+//       "styleguide": {
+//         "capable": "no",
+//         "notes": ""
+//       },
+//       "revisions": {
+//         "capable": "no",
+//         "notes": ""
+//       },
+//       "layers": {
+//         "capable": "no",
+//         "notes": ""
+//       }
+//     }
+
+
+
 const toolsData = [
   {
     "name": "Abstract",
@@ -22717,11 +22787,11 @@ const toolsData = [
       },
       "symbols": {
         "capable": "yes",
-        "notes": "Doesn't work with symbols"
+        "notes": "Works with symbols"
       },
       "documents": {
         "capable": "yes",
-        "notes": "Doesn't work with documents"
+        "notes": "Works with documents"
       },
       "branching": {
         "capable": "yes",
@@ -22729,15 +22799,15 @@ const toolsData = [
       },
       "preview": {
         "capable": "yes",
-        "notes": "No preview shown"
+        "notes": "Shows file previews"
       },
       "compare": {
         "capable": "yes",
-        "notes": "No comparisons"
+        "notes": "Shows versions side-by-side"
       },
       "comments": {
         "capable": "yes",
-        "notes": "Comments not supported"
+        "notes": "Comments supported"
       }
     }
   },
@@ -22777,7 +22847,7 @@ const toolsData = [
       },
       "documents": {
         "capable": "yes",
-        "notes": "Doesn't work with documents"
+        "notes": "Works with documents"
       },
       "branching": {
         "capable": "yes",
@@ -22850,7 +22920,7 @@ const toolsData = [
       },
       "comments": {
         "capable": "yes",
-        "notes": "Comments not supported"
+        "notes": "Comments supported"
       }
     }
   },
@@ -22906,7 +22976,7 @@ const toolsData = [
       },
       "comments": {
         "capable": "yes",
-        "notes": "Comments not supported"
+        "notes": "Comments supported"
       }
     }
   },
@@ -22962,7 +23032,7 @@ const toolsData = [
       },
       "comments": {
         "capable": "yes",
-        "notes": "Comments not supported"
+        "notes": "Comments supported"
       }
     }
   },
@@ -23829,8 +23899,8 @@ const toolsData = [
         "notes": "Can animate between screens"
       },
       "data": {
-        "capable": "no",
-        "notes": "Only static text supported"
+        "capable": "semi",
+        "notes": "Can populate from Excel files"
       },
       "code": {
         "capable": "no",
@@ -23845,12 +23915,12 @@ const toolsData = [
         "notes": "No voice support"
       },
       "inputs": {
-        "capable": "no",
-        "notes": "No dynamic inputs"
+        "capable": "Yes",
+        "notes": "Supports dynamic text inputs"
       },
       "variables": {
-        "capable": "no",
-        "notes": "Variables not supported"
+        "capable": "Yes",
+        "notes": "Supports conditional logic and data"
       },
       "tasks": {
         "capable": "no",
@@ -23868,7 +23938,66 @@ const toolsData = [
         "capable": "no",
         "notes": "No developer handoff"
       }
-    }
+    },
+    // "handoff": {
+    //   "platforms": {
+    //   },
+    //   "programs": {
+    //     "axure": true,
+    //   },
+    //   "integrations": { // need to look this up
+    //   },
+    //   "sharing": {
+    //     "mac": true,
+    //     "windows": true,
+    //     "linux": true,
+    //     "web": true
+    //   },
+    //   "prototyping": {
+    //     "capable": "no",
+    //     "notes": ""
+    //   },
+    //   "specs": {
+    //     "capable": "no",
+    //     "notes": "Supports specs"
+    //   },
+    //   "automatic": {
+    //     "capable": "no",
+    //     "notes": ""
+    //   },
+    //   "assets": {
+    //     "capable": "no",
+    //     "notes": ""
+    //   },
+    //   "measure": {
+    //     "capable": "no",
+    //     "notes": ""
+    //   },
+    //   "variables": {
+    //     "capable": "no",
+    //     "notes": ""
+    //   },
+    //   "guides": {
+    //     "capable": "no",
+    //     "notes": ""
+    //   },
+    //   "comments": {
+    //     "capable": "yes",
+    //     "notes": "Other can leave comments"
+    //   },
+    //   "styleguide": {
+    //     "capable": "no",
+    //     "notes": ""
+    //   },
+    //   "revisions": {
+    //     "capable": "yes",
+    //     "notes": "Can save versions of files"
+    //   },
+    //   "layers": {
+    //     "capable": "no",
+    //     "notes": ""
+    //   }
+    // }
   },
   {
     "name": "Balsamiq",
@@ -24518,11 +24647,11 @@ const toolsData = [
       },
       "symbols": {
         "capable": "yes",
-        "notes": "Doesn't work with symbols"
+        "notes": "Works with symbols"
       },
       "documents": {
         "capable": "yes",
-        "notes": "Doesn't work with documents"
+        "notes": "Works with documents"
       },
       "branching": {
         "capable": "no",
@@ -24530,7 +24659,7 @@ const toolsData = [
       },
       "preview": {
         "capable": "yes",
-        "notes": "No preview shown"
+        "notes": "Shows file previews"
       },
       "compare": {
         "capable": "no",
@@ -24538,7 +24667,7 @@ const toolsData = [
       },
       "comments": {
         "capable": "yes",
-        "notes": "Comments not supported"
+        "notes": "Comments supported"
       }
     }
   },
@@ -24756,11 +24885,11 @@ const toolsData = [
       },
       "symbols": {
         "capable": "yes",
-        "notes": "Doesn't work with symbols"
+        "notes": "Works with symbols"
       },
       "documents": {
         "capable": "yes",
-        "notes": "Doesn't work with documents"
+        "notes": "Works with documents"
       },
       "branching": {
         "capable": "yes",
@@ -24768,7 +24897,7 @@ const toolsData = [
       },
       "preview": {
         "capable": "yes",
-        "notes": "No preview shown"
+        "notes": "Shows file previews"
       },
       "compare": {
         "capable": "no",
@@ -25227,7 +25356,7 @@ const toolsData = [
       "export": {},
       "playback": {
         "capable": "yes",
-        "notes": "No session recording"
+        "notes": "Can record user sessions"
       },
       "tags": {
         "capable": "yes",
@@ -25235,27 +25364,27 @@ const toolsData = [
       },
       "location": {
         "capable": "yes",
-        "notes": "No location tracking"
+        "notes": "Tracks location"
       },
       "console": {
         "capable": "yes",
-        "notes": "No console logging"
+        "notes": "Can record JS console"
       },
       "skipInactivity": {
         "capable": "yes",
-        "notes": "No skipping"
+        "notes": "Can skip inactivity"
       },
       "playbackSpeed": {
         "capable": "yes",
-        "notes": "No speed changes"
+        "notes": "Can change playback speed"
       },
       "jumpBack": {
         "capable": "yes",
-        "notes": "No jumping back"
+        "notes": "Can rewind a few seconds"
       },
       "live": {
         "capable": "yes",
-        "notes": "No live viewing"
+        "notes": "Can view live visitors"
       },
       "formAnalytics": {
         "capable": "no",
@@ -25399,7 +25528,7 @@ const toolsData = [
       },
       "documents": {
         "capable": "yes",
-        "notes": "Doesn't work with documents"
+        "notes": "Works with documents"
       },
       "branching": {
         "capable": "no",
@@ -25407,7 +25536,7 @@ const toolsData = [
       },
       "preview": {
         "capable": "yes",
-        "notes": "No preview shown"
+        "notes": "Shows file previews"
       },
       "compare": {
         "capable": "no",
@@ -25415,7 +25544,7 @@ const toolsData = [
       },
       "comments": {
         "capable": "yes",
-        "notes": "Comments not supported"
+        "notes": "Comments supported"
       }
     }
   },
@@ -25598,7 +25727,7 @@ const toolsData = [
       "export": {},
       "playback": {
         "capable": "yes",
-        "notes": "No session recording"
+        "notes": "Can record user sessions"
       },
       "tags": {
         "capable": "no",
@@ -25606,7 +25735,7 @@ const toolsData = [
       },
       "location": {
         "capable": "yes",
-        "notes": "No location tracking"
+        "notes": "Tracks location"
       },
       "console": {
         "capable": "no",
@@ -25614,11 +25743,11 @@ const toolsData = [
       },
       "skipInactivity": {
         "capable": "yes",
-        "notes": "No skipping"
+        "notes": "Can skip inactivity"
       },
       "playbackSpeed": {
         "capable": "yes",
-        "notes": "No speed changes"
+        "notes": "Can change playback speed"
       },
       "jumpBack": {
         "capable": "no",
@@ -25630,11 +25759,11 @@ const toolsData = [
       },
       "formAnalytics": {
         "capable": "yes",
-        "notes": "No form analysis"
+        "notes": "Can track form analytics"
       },
       "polls": {
         "capable": "yes",
-        "notes": "No user polls"
+        "notes": "Can craete user polls"
       },
       "control": {
         "capable": "no",
@@ -25976,7 +26105,7 @@ const toolsData = [
       },
       "playback": {
         "capable": "yes",
-        "notes": "No session recording"
+        "notes": "Can record user sessions"
       },
       "tags": {
         "capable": "yes",
@@ -25984,7 +26113,7 @@ const toolsData = [
       },
       "location": {
         "capable": "yes",
-        "notes": "No location tracking"
+        "notes": "Tracks location"
       },
       "console": {
         "capable": "no",
@@ -25992,11 +26121,11 @@ const toolsData = [
       },
       "skipInactivity": {
         "capable": "yes",
-        "notes": "No skipping"
+        "notes": "Can skip inactivity"
       },
       "playbackSpeed": {
         "capable": "yes",
-        "notes": "No speed changes"
+        "notes": "Can change playback speed"
       },
       "jumpBack": {
         "capable": "no",
@@ -26047,7 +26176,7 @@ const toolsData = [
       "export": {},
       "playback": {
         "capable": "yes",
-        "notes": "No session recording"
+        "notes": "Can record user sessions"
       },
       "tags": {
         "capable": "no",
@@ -26063,11 +26192,11 @@ const toolsData = [
       },
       "skipInactivity": {
         "capable": "yes",
-        "notes": "No skipping"
+        "notes": "Can skip inactivity"
       },
       "playbackSpeed": {
         "capable": "yes",
-        "notes": "No speed changes"
+        "notes": "Can change playback speed"
       },
       "jumpBack": {
         "capable": "no",
@@ -26344,11 +26473,11 @@ const toolsData = [
       },
       "symbols": {
         "capable": "yes",
-        "notes": "Doesn't work with symbols"
+        "notes": "Works with symbols"
       },
       "documents": {
         "capable": "yes",
-        "notes": "Doesn't work with documents"
+        "notes": "Works with documents"
       },
       "branching": {
         "capable": "yes",
@@ -26356,11 +26485,11 @@ const toolsData = [
       },
       "preview": {
         "capable": "yes",
-        "notes": "No preview shown"
+        "notes": "Shows file previews"
       },
       "compare": {
         "capable": "yes",
-        "notes": "No comparisons"
+        "notes": "Shows versions side-by-side"
       },
       "comments": {
         "capable": "no",
@@ -26785,7 +26914,7 @@ const toolsData = [
       "export": {},
       "playback": {
         "capable": "yes",
-        "notes": "No session recording"
+        "notes": "Can record user sessions"
       },
       "tags": {
         "capable": "yes",
@@ -26793,19 +26922,19 @@ const toolsData = [
       },
       "location": {
         "capable": "yes",
-        "notes": "No location tracking"
+        "notes": "Tracks location"
       },
       "console": {
         "capable": "yes",
-        "notes": "No console logging"
+        "notes": "Can record JS console"
       },
       "skipInactivity": {
         "capable": "yes",
-        "notes": "No skipping"
+        "notes": "Can skip inactivity"
       },
       "playbackSpeed": {
         "capable": "yes",
-        "notes": "No speed changes"
+        "notes": "Can change playback speed"
       },
       "jumpBack": {
         "capable": "no",
@@ -26813,15 +26942,15 @@ const toolsData = [
       },
       "live": {
         "capable": "yes",
-        "notes": "No live viewing"
+        "notes": "Can view live visitors"
       },
       "formAnalytics": {
         "capable": "yes",
-        "notes": "No form analysis"
+        "notes": "Can track form analytics"
       },
       "polls": {
         "capable": "yes",
-        "notes": "No user polls"
+        "notes": "Can craete user polls"
       },
       "control": {
         "capable": "no",
@@ -27460,7 +27589,7 @@ const toolsData = [
       "export": {},
       "playback": {
         "capable": "yes",
-        "notes": "No session recording"
+        "notes": "Can record user sessions"
       },
       "tags": {
         "capable": "no",
@@ -27476,7 +27605,7 @@ const toolsData = [
       },
       "skipInactivity": {
         "capable": "yes",
-        "notes": "No skipping"
+        "notes": "Can skip inactivity"
       },
       "playbackSpeed": {
         "capable": "no",
@@ -27492,11 +27621,11 @@ const toolsData = [
       },
       "formAnalytics": {
         "capable": "yes",
-        "notes": "No form analysis"
+        "notes": "Can track form analytics"
       },
       "polls": {
         "capable": "yes",
-        "notes": "No user polls"
+        "notes": "Can craete user polls"
       },
       "control": {
         "capable": "no",
@@ -27801,11 +27930,11 @@ const toolsData = [
       },
       "symbols": {
         "capable": "yes",
-        "notes": "Doesn't work with symbols"
+        "notes": "Works with symbols"
       },
       "documents": {
         "capable": "yes",
-        "notes": "Doesn't work with documents"
+        "notes": "Works with documents"
       },
       "branching": {
         "capable": "no",
@@ -27813,15 +27942,15 @@ const toolsData = [
       },
       "preview": {
         "capable": "yes",
-        "notes": "No preview shown"
+        "notes": "Shows file previews"
       },
       "compare": {
         "capable": "yes",
-        "notes": "No comparisons"
+        "notes": "Shows versions side-by-side"
       },
       "comments": {
         "capable": "yes",
-        "notes": "Comments not supported"
+        "notes": "Comments supported"
       }
     }
   },
@@ -28165,7 +28294,9 @@ const toolsData = [
         "windows": true
       },
       "import": {
-        "sketch": true
+        "sketch": true,
+        "figma": true,
+        "adobeXd": true
       },
       "sharing": {
         "web": true,
@@ -28690,7 +28821,7 @@ const toolsData = [
       "export": {},
       "playback": {
         "capable": "yes",
-        "notes": "No session recording"
+        "notes": "Can record user sessions"
       },
       "tags": {
         "capable": "no",
@@ -28698,7 +28829,7 @@ const toolsData = [
       },
       "location": {
         "capable": "yes",
-        "notes": "No location tracking"
+        "notes": "Tracks location"
       },
       "console": {
         "capable": "no",
@@ -28706,19 +28837,19 @@ const toolsData = [
       },
       "skipInactivity": {
         "capable": "yes",
-        "notes": "No skipping"
+        "notes": "Can skip inactivity"
       },
       "playbackSpeed": {
         "capable": "yes",
-        "notes": "No speed changes"
+        "notes": "Can change playback speed"
       },
       "jumpBack": {
         "capable": "yes",
-        "notes": "No jumping back"
+        "notes": "Can rewind a few seconds"
       },
       "live": {
         "capable": "yes",
-        "notes": "No live viewing"
+        "notes": "Can view live visitors"
       },
       "formAnalytics": {
         "capable": "no",
@@ -29382,7 +29513,7 @@ const toolsData = [
       "export": {},
       "playback": {
         "capable": "yes",
-        "notes": "No session recording"
+        "notes": "Can record user sessions"
       },
       "tags": {
         "capable": "no",
@@ -29390,7 +29521,7 @@ const toolsData = [
       },
       "location": {
         "capable": "yes",
-        "notes": "No location tracking"
+        "notes": "Tracks location"
       },
       "console": {
         "capable": "no",
@@ -29398,7 +29529,7 @@ const toolsData = [
       },
       "skipInactivity": {
         "capable": "yes",
-        "notes": "No skipping"
+        "notes": "Can skip inactivity"
       },
       "playbackSpeed": {
         "capable": "no",
@@ -29410,7 +29541,7 @@ const toolsData = [
       },
       "live": {
         "capable": "yes",
-        "notes": "No live viewing"
+        "notes": "Can view live visitors"
       },
       "formAnalytics": {
         "capable": "no",
@@ -29537,7 +29668,7 @@ const toolsData = [
       "export": {},
       "playback": {
         "capable": "yes",
-        "notes": "No session recording"
+        "notes": "Can record user sessions"
       },
       "tags": {
         "capable": "no",
@@ -29545,19 +29676,19 @@ const toolsData = [
       },
       "location": {
         "capable": "yes",
-        "notes": "No location tracking"
+        "notes": "Tracks location"
       },
       "console": {
         "capable": "yes",
-        "notes": "No console logging"
+        "notes": "Can record JS console"
       },
       "skipInactivity": {
         "capable": "yes",
-        "notes": "No skipping"
+        "notes": "Can skip inactivity"
       },
       "playbackSpeed": {
         "capable": "yes",
-        "notes": "No speed changes"
+        "notes": "Can change playback speed"
       },
       "jumpBack": {
         "capable": "no",
@@ -29565,7 +29696,7 @@ const toolsData = [
       },
       "live": {
         "capable": "yes",
-        "notes": "No live viewing"
+        "notes": "Can view live visitors"
       },
       "formAnalytics": {
         "capable": "no",
@@ -29577,7 +29708,7 @@ const toolsData = [
       },
       "control": {
         "capable": "yes",
-        "notes": "No remote control"
+        "notes": "Can remote control"
       },
       "heatmaps": {
         "capable": "no",
@@ -29640,11 +29771,11 @@ const toolsData = [
       },
       "formAnalytics": {
         "capable": "yes",
-        "notes": "No form analysis"
+        "notes": "Can track form analytics"
       },
       "polls": {
         "capable": "yes",
-        "notes": "No user polls"
+        "notes": "Can craete user polls"
       },
       "control": {
         "capable": "no",
@@ -29679,7 +29810,7 @@ const toolsData = [
       "export": {},
       "playback": {
         "capable": "yes",
-        "notes": "No session recording"
+        "notes": "Can record user sessions"
       },
       "tags": {
         "capable": "no",
@@ -29687,7 +29818,7 @@ const toolsData = [
       },
       "location": {
         "capable": "yes",
-        "notes": "No location tracking"
+        "notes": "Tracks location"
       },
       "console": {
         "capable": "no",
@@ -29711,7 +29842,7 @@ const toolsData = [
       },
       "formAnalytics": {
         "capable": "yes",
-        "notes": "No form analysis"
+        "notes": "Can track form analytics"
       },
       "polls": {
         "capable": "no",
@@ -29900,9 +30031,9 @@ const toolsData = [
   {
     "name": "zeroheight",
     "pricing": {
-      "free": false,
-      "individual": "—",
-      "team": "$19–$99",
+      "free": true,
+      "individual": "$12+",
+      "team": "$12–$145",
       "notes": ""
     },
     "url": "https://www.zeroheight.com/",
@@ -29921,10 +30052,10 @@ const toolsData = [
         "sketch": true,
         "figma": true
       },
-      "interface": "Panel",
+      "interface": "Panel (Sketch), Embedded (Figma)",
       "assets": {
-        "capable": "no",
-        "notes": "External assets not supported"
+        "capable": "yes",
+        "notes": "Can import generic assets"
       },
       "symbols": {
         "capable": "yes",
@@ -29939,16 +30070,16 @@ const toolsData = [
         "notes": "Library can be shared with others"
       },
       "permissions": {
-        "capable": "no",
-        "notes": "Can't restrict design system access"
+        "capable": "yes",
+        "notes": "Only on company plan"
       },
       "update": {
-        "capable": "yes",
-        "notes": "Can sync changes across documents"
+        "capable": "no",
+        "notes": "Can't sync changes across documents"
       },
       "annotate": {
-        "capable": "no",
-        "notes": "Can't create notes about components"
+        "capable": "yes",
+        "notes": "Can create notes about components"
       },
       "styleguide": {
         "capable": "yes",
@@ -29976,152 +30107,152 @@ Vue.use(VTooltip)
 
 Vue.directive('scrolltable', {
 	inserted: function(el, binding, vnode) {
-			var scrollElement = document.getElementById("scroll-element");
-			var fixedHeaders = document.querySelectorAll("th");
-			var fixedCols = document.querySelectorAll(".fixed-col");
-			var fixedColHeight = fixedCols[1].offsetHeight;
-			var mainHeader = document.getElementById("main-header");
-			var latestKnownScrollX = 0;
-			var latestKnownScrollY = 0;
-			var ticking = false;
-			var headerHeight = mainHeader.clientHeight;
-			var fixedHeader = document.getElementById("fixed-header");
-			var fixedHeaderHeight = fixedHeader.getBoundingClientRect().height;
-			var columns = document.querySelectorAll("tr:first-of-type td");
-			var rows = document.querySelectorAll("tbody tr");
-			var table = document.getElementById("scroll-table");
+			// var scrollElement = document.getElementById("scroll-element");
+			// var fixedHeaders = document.querySelectorAll("th");
+			// var fixedCols = document.querySelectorAll(".fixed-col");
+			// var fixedColHeight = fixedCols[1].offsetHeight;
+			// var mainHeader = document.getElementById("main-header");
+			// var latestKnownScrollX = 0;
+			// var latestKnownScrollY = 0;
+			// var ticking = false;
+			// var headerHeight = mainHeader.clientHeight;
+			// var fixedHeader = document.getElementById("fixed-header");
+			// var fixedHeaderHeight = fixedHeader.getBoundingClientRect().height;
+			// var columns = document.querySelectorAll("tr:first-of-type td");
+			// var rows = document.querySelectorAll("tbody tr");
+			// var table = document.getElementById("scroll-table");
 
-			fixedHeader.style.position = "fixed"; // to keep it hidden while loading
-			// set initial position of fixed header
-			fixedHeader.style.top = headerHeight + "px";
+			// fixedHeader.style.position = "fixed"; // to keep it hidden while loading
+			// // set initial position of fixed header
+			// fixedHeader.style.top = headerHeight + "px";
 
-			// Make room for fixed header 
-			scrollElement.style.marginTop = fixedHeaderHeight + "px";
+			// // Make room for fixed header 
+			// scrollElement.style.marginTop = fixedHeaderHeight + "px";
 
-			// align column headers with content
-			var alignHeaders = function() {
-				for (var i=0; i < columns.length; i++) {
-					var newWidth = columns[i].offsetWidth;
-					fixedHeaders[i].style.minWidth = newWidth + "px";
+			// // align column headers with content
+			// var alignHeaders = function() {
+			// 	for (var i=0; i < columns.length; i++) {
+			// 		var newWidth = columns[i].offsetWidth;
+			// 		fixedHeaders[i].style.minWidth = newWidth + "px";
 
-					//Firefox fix for minwidth problems
-					if(fixedHeaders[i].offsetWidth > newWidth) {
-						// Figure out the difference between what is should be
-						var difference = fixedHeaders[i].offsetWidth - newWidth;
-						var firefoxWidth = fixedHeaders[i].offsetWidth - (difference*2);
-						fixedHeaders[i].style.minWidth = firefoxWidth;
-					}
-				}
-			}
-			alignHeaders();
+			// 		//Firefox fix for minwidth problems
+			// 		if(fixedHeaders[i].offsetWidth > newWidth) {
+			// 			// Figure out the difference between what is should be
+			// 			var difference = fixedHeaders[i].offsetWidth - newWidth;
+			// 			var firefoxWidth = fixedHeaders[i].offsetWidth - (difference*2);
+			// 			fixedHeaders[i].style.minWidth = firefoxWidth;
+			// 		}
+			// 	}
+			// }
+			// alignHeaders();
 			
-			var onScroll = function() {
-				latestKnownScrollX = scrollElement.scrollLeft;
-				latestKnownScrollY = scrollElement.scrollTop;
-				requestTick();
-			};
+			// var onScroll = function() {
+			// 	latestKnownScrollX = scrollElement.scrollLeft;
+			// 	latestKnownScrollY = scrollElement.scrollTop;
+			// 	requestTick();
+			// };
 
-			function requestTick() {
-			if (!ticking) {
-				requestAnimationFrame(update);
-			}
-			ticking = true;
-			}
+			// function requestTick() {
+			// if (!ticking) {
+			// 	requestAnimationFrame(update);
+			// }
+			// ticking = true;
+			// }
 
-			var setRowHeight = function() {
-				// set height of fixedColumn cells
-				for ( var i=0; i < fixedCols.length; i++ ) {
-					fixedCols[i].style.height = rows[i].clientHeight + "px";
-				}
-			}
+			// var setRowHeight = function() {
+			// 	// set height of fixedColumn cells
+			// 	for ( var i=0; i < fixedCols.length; i++ ) {
+			// 		fixedCols[i].style.height = rows[i].clientHeight + "px";
+			// 	}
+			// }
 
-			// on each scroll
-			var update = function() {
+			// // on each scroll
+			// var update = function() {
 
 
-				ticking = false;
-				var currentScrollY = latestKnownScrollY;
-				var currentScrollX = latestKnownScrollX;
+			// 	ticking = false;
+			// 	var currentScrollY = latestKnownScrollY;
+			// 	var currentScrollX = latestKnownScrollX;
 
 				
 
-				fixedHeader.style.left = -currentScrollX;
+			// 	fixedHeader.style.left = -currentScrollX;
 
-				if (currentScrollY <= headerHeight) {
+			// 	if (currentScrollY <= headerHeight) {
 
-					// mainHeader.style.marginTop = -currentScrollY;
-					// 	fixedHeader.style.top = headerHeight - currentScrollY;
-					// 	fixedHeader.style.boxShadow = "";
+			// 		// mainHeader.style.marginTop = -currentScrollY;
+			// 		// 	fixedHeader.style.top = headerHeight - currentScrollY;
+			// 		// 	fixedHeader.style.boxShadow = "";
 					
-					// if the table can't scroll completely
-					if ((scrollElement.scrollHeight-50) < window.innerHeight) {
-						// and isn't scrolled all the way
-						if (!(scrollElement.scrollHeight - currentScrollY <= (scrollElement.clientHeight+5))) {
-							// normal parallax
-							mainHeader.style.marginTop = -currentScrollY;
-							fixedHeader.style.top = headerHeight - currentScrollY;
-							fixedHeader.style.boxShadow = "";
-						}
-					} else {
-						// normal parallax
-						mainHeader.style.marginTop = -currentScrollY;
-						fixedHeader.style.top = headerHeight - currentScrollY;
-						fixedHeader.style.boxShadow = "";
-					}
-				} else {
-					mainHeader.style.marginTop = -headerHeight;
-					fixedHeader.style.top = 0;
-					fixedHeader.style.boxShadow = "2px 2px 10px rgba(0,0,0,.15)";
-				}
+			// 		// if the table can't scroll completely
+			// 		if ((scrollElement.scrollHeight-50) < window.innerHeight) {
+			// 			// and isn't scrolled all the way
+			// 			if (!(scrollElement.scrollHeight - currentScrollY <= (scrollElement.clientHeight+5))) {
+			// 				// normal parallax
+			// 				mainHeader.style.marginTop = -currentScrollY;
+			// 				fixedHeader.style.top = headerHeight - currentScrollY;
+			// 				fixedHeader.style.boxShadow = "";
+			// 			}
+			// 		} else {
+			// 			// normal parallax
+			// 			mainHeader.style.marginTop = -currentScrollY;
+			// 			fixedHeader.style.top = headerHeight - currentScrollY;
+			// 			fixedHeader.style.boxShadow = "";
+			// 		}
+			// 	} else {
+			// 		mainHeader.style.marginTop = -headerHeight;
+			// 		fixedHeader.style.top = 0;
+			// 		fixedHeader.style.boxShadow = "2px 2px 10px rgba(0,0,0,.15)";
+			// 	}
 
-				// if scrolling horizontally
-				if (currentScrollX > 0) {
-					// for each column
-					for ( var i=0; i < fixedCols.length; i++ ) {
-						fixedCols[i].style.position = "fixed";
-						// fixedCols[i].style.top = parseInt(fixedHeader.style.top) + fixedHeaderHeight - currentScrollY + (fixedColHeight*i);
-						fixedCols[i].style.top = rows[i].getBoundingClientRect().y + "px";
-						fixedCols[i].style.boxShadow = "2px 0 5px rgba(0,0,0,.1)";
-						fixedCols[i].style.backgroundColor = "white";
-					}
-					// put the column back
-				} else {
-					for ( var i=0; i < fixedCols.length; i++ ) {
-					fixedCols[i].style.position = "absolute";
-					fixedCols[i].style.top = "";
-					fixedCols[i].style.boxShadow = "";
-					}
-				}
-			};
+			// 	// if scrolling horizontally
+			// 	if (currentScrollX > 0) {
+			// 		// for each column
+			// 		for ( var i=0; i < fixedCols.length; i++ ) {
+			// 			fixedCols[i].style.position = "fixed";
+			// 			// fixedCols[i].style.top = parseInt(fixedHeader.style.top) + fixedHeaderHeight - currentScrollY + (fixedColHeight*i);
+			// 			fixedCols[i].style.top = rows[i].getBoundingClientRect().y + "px";
+			// 			fixedCols[i].style.boxShadow = "2px 0 5px rgba(0,0,0,.1)";
+			// 			fixedCols[i].style.backgroundColor = "white";
+			// 		}
+			// 		// put the column back
+			// 	} else {
+			// 		for ( var i=0; i < fixedCols.length; i++ ) {
+			// 		fixedCols[i].style.position = "absolute";
+			// 		fixedCols[i].style.top = "";
+			// 		fixedCols[i].style.boxShadow = "";
+			// 		}
+			// 	}
+			// };
 
-			var setTableConfiguration = function() {
-				if (scrollElement.offsetWidth < 800) {
-					vnode.context.$parent.tableConfiguration.showNotes = false;
-				} else {
-					vnode.context.$parent.tableConfiguration.showNotes = true;
-				}
-			}
+			// var setTableConfiguration = function() {
+			// 	if (scrollElement.offsetWidth < 800) {
+			// 		vnode.context.$parent.tableConfiguration.showNotes = false;
+			// 	} else {
+			// 		vnode.context.$parent.tableConfiguration.showNotes = true;
+			// 	}
+			// }
 
 			
 
-			scrollElement.onscroll = function() {onScroll()};
+			// scrollElement.onscroll = function() {onScroll()};
 
-			function resizeThings() {
-				headerHeight = mainHeader.clientHeight;
-				fixedHeader.style.top = headerHeight + "px";
-				alignHeaders();
-				setTableConfiguration();
-				fixedHeaderHeight = fixedHeader.getBoundingClientRect().height;
-				scrollElement.style.marginTop = fixedHeaderHeight + "px";
-				setRowHeight();
-			};
+			// function resizeThings() {
+			// 	headerHeight = mainHeader.clientHeight;
+			// 	fixedHeader.style.top = headerHeight + "px";
+			// 	alignHeaders();
+			// 	setTableConfiguration();
+			// 	fixedHeaderHeight = fixedHeader.getBoundingClientRect().height;
+			// 	scrollElement.style.marginTop = fixedHeaderHeight + "px";
+			// 	setRowHeight();
+			// };
 
-			window.onresize = function() {resizeThings()};
+			// window.onresize = function() {resizeThings()};
 
-			setTableConfiguration();
-			Vue.nextTick(function() {
-				resizeThings();
-			})
+			// setTableConfiguration();
+			// Vue.nextTick(function() {
+			// 	resizeThings();
+			// })
 			
 	}
 })
