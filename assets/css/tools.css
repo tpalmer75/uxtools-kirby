@@ -938,6 +938,13 @@ table .blue-bar {
   fill: currentColor;
   margin: 0 13px;
 }
+.promotion-wrapper {
+  position: sticky;
+  left: 0;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
 .tooltip {
   display: none;
   opacity: 0;

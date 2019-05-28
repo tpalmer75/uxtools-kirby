@@ -101,10 +101,12 @@
       </tbody>
     </table>
     <a href="https://uxtools.typeform.com/to/EFoJO3" title="Submit a new tool" class="new-tool" target="_blank"><?= (new Asset("assets/images/icons/pencil-box-outline.svg"))->content() ?><span>Suggest a change</span></a>
+    <div class="promotion-wrapper">
 <div class="promotion-missing">
   <div class="content">
     <h4>Normally there's an ad here. 🤔</h4>
         <p>I run this site by myself, so it would be awesome if you turned off your ad blocker.</p>
   </div>
 </div><ins style="display:block" data-ad-client="ca-pub-2169456968850651" data-ad-slot="8125149927" data-ad-format="auto" class="adsbygoogle"></ins>
+</div>
 </script>
